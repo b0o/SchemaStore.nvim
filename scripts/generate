@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+declare -g base prog basedir
+base="$(realpath -e "${BASH_SOURCE[0]}")"
+prog="$(basename "$base")"
+basedir="$(dirname "$base")"
+
+function usage() {
+  cat << EOF
+Usage: $prog [opt...]
+
+Generate the SchemaStore catalog.
+
+Options:
+  -h         Display usage information
+  -c CONFIG  Lua table to configure schemastore.generate
+EOF
+}
+
+function main() {
+  local opt OPTARG
+  local -i OPTIND
+  local config="{}"
+  while getopts "hc:" opt "$@"; do
+    case "$opt" in
+    h)
+      usage
+      return 0
+      ;;
+    c)
+      config="$OPTARG"
+      ;;
+    \?)
+      return 1
+      ;;
+    esac
+  done
+  shift $((OPTIND - 1))
+
+  local baseconfig=""
+  local outfile="${1:-}"
+  if [[ -n "$outfile" ]]; then
+    baseconfig+="$(printf "out = [[%s]]," "$outfile")"
+  fi
+  baseconfig="{ $baseconfig }"
+
+  nvim --headless --noplugin \
+    -u "$basedir/minimal.vim" \
+    -c "$(printf "lua require'schemastore.generate'.setup(vim.tbl_extend('force', %s, %s)).run()" "$baseconfig" "$config")"\
+    -c ':q' 2>&1 | tr -d '\r'
+}
+
+main "$@"
