@@ -45,6 +45,10 @@ M.config = {
 --  This file contains an automatically generated version of the SchemaStore
 --  JSON schema catalog which has been converted from JSON to Lua.
 --
+--  The SchemaStore project can be found at
+--
+--      https://schemastore.org
+--
 --  The original SchemaStore catalog carries the following copyright:
 --
 --  Copyright %s Mads Kristensen and Contributors
