@@ -1,4 +1,4 @@
-name: Generate the latest SchemaStore catalog
+name: generate
 
 on:
   workflow_dispatch: {}
