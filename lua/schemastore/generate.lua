@@ -1,14 +1,45 @@
+local M = {}
+
 local function yearsFrom(from, to)
   local curYear = tonumber(os.date('%Y'))
   to = to and to or curYear
   return from == to and tostring(from) or ('%d-%d'):format(from, to)
 end
 
-local M = {
-  config = {
-    baseUrl = 'https://www.schemastore.org/api',
-    out = '/dev/stdout',
-    copyrightNotice = ([[
+local function httpGet(url)
+  local res = vim.fn.systemlist { 'curl', '--location', '--silent', '--fail', url }
+  assert(vim.v.shell_error == 0, ('GET %s failed'):format(url))
+  return res
+end
+
+local function endpointUrl(...)
+  return table.concat({ M.config.baseUrl, ... }, '/')
+end
+
+local function catalogUrl(kind)
+  return endpointUrl(kind, 'catalog.json')
+end
+
+local function getCatalog(kind)
+  return vim.fn.json_decode(httpGet(catalogUrl(kind)))
+end
+
+local function genModule(decls)
+  local res = M.config.copyrightNotice
+  res = res .. '-- stylua: ignore start\n\n'
+  res = res .. 'local M = {}\n\n'
+  for ident, val in pairs(decls) do
+    res = res .. 'M.' .. ident .. ' = ' .. val .. '\n\n'
+  end
+  res = res .. 'return M\n\n'
+  res = res .. '-- stylua: ignore end'
+  return res
+end
+
+M.config = {
+  baseUrl = 'https://www.schemastore.org/api',
+  out = '/dev/stdout',
+  copyrightNotice = ([[
 --  Copyright %s Maddison Hellstrom
 --
 --  This file contains an automatically generated version of the SchemaStore
@@ -32,41 +63,15 @@ local M = {
 --  See the License for the specific language governing permissions and
 --  limitations under the License.
 
-]]):format(yearsFrom(2021), yearsFrom(2015)),
-  },
+]]):format(yearsFrom(2021), yearsFrom(2015))
 }
 
-local function endpointUrl(...)
-  return table.concat({ M.config.baseUrl, ... }, '/')
-end
-
-local function httpGet(url)
-  local res = vim.fn.systemlist { 'curl', '--location', '--silent', '--fail', url }
-  assert(vim.v.shell_error == 0, ('GET %s failed'):format(url))
-  return res
-end
-
-local function getCatalog(kind)
-  return vim.fn.json_decode(httpGet(endpointUrl(kind, 'catalog.json')))
-end
-
-local function genModule(decls)
-  local res = M.config.copyrightNotice
-  res = res .. '-- stylua: ignore start\n\n'
-  res = res .. 'local M = {}\n\n'
-  for ident, val in pairs(decls) do
-    res = res .. 'M.' .. ident .. ' = ' .. val .. '\n\n'
-  end
-  res = res .. 'return M\n\n'
-  res = res .. '-- stylua: ignore end'
-  return res
-end
-
 function M.setup(config)
-  M.config = vim.tbl_deep_extend('force', M.config, config)
-  if not M.config.out or M.config.out == '-' or M.config.out == '' then
-    M.config.out = '/dev/stdout'
+  local c = vim.tbl_deep_extend('force', M.config, config)
+  if not c.out or c.out == '-' or c.out == '' then
+    c.out = '/dev/stdout'
   end
+  M.config = c
   return M
 end
 
