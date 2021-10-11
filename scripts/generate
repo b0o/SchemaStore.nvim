@@ -5,6 +5,7 @@ declare -g base prog basedir
 base="$(realpath -e "${BASH_SOURCE[0]}")"
 prog="$(basename "$base")"
 basedir="$(dirname "$base")"
+rootdir="$(dirname "$basedir")"
 
 function usage() {
   cat << EOF
@@ -45,8 +46,8 @@ function main() {
   fi
   baseconfig="{ $baseconfig }"
 
-  nvim --headless --noplugin \
-    -u "$basedir/minimal.vim" \
+  nvim --headless -u NORC --noplugin\
+    --cmd "set rtp+=$rootdir" \
     -c "$(printf "lua require'schemastore.generate'.setup(vim.tbl_extend('force', %s, %s)).run()" "$baseconfig" "$config")"\
     -c ':q' 2>&1 | tr -d '\r'
 }
