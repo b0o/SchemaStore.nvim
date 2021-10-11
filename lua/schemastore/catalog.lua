@@ -1442,6 +1442,11 @@ M.json = {
         ["2.0"] = "https://raw.githubusercontent.com/spiral/roadrunner-binary/master/schemas/config/2.0.schema.json"
       }
     }, {
+      description = "Scheme for Sapphire CLI Config (@sapphire/cli)",
+      fileMatch = { ".sapphirerc.json", ".sapphirerc.yml" },
+      name = "Sapphire CLI Config",
+      url = "https://raw.githubusercontent.com/sapphiredev/cli/main/templates/schemas/.sapphirerc.scheme.json"
+    }, {
       description = "Static Analysis Results Interchange Format (SARIF) version 1",
       name = "sarif-1.0.0.json",
       url = "https://json.schemastore.org/sarif-1.0.0.json"
@@ -1659,6 +1664,11 @@ M.json = {
       name = "Traefik v2 File Provider",
       url = "https://json.schemastore.org/traefik-v2-file-provider.json"
     }, {
+      description = "Configuration schema for trunk, a powerful linter runner - https://docs.trunk.io",
+      fileMatch = { "trunk.yaml" },
+      name = "trunk.yaml schema",
+      url = "https://json.schemastore.org/trunk-yaml.json"
+    }, {
       description = "TypeScript compiler configuration file",
       fileMatch = { "tsconfig.json" },
       name = "tsconfig.json",
@@ -1705,7 +1715,7 @@ M.json = {
       url = "https://json.schemastore.org/up.json"
     }, {
       description = "UI5 Manifest (manifest.json)",
-      fileMatch = { "webapp/manifest.json", "src/main/webapp/manifest.json" },
+      fileMatch = { "webapp/manifest.json", "src/main/webapp/manifest.json", "src/manifest.json" },
       name = "UI5 Manifest",
       url = "https://raw.githubusercontent.com/SAP/ui5-manifest/master/schema.json"
     }, {
