@@ -1560,6 +1560,15 @@ M.json = {
       name = "Source Maps v3",
       url = "https://json.schemastore.org/sourcemap-v3.json"
     }, {
+      description = "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. See https://specif.de and https://github.com/GfSE.",
+      fileMatch = { "*.specif", "*.specif.json" },
+      name = "SpecIF",
+      url = "https://json.schemastore.org/specif-1.1.json",
+      versions = {
+        ["1.0"] = "https://json.schemastore.org/specif-1.0.json",
+        ["1.1"] = "https://json.schemastore.org/specif-1.1.json"
+      }
+    }, {
       description = "Configuration file for SpongePowered's Mixin library",
       fileMatch = { "*.mixins.json" },
       name = "Sponge Mixin configuration",
@@ -2153,14 +2162,6 @@ M.json = {
       fileMatch = { "*-clab.yaml", "*-clab.yml", "*.clab.yaml", "*.clab.yml" },
       name = "Containerlab",
       url = "https://raw.githubusercontent.com/srl-labs/containerlab/master/schemas/clab.schema.json"
-    }, {
-      description = "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. See https://specif.de and https://github.com/GfSE.",
-      fileMatch = { "*.specif", "*.specif.json" },
-      name = "SpecIF",
-      url = "https://json.schemastore.org/specif-1.0.json",
-      versions = {
-        ["1.0"] = "https://json.schemastore.org/specif-1.0.json"
-      }
     }, {
       description = "JSON Schema for user journey map definition files.",
       fileMatch = { "*.jm.yaml", "*.jm.yml" },
