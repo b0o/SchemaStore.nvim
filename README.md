@@ -12,6 +12,21 @@ A Neovim Lua plugin providing access to the [SchemaStore](https://github.com/Sch
 use "b0o/schemastore.nvim"
 ```
 
+## Usage
+
+To use SchemaStore.nvim with [lspconfig](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#jsonls) + [jsonls](https://github.com/hrsh7th/vscode-langservers-extracted):
+
+```lua
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+  require'lspconfig'.jsonls.setup {
+    capabilities = capabilities,
+    settings = require('schemastore.catalog').json.load(),
+    -- The rest of your
+  }
+```
+
 ## Changelog
 
 ```
