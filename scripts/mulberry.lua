@@ -906,7 +906,10 @@ function Runner.runFile(file)
 end
 
 function Runner.runFiles(files)
-  for _, f in ipairs(files) do
+  for i, f in ipairs(files) do
+    if i > 1 then
+      print ' \n'
+    end
     Runner.runFile(f)
   end
 end
