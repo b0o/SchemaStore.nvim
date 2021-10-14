@@ -9,7 +9,7 @@ Describe('the schemastore.init module', function()
   Describe('the "load" function', function()
     It('should return the full catalog', function()
       local catalog = m.load()
-      Expect(catalog).To.Not.HaveFieldPaths {
+      Expect(catalog).To.HaveFieldPaths {
         { 'json', Which.Is.A.DictLike },
         { 'json.schemas', Which.Is.A.UniformList },
       }
