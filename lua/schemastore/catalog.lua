@@ -25,8 +25,6 @@
 --  See the License for the specific language governing permissions and
 --  limitations under the License.
 
--- Comment for test purposes
-
 -- stylua: ignore start
 
 local M = {}
