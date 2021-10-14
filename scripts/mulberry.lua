@@ -235,7 +235,11 @@ matchers.Equal = function(actual, expected)
   return actual == expected
 end
 
----- Types
+matchers.DeepEqual = function(actual, expected)
+  return vim.deep_equal(actual, expected)
+end
+
+--- Types
 
 matchers.OfType = function(actual, expected)
   return type(actual) == expected
@@ -484,6 +488,11 @@ matchers.Evaluate = function(actual)
   return runMatcher(matchers.EvaluateTo, actual)
 end
 
+matchers.ThrowError = function(actual)
+  local ok = pcall(actual)
+  return not ok
+end
+
 ------ Test Runner Machinery
 -- TODO: Matchers
 --  - Throw()
@@ -505,23 +514,29 @@ end
 -- TODO: Random pinning
 -- TODO: Date pinning
 
+local function indent(n, s, p)
+  p = p or n > 0 and '│ ' or ''
+  local i = string.rep(p, n)
+  return table.concat(
+    vim.tbl_map(function(l)
+      return i .. l
+    end, vim.split(s, '\n')),
+    '\n'
+  )
+end
+
+local function log(ctx, ...)
+  print(indent(ctx.level - 1, table.concat { ... }))
+end
+
 -- TODO: Return a 'result' table, delegate formatting to a Formatter
-local function compare(op, actual, expected, name, desc)
+local function compare(op, actual, expected, name, desc, ctx)
   local res = op(actual, unpack(expected))
   if res then
     return true
   end
 
   local msg = { ('FAIL: Expected %s %s'):format(name, desc) }
-
-  local function indent(i, s)
-    return table.concat(
-      vim.tbl_map(function(l)
-        return i .. l
-      end, vim.split(s, '\n')),
-      '\n'
-    )
-  end
 
   local function inspect(...)
     local max = 512
@@ -538,14 +553,13 @@ local function compare(op, actual, expected, name, desc)
 
   for i, e in ipairs(expected) do
     local prefix = i == 1 and '' or 'Arg ' .. i - 1 .. ': '
-    local s = indent('        ', ('%s%s<%s> = %s'):format(prefix, name, type(e), inspect(e)))
+    local s = indent(4, ('%s%s<%s> = %s'):format(prefix, name, type(e), inspect(e)), '  ')
     table.insert(msg, s)
   end
 
-  local s = indent('        ', ('%s<%s> = %s'):format(name, type(actual), inspect(actual)))
+  local s = indent(4, ('%s<%s> = %s'):format(name, type(actual), inspect(actual)), '  ')
   msg = vim.list_extend(msg, { '      but got', s })
-
-  print(table.concat(msg, '\n'))
+  log(ctx, indent(1, table.concat(msg, '\n')))
 
   return false
 end
@@ -582,7 +596,20 @@ expect.__index = function(self, k)
     return rawget(self, 'actual')
   end
 
-  error('Not found: ' .. k .. '\n')
+  error('Matcher/operator found: ' .. k .. '\n')
+end
+
+expect.__tostring = function(self)
+  return table.concat(
+    vim.tbl_map(function(d)
+      local chars = vim.split(d, '')
+      if #chars > 0 then
+        chars[1] = string.lower(chars[1])
+      end
+      return table.concat(chars, '')
+    end, self.desc),
+    ' '
+  )
 end
 
 expect.__call = function(self, ...)
@@ -596,17 +623,7 @@ expect.__call = function(self, ...)
     end
     return res
   end
-  local descStr = table.concat(
-    vim.tbl_map(function(d)
-      local chars = vim.split(d, '')
-      if #chars > 0 then
-        chars[1] = string.lower(chars[1])
-      end
-      return table.concat(chars, '')
-    end, self.desc),
-    ' '
-  )
-  local res = compare(f, self.actual, expected, self.name, descStr)
+  local res = compare(f, self.actual, expected, self.name, tostring(self), self.ctx)
   self.ctx:report(res)
   return res
 end
@@ -680,11 +697,16 @@ end
 
 local Context = {}
 
-function Context.new()
-  local self = {
+function Context.new(opts)
+  local self = vim.tbl_extend('force', {
+    leaf = false,
+    level = 0,
     pass = 0,
     fail = 0,
-  }
+    children = {},
+    leaves = {},
+    parent = nil,
+  }, opts or {})
   return setmetatable(self, { __index = Context })
 end
 
@@ -694,6 +716,56 @@ function Context:report(result)
   else
     self.fail = self.fail + 1
   end
+end
+
+function Context:newChild(opts)
+  assert(not self.leaf, 'Context:newChild: cannot add child to leaf node')
+  opts = opts or {}
+  opts.parent = self
+  opts.id = #self.children + 1
+  opts.leaf = false
+  opts.level = self.level + 1
+  local child = Context.new(opts)
+  table.insert(self.children, child)
+  return child
+end
+
+function Context:newLeaf(opts)
+  assert(not self.leaf, 'Context:newLeaf: cannot add leaf to leaf node')
+  opts = opts or {}
+  opts.parent = self
+  opts.id = #self.leaves + 1
+  opts.leaf = true
+  opts.level = self.level
+  local leaf = Context.new(opts)
+  table.insert(self.leaves, leaf)
+  return leaf
+end
+
+function Context:results()
+  if self.leaf then
+    return {
+      fail = self.fail > 0 and 1 or 0,
+      pass = self.fail == 0 and 1 or 0,
+      ok = self.fail == 0 and 1 or 0,
+    }
+  end
+  local res = {
+    fail = self.fail,
+    pass = self.pass,
+  }
+  for _, c in ipairs(self.leaves) do
+    local cres = c:results()
+    res.fail = res.fail + cres.fail
+    res.pass = res.pass + cres.pass
+  end
+  for _, c in ipairs(self.children) do
+    local cres = c:results()
+    res.fail = res.fail + cres.fail
+    res.pass = res.pass + cres.pass
+  end
+  res.ok = res.fail == 0
+  return res
 end
 
 ---- Suite
@@ -726,10 +798,10 @@ local WhichFactory = function(exp)
   })
 end
 
-local function ItFactory(ctx)
+local function ItFactory(parentCtx)
   return function(desc, fn)
-    print('-> It ' .. desc)
-
+    local ctx = parentCtx:newLeaf()
+    log(ctx, '├── It ' .. desc)
     local exp = ExpectFactory(ctx)
     local which = WhichFactory(exp)
     local scope = Scope.open()
@@ -741,28 +813,34 @@ local function ItFactory(ctx)
   end
 end
 
-local function DescribeFactory(ctx)
+local function DescribeFactory(parentCtx)
   return function(desc, fn)
-    print ' \n'
-    print('--------| ' .. desc .. ' |--------')
+    local ctx = parentCtx:newChild()
+    if (ctx.level > 1 and ctx.id == 1) or (ctx.level == 1 and ctx.id > 1) then
+      log(ctx, ' ')
+    end
+    log(ctx, '┌ Describe ' .. desc)
 
     local scope = Scope.open()
-    scope:hide 'Describe'
+    scope:assign('Describe', DescribeFactory(ctx))
     scope:assign('It', ItFactory(ctx))
     fn()
     scope:close()
 
-    print ' \n'
-    print 'Results:'
-    print('  Pass: ' .. ctx.pass)
-    print('  Fail: ' .. ctx.fail)
-    print ' \n'
-    if ctx.fail == 0 then
-      print 'PASS'
-    else
-      print 'FAIL'
+    local results = ctx:results()
+    local pass = results.fail == 0
+    log(
+      ctx,
+      '╰─'
+        .. (pass and '■' or '□')
+        .. ' '
+        .. vim.fn.printf('%.6s', results.pass)
+        .. ' Passed'
+        .. (pass and '' or ' / ' .. results.fail .. ' Failed\n')
+    )
+    if ctx.level > 1 then
+      log(ctx, '')
     end
-    print('--------------------' .. vim.fn.substitute(desc, '.', '-', 'g') .. '\n')
     return ctx
   end
 end
@@ -790,12 +868,18 @@ function Runner.runFn(fn, ...)
     scope:assign('Describe', DescribeFactory(ctx))
     fn(unpack(args))
     scope:close()
-    return ctx.fail == 0
+    return ctx
   end)
-  if not ok or not res then
+
+  if not ok then
     if type(res) == 'string' then
       print(res)
     end
+    vim.cmd 'cquit'
+  end
+
+  local results = res:results()
+  if not results.ok then
     vim.cmd 'cquit'
   end
 end
@@ -845,7 +929,7 @@ function Runner.run(files)
   else
     Runner.runDir(Runner.opts.rootdir .. '/' .. Runner.opts.testdir)
   end
-  vim.cmd('quit')
+  vim.cmd 'quit'
 end
 
 return Runner
