@@ -38,7 +38,8 @@ function main() {
     --cmd "
       lua loadfile('$rootdir/scripts/mulberry.lua')().setup({
         rootdir = '$rootdir',
-      }).run({ $( [[ $# -gt 0 ]] && printf "'%s'," "$@") })"
+      }).run({ $([[ $# -gt 0 ]] && printf "'%s'," "$@") })" 2>&1 |
+    sed 's/\s*$//'
 
   echo
 }
