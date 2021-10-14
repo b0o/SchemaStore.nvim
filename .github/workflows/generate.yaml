@@ -2,9 +2,6 @@ name: generate
 
 on:
   workflow_dispatch: {}
-  push:
-    branches:
-      - main
   schedule:
     - cron: "0 * * * *"
 
@@ -14,6 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.TOKEN }}
 
       - name: Setup neovim
         uses: rhysd/action-setup-vim@v1

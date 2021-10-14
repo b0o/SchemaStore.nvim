@@ -13,10 +13,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Setup neovim
         uses: rhysd/action-setup-vim@v1
         with:
           neovim: true
+
       - name: Run tests
         shell: bash
         run: make test
