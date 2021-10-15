@@ -1,0 +1,133 @@
+*schemastore.txt* Access the SchemaStore catalog from Neovim *schemastore* *schemastore.nvim*
+
+Author:         Maddison Hellstrom <https://github.com/b0o/>
+Licence:        MIT
+Homepage:       https://github.com/b0o/schemastore.nvim
+Version:        0.0.0
+
+==============================================================================
+CONTENTS                                                  *schemastore-contents*
+
+    1. Intro ................................ |schemastore-intro|
+    2. Changelog ............................ |schemastore-changelog|
+    3. License .............................. |schemastore-license|
+
+==============================================================================
+1. Intro                                                     *schemastore-intro*
+
+SchemaStore.nvim is a Neovim Lua plugin providing access to the
+SchemaStore catalog (https://github.com/SchemaStore/schemastore).
+
+==============================================================================
+2. Usage                                                     *schemastore-usage*
+
+To use all of the SchemaStore JSON schemas with lspconfig + jsonls:
+
+>
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+  require'lspconfig'.jsonls.setup {
+    capabilities = capabilities,
+    settings = {
+      json = {
+        schemas = require('schemastore').json.schemas(),
+      },
+    },
+    -- The rest of your jslonls settings
+  }
+<
+
+You can select a subset of schemas with the `select` option:
+
+>
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+  require'lspconfig'.jsonls.setup {
+    capabilities = capabilities,
+    settings = {
+      json = {
+        schemas = require('schemastore').json.schemas {
+          select = {
+            '.eslintrc',
+            'package.json',
+          },
+        },
+      },
+    },
+    -- The rest of your jslonls settings
+  }
+<
+
+You can replace a schema with your own:
+
+>
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+  require'lspconfig'.jsonls.setup {
+    capabilities = capabilities,
+    settings = {
+      json = {
+        schemas = require('schemastore').json.schemas {
+          replace = {
+            ['.eslintrc'] = {
+              description = "Custom JSON schema for ESLint configuration files",
+              fileMatch = { ".eslintrc", ".eslintrc.json", ".eslintrc.yml", ".eslintrc.yaml" },
+              name = ".eslintrc",
+              url = "https://example.com/schema/eslintrc.json"
+            },
+          },
+        },
+      },
+    },
+    -- The rest of your jslonls settings
+  }
+<
+
+The `select` and `replace` options can be used simultaneously:
+>
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+  require'lspconfig'.jsonls.setup {
+    capabilities = capabilities,
+    settings = {
+      json = {
+        schemas = require('schemastore').json.schemas {
+          select = {
+            '.eslintrc',
+            'package.json',
+          },
+          replace = {
+            ['.eslintrc'] = {
+              description = "Custom JSON schema for ESLint configuration files",
+              fileMatch = { ".eslintrc", ".eslintrc.json", ".eslintrc.yml", ".eslintrc.yaml" },
+              name = ".eslintrc",
+              url = "https://example.com/schema/eslintrc.json"
+            },
+          },
+        },
+      },
+    },
+    -- The rest of your jslonls settings
+  }
+
+==============================================================================
+3. Changelog                                             *schemastore-changelog*
+
+N/a
+
+==============================================================================
+4. License                                                 *schemastore-license*
+>
+  Apache License, Version 2.0
+
+  Copyright © 2021 Maddison Hellstrom <github.com/b0o>
+
+  Full license information is available in the LICENSE and NOTICE files at the
+  root of this repository.
+<
+ vim:tw=78:ts=8:ft=help:norl:
+
