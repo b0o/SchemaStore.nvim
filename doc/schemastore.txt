@@ -3,7 +3,7 @@
 Author:         Maddison Hellstrom <https://github.com/b0o/>
 Licence:        MIT
 Homepage:       https://github.com/b0o/schemastore.nvim
-Version:        0.0.0
+Version:        0.0.1
 
 ==============================================================================
 CONTENTS                                                  *schemastore-contents*
@@ -117,14 +117,15 @@ The `select` and `replace` options can be used simultaneously:
 ==============================================================================
 3. Changelog                                             *schemastore-changelog*
 
-N/a
+15 Oct 2021                                                             v0.0.1
+  Initial Release
 
 ==============================================================================
 4. License                                                 *schemastore-license*
 >
   Apache License, Version 2.0
 
-  Copyright © 2021 Maddison Hellstrom <github.com/b0o>
+  © 2021 Maddison Hellstrom <github.com/b0o>
 
   Full license information is available in the LICENSE and NOTICE files at the
   root of this repository.

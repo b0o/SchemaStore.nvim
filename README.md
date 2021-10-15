@@ -110,7 +110,8 @@ The `select` and `replace` options can be used simultaneously:
 ## Changelog
 
 ```
-N/A
+15 Oct 2021                                                             v0.0.1
+  Initial Release
 ```
 
 ## License
