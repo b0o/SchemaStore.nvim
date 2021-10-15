@@ -37,6 +37,11 @@ M.json = {
       name = ".adonisrc.json",
       url = "https://raw.githubusercontent.com/adonisjs/application/master/adonisrc.schema.json"
     }, {
+      description = "JSON schema for the Agrippa config file",
+      fileMatch = { "agripparc.json" },
+      name = ".agripparc.json",
+      url = "https://json.schemastore.org/agripparc-1.2.json"
+    }, {
       description = "Settings for project analysis by the application inspector",
       fileMatch = { ".aiproj.json" },
       name = ".aiproj.json",
@@ -271,7 +276,7 @@ M.json = {
       description = "BuckleScript configuration file",
       fileMatch = { "bsconfig.json" },
       name = "bucklescript",
-      url = "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/8.2.0/docs/docson/build-schema.json"
+      url = "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json"
     }, {
       description = "Schema for Minecraft Bukkit plugin description files",
       fileMatch = { "plugin.yml" },
@@ -436,12 +441,12 @@ M.json = {
       description = "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.",
       fileMatch = { "*.cf.json", "*.cf.yml", "*.cf.yaml", "cloudformation.json", "cloudformation.yml", "cloudformation.yaml" },
       name = "AWS CloudFormation",
-      url = "https://raw.githubusercontent.com/awslabs/goformation/v5.2.9/schema/cloudformation.schema.json"
+      url = "https://raw.githubusercontent.com/awslabs/goformation/v5.2.11/schema/cloudformation.schema.json"
     }, {
       description = "The AWS Serverless Application Model (AWS SAM, previously known as Project Flourish) extends AWS CloudFormation to provide a simplified way of defining the Amazon API Gateway APIs, AWS Lambda functions, and Amazon DynamoDB tables needed by your serverless application.",
       fileMatch = { "serverless.template", "*.sam.json", "*.sam.yml", "*.sam.yaml", "sam.json", "sam.yml", "sam.yaml" },
       name = "AWS CloudFormation Serverless Application Model (SAM)",
-      url = "https://raw.githubusercontent.com/awslabs/goformation/v5.2.9/schema/sam.schema.json"
+      url = "https://raw.githubusercontent.com/awslabs/goformation/v5.2.11/schema/sam.schema.json"
     }, {
       description = "A YAML file with citation metadata for software or datasets.",
       fileMatch = { "CITATION.cff" },
@@ -2181,7 +2186,11 @@ M.json = {
       description = "Use this schema to get auto-suggestions for your liquibase JSON/YAML files.",
       fileMatch = { "**/db/changelog/**/*.yaml", "**/db/changelog/**/*.yml", "**/db/changelog/**/*.json" },
       name = "Liquibase",
-      url = "https://json.schemastore.org/liquibase.json"
+      url = "https://json.schemastore.org/liquibase-3.2.json",
+      versions = {
+        ["1.0"] = "https://json.schemastore.org/liquibase.json",
+        ["3.2"] = "https://json.schemastore.org/liquibase-3.2.json"
+      }
     }, {
       description = "YAML schema for the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or a interconnected graph of tasks. See https://cloud-pipelines.github.io/links/component_authoring_documentation",
       fileMatch = { "component.yaml", "kfp_component.yaml", "kfp_component.json" },
