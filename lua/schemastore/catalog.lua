@@ -307,6 +307,11 @@ M.json = {
       name = "BungeeCord plugin.yml",
       url = "https://json.schemastore.org/bungee-plugin.json"
     }, {
+      description = "Schema WordPress block.json files",
+      fileMatch = { "block.json" },
+      name = "block.json",
+      url = "https://json.schemastore.org/block.json"
+    }, {
       description = "Schema for CMake Presets",
       fileMatch = { "CMakePresets.json", "CMakeUserPresets.json" },
       name = "CMake Presets",
@@ -494,9 +499,9 @@ M.json = {
       url = "https://json.schemastore.org/creatomic.json"
     }, {
       description = "JSON schema for cspell configuration file",
-      fileMatch = { ".cspell.json", "cspell.json", "cSpell.json" },
+      fileMatch = { ".cspell.json", "cspell.json", ".cSpell.json", "cSpell.json", "cspell.config.json", "cspell.config.yaml", "cspell.config.yml", "cspell.yaml", "cspell.yml" },
       name = "cspell",
-      url = "https://raw.githubusercontent.com/streetsidesoftware/cspell/cspell4/cspell.schema.json"
+      url = "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json"
     }, {
       description = "A JSON schema CSS Comb's configuration file",
       fileMatch = { ".csscomb.json" },
