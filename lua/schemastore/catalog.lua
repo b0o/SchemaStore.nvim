@@ -1594,6 +1594,11 @@ M.json = {
       name = "Azure Static Web Apps configuration file",
       url = "https://json.schemastore.org/staticwebapp.config.json"
     }, {
+      description = "Documentation: https://github.com/Azure/static-web-apps-cli#swa-cliconfigjson-file",
+      fileMatch = { "swa-cli.config.json" },
+      name = "Azure Static Web Apps CLI configuration file",
+      url = "https://json.schemastore.org/swa-cli.config.json"
+    }, {
       description = "Configuration file for StackHead CLI. See https://stackhead.io.",
       fileMatch = { ".stackhead-cli.yml" },
       name = "StackHead CLI config",
