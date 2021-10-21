@@ -2033,7 +2033,7 @@ M.json = {
       url = "https://github.com/fbecart/zinoma/releases/latest/download/zinoma-schema.json"
     }, {
       description = "Windows Package Manager Singleton Manifest file",
-      fileMatch = { "manifests/*/*/*.yaml", "manifests/?/*/*/*/*.*.yaml" },
+      fileMatch = { "manifests/?/*/*/*/*.*.yaml" },
       name = "Windows Package Manager Singleton Manifest",
       url = "https://json.schemastore.org/winget-pkgs-singleton-1.0.0.json",
       versions = {
