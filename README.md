@@ -15,96 +15,54 @@ use "b0o/schemastore.nvim"
 To use SchemaStore.nvim with [lspconfig](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#jsonls) + [jsonls](https://github.com/hrsh7th/vscode-langservers-extracted):
 
 ```lua
-  local capabilities = vim.lsp.protocol.make_client_capabilities()
-  capabilities.textDocument.completion.completionItem.snippetSupport = true
-
-  require'lspconfig'.jsonls.setup {
-    capabilities = capabilities,
-    settings = {
-      json = {
-        schemas = require('schemastore').json.schemas(),
-      },
+require'lspconfig'.jsonls.setup {
+  settings = {
+    json = {
+      schemas = require'schemastore'.json.schemas(),
     },
-    -- The rest of your jslonls settings
-  }
+  },
+}
 ```
 
-You can select a subset of schemas with the `select` option:
+To use a subset of the catalog, you can select schemas by name (see [the catalog](https://github.com/SchemaStore/schemastore/blob/master/src/api/json/catalog.json) for a full list):
 
 ```lua
-  local capabilities = vim.lsp.protocol.make_client_capabilities()
-  capabilities.textDocument.completion.completionItem.snippetSupport = true
-
-  require'lspconfig'.jsonls.setup {
-    capabilities = capabilities,
-    settings = {
-      json = {
-        schemas = require('schemastore').json.schemas {
-          select = {
-            '.eslintrc',
-            'package.json',
-          },
+require'lspconfig'.jsonls.setup {
+  settings = {
+    json = {
+      schemas = require'schemastore'.json.schemas {
+        select = {
+          '.eslintrc',
+          'package.json',
         },
       },
     },
-    -- The rest of your jslonls settings
-  }
+  },
+}
 ```
 
-You can replace a schema with your own:
+If you want to use your own schemas in addition to schemas from SchemaStore, you can merge them:
 
 ```lua
-  local capabilities = vim.lsp.protocol.make_client_capabilities()
-  capabilities.textDocument.completion.completionItem.snippetSupport = true
-
-  require'lspconfig'.jsonls.setup {
-    capabilities = capabilities,
-    settings = {
-      json = {
-        schemas = require('schemastore').json.schemas {
-          replace = {
-            ['.eslintrc'] = {
-              description = "Custom JSON schema for ESLint configuration files",
-              fileMatch = { ".eslintrc", ".eslintrc.json", ".eslintrc.yml", ".eslintrc.yaml" },
-              name = ".eslintrc",
-              url = "https://example.com/schema/eslintrc.json"
-            },
-          },
+require'lspconfig'.jsonls.setup {
+  settings = {
+    json = {
+      schemas = vim.tbl_extend('force', {
+        {
+           description = "My Custom JSON schema",
+           fileMatch = { "foobar.json", ".foobar.json" },
+           name = "foobar.json",
+           url = "https://example.com/schema/foobar.json"
+         },
+      }, require'schemastore'.json.schemas {
+        select = {
+          '.eslintrc',
+          'package.json',
         },
       },
     },
-    -- The rest of your jslonls settings
-  }
-```
-
-The `select` and `replace` options can be used simultaneously:
-
-```lua
-  local capabilities = vim.lsp.protocol.make_client_capabilities()
-  capabilities.textDocument.completion.completionItem.snippetSupport = true
-
-  require'lspconfig'.jsonls.setup {
-    capabilities = capabilities,
-    settings = {
-      json = {
-        schemas = require('schemastore').json.schemas {
-          select = {
-            '.eslintrc',
-            'package.json',
-          },
-          replace = {
-            ['.eslintrc'] = {
-              description = "Custom JSON schema for ESLint configuration files",
-              fileMatch = { ".eslintrc", ".eslintrc.json", ".eslintrc.yml", ".eslintrc.yaml" },
-              name = ".eslintrc",
-              url = "https://example.com/schema/eslintrc.json"
-            },
-          },
-        },
-      },
-    },
-    -- The rest of your jslonls settings
-  }
+  },
+}
 ```
 
 ## Changelog
