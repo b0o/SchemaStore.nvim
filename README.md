@@ -58,6 +58,27 @@ require'lspconfig'.jsonls.setup {
 }
 ```
 
+To replace certain schemas from the catalog with your own:
+
+```lua
+require'lspconfig'.jsonls.setup {
+  settings = {
+    json = {
+      schemas = require'schemastore'.json.schemas {
+        replace = {
+          ['package.json'] = {
+            description = 'package.json overriden',
+            fileMatch = { 'package.json' },
+            name = 'package.json',
+            url = 'https://example.com/package.json',
+          },
+        },
+      },
+    },
+  },
+}
+```
+
 If you want to use your own schemas in addition to schemas from SchemaStore, you can merge them:
 
 ```lua
