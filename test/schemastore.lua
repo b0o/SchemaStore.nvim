@@ -80,6 +80,17 @@ Describe('the schemastore.init module', function()
         Expect(found).To.Be.DeepEqual { overridePackageJson }
       end)
 
+      It('should ignore the given schemas if passed a "ignore" table', function()
+        local schemas = m.json.schemas { ignore = { 'package.json', '.eslintrc' } }
+        Expect(schemas).To.Be.A.UniformList()
+        Expect(schemas).To.Have.Length(#c.json.schemas - 2)
+        Expect(schemas).To.Not.Be.DeepEqual(c.json.schemas)
+        local found = vim.tbl_filter(function(e)
+          return e.name == 'package.json' or e.name == '.eslintrc'
+        end, schemas)
+        Expect(found).To.Be.Empty()
+      end)
+
       It('should throw an error if passed an unsupported type', function()
         Expect(function()
           return m.json.schemas(123)

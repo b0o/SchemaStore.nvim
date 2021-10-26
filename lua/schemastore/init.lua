@@ -18,6 +18,9 @@ end
 --             returned. If it is present, only the selected schemas are
 --             returned.
 --
+--  - ignore - A list-like table of strings representing the names of schemas
+--             to ignore.
+--
 --  - replace - A dictionary-like table of (strings:table) elements
 --              representing schemas to replace with a custom schema. The
 --              string key is the name of the schema to replace, the table
@@ -33,6 +36,7 @@ function M.json.schemas(opts)
   opts = vim.tbl_extend('force', {
     select = {},
     replace = {},
+    ignore = {},
   }, opts)
 
   if opts.select and #opts.select > 0 then
@@ -49,6 +53,12 @@ function M.json.schemas(opts)
         end
       end
       return s
+    end, schemas)
+  end
+
+  if opts.ignore and #opts.ignore > 0 then
+    schemas = vim.tbl_filter(function(s)
+      return not vim.tbl_contains(opts.ignore, s.name)
     end, schemas)
   end
 

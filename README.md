@@ -41,6 +41,23 @@ require'lspconfig'.jsonls.setup {
 }
 ```
 
+To ignore certain schemas from the catalog:
+
+```lua
+require'lspconfig'.jsonls.setup {
+  settings = {
+    json = {
+      schemas = require'schemastore'.json.schemas {
+        ignore = {
+          '.eslintrc',
+          'package.json',
+        },
+      },
+    },
+  },
+}
+```
+
 If you want to use your own schemas in addition to schemas from SchemaStore, you can merge them:
 
 ```lua
