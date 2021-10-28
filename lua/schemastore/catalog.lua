@@ -912,7 +912,7 @@ M.json = {
       description = "JFrog File Spec schema definition",
       fileMatch = { "**/filespecs/*.json", "*filespec*.json", "*.filespec" },
       name = "JFrog File Spec",
-      url = "https://raw.githubusercontent.com/jfrog/jfrog-cli/master/schema/filespec-schema.json"
+      url = "https://raw.githubusercontent.com/jfrog/jfrog-cli/v2/schema/filespec-schema.json"
     }, {
       description = "JSON Schema for Jovo language Models (https://www.jovo.tech/docs/model)",
       name = "Jovo Language Models",
@@ -2273,10 +2273,10 @@ M.json = {
       name = "SauceCTL Configuration",
       url = "https://raw.githubusercontent.com/saucelabs/saucectl/main/api/v1alpha/generated/saucectl.schema.json"
     }, {
-      description = "JSON Schema for fulib Workflow files.",
-      fileMatch = { "*.es.yaml" },
+      description = "JSON Schema for fulibWorkflows",
+      fileMatch = { "*.es.yaml", "*.es.yml" },
       name = "fulibWorkflows",
-      url = "https://raw.githubusercontent.com/fujaba/fulibWorkflows/main/schema/fulibWorklows.schema.json"
+      url = "https://raw.githubusercontent.com/fujaba/fulibWorkflows/main/schemas/fulibWorkflows.schema.json"
     }, {
       description = "YAML schema for configuring Woodpecker CI",
       fileMatch = { "**/.woodpecker/**.yml", "**/.woodpecker.yml" },
