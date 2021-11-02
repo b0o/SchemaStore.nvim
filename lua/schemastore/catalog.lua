@@ -1041,14 +1041,14 @@ M.json = {
       url = "https://json.schemastore.org/lsdlschema.json"
     }, {
       description = "JSON schema for Mega-Linter configuration file (for Mega-Linter users)",
-      fileMatch = { ".mega-linter.yml", "*.mega-linter-config.yml" },
-      name = "Mega-Linter configuration",
-      url = "https://raw.githubusercontent.com/nvuillam/mega-linter/master/megalinter/descriptors/schemas/megalinter-configuration.jsonschema.json"
+      fileMatch = { ".mega-linter.yml", ".megalinter.yml", "*.mega-linter-config.yml", "*.megalinter-config.yml" },
+      name = "MegaLinter configuration",
+      url = "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-configuration.jsonschema.json"
     }, {
-      description = "JSON schema for Mega-Linter descriptor files (for Mega-Linter contributors)",
+      description = "JSON schema for MegaLinter descriptor files (for MegaLinter contributors)",
       fileMatch = { "*.megalinter-descriptor.yml" },
-      name = "Mega-Linter descriptor",
-      url = "https://raw.githubusercontent.com/nvuillam/mega-linter/master/megalinter/descriptors/schemas/megalinter-descriptor.jsonschema.json"
+      name = "MegaLinter descriptor",
+      url = "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-descriptor.jsonschema.json"
     }, {
       description = "Microsoft Band Web Tile manifest file",
       name = "Microsoft Band Web Tile",
