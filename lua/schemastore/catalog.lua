@@ -854,6 +854,11 @@ M.json = {
       name = "Hayson",
       url = "https://raw.githubusercontent.com/j2inn/hayson/master/hayson-json-schema.json"
     }, {
+      description = "YAML schema for configuring Hazelcast 5 Platform (member and client)",
+      fileMatch = { "hazelcast*.yaml", "hazelcast*.json", "hz-*.yaml", "hz-*.json" },
+      name = "Hazelcast 5 Configuration",
+      url = "https://hazelcast.com/schema/config/hazelcast-config-5.0.json"
+    }, {
       description = "JSON schema for Azure Functions host.json files",
       fileMatch = { "host.json" },
       name = "host.json",
@@ -1238,6 +1243,11 @@ M.json = {
       fileMatch = { "kratos.json", "kratos.yml", "kratos.yaml", "kratos.toml" },
       name = "Ory Kratos configuration",
       url = "https://raw.githubusercontent.com/ory/kratos/master/.schema/version.schema.json"
+    }, {
+      description = "Schema for ORT's repository configuration file",
+      fileMatch = { "*.ort.yml" },
+      name = "OSS Review Toolkit repository configuration",
+      url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/master/integrations/schemas/repository-configuration-schema.json"
     }, {
       description = "NPM configuration file",
       fileMatch = { "package.json" },
