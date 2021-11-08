@@ -1,2 +1,7 @@
 SchemaStore.nvim
+https://github.com/b0o/SchemaStore.nvim
 Copyright 2021 Maddison Hellstrom
+
+Includes code derived from the SchemaStore project
+https://github.com/SchemaStore/schemastore
+Copyright 2015-Current Mads Kristensen and Contributors
