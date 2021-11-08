@@ -15,10 +15,10 @@ use "b0o/schemastore.nvim"
 To use SchemaStore.nvim with [lspconfig](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#jsonls) + [jsonls](https://github.com/hrsh7th/vscode-langservers-extracted):
 
 ```lua
-require'lspconfig'.jsonls.setup {
+require('lspconfig').jsonls.setup {
   settings = {
     json = {
-      schemas = require'schemastore'.json.schemas(),
+      schemas = require('schemastore').json.schemas(),
     },
   },
 }
@@ -27,10 +27,10 @@ require'lspconfig'.jsonls.setup {
 To use a subset of the catalog, you can select schemas by name (see [the catalog](https://github.com/SchemaStore/schemastore/blob/master/src/api/json/catalog.json) for a full list):
 
 ```lua
-require'lspconfig'.jsonls.setup {
+require('lspconfig').jsonls.setup {
   settings = {
     json = {
-      schemas = require'schemastore'.json.schemas {
+      schemas = require('schemastore').json.schemas {
         select = {
           '.eslintrc',
           'package.json',
@@ -44,10 +44,10 @@ require'lspconfig'.jsonls.setup {
 To ignore certain schemas from the catalog:
 
 ```lua
-require'lspconfig'.jsonls.setup {
+require('lspconfig').jsonls.setup {
   settings = {
     json = {
-      schemas = require'schemastore'.json.schemas {
+      schemas = require('schemastore').json.schemas {
         ignore = {
           '.eslintrc',
           'package.json',
@@ -61,10 +61,10 @@ require'lspconfig'.jsonls.setup {
 To replace certain schemas from the catalog with your own:
 
 ```lua
-require'lspconfig'.jsonls.setup {
+require('lspconfig').jsonls.setup {
   settings = {
     json = {
-      schemas = require'schemastore'.json.schemas {
+      schemas = require('schemastore').json.schemas {
         replace = {
           ['package.json'] = {
             description = 'package.json overriden',
@@ -82,22 +82,25 @@ require'lspconfig'.jsonls.setup {
 If you want to use your own schemas in addition to schemas from SchemaStore, you can merge them:
 
 ```lua
-require'lspconfig'.jsonls.setup {
+require('lspconfig').jsonls.setup {
   settings = {
     json = {
-      schemas = vim.list_extend({
+      schemas = vim.list_extend(
         {
-           description = "My Custom JSON schema",
-           fileMatch = { "foobar.json", ".foobar.json" },
-           name = "foobar.json",
-           url = "https://example.com/schema/foobar.json"
-         },
-      }, require'schemastore'.json.schemas {
-        select = {
-          '.eslintrc',
-          'package.json',
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
         },
-      },
+        require('schemastore').json.schemas {
+          select = {
+            '.eslintrc',
+            'package.json',
+          },
+        }
+      ),
     },
   },
 }
