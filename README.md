@@ -85,7 +85,7 @@ If you want to use your own schemas in addition to schemas from SchemaStore, you
 require'lspconfig'.jsonls.setup {
   settings = {
     json = {
-      schemas = vim.tbl_extend('force', {
+      schemas = vim.list_extend({
         {
            description = "My Custom JSON schema",
            fileMatch = { "foobar.json", ".foobar.json" },
