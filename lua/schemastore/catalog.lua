@@ -803,6 +803,15 @@ M.json = {
       name = "golangci-lint Configuration",
       url = "https://json.schemastore.org/golangci-lint.json"
     }, {
+      description = "Goreleaser configuration file",
+      fileMatch = { ".goreleaser.yml", ".goreleaser.yaml", "goreleaser.yml", "goreleaser.yaml" },
+      name = "Goreleaser",
+      url = "https://goreleaser.com/static/schema.json"
+    }, {
+      description = "Goreleaser Pro configuration file",
+      name = "Goreleaser Pro",
+      url = "https://goreleaser.com/static/schema-pro.json"
+    }, {
       description = "JSON Schema for Grafana 5.x Dashboards",
       name = "Grafana 5.x Dashboard",
       url = "https://json.schemastore.org/grafana-dashboard-5.x.json"
