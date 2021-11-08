@@ -31,4 +31,4 @@ jobs:
           message: |
             Update SchemaStore catalog
 
-            This was commit was performed automatically by GitHub Actions.
+            This commit was performed automatically by GitHub Actions.
