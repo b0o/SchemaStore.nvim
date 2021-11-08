@@ -444,7 +444,7 @@ end
 
 ---- Functions
 
-matchers.EvaluateTo = function(actual, ...)
+matchers.EvaluateTo = function(actual)
   actual = (type(actual) == 'table' and not getmetatable(actual)) and actual or { actual }
   assert(#actual > 0, 'EvaluateTo: Cannot evaluate empty list')
   local fn = table.remove(actual, 1)
@@ -543,15 +543,12 @@ expect.__index = function(self, k)
 
   if self.scope.operators[k] then
     self.desc = vim.list_extend(self.desc, { k })
-
     local op = self.scope.operators[k]
-
     if type(op) == 'function' then
       self.operators = vim.list_extend({ op }, self.operators)
     elseif type(op) == 'table' then
       self.scope.matchers = op
     end
-
     return self
   end
 
