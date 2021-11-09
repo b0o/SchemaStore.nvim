@@ -786,7 +786,7 @@ M.json = {
       description = "JSON schema for configuring Gitlab CI",
       fileMatch = { "*.gitlab-ci.yml" },
       name = "gitlab-ci",
-      url = "https://json.schemastore.org/gitlab-ci.json"
+      url = "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
     }, {
       description = "JSON schema for configuring Gitpod.io",
       fileMatch = { ".gitpod.yml" },
