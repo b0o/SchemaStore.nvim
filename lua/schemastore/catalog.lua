@@ -318,7 +318,10 @@ M.json = {
       description = "Schema WordPress block.json files",
       fileMatch = { "block.json" },
       name = "block.json",
-      url = "https://json.schemastore.org/block.json"
+      url = "https://schemas.wp.org/trunk/block.json",
+      versions = {
+        trunk = "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json"
+      }
     }, {
       description = "Schema for CMake Presets",
       fileMatch = { "CMakePresets.json", "CMakeUserPresets.json" },
@@ -567,7 +570,7 @@ M.json = {
     }, {
       description = "Execute Discord Webhook JSON Schema",
       name = "Discord Webhook",
-      url = "https://raw.githubusercontent.com/barraIhsan/json-schema/master/discord/webhook.json"
+      url = "https://raw.githubusercontent.com/AxoCode/json-schema/master/discord/webhook.json"
     }, {
       description = "A JSON schema for DocFx configuration files",
       fileMatch = { "docfx.json" },
@@ -1136,6 +1139,11 @@ M.json = {
       name = "Minecraft Data Pack Template Pool",
       url = "https://json.schemastore.org/minecraft-template-pool.json"
     }, {
+      description = "Configuration file defining what sounds play when sound event is triggered for a resourcepack for Minecraft.",
+      fileMatch = { "**/assets/*/sounds.json" },
+      name = "Minecraft Resourcepack Sounds",
+      url = "https://raw.githubusercontent.com/AxoCode/json-schema/master/minecraft/sounds.json"
+    }, {
       description = "JSON schema for MochaJS configuration files",
       fileMatch = { ".mocharc.json", ".mocharc.jsonc", ".mocharc.yml", ".mocharc.yaml" },
       name = ".mocharc",
@@ -1686,10 +1694,14 @@ M.json = {
       name = "templatsources.json",
       url = "https://json.schemastore.org/templatesources.json"
     }, {
-      description = "WordPress block theme global settings and styles configuration file version 1",
+      description = "WordPress block theme global settings and styles configuration file",
       fileMatch = { "theme.json" },
-      name = "theme.json v1",
-      url = "https://json.schemastore.org/theme-v1.json"
+      name = "theme.json",
+      url = "https://schemas.wp.org/trunk/theme.json",
+      versions = {
+        trunk = "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
+        v1 = "https://raw.githubusercontent.com/WordPress/gutenberg/b40b61fabf13a6229c616527689d9a7024f81535/schemas/json/theme.json"
+      }
     }, {
       description = "Language grammar description files in Textmate and compatible editors",
       fileMatch = { "*.tmLanguage.json" },
