@@ -2321,6 +2321,11 @@ M.json = {
       fileMatch = { "**/.woodpecker/**.yml", "**/.woodpecker.yml" },
       name = "Woodpecker pipeline config",
       url = "https://raw.githubusercontent.com/woodpecker-ci/woodpecker/master/pipeline/schema/schema.json"
+    }, {
+      description = "YAML Schema for developing NOODL applications",
+      fileMatch = { "noodl.schema.json" },
+      name = "Noodl Schema",
+      url = "https://noodl.s3.us-west-1.amazonaws.com/noodl.schema.json"
     } },
   version = 1
 }
