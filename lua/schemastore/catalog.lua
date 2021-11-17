@@ -2322,6 +2322,11 @@ M.json = {
       name = "Woodpecker pipeline config",
       url = "https://raw.githubusercontent.com/woodpecker-ci/woodpecker/master/pipeline/schema/schema.json"
     }, {
+      description = "Device template schema",
+      fileMatch = { "*.ndst.yml", "*.ndst.yaml", "*.ndst.json" },
+      name = "Netin Diagnostic System Template",
+      url = "https://s3.eu-central-1.amazonaws.com/files.netin.io/spider-schemas/template.schema.json"
+    }, {
       description = "YAML Schema for NOODL applications",
       fileMatch = { "*.noodl.yml" },
       name = "noodl.schema.json",
