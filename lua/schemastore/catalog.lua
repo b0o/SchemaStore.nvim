@@ -109,7 +109,7 @@ M.json = {
       description = "Appsemble RC file",
       fileMatch = { ".appsemblerc.yaml" },
       name = ".appsemblerc.yaml",
-      url = "https://json.schemastore.org/appsemblerc.json"
+      url = "https://gitlab.com/appsemble/appsemble/-/raw/HEAD/packages/cli/assets/appsemblerc.schema.json"
     }, {
       description = "Google Apps Script manifest file",
       fileMatch = { "appsscript.json" },
