@@ -2340,6 +2340,14 @@ M.json = {
       fileMatch = { "*.noodl.yml" },
       name = "noodl.schema.json",
       url = "https://noodl.s3.us-west-1.amazonaws.com/noodl.schema.json"
+    }, {
+      description = "Schema for MBOATS Configuration",
+      fileMatch = { "*.mboats.yaml", "*.mboats.yml" },
+      name = "mboats",
+      url = "https://json.schemastore.org/mboats-config-0.1.json",
+      versions = {
+        ["0.1"] = "https://json.schemastore.org/mboats-config-0.1.json"
+      }
     } },
   version = 1
 }
