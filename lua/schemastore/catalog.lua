@@ -40,7 +40,11 @@ M.json = {
       description = "JSON schema for the Agrippa config file",
       fileMatch = { "agripparc.json" },
       name = ".agripparc.json",
-      url = "https://json.schemastore.org/agripparc-1.2.json"
+      url = "https://json.schemastore.org/agripparc-1.3.json",
+      versions = {
+        ["1.2"] = "https://json.schemastore.org/agripparc-1.2.json",
+        ["1.3"] = "https://json.schemastore.org/agripparc-1.3.json"
+      }
     }, {
       description = "Settings for project analysis by the application inspector",
       fileMatch = { ".aiproj.json" },
@@ -727,6 +731,11 @@ M.json = {
       fileMatch = { "template.json" },
       name = "Foundry VTT - Template",
       url = "https://gitlab.com/-/snippets/2062623/raw/master/foundryvtt_template_schema.json"
+    }, {
+      description = "JSON schema for FOSSA CLI's .fossa.yml configuration file",
+      fileMatch = { ".fossa.yml" },
+      name = "Fossa configuration file",
+      url = "https://raw.githubusercontent.com/fossas/fossa-cli/master/docs/references/files/fossa-yml.v3.schema.json"
     }, {
       description = "JSON schema for Knative Func Plugin func.yaml files",
       fileMatch = { "func.yaml" },
