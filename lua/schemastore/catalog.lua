@@ -345,6 +345,11 @@ M.json = {
         ["draft-02"] = "https://carafe.fm/schema/draft-02/bundle.schema.json"
       }
     }, {
+      description = "Schema for Backstage Catalog Info",
+      fileMatch = { "catalog-info.yaml" },
+      name = "Catalog Info Backstage",
+      url = "https://json.schemastore.org/catalog-info.json"
+    }, {
       description = "Schema for the representation of 3D city models",
       name = "CityJSON",
       url = "https://raw.githubusercontent.com/cityjson/specs/1.0.1/schemas/cityjson.min.schema.json"
