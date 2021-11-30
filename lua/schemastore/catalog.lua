@@ -2349,9 +2349,10 @@ M.json = {
       description = "Schema for MBOATS Configuration",
       fileMatch = { "*.mboats.yaml", "*.mboats.yml" },
       name = "mboats",
-      url = "https://json.schemastore.org/mboats-config-0.1.json",
+      url = "https://json.schemastore.org/mboats-config-0.2.json",
       versions = {
-        ["0.1"] = "https://json.schemastore.org/mboats-config-0.1.json"
+        ["0.1"] = "https://json.schemastore.org/mboats-config-0.1.json",
+        ["0.2"] = "https://json.schemastore.org/mboats-config-0.1.json"
       }
     } },
   version = 1
