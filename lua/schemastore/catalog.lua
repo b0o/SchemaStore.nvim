@@ -790,6 +790,11 @@ M.json = {
       name = "GitHub issue forms",
       url = "https://json.schemastore.org/github-issue-forms.json"
     }, {
+      description = "YAML schema for configuring GitHub Issue Templates",
+      fileMatch = { ".github/ISSUE_TEMPLATE/config.yml", ".github/ISSUE_TEMPLATE/config.yaml" },
+      name = "GitHub Issue Template configuration",
+      url = "https://json.schemastore.org/github-issue-config.json"
+    }, {
       description = "YAML schema for GitHub Workflow",
       fileMatch = { ".github/workflows/**.yml", ".github/workflows/**.yaml" },
       name = "GitHub Workflow",
