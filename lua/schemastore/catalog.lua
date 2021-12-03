@@ -1454,6 +1454,11 @@ M.json = {
       name = "Pull Request Labeler",
       url = "https://json.schemastore.org/pull-request-labeler.json"
     }, {
+      description = "JSON schema for 🐊Putout configuration file",
+      fileMatch = { ".putout.json" },
+      name = ".putout.json",
+      url = "https://json.schemastore.org/putout.json"
+    }, {
       description = "Pyrseas database schema versioning for Postgres databases, v0.8",
       fileMatch = { "pyrseas-0.8.json" },
       name = "pyrseas-0.8.json",
