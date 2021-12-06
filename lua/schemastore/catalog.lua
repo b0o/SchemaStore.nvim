@@ -38,7 +38,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/adonisjs/application/master/adonisrc.schema.json"
     }, {
       description = "JSON schema for the Agrippa config file",
-      fileMatch = { "agripparc.json" },
+      fileMatch = { ".agripparc.json", "agripparc.json" },
       name = ".agripparc.json",
       url = "https://json.schemastore.org/agripparc-1.3.json",
       versions = {
@@ -1425,7 +1425,7 @@ M.json = {
       url = "https://json.schemastore.org/project-1.0.0-rc2.json"
     }, {
       description = "Prometheus configuration file",
-      fileMatch = { "prometheus.yml" },
+      fileMatch = { "prometheus.yml", "prometheus.yaml" },
       name = "prometheus.json",
       url = "https://json.schemastore.org/prometheus.json"
     }, {
