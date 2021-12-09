@@ -2364,6 +2364,11 @@ M.json = {
         ["0.1"] = "https://json.schemastore.org/mboats-config-0.1.json",
         ["0.2"] = "https://json.schemastore.org/mboats-config-0.1.json"
       }
+    }, {
+      description = "Schema file for Stackhawk Scanner configuration files",
+      fileMatch = { "stackhawk.yml", "stackhawk.yaml", "stackhawk-*.yml", "stackhawk-*.yaml" },
+      name = "Stackhawk Scanner Configuration Schema",
+      url = "https://download.stackhawk.com/hawk/jsonconfig/hawkconfig.json"
     } },
   version = 1
 }
