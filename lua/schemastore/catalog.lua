@@ -54,9 +54,10 @@ M.json = {
       description = "Airlock Microgateway configuration schema",
       fileMatch = { "microgateway-config.yaml", "microgateway-config.yml", "airlock-microgateway-config.yaml", "airlock-microgateway-config.yml" },
       name = "Airlock Microgateway",
-      url = "https://json.schemastore.org/airlock-microgateway-3.0.json",
+      url = "https://json.schemastore.org/airlock-microgateway-3.1.json",
       versions = {
-        ["3.0"] = "https://json.schemastore.org/airlock-microgateway-3.0.json"
+        ["3.0"] = "https://json.schemastore.org/airlock-microgateway-3.0.json",
+        ["3.1"] = "https://json.schemastore.org/airlock-microgateway-3.1.json"
       }
     }, {
       description = "Angular configuration file",
