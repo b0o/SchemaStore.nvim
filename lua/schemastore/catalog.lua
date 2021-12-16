@@ -1241,6 +1241,11 @@ M.json = {
       name = "nswag.json",
       url = "https://json.schemastore.org/nswag.json"
     }, {
+      description = "NTangle (https://github.com/Avanade/ntangle) CDC code-generation configuration.",
+      fileMatch = { "ntangle.yaml", "ntangle.yml", "ntangle.json", "ntangle.jsn" },
+      name = "ntangle",
+      url = "https://raw.githubusercontent.com/Avanade/NTangle/main/schemas/ntangle.json"
+    }, {
       description = "Schema for Ory Oathkeeper configuration file",
       fileMatch = { "oathkeeper.json", "oathkeeper.yml", "oathkeeper.yaml", "oathkeeper.toml" },
       name = "Ory Oathkeeper configuration",
@@ -1928,6 +1933,10 @@ M.json = {
       name = "JSON Schema Draft 8",
       url = "https://json-schema.org/draft/2019-09/schema"
     }, {
+      description = "Meta-validation schema for JSON Schema Draft 2020-12",
+      name = "JSON Schema Draft 2020-12",
+      url = "https://json-schema.org/draft/2020-12/schema"
+    }, {
       description = "xUnit.net runner configuration file",
       fileMatch = { "xunit.runner.json" },
       name = "xunit.runner.json",
@@ -2240,7 +2249,7 @@ M.json = {
       description = "JSON Schema for Containerlab topology definition files.",
       fileMatch = { "*-clab.yaml", "*-clab.yml", "*.clab.yaml", "*.clab.yml" },
       name = "Containerlab",
-      url = "https://raw.githubusercontent.com/srl-labs/containerlab/master/schemas/clab.schema.json"
+      url = "https://raw.githubusercontent.com/srl-labs/containerlab/main/schemas/clab.schema.json"
     }, {
       description = "JSON Schema for user journey map definition files.",
       fileMatch = { "*.jm.yaml", "*.jm.yml" },
