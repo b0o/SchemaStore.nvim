@@ -1485,6 +1485,11 @@ M.json = {
       name = "Red-DiscordBot Сog Repo",
       url = "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog_repo.schema.json"
     }, {
+      description = "A rehype configuration file",
+      fileMatch = { ".rehyperc", ".rehyperc.json", ".rehyperc.yaml", ".rehyperc.yml" },
+      name = ".rehyperc",
+      url = "https://json.schemastore.org/rehyperc.json"
+    }, {
       description = "A remark configuration file",
       fileMatch = { ".remarkrc", ".remarkrc.json", ".remarkrc.yaml", ".remarkrc.yml" },
       name = ".remarkrc",
