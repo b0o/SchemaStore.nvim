@@ -1765,7 +1765,7 @@ M.json = {
       description = "Configuration schema for trunk, a powerful linter runner - https://docs.trunk.io",
       fileMatch = { "trunk.yaml" },
       name = "trunk.yaml schema",
-      url = "https://json.schemastore.org/trunk-yaml.json"
+      url = "https://static.trunk.io/pub/trunk-yaml-schema.json"
     }, {
       description = "TypeScript compiler configuration file",
       fileMatch = { "tsconfig.json" },
@@ -2088,7 +2088,7 @@ M.json = {
       description = "Ray autocluster configuration file",
       fileMatch = { "ray-*-cluster.yaml" },
       name = "Ray",
-      url = "https://raw.githubusercontent.com/ray-project/ray/ray-1.0.0/python/ray/autoscaler/ray-schema.json"
+      url = "https://raw.githubusercontent.com/ray-project/ray/master/python/ray/autoscaler/ray-schema.json"
     }, {
       description = "A smarter Dockerfile linter that helps you build best practice Docker images.",
       fileMatch = { ".hadolint.yaml", "hadolint.yaml", ".hadolint.yml", "hadolint.yml" },
