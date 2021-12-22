@@ -112,6 +112,17 @@ require('lspconfig').jsonls.setup {
 ## Changelog
 
 ```
+21 Dec 2021                                                             v0.1.0
+  Perf: Add lookup table from schema name to schema index
+  Note that select & ignore are mutually exclusive
+  Exit with non-zero code if generate script fails
+  Update docs
+  Update NOTICE
+  Clean up formatting
+  Update tests
+  Fix example in README
+  Feat: Add option to ignore schemas by name
+
 15 Oct 2021                                                             v0.0.1
   Initial Release
 ```
