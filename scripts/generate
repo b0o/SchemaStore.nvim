@@ -48,7 +48,15 @@ function main() {
 
   nvim --headless -u NORC --noplugin\
     --cmd "set rtp+=$rootdir" \
-    -c "$(printf "lua require'schemastore.generate'.setup(vim.tbl_extend('force', %s, %s)).run()" "$baseconfig" "$config")"\
+    -c "$(printf "
+      lua local ok, res = pcall(function()
+        require'schemastore.generate'.setup(vim.tbl_extend('force', %s, %s)).run()
+      end)
+      if not ok then
+        print(res)
+        vim.cmd('cquit')
+      end
+    " "$baseconfig" "$config")"\
     -c ':q' 2>&1 | tr -d '\r'
 }
 
