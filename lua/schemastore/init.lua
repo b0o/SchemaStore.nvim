@@ -1,5 +1,13 @@
 local M = { json = {} }
 
+local function get_index(index, tbl, key)
+  local index = index[key]
+  if not index then
+    return nil
+  end
+  return tbl[index], index
+end
+
 -- load returns a table of of the format { json = { schemas = { ... list of json schemas ... } } }
 function M.load()
   return require('schemastore.catalog')
@@ -10,16 +18,22 @@ function M.json.load()
   return M.load().json
 end
 
+-- json.get returns a schema by name
+function M.json.get(name)
+  local catalog = M.json.load()
+  return get_index(catalog.index, catalog.schemas, name), nil
+end
+
 -- json.schemas returns the list of json schemas
 -- [opts] is an optional table which can contain the following fields:
 --
 --  - select - A list-like table of strings representing the names of schemas
 --             to select. If this option is not present, all schemas are
 --             returned. If it is present, only the selected schemas are
---             returned.
+--             returned. `select` and `ignore` are mutually exclusive.
 --
 --  - ignore - A list-like table of strings representing the names of schemas
---             to ignore.
+--             to ignore. `select` and `ignore` are mutually exclusive.
 --
 --  - replace - A dictionary-like table of (strings:table) elements
 --              representing schemas to replace with a custom schema. The
@@ -28,7 +42,8 @@ end
 --              isn't found, the custom schema will not be returned.
 --
 function M.json.schemas(opts)
-  local schemas = M.json.load().schemas
+  local catalog = M.json.load()
+  local schemas = vim.deepcopy(catalog.schemas)
   if not opts then
     return schemas
   end
@@ -39,27 +54,37 @@ function M.json.schemas(opts)
     ignore = {},
   }, opts)
 
-  if opts.select and #opts.select > 0 then
-    schemas = vim.tbl_filter(function(s)
-      return not s.name or vim.tbl_contains(opts.select, s.name)
-    end, schemas)
+  if type(opts.replace) == "table" and not vim.tbl_isempty(opts.replace) then
+    for name, schema in pairs(opts.replace) do
+      local _, index = get_index(catalog.index, schemas, name)
+      assert(index ~= nil, "schemastore.json.schemas(): replace: schema not found: " .. name)
+      schemas[index] = schema
+    end
   end
 
-  if not vim.tbl_isempty(opts.replace) then
-    schemas = vim.tbl_map(function(s)
-      for k, v in pairs(opts.replace) do
-        if s.name == k then
-          return v
-        end
-      end
-      return s
-    end, schemas)
-  end
+  local has_select = type(opts.select) == "table" and not vim.tbl_isempty(opts.select)
+  local has_ignore = type(opts.ignore) == "table" and not vim.tbl_isempty(opts.ignore)
 
-  if opts.ignore and #opts.ignore > 0 then
-    schemas = vim.tbl_filter(function(s)
-      return not vim.tbl_contains(opts.ignore, s.name)
-    end, schemas)
+  assert(not (has_select and has_ignore), "schemastore.json.schemas(): the 'select' and 'ignore' settings are mutually exclusive")
+
+  if has_select then
+    schemas = vim.tbl_map(function(name)
+      local schema = M.json.get(name)
+      assert(schema ~= nil, "schemastore.json.schemas(): select: schema not found: " .. name)
+      return schema
+    end, opts.select)
+
+  elseif has_ignore then
+    local ignore = {}
+    for _, name in ipairs(opts.ignore) do
+      local _, index = get_index(catalog.index, schemas, name)
+      assert(index ~= nil, "schemastore.json.schemas(): ignore: schema not found: " .. name)
+      table.insert(ignore, index)
+    end
+    table.sort(ignore, function(a, b) return a > b end)
+    for _, index in ipairs(ignore) do
+      table.remove(schemas, index)
+    end
   end
 
   return schemas

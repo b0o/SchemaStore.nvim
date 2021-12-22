@@ -20,8 +20,19 @@ local function catalog_url(kind)
   return endpoint_url(kind, 'catalog.json')
 end
 
+local function gen_index(tbl)
+  local index = {}
+  for i, entry in ipairs(tbl) do
+    index[entry.name] = i
+  end
+  return index
+end
+
 local function get_catalog(kind)
-  return vim.fn.json_decode(http_get(catalog_url(kind)))
+  local catalog = vim.fn.json_decode(http_get(catalog_url(kind)))
+  local index = gen_index(catalog.schemas)
+  catalog.index = index
+  return catalog
 end
 
 local function gen_module(decls)
