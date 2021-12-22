@@ -58,6 +58,9 @@ require('lspconfig').jsonls.setup {
 }
 ```
 
+Note that the `select` and `ignore` options are mutually exclusive and
+attempting to use them together will throw an error.
+
 To replace certain schemas from the catalog with your own:
 
 ```lua

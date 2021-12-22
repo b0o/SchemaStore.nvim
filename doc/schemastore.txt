@@ -59,6 +59,29 @@ You can select a subset of schemas with the `select` option:
     -- The rest of your jslonls settings
   }
 <
+Or, you can ignore a list of schemas with the `ignore` option:
+
+>
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+  require'lspconfig'.jsonls.setup {
+    capabilities = capabilities,
+    settings = {
+      json = {
+        schemas = require('schemastore').json.schemas {
+          ignore = {
+            'JSON Feed',
+          },
+        },
+      },
+    },
+    -- The rest of your jslonls settings
+  }
+<
+
+Note that the `select` and `ignore` options are mutually exclusive and
+attempting to use them together will throw an error.
 
 You can replace a schema with your own:
 
