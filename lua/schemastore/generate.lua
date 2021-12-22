@@ -1,31 +1,31 @@
 local M = {}
 
-local function yearsFrom(from, to)
-  local curYear = tonumber(os.date('%Y'))
-  to = to and to or curYear
+local function years_from(from, to)
+  local cur_year = tonumber(os.date('%Y'))
+  to = to and to or cur_year
   return from == to and tostring(from) or ('%d-%d'):format(from, to)
 end
 
-local function httpGet(url)
+local function http_get(url)
   local res = vim.fn.systemlist { 'curl', '--location', '--silent', '--fail', url }
   assert(vim.v.shell_error == 0, ('GET %s failed'):format(url))
   return res
 end
 
-local function endpointUrl(...)
-  return table.concat({ M.config.baseUrl, ... }, '/')
+local function endpoint_url(...)
+  return table.concat({ M.config.base_url, ... }, '/')
 end
 
-local function catalogUrl(kind)
-  return endpointUrl(kind, 'catalog.json')
+local function catalog_url(kind)
+  return endpoint_url(kind, 'catalog.json')
 end
 
-local function getCatalog(kind)
-  return vim.fn.json_decode(httpGet(catalogUrl(kind)))
+local function get_catalog(kind)
+  return vim.fn.json_decode(http_get(catalog_url(kind)))
 end
 
-local function genModule(decls)
-  local res = M.config.copyrightNotice
+local function gen_module(decls)
+  local res = M.config.copyright_notice
   res = res .. '-- stylua: ignore start\n\n'
   res = res .. 'local M = {}\n\n'
   for ident, val in pairs(decls) do
@@ -37,9 +37,9 @@ local function genModule(decls)
 end
 
 M.config = {
-  baseUrl = 'https://www.schemastore.org/api',
+  base_url = 'https://www.schemastore.org/api',
   out = '/dev/stdout',
-  copyrightNotice = ([[
+  copyright_notice = ([[
 --  Copyright %s Maddison Hellstrom
 --
 --  This file contains an automatically generated version of the SchemaStore
@@ -67,7 +67,7 @@ M.config = {
 --  See the License for the specific language governing permissions and
 --  limitations under the License.
 
-]]):format(yearsFrom(2021), yearsFrom(2015))
+]]):format(years_from(2021), years_from(2015))
 }
 
 function M.setup(config)
@@ -80,10 +80,10 @@ function M.setup(config)
 end
 
 function M.run()
-  local catalogModule = genModule {
-    json = vim.inspect(getCatalog 'json'),
+  local catalog_module = gen_module {
+    json = vim.inspect(get_catalog 'json'),
   }
-  local ok = vim.fn.writefile(vim.split(catalogModule, '\n', true), M.config.out)
+  local ok = vim.fn.writefile(vim.split(catalog_module, '\n', true), M.config.out)
   assert(ok == 0, 'Write failed: ' .. vim.v.errmsg)
 end
 
