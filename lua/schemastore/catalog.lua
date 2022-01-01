@@ -1,4 +1,4 @@
---  Copyright 2021 Maddison Hellstrom
+--  Copyright 2021-2022 Maddison Hellstrom
 --
 --  This file contains an automatically generated version of the SchemaStore
 --  JSON schema catalog which has been converted from JSON to Lua.
@@ -9,7 +9,7 @@
 --
 --  The original SchemaStore catalog carries the following copyright:
 --
---  Copyright 2015-2021 Mads Kristensen and Contributors
+--  Copyright 2015-2022 Mads Kristensen and Contributors
 --
 --  Both projects are released under the following terms:
 --
