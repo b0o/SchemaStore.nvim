@@ -1178,12 +1178,12 @@ M.json = {
       description = "JSON schema for Foundry VTT system.json and module.json files.",
       fileMatch = { "system.json", "module.json" },
       name = "Foundry VTT - Manifest",
-      url = "https://gitlab.com/-/snippets/2062623/raw/master/foundryvtt_manifest_schema.json"
+      url = "https://json.schemastore.org/foundryvtt-manifest.json"
     }, {
       description = "JSON schema for Foundry VTT template.json files.",
       fileMatch = { "template.json" },
       name = "Foundry VTT - Template",
-      url = "https://gitlab.com/-/snippets/2062623/raw/master/foundryvtt_template_schema.json"
+      url = "https://json.schemastore.org/foundryvtt-template.json"
     }, {
       description = "JSON schema for FOSSA CLI's .fossa.yml configuration file",
       fileMatch = { ".fossa.yml" },
