@@ -244,6 +244,7 @@ M.json = {
     ["Schema Catalog"] = 296,
     ["Scoop manifest"] = 301,
     ["Semgrep Rule"] = 302,
+    ["Serverless Framework Configuration"] = 441,
     Solidarity = 308,
     ["Source Maps v3"] = 309,
     SpecIF = 310,
@@ -2832,6 +2833,11 @@ M.json = {
       fileMatch = { "stackhawk.yml", "stackhawk.yaml", "stackhawk-*.yml", "stackhawk-*.yaml" },
       name = "StackHawk Scanner Configuration",
       url = "https://download.stackhawk.com/hawk/jsonconfig/hawkconfig.json"
+    }, {
+      description = "Schema for serverless framework configuration files",
+      fileMatch = { "serverless.yml" },
+      name = "Serverless Framework Configuration",
+      url = "https://raw.githubusercontent.com/lalcebo/json-schema/master/serverless/reference.json"
     } },
   version = 1
 }
