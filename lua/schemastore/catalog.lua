@@ -94,7 +94,7 @@ M.json = {
     ["Ansible Inventory"] = 10,
     ["Ansible Navigator Configuration"] = 12,
     ["Ansible Playbook"] = 9,
-    ["Ansible Role"] = 8,
+    ["Ansible Tasks File"] = 8,
     ["AnyWork Automation Configuration"] = 1,
     ["Argo Workflows"] = 21,
     ["Avro Avsc"] = 23,
@@ -519,31 +519,20 @@ M.json = {
       name = ".angular-cli.json",
       url = "https://raw.githubusercontent.com/angular/angular-cli/v10.1.6/packages/angular/cli/lib/config/schema.json"
     }, {
-      description = "Ansible role task files",
+      description = "Ansible tasks file",
       fileMatch = { "**/roles/**/tasks/*.yml", "**/roles/**/tasks/*.yaml" },
-      name = "Ansible Role",
-      url = "https://json.schemastore.org/ansible-role-2.9.json",
-      versions = {
-        ["2.0"] = "https://json.schemastore.org/ansible-role-2.0.json",
-        ["2.1"] = "https://json.schemastore.org/ansible-role-2.1.json",
-        ["2.2"] = "https://json.schemastore.org/ansible-role-2.2.json",
-        ["2.3"] = "https://json.schemastore.org/ansible-role-2.3.json",
-        ["2.4"] = "https://json.schemastore.org/ansible-role-2.4.json",
-        ["2.5"] = "https://json.schemastore.org/ansible-role-2.5.json",
-        ["2.6"] = "https://json.schemastore.org/ansible-role-2.6.json",
-        ["2.7"] = "https://json.schemastore.org/ansible-role-2.7.json",
-        ["2.9"] = "https://json.schemastore.org/ansible-role-2.9.json"
-      }
+      name = "Ansible Tasks File",
+      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-tasks.json"
     }, {
       description = "Ansible playbook files",
       fileMatch = { "playbook.yml", "playbook.yaml" },
       name = "Ansible Playbook",
-      url = "https://json.schemastore.org/ansible-playbook.json"
+      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-playbook.json"
     }, {
       description = "Ansible inventory files",
       fileMatch = { "inventory.yml", "inventory.yaml" },
       name = "Ansible Inventory",
-      url = "https://json.schemastore.org/ansible-inventory.json"
+      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-inventory.json"
     }, {
       description = "Ansible Collection Galaxy metadata",
       fileMatch = { "galaxy.yml" },
