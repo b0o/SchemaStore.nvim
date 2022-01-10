@@ -479,7 +479,10 @@ M.json = {
       description = "AnyWork Automation Configuration used to configure automation scripts on AnyWork",
       fileMatch = { ".awc.yaml", ".awc.yml", ".awc.json", ".awc.jsonc", ".awc" },
       name = "AnyWork Automation Configuration",
-      url = "https://json.schemastore.org/anywork-ac-1.0.json"
+      url = "https://json.schemastore.org/anywork-ac-1.1.json",
+      versions = {
+        ["1.0"] = "https://json.schemastore.org/anywork-ac-1.0.json"
+      }
     }, {
       description = "AdonisJS configuration file",
       fileMatch = { ".adonisrc.json" },
