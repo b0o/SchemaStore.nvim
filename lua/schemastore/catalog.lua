@@ -250,6 +250,7 @@ M.json = {
     ["Scoop manifest"] = 307,
     ["Semgrep Rule"] = 308,
     ["Serverless Framework Configuration"] = 447,
+    ["Shopware CLI Extension Store Configuration"] = 448,
     Solidarity = 314,
     ["Source Maps v3"] = 315,
     SpecIF = 316,
@@ -2866,6 +2867,11 @@ M.json = {
       fileMatch = { "serverless.yml" },
       name = "Serverless Framework Configuration",
       url = "https://raw.githubusercontent.com/lalcebo/json-schema/master/serverless/reference.json"
+    }, {
+      description = "Schema for Shopware CLI Extension Store Configuration",
+      fileMatch = { ".shopware-extension.yml" },
+      name = "Shopware CLI Extension Store Configuration",
+      url = "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/extension/shopware-extension-schema.json"
     } },
   version = 1
 }
