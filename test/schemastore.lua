@@ -57,6 +57,18 @@ Describe('the schemastore.init module', function()
           { 'name', Which.Is.A.String },
           { 'url', Which.Is.A.String },
         }
+
+        local found = vim.tbl_filter(function(e)
+          return e.name == 'package.json'
+        end, schemas)
+        Expect(found).To.Have.Length(1)
+        Expect(found[1].name).To.Equal 'package.json'
+
+        found = vim.tbl_filter(function(e)
+          return e.name == '.eslintrc'
+        end, schemas)
+        Expect(found).To.Have.Length(1)
+        Expect(found[1].name).To.Equal '.eslintrc'
       end)
 
       It('should override the given schemas if passed a "replace" table', function()
