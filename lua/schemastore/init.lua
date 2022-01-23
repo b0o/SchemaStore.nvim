@@ -69,7 +69,7 @@ function M.json.schemas(opts)
 
   if has_select then
     schemas = vim.tbl_map(function(name)
-      local schema = M.json.get(name)
+      local schema = get_index(catalog.index, schemas, name)
       assert(schema ~= nil, "schemastore.json.schemas(): select: schema not found: " .. name)
       return schema
     end, opts.select)
