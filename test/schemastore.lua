@@ -105,34 +105,34 @@ Describe('the schemastore.init module', function()
 
       It('should throw an error if passed a table "select" list containing unknown names', function()
         Expect(function()
-          return m.json.schemas({
+          return m.json.schemas {
             select = { 'foobarqux' },
-          })
+          }
         end).To.ThrowError()
       end)
 
       It('should throw an error if passed a table "ignore" list containing unknown names', function()
         Expect(function()
-          return m.json.schemas({
+          return m.json.schemas {
             ignore = { 'foobarqux' },
-          })
+          }
         end).To.ThrowError()
       end)
 
       It('should throw an error if passed a table "replace" list containing unknown names', function()
         Expect(function()
-          return m.json.schemas({
-            replace = { ['foobarqux'] = { name = "test" } },
-          })
+          return m.json.schemas {
+            replace = { ['foobarqux'] = { name = 'test' } },
+          }
         end).To.ThrowError()
       end)
 
       It('should throw an error if passed a table with both "select" and "ignore" lists', function()
         Expect(function()
-          return m.json.schemas({
+          return m.json.schemas {
             select = { 'package.json' },
             ignore = { '.eslintrc' },
-          })
+          }
         end).To.ThrowError()
       end)
 
