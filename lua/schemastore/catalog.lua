@@ -501,10 +501,11 @@ M.json = {
       description = "JSON schema for the Agrippa config file",
       fileMatch = { ".agripparc.json", "agripparc.json" },
       name = ".agripparc.json",
-      url = "https://json.schemastore.org/agripparc-1.3.json",
+      url = "https://json.schemastore.org/agripparc-1.4.json",
       versions = {
         ["1.2"] = "https://json.schemastore.org/agripparc-1.2.json",
-        ["1.3"] = "https://json.schemastore.org/agripparc-1.3.json"
+        ["1.3"] = "https://json.schemastore.org/agripparc-1.3.json",
+        ["1.4"] = "https://json.schemastore.org/agripparc-1.4.json"
       }
     }, {
       description = "Settings for project analysis by the application inspector",
