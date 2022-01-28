@@ -1527,11 +1527,7 @@ M.json = {
       description = "k3d configuration file",
       fileMatch = { "k3d.yaml", "k3d.yml", ".k3d.yml", ".k3d.yaml", "*.k3d.yaml", "*.k3d.yml" },
       name = "k3d.yaml",
-      url = "https://raw.githubusercontent.com/rancher/k3d/main/pkg/config/v1alpha2/schema.json",
-      versions = {
-        v1alpha2 = "https://raw.githubusercontent.com/rancher/k3d/main/pkg/config/v1alpha2/schema.json",
-        v1alpha3 = "https://raw.githubusercontent.com/rancher/k3d/main/pkg/config/v1alpha3/schema.json"
-      }
+      url = "https://raw.githubusercontent.com/rancher/k3d/main/pkg/config/config.versions.schema.json"
     }, {
       description = "Schema for Ory Keto configuration file",
       fileMatch = { "keto.json", "keto.yml", "keto.yaml", "keto.toml" },
