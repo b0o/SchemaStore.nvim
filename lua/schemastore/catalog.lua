@@ -1168,9 +1168,9 @@ M.json = {
       description = "Error-Pages configuration file",
       fileMatch = { "error-pages*.yml", "error-pages*.yaml" },
       name = "Error pages",
-      url = "https://raw.githubusercontent.com/tarampampam/error-pages/master/schemas/config/1.0.schema.json",
+      url = "https://cdn.jsdelivr.net/gh/tarampampam/error-pages@latest/schemas/config/1.0.schema.json",
       versions = {
-        ["1.0"] = "https://raw.githubusercontent.com/tarampampam/error-pages/master/schemas/config/1.0.schema.json"
+        ["1.0"] = "https://cdn.jsdelivr.net/gh/tarampampam/error-pages@latest/schemas/config/1.0.schema.json"
       }
     }, {
       description = "JSON schema for electron-build configuration file.",
