@@ -85,7 +85,6 @@ M.json = {
     [".vsconfig"] = 365,
     [".vsext"] = 366,
     [".yarnrc.yml"] = 428,
-    ["<div>RIOTS' studio configuration"] = 369,
     ["API Builder"] = 425,
     ["AWS CloudFormation"] = 86,
     ["AWS CloudFormation Serverless Application Model (SAM)"] = 87,
@@ -238,12 +237,13 @@ M.json = {
     ["Pipeline component"] = 443,
     ["PocketMine plugin.yml"] = 260,
     ["Pull Request Labeler"] = 282,
+    ["RIOTS studio configuration"] = 369,
     ["RKE Cluster Configuration JSON Schema"] = 441,
     ["RKE Cluster Configuration YAML Schema"] = 440,
     Ray = 410,
     ["Read the Docs"] = 285,
-    ["Red-DiscordBot Сog"] = 286,
-    ["Red-DiscordBot Сog Repo"] = 287,
+    ["Red-DiscordBot Cog"] = 286,
+    ["Red-DiscordBot Cog Repo"] = 287,
     Renovate = 292,
     RoadRunner = 293,
     SWADL = 334,
@@ -287,6 +287,7 @@ M.json = {
     ["Windows Package Manager Singleton Manifest"] = 415,
     ["Woodpecker pipeline config"] = 448,
     ["Yippee-Ki-JSON configuration YML"] = 421,
+    Zinoma = 414,
     ["angular.json"] = 6,
     ["app-definition.yaml"] = 16,
     ["apple-app-site-association"] = 15,
@@ -484,8 +485,7 @@ M.json = {
     ["xs-app.json"] = 397,
     ["xunit.runner.json"] = 382,
     yamllint = 420,
-    zuul = 406,
-    ["Žinoma"] = 414
+    zuul = 406
   },
   schemas = { {
       description = "AnyWork Automation Configuration used to configure automation scripts on AnyWork",
@@ -1989,14 +1989,14 @@ M.json = {
       name = "Read the Docs",
       url = "https://raw.githubusercontent.com/readthedocs/readthedocs.org/master/readthedocs/rtd_tests/fixtures/spec/v2/schema.json"
     }, {
-      description = "Red-DiscordBot Сog metadata file",
+      description = "Red-DiscordBot Cog metadata file",
       fileMatch = { "info.json" },
-      name = "Red-DiscordBot Сog",
+      name = "Red-DiscordBot Cog",
       url = "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json"
     }, {
-      description = "Red-DiscordBot Сog Repo metadata file",
+      description = "Red-DiscordBot Cog Repo metadata file",
       fileMatch = { "info.json" },
-      name = "Red-DiscordBot Сog Repo",
+      name = "Red-DiscordBot Cog Repo",
       url = "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog_repo.schema.json"
     }, {
       description = "A rehype configuration file",
@@ -2401,9 +2401,9 @@ M.json = {
       name = "vss-extension.json",
       url = "https://json.schemastore.org/vss-extension.json"
     }, {
-      description = "JSON schema for the <div>RIOTS' studio configuration",
+      description = "JSON schema for the RIOTS studio configuration",
       fileMatch = { "studio.config.json" },
-      name = "<div>RIOTS' studio configuration",
+      name = "RIOTS studio configuration",
       url = "https://webcomponents.dev/assets2/schemas/studio.config.json"
     }, {
       description = "JSON schema for WebExtension manifest files",
@@ -2626,7 +2626,7 @@ M.json = {
     }, {
       description = "Žinoma incremental build configuration",
       fileMatch = { "zinoma.yml" },
-      name = "Žinoma",
+      name = "Zinoma",
       url = "https://github.com/fbecart/zinoma/releases/latest/download/zinoma-schema.json"
     }, {
       description = "Windows Package Manager Singleton Manifest file",
