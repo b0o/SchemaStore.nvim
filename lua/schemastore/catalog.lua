@@ -679,7 +679,7 @@ M.json = {
       description = "Azure Pipelines YAML pipelines definition",
       fileMatch = { "azure-pipelines.yml", "azure-pipelines.yaml" },
       name = "Azure Pipelines",
-      url = "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/v1.174.2/service-schema.json"
+      url = "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/master/service-schema.json"
     }, {
       description = "ArangoDB Foxx service manifest file",
       fileMatch = { "manifest.json" },
@@ -838,7 +838,7 @@ M.json = {
     }, {
       description = "Schema for the representation of 3D city models",
       name = "CityJSON",
-      url = "https://raw.githubusercontent.com/cityjson/specs/1.0.1/schemas/cityjson.min.schema.json"
+      url = "https://raw.githubusercontent.com/cityjson/specs/master/schemas/cityjson.min.schema.json"
     }, {
       description = "The Chart.yaml file is required for a chart.",
       fileMatch = { "Chart.yaml" },
@@ -1085,12 +1085,12 @@ M.json = {
       description = "A JSON schema for Dolittle application's bounded context configuration",
       fileMatch = { "bounded-context.json" },
       name = "Dolittle Bounded Context Configuration",
-      url = "https://raw.githubusercontent.com/dolittle/Runtime/v5.1.1/Schemas/Applications.Configuration/bounded-context.json"
+      url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Applications.Configuration/bounded-context.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's event horizon configurations",
       fileMatch = { ".dolittle/event-horizons.json" },
       name = "Dolittle Event Horizons Configuration",
-      url = "https://raw.githubusercontent.com/dolittle/Runtime/v5.1.1/Schemas/Events/event-horizons.json"
+      url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Events/event-horizons.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's resource configurations",
       fileMatch = { ".dolittle/resources.json" },
@@ -1100,12 +1100,12 @@ M.json = {
       description = "A JSON schema for a Dolittle bounded context's event horizon's interaction server configuration",
       fileMatch = { ".dolittle/server.json" },
       name = "Dolittle Server Configuration",
-      url = "https://raw.githubusercontent.com/dolittle/Runtime/v5.1.1/Schemas/Server/server.json"
+      url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Server/server.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's tenant configuration",
       fileMatch = { ".dolittle/tenants.json" },
       name = "Dolittle Tenants Configuration",
-      url = "https://raw.githubusercontent.com/dolittle/Runtime/v5.1.1/Schemas/Tenancy/tenants.json"
+      url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Tenancy/tenants.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's tenant mapping configurations",
       fileMatch = { ".dolittle/tenant-map.json" },
@@ -1144,7 +1144,7 @@ M.json = {
       description = "JSON schema for Eclipse Che Devfiles",
       fileMatch = { "devfile.yaml", ".devfile.yaml" },
       name = "Eclipse Che Devfile",
-      url = "https://raw.githubusercontent.com/eclipse/che/7.19.2/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json"
+      url = "https://raw.githubusercontent.com/eclipse-che/che-server/master/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json"
     }, {
       description = "pm2 ecosystem config file",
       fileMatch = { "ecosystem.json", "ecosystem.yml", "ecosystem.yaml" },
@@ -2137,7 +2137,7 @@ M.json = {
       description = "SKY UX CLI configuration file",
       fileMatch = { "skyuxconfig.json", "skyuxconfig.*.json" },
       name = "skyuxconfig.json",
-      url = "https://raw.githubusercontent.com/blackbaud/skyux-config/4.0.4/skyuxconfig-schema.json"
+      url = "https://raw.githubusercontent.com/blackbaud/skyux-config/master/skyuxconfig-schema.json"
     }, {
       description = "snapcraft project  (https://snapcraft.io)",
       fileMatch = { ".snapcraft.yaml", "snapcraft.yaml" },
@@ -2211,12 +2211,12 @@ M.json = {
       description = "Configuration file for Stryker Mutator, the mutation testing framework for JavaScript and friends. See https://stryker-mutator.io.",
       fileMatch = { "stryker.conf.json", "stryker-*.conf.json" },
       name = "Stryker Mutator",
-      url = "https://raw.githubusercontent.com/stryker-mutator/stryker/v4.0.0/packages/api/schema/stryker-core.json"
+      url = "https://raw.githubusercontent.com/stryker-mutator/stryker/master/packages/api/schema/stryker-core.json"
     }, {
       description = "Configuration file for StyleCop Analyzers",
       fileMatch = { "stylecop.json" },
       name = "StyleCop Analyzers Configuration",
-      url = "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/1.1.118/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json"
+      url = "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json"
     }, {
       description = "Configuration file for stylelint",
       fileMatch = { ".stylelintrc", ".stylelintrc.yml", ".stylelintrc.yaml", ".stylelintrc.json" },
@@ -2359,7 +2359,7 @@ M.json = {
       description = "A project version descriptor file used by Nerdbank.GitVersioning",
       fileMatch = { "version.json" },
       name = "version.json",
-      url = "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/v3.3.37/src/NerdBank.GitVersioning/version.schema.json"
+      url = "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json"
     }, {
       description = "JSON schema for vim plugin addon-info.json metadata files",
       fileMatch = { "*vim*/addon-info.json" },
@@ -2438,12 +2438,12 @@ M.json = {
       description = "The .version file format for KSP-AVC",
       fileMatch = { "*.version" },
       name = "KSP-AVC",
-      url = "https://raw.githubusercontent.com/linuxgurugamer/KSPAddonVersionChecker/1.4.1.5/KSP-AVC.schema.json"
+      url = "https://raw.githubusercontent.com/linuxgurugamer/KSPAddonVersionChecker/master/KSP-AVC.schema.json"
     }, {
       description = "Metadata spec for KSP-CKAN",
       fileMatch = { "*.ckan" },
       name = "KSP-CKAN",
-      url = "https://raw.githubusercontent.com/KSP-CKAN/CKAN/v1.28.0/CKAN.schema"
+      url = "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema"
     }, {
       description = "Meta-validation schema for JSON Schema Draft 4",
       name = "JSON Schema Draft 4",
@@ -2562,7 +2562,7 @@ M.json = {
       description = "taskcat",
       fileMatch = { ".taskcat.yml" },
       name = "taskcat",
-      url = "https://raw.githubusercontent.com/aws-quickstart/taskcat/0.9.20/taskcat/cfg/config_schema.json"
+      url = "https://raw.githubusercontent.com/aws-quickstart/taskcat/master/taskcat/cfg/config_schema.json"
     }, {
       description = "BizTalk server application inventory json file.",
       fileMatch = { "BizTalkServerInventory.json" },
@@ -2577,7 +2577,7 @@ M.json = {
       description = "Neotys as-code load test specification, more at: https://github.com/Neotys-Labs/neoload-cli",
       fileMatch = { ".nl.yaml", ".nl.yml", ".nl.json", ".neoload.yaml", ".neoload.yml", ".neoload.json" },
       name = "neoload",
-      url = "https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/1.1.4/resources/as-code.latest.schema.json"
+      url = "https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/master/resources/as-code.latest.schema.json"
     }, {
       description = "Release Drafter configuration file",
       fileMatch = { ".github/release-drafter.yml" },
@@ -2587,7 +2587,7 @@ M.json = {
       description = "Zuul CI configuration file",
       fileMatch = { "*zuul.d/*.yaml", "*/.zuul.yaml" },
       name = "zuul",
-      url = "https://raw.githubusercontent.com/pycontribs/zuul-lint/0.1.1/zuul_lint/zuul-schema.json"
+      url = "https://raw.githubusercontent.com/pycontribs/zuul-lint/master/zuul_lint/zuul-schema.json"
     }, {
       description = "Microsoft Briefcase configuration file",
       fileMatch = { "briefcase.yaml" },
@@ -2597,7 +2597,7 @@ M.json = {
       description = "HTTP Archive",
       fileMatch = { "*.har" },
       name = "httparchive",
-      url = "https://raw.githubusercontent.com/ahmadnassri/har-schema/v2.0.0/lib/har.json"
+      url = "https://raw.githubusercontent.com/ahmadnassri/har-schema/master/lib/har.json"
     }, {
       description = "JSDoc configuration file",
       fileMatch = { "conf.js*", "jsdoc.js*" },
@@ -2666,7 +2666,7 @@ M.json = {
       description = "Action and rule configuration descriptor for Yippee-Ki-JSON transformations.",
       fileMatch = { "**/yippee-*.yml", "**/*.yippee.yml" },
       name = "Yippee-Ki-JSON configuration YML",
-      url = "https://raw.githubusercontent.com/nagyesta/yippee-ki-json/v1.3.2/schema/yippee-ki-json_config_schema.json",
+      url = "https://raw.githubusercontent.com/nagyesta/yippee-ki-json/main/schema/yippee-ki-json_config_schema.json",
       versions = {
         ["1.1.2"] = "https://raw.githubusercontent.com/nagyesta/yippee-ki-json/v1.1.2/schema/yippee-ki-json_config_schema.json",
         latest = "https://raw.githubusercontent.com/nagyesta/yippee-ki-json/main/schema/yippee-ki-json_config_schema.json"
