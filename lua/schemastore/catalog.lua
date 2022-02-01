@@ -85,6 +85,7 @@ M.json = {
     [".vsconfig"] = 365,
     [".vsext"] = 366,
     [".yarnrc.yml"] = 428,
+    ["<div>RIOTS' studio configuration"] = 369,
     ["API Builder"] = 425,
     ["AWS CloudFormation"] = 86,
     ["AWS CloudFormation Serverless Application Model (SAM)"] = 87,
@@ -237,7 +238,6 @@ M.json = {
     ["Pipeline component"] = 443,
     ["PocketMine plugin.yml"] = 260,
     ["Pull Request Labeler"] = 282,
-    ["RIOTS studio configuration"] = 369,
     ["RKE Cluster Configuration JSON Schema"] = 441,
     ["RKE Cluster Configuration YAML Schema"] = 440,
     Ray = 410,
@@ -287,7 +287,6 @@ M.json = {
     ["Windows Package Manager Singleton Manifest"] = 415,
     ["Woodpecker pipeline config"] = 448,
     ["Yippee-Ki-JSON configuration YML"] = 421,
-    Zinoma = 414,
     ["angular.json"] = 6,
     ["app-definition.yaml"] = 16,
     ["apple-app-site-association"] = 15,
@@ -485,7 +484,8 @@ M.json = {
     ["xs-app.json"] = 397,
     ["xunit.runner.json"] = 382,
     yamllint = 420,
-    zuul = 406
+    zuul = 406,
+    ["Žinoma"] = 414
   },
   schemas = { {
       description = "AnyWork Automation Configuration used to configure automation scripts on AnyWork",
@@ -2401,9 +2401,9 @@ M.json = {
       name = "vss-extension.json",
       url = "https://json.schemastore.org/vss-extension.json"
     }, {
-      description = "JSON schema for the RIOTS studio configuration",
+      description = "JSON schema for the <div>RIOTS' studio configuration",
       fileMatch = { "studio.config.json" },
-      name = "RIOTS studio configuration",
+      name = "<div>RIOTS' studio configuration",
       url = "https://webcomponents.dev/assets2/schemas/studio.config.json"
     }, {
       description = "JSON schema for WebExtension manifest files",
@@ -2626,7 +2626,7 @@ M.json = {
     }, {
       description = "Žinoma incremental build configuration",
       fileMatch = { "zinoma.yml" },
-      name = "Zinoma",
+      name = "Žinoma",
       url = "https://github.com/fbecart/zinoma/releases/latest/download/zinoma-schema.json"
     }, {
       description = "Windows Package Manager Singleton Manifest file",
