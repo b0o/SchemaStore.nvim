@@ -238,6 +238,7 @@ M.json = {
     ["Pipeline component"] = 443,
     ["PocketMine plugin.yml"] = 260,
     ["Pull Request Labeler"] = 282,
+    Qodana = 455,
     ["RKE Cluster Configuration JSON Schema"] = 441,
     ["RKE Cluster Configuration YAML Schema"] = 440,
     Ray = 410,
@@ -2914,6 +2915,11 @@ M.json = {
       fileMatch = { ".shopware-extension.yml" },
       name = "Shopware CLI Extension Store Configuration",
       url = "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/extension/shopware-extension-schema.json"
+    }, {
+      description = "A standard qodana.yaml (or qodana.yml) format for Qodana (https://jetbrains.com/qodana) configuration.",
+      fileMatch = { "qodana.yaml", "qodana.yml" },
+      name = "Qodana",
+      url = "https://json.schemastore.org/qodana-1.0.json"
     } },
   version = 1
 }
