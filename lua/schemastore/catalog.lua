@@ -2038,10 +2038,10 @@ M.json = {
       description = "Spiral Roadrunner config file schema",
       fileMatch = { ".rr*.yml", ".rr*.yaml" },
       name = "RoadRunner",
-      url = "https://raw.githubusercontent.com/spiral/roadrunner-binary/master/schemas/config/2.0.schema.json",
+      url = "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/2.0.schema.json",
       versions = {
-        ["1.0"] = "https://raw.githubusercontent.com/spiral/roadrunner-binary/master/schemas/config/1.0.schema.json",
-        ["2.0"] = "https://raw.githubusercontent.com/spiral/roadrunner-binary/master/schemas/config/2.0.schema.json"
+        ["1.0"] = "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/1.0.schema.json",
+        ["2.0"] = "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/2.0.schema.json"
       }
     }, {
       description = "Scheme for Sapphire CLI Config (@sapphire/cli)",
