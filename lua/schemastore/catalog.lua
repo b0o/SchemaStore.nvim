@@ -1833,7 +1833,7 @@ M.json = {
       description = "Schema for ORT's repository configuration file",
       fileMatch = { "*.ort.yml" },
       name = "OSS Review Toolkit repository configuration",
-      url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/master/integrations/schemas/repository-configuration-schema.json"
+      url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/repository-configuration-schema.json"
     }, {
       description = "NPM configuration file",
       fileMatch = { "package.json" },
