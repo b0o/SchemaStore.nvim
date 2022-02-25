@@ -2961,7 +2961,7 @@ M.json = {
       description = "Schema for Tye configuration files",
       fileMatch = { "tye.yaml", "tye.yml" },
       name = "Tye",
-      url = "https://json.schemastore.org/tye-schema.json"
+      url = "https://raw.githubusercontent.com/dotnet/tye/main/src/schema/tye-schema.json"
     } },
   version = 1
 }
