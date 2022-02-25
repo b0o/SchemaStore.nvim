@@ -277,6 +277,7 @@ M.json = {
     ["TestEnvironment.json"] = 345,
     ["Traefik v2"] = 347,
     ["Traefik v2 File Provider"] = 348,
+    Tye = 462,
     ["UI5 Manifest"] = 360,
     ["Ubuntu Server Autoinstall"] = 358,
     ["Uniswap Token List"] = 424,
@@ -2956,6 +2957,11 @@ M.json = {
       fileMatch = { "qodana.yaml", "qodana.yml" },
       name = "Qodana",
       url = "https://json.schemastore.org/qodana-1.0.json"
+    }, {
+      description = "Schema for Tye configuration files",
+      fileMatch = { "tye.yaml", "tye.yml" },
+      name = "Tye",
+      url = "https://json.schemastore.org/tye-schema.json"
     } },
   version = 1
 }
