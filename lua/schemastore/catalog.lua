@@ -130,6 +130,7 @@ M.json = {
     ["Dart build configuration"] = 101,
     ["Dart test config"] = 102,
     ["Deployer Recipe"] = 108,
+    Devfile = 126,
     ["Discord Webhook"] = 110,
     ["Dolittle Artifacts"] = 112,
     ["Dolittle Bounded Context Configuration"] = 113,
@@ -140,7 +141,6 @@ M.json = {
     ["Dolittle Tenants Configuration"] = 117,
     ["Dolittle Topology"] = 119,
     ["Drush site aliases"] = 123,
-    ["Eclipse Che Devfile"] = 126,
     ["Error pages"] = 131,
     Esquio = 129,
     ["Expo SDK"] = 134,
@@ -1159,10 +1159,15 @@ M.json = {
       name = "dvc.yaml",
       url = "https://raw.githubusercontent.com/iterative/dvcyaml-schema/master/schema.json"
     }, {
-      description = "JSON schema for Eclipse Che Devfiles",
+      description = "JSON schema for Devfiles",
       fileMatch = { "devfile.yaml", ".devfile.yaml" },
-      name = "Eclipse Che Devfile",
-      url = "https://raw.githubusercontent.com/eclipse-che/che-server/master/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json"
+      name = "Devfile",
+      url = "https://raw.githubusercontent.com/devfile/api/v2.1.0/schemas/latest/devfile.json",
+      versions = {
+        ["1.0.0"] = "https://raw.githubusercontent.com/eclipse-che/che-server/master/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json",
+        ["2.0.0"] = "https://raw.githubusercontent.com/devfile/api/v2.0.0/schemas/latest/devfile.json",
+        ["2.1.0"] = "https://raw.githubusercontent.com/devfile/api/v2.1.0/schemas/latest/devfile.json"
+      }
     }, {
       description = "pm2 ecosystem config file",
       fileMatch = { "ecosystem.json", "ecosystem.yml", "ecosystem.yaml" },
