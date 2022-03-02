@@ -478,6 +478,7 @@ M.json = {
     ["typings.json"] = 356,
     ["typingsrc.json"] = 357,
     ["ui5.yaml"] = 361,
+    unist = 463,
     ["up.json"] = 359,
     ["vega-lite.json"] = 363,
     ["vega.json"] = 362,
@@ -2967,6 +2968,11 @@ M.json = {
       fileMatch = { "tye.yaml", "tye.yml" },
       name = "Tye",
       url = "https://raw.githubusercontent.com/dotnet/tye/main/src/schema/tye-schema.json"
+    }, {
+      description = "Schema for unist syntax trees",
+      fileMatch = {},
+      name = "unist",
+      url = "https://json.schemastore.org/unist.json"
     } },
   version = 1
 }
