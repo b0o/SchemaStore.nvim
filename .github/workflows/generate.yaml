@@ -23,6 +23,10 @@ jobs:
         shell: bash
         run: make generate
 
+      - name: Run tests
+        shell: bash
+        run: make test
+
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v7
         with:
