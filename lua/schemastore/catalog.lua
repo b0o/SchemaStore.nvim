@@ -864,7 +864,7 @@ M.json = {
       name = "Helm Chart.lock",
       url = "https://json.schemastore.org/chart-lock.json"
     }, {
-      description = "Schema for CircleCI 2.0 config files",
+      description = "Schema for CircleCI config files",
       fileMatch = { ".circleci/config.yml" },
       name = "CircleCI config.yml",
       url = "https://json.schemastore.org/circleciconfig.json"
