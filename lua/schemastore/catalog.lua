@@ -1450,7 +1450,7 @@ M.json = {
       description = "Haystack Pipeline YAML file describing the nodes of the pipelines. For more info read the docs at: https://haystack.deepset.ai/components/pipelines#yaml-file-definitions",
       fileMatch = { "*.haystack-pipeline.yml" },
       name = "Haystack Pipeline",
-      url = "https://raw.githubusercontent.com/deepset-ai/haystack/master/json-schemas/haystack-pipeline.schema.json"
+      url = "https://raw.githubusercontent.com/deepset-ai/haystack/master/haystack/json-schemas/haystack-pipeline.schema.json"
     }, {
       description = "YAML schema for configuring Hazelcast 5 Platform (member and client)",
       fileMatch = { "hazelcast*.yaml", "hazelcast*.json", "hz-*.yaml", "hz-*.json" },
