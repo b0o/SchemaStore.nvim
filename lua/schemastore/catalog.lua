@@ -204,7 +204,7 @@ M.json = {
     ["JSON-e templates"] = 447,
     ["JSON-stat 2.0"] = 387,
     JSONPatch = 205,
-    ["Jekyll configuration"] = 191,
+    Jekyll = 191,
     ["Jenkins X Pipelines"] = 192,
     ["Jenkins X Requirements"] = 193,
     ["Jovo Language Models"] = 195,
@@ -1508,9 +1508,9 @@ M.json = {
       name = "ioBroker Package manifest",
       url = "https://json.schemastore.org/io-package.json"
     }, {
-      description = "Schema for Jekyll _config.yml",
+      description = "Jekyll static site generator config file schema",
       fileMatch = { "_config.yml" },
-      name = "Jekyll configuration",
+      name = "Jekyll",
       url = "https://json.schemastore.org/jekyll.json"
     }, {
       description = "Jenkins X Pipeline YAML configuration files",
