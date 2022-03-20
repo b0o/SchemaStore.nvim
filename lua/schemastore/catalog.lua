@@ -125,6 +125,7 @@ M.json = {
     ["Camel YAML DSL"] = 64,
     Carafe = 65,
     ["Catalog Info Backstage"] = 66,
+    Cheatsheets = 471,
     ["Chrome Extension"] = 86,
     ["CircleCI config.yml"] = 71,
     ["Citation File Format"] = 94,
@@ -3018,6 +3019,11 @@ M.json = {
       fileMatch = {},
       name = "unist",
       url = "https://json.schemastore.org/unist.json"
+    }, {
+      description = "Cheatsheets config file schema",
+      fileMatch = { "conf.yml", "conf.yaml" },
+      name = "Cheatsheets",
+      url = "https://json.schemastore.org/cheatsheets.json"
     } },
   version = 1
 }
