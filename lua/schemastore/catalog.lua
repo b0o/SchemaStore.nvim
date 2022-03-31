@@ -2691,7 +2691,7 @@ M.json = {
       description = "Zuul CI configuration file",
       fileMatch = { "*zuul.d/*.yaml", "*/.zuul.yaml" },
       name = "zuul",
-      url = "https://raw.githubusercontent.com/pycontribs/zuul-lint/master/zuul_lint/zuul-schema.json"
+      url = "https://json.schemastore.org/zuul.json"
     }, {
       description = "Microsoft Briefcase configuration file",
       fileMatch = { "briefcase.yaml" },
