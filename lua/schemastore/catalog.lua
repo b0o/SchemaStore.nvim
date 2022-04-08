@@ -622,7 +622,7 @@ M.json = {
       description = "Ansible Navigator Configuration",
       fileMatch = { ".ansible-navigator.json", ".ansible-navigator.yaml", ".ansible-navigator.yml", "ansible-navigator.json", "ansible-navigator.yaml", "ansible-navigator.yml" },
       name = "Ansible Navigator Configuration",
-      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-navigator.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-navigator/main/src/ansible_navigator/data/ansible-navigator.json"
     }, {
       description = "Apple Universal Link, App Site Association",
       fileMatch = { "apple-app-site-association" },
@@ -1120,7 +1120,7 @@ M.json = {
       description = "A JSON representation of a Deno configuration file.",
       fileMatch = { "deno.json", "deno.jsonc" },
       name = "Deno",
-      url = "https://deno.land/x/deno/cli/schemas/config-file.v1.json"
+      url = "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json"
     }, {
       description = "A JSON schema for the Dependabot config.yml files",
       fileMatch = { ".dependabot/config.yml" },
