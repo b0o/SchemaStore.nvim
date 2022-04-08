@@ -217,6 +217,7 @@ M.json = {
     ["KSP-AVC"] = 393,
     ["KSP-CKAN"] = 394,
     Liquibase = 459,
+    Markdownlint = 462,
     ["MegaLinter configuration"] = 224,
     ["MegaLinter descriptor"] = 225,
     ["Meltano plugin discovery definition"] = 227,
@@ -403,7 +404,6 @@ M.json = {
     ["local.settings.json"] = 221,
     ["localazy.json"] = 222,
     ["lsdlschema.json"] = 223,
-    ["markdownlint.json"] = 462,
     mboats = 468,
     ["mimetypes.json"] = 229,
     ["mta.yaml"] = 411,
@@ -2978,10 +2978,10 @@ M.json = {
         v2beta9 = "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/master/docs/content/en/schemas/v2beta9.json"
       }
     }, {
-      description = "Markdownlint configuration file",
+      description = "Markdownlint config file schema",
       fileMatch = { ".markdownlintrc", ".markdownlint.json", ".markdownlint.jsonc", ".markdownlint.yaml", ".markdownlint.yml" },
-      name = "markdownlint.json",
-      url = "https://json.schemastore.org/markdownlint.json"
+      name = "Markdownlint",
+      url = "https://raw.githubusercontent.com/DavidAnson/markdownlint/next/schema/markdownlint-config-schema.json"
     }, {
       description = "JSON Schema for SauceCTL configuration files.",
       fileMatch = { "**/.sauce/*.yml" },
