@@ -2987,7 +2987,7 @@ M.json = {
       description = "Markdownlint config file schema",
       fileMatch = { ".markdownlintrc", ".markdownlint.json", ".markdownlint.jsonc", ".markdownlint.yaml", ".markdownlint.yml" },
       name = "Markdownlint",
-      url = "https://raw.githubusercontent.com/DavidAnson/markdownlint/next/schema/markdownlint-config-schema.json"
+      url = "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json"
     }, {
       description = "JSON Schema for SauceCTL configuration files.",
       fileMatch = { "**/.sauce/*.yml" },
