@@ -308,6 +308,7 @@ M.json = {
     ["Windows Package Manager Locale Manifest"] = 435,
     ["Windows Package Manager Singleton Manifest"] = 433,
     ["Woodpecker pipeline config"] = 466,
+    ["Xstate Machine Schema"] = 480,
     ["Yippee-Ki-JSON configuration YML"] = 439,
     ["angular.json"] = 8,
     ["app-definition.yaml"] = 22,
@@ -3072,6 +3073,11 @@ M.json = {
       fileMatch = { "conf.yml", "conf.yaml" },
       name = "Cheatsheets",
       url = "https://json.schemastore.org/cheatsheets.json"
+    }, {
+      description = "Schema for making statecharts",
+      fileMatch = {},
+      name = "Xstate Machine Schema",
+      url = "https://raw.githubusercontent.com/statelyai/xstate/main/packages/core/src/machine.schema.json"
     } },
   version = 1
 }
