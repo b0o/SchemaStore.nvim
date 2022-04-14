@@ -296,6 +296,7 @@ M.json = {
     ["UI5 Manifest"] = 373,
     ["Ubuntu Server Autoinstall"] = 371,
     ["Uniswap Token List"] = 437,
+    Updatecli = 481,
     ["User Journey Map YAML Schema"] = 457,
     ["VSCode Code Snippets"] = 84,
     ["VSIX CLI publishing"] = 385,
@@ -599,12 +600,12 @@ M.json = {
       description = "Ansible tasks file",
       fileMatch = { "**/tasks/*.yml", "**/tasks/*.yaml", "**/handlers/*.yml", "**/handlers/*.yaml" },
       name = "Ansible Tasks File",
-      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-tasks.json"
+      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/definitions/tasks"
     }, {
       description = "Ansible playbook files",
       fileMatch = { "playbook.yml", "playbook.yaml", "site.yml", "site.yaml", "**/playbooks/*.yml", "**/playbooks/*.yaml" },
       name = "Ansible Playbook",
-      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-playbook.json"
+      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/definitions/playbook"
     }, {
       description = "Ansible inventory files",
       fileMatch = { "inventory.yml", "inventory.yaml" },
@@ -3078,6 +3079,11 @@ M.json = {
       fileMatch = {},
       name = "Xstate Machine Schema",
       url = "https://raw.githubusercontent.com/statelyai/xstate/main/packages/core/src/machine.schema.json"
+    }, {
+      description = "Schema for Updatecli manifest",
+      fileMatch = { "**/updatecli.d/**/*.yaml", "**/updatecli.d/**/*.yml", "updatecli.yaml" },
+      name = "Updatecli",
+      url = "https://www.updatecli.io/schema/latest/config.json"
     } },
   version = 1
 }
