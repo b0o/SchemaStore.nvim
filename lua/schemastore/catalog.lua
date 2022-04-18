@@ -3093,7 +3093,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json"
     }, {
       description = "Schema for Updatecli manifest",
-      fileMatch = { "**/updatecli.d/**/*.yaml", "**/updatecli.d/**/*.yml", "updatecli.yaml" },
+      fileMatch = { "**/updatecli.d/**/*.yaml", "**/updatecli.d/**/*.yml", "updatecli.yml", "updatecli.yaml" },
       name = "Updatecli",
       url = "https://www.updatecli.io/schema/latest/config.json"
     } },
