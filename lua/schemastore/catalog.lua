@@ -2828,11 +2828,12 @@ M.json = {
       description = "Gradle Enterprise configuration schema",
       fileMatch = { "*gradle-enterprise.yml", "*gradle-enterprise.yaml" },
       name = "Gradle Enterprise",
-      url = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-3.json",
+      url = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-4.json",
       versions = {
         ["1.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json",
         ["2.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
-        ["3.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-3.json"
+        ["3.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-3.json",
+        ["4.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-4.json"
       }
     }, {
       description = "Gradle Build Cache Node configuration schema",
