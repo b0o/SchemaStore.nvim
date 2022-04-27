@@ -45,6 +45,7 @@ M.json = {
     [".bowerrc"] = 53,
     [".build.yml"] = 61,
     [".cirrus.yml"] = 76,
+    [".clang-format"] = 487,
     [".clasp.json"] = 77,
     [".commitlintrc"] = 438,
     [".creatomic"] = 106,
@@ -3120,6 +3121,11 @@ M.json = {
       description = "GeoJSON format for representing geographic data. Newest version from GeoJSON org.",
       name = "GeoJSON.json latest",
       url = "https://geojson.org/schema/GeoJSON.json"
+    }, {
+      description = "yaml schema for clang-format config",
+      fileMatch = { ".clang-format" },
+      name = ".clang-format",
+      url = "https://json.schemastore.org/clang-format.json"
     } },
   version = 1
 }
