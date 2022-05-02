@@ -666,7 +666,7 @@ M.json = {
       description = "Architect.io Component Schema",
       fileMatch = { "architect.yml", "architect.yaml", "*.architect.yml", "*.architect.yaml" },
       name = "architect.yml",
-      url = "https://raw.githubusercontent.com/architect-team/architect-cli/master/src/dependency-manager/schema/architect.schema.json"
+      url = "https://raw.githubusercontent.com/architect-team/architect-cli/main/src/dependency-manager/schema/architect.schema.json"
     }, {
       description = "A JSON schema for OpenJS Architect",
       fileMatch = { "arc.json", "arc.yml", "arc.yaml" },
