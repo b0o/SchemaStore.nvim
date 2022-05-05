@@ -156,6 +156,7 @@ M.json = {
     ["Drush site aliases"] = 133,
     ["Error pages"] = 141,
     Esquio = 139,
+    ["Estuary Flow Catalog Schema"] = 488,
     ["Expo SDK"] = 144,
     ["F-Droid Data metadata"] = 148,
     ["Facets - FSDL - Application"] = 146,
@@ -301,6 +302,7 @@ M.json = {
     ["Uniswap Token List"] = 439,
     Updatecli = 485,
     ["User Journey Map YAML Schema"] = 459,
+    V2Ray = 489,
     ["VSCode Code Snippets"] = 84,
     ["VSIX CLI publishing"] = 387,
     ["Vela Pipeline Configuration"] = 379,
@@ -1548,7 +1550,7 @@ M.json = {
       description = "Schema for ioBroker JSON-based admin user interfaces - config, custom and tabs",
       fileMatch = { "jsonConfig.json", "jsonCustom.json", "jsonTab.json" },
       name = "ioBroker JSON UI",
-      url = "https://raw.githubusercontent.com/ioBroker/adapter-react/master/schemas/jsonConfig.json"
+      url = "https://raw.githubusercontent.com/ioBroker/adapter-react-v5/main/schemas/jsonConfig.json"
     }, {
       description = "Schema for ioBroker adapters io-package file",
       fileMatch = { "io-package.json" },
@@ -3126,6 +3128,20 @@ M.json = {
       fileMatch = { ".clang-format" },
       name = ".clang-format",
       url = "https://json.schemastore.org/clang-format.json"
+    }, {
+      description = "JSON schema for Flow catalog files. See: https://github.com/estuary/flow",
+      fileMatch = { "flow.yaml", "*.flow.yaml", "flow.json", "*.flow.json" },
+      name = "Estuary Flow Catalog Schema",
+      url = "https://raw.githubusercontent.com/estuary/flow/master/flow.schema.json"
+    }, {
+      description = "JSON schema for V2Ray jsonv4/jsonv5 configuration format",
+      fileMatch = { "**/v2ray/*.json" },
+      name = "V2Ray",
+      url = "https://raw.githubusercontent.com/EHfive/v2ray-jsonschema/main/v4-config.schema.json",
+      versions = {
+        jsonv4 = "https://raw.githubusercontent.com/EHfive/v2ray-jsonschema/main/v4-config.schema.json",
+        ["jsonv5-preview"] = "https://raw.githubusercontent.com/EHfive/v2ray-jsonschema/main/v5-config.schema.json"
+      }
     } },
   version = 1
 }
