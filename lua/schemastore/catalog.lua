@@ -614,12 +614,12 @@ M.json = {
       description = "Ansible tasks file",
       fileMatch = { "**/tasks/*.yml", "**/tasks/*.yaml", "**/handlers/*.yml", "**/handlers/*.yaml" },
       name = "Ansible Tasks File",
-      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/definitions/tasks"
+      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/$defs/tasks"
     }, {
       description = "Ansible playbook files",
       fileMatch = { "playbook.yml", "playbook.yaml", "site.yml", "site.yaml", "**/playbooks/*.yml", "**/playbooks/*.yaml" },
       name = "Ansible Playbook",
-      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/definitions/playbook"
+      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/$defs/playbook"
     }, {
       description = "Ansible inventory files",
       fileMatch = { "inventory.yml", "inventory.yaml" },
