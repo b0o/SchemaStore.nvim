@@ -19,10 +19,13 @@ require('lspconfig').jsonls.setup {
   settings = {
     json = {
       schemas = require('schemastore').json.schemas(),
+      validate = { enable = true },
     },
   },
 }
 ```
+
+For an explanation of why the `validate = { enable = true }` option is recommended, see [#8](https://github.com/b0o/SchemaStore.nvim/issues/8).
 
 To use a subset of the catalog, you can select schemas by name (see [the catalog](https://github.com/SchemaStore/schemastore/blob/master/src/api/json/catalog.json) for a full list):
 
@@ -36,6 +39,7 @@ require('lspconfig').jsonls.setup {
           'package.json',
         },
       },
+      validate = { enable = true },
     },
   },
 }
@@ -53,6 +57,7 @@ require('lspconfig').jsonls.setup {
           'package.json',
         },
       },
+      validate = { enable = true },
     },
   },
 }
@@ -77,6 +82,7 @@ require('lspconfig').jsonls.setup {
           },
         },
       },
+      validate = { enable = true },
     },
   },
 }
@@ -104,6 +110,7 @@ require('lspconfig').jsonls.setup {
           },
         }
       ),
+      validate = { enable = true },
     },
   },
 }
@@ -129,6 +136,6 @@ require('lspconfig').jsonls.setup {
 
 ## License
 
-&copy; 2021 Maddison Hellstrom
+&copy; 2021-2022 Maddison Hellstrom
 
 Released under the Apache 2.0 License.

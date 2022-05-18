@@ -32,11 +32,15 @@ To use all of the SchemaStore JSON schemas with lspconfig + jsonls:
     settings = {
       json = {
         schemas = require('schemastore').json.schemas(),
+        validate = { enable = true },
       },
     },
     -- The rest of your jslonls settings
   }
 <
+
+For an explanation of why the `validate = { enable = true }` option is recommended,
+see https://github.com/b0o/SchemaStore.nvim/issues/8.
 
 You can select a subset of schemas with the `select` option:
 
@@ -54,6 +58,7 @@ You can select a subset of schemas with the `select` option:
             'package.json',
           },
         },
+        validate = { enable = true },
       },
     },
     -- The rest of your jslonls settings
@@ -74,6 +79,7 @@ Or, you can ignore a list of schemas with the `ignore` option:
             'JSON Feed',
           },
         },
+        validate = { enable = true },
       },
     },
     -- The rest of your jslonls settings
@@ -103,6 +109,7 @@ You can replace a schema with your own:
             },
           },
         },
+        validate = { enable = true },
       },
     },
     -- The rest of your jslonls settings
@@ -132,6 +139,7 @@ The `select` and `replace` options can be used simultaneously:
             },
           },
         },
+        validate = { enable = true },
       },
     },
     -- The rest of your jslonls settings
