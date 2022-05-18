@@ -317,6 +317,7 @@ M.json = {
     ["Web App Manifest"] = 398,
     ["Web types"] = 401,
     WebExtensions = 397,
+    ["Webman package recipe"] = 499,
     ["Windows Package Manager Installer Manifest"] = 443,
     ["Windows Package Manager Locale Manifest"] = 444,
     ["Windows Package Manager Singleton Manifest"] = 442,
@@ -3204,6 +3205,11 @@ M.json = {
       fileMatch = { "**/resourceoverrides/*.yaml", "**/resourceoverrides/*.yml", "*.cicsoverrides.yaml", "*.cicsoverrides.yml" },
       name = "CICS TS resource overrides",
       url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/resourceoverrides.json"
+    }, {
+      description = "YAML schema for a webman package",
+      fileMatch = { "*.webman-pkg.yml" },
+      name = "Webman package recipe",
+      url = "https://raw.githubusercontent.com/candrewlee14/webman/main/schema/pkg_schema.json"
     } },
   version = 1
 }
