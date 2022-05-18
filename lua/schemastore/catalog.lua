@@ -126,6 +126,7 @@ M.json = {
     ["Bukkit plugin.yml"] = 61,
     ["BungeeCord plugin.yml"] = 65,
     ["Butane config schema"] = 491,
+    ["CICS TS resource overrides"] = 498,
     ["CMake Presets"] = 68,
     ["CSR Framework"] = 75,
     ["Camel YAML DSL"] = 69,
@@ -3198,6 +3199,11 @@ M.json = {
       fileMatch = { ".gherking.json", ".gherkingrc", ".gherking.js", "gherking.json", "gherking.js" },
       name = "GherKing",
       url = "https://raw.githubusercontent.com/gherking/gherking/master/schema/gherking.schema.json"
+    }, {
+      description = "JSON schema for resource overrides in IBM CICS Transaction Server for z/OS",
+      fileMatch = { "**/resourceoverrides/*.yaml", "**/resourceoverrides/*.yml", "*.cicsoverrides.yaml", "*.cicsoverrides.yml" },
+      name = "CICS TS resource overrides",
+      url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/resourceoverrides.json"
     } },
   version = 1
 }
