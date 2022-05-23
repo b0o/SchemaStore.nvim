@@ -3218,7 +3218,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/candrewlee14/webman/main/schema/pkg_schema.json"
     }, {
       description = "A configuration file for hint",
-      fileMatch = { "*.hintrc" },
+      fileMatch = { ".hintrc" },
       name = "webhint.io",
       url = "https://raw.githubusercontent.com/webhintio/hint/main/packages/hint/src/lib/config/config-schema.json"
     } },
