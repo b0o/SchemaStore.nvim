@@ -525,6 +525,7 @@ M.json = {
     ["vs-nesting.json"] = 392,
     ["vsls.json"] = 390,
     ["vss-extension.json"] = 396,
+    ["webhint.io"] = 501,
     ["webjobpublishsettings.json"] = 401,
     ["webjobs-list.json"] = 400,
     ["xs-app.json"] = 425,
@@ -3215,6 +3216,11 @@ M.json = {
       fileMatch = { "*.webman-pkg.yml" },
       name = "Webman package recipe",
       url = "https://raw.githubusercontent.com/candrewlee14/webman/main/schema/pkg_schema.json"
+    }, {
+      description = "A configuration file for hint",
+      fileMatch = { "*.hintrc" },
+      name = "webhint.io",
+      url = "https://raw.githubusercontent.com/webhintio/hint/main/packages/hint/src/lib/config/config-schema.json"
     } },
   version = 1
 }
