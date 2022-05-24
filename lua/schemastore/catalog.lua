@@ -88,6 +88,7 @@ M.json = {
     [".yarnrc.yml"] = 457,
     ["<div>RIOTS' studio configuration"] = 398,
     ["API Builder"] = 454,
+    ["AVA Configuration Schema"] = 503,
     ["AWS CDK cdk.json"] = 101,
     ["AWS CloudFormation"] = 102,
     ["AWS CloudFormation Serverless Application Model (SAM)"] = 103,
@@ -3227,6 +3228,11 @@ M.json = {
       fileMatch = { ".hintrc" },
       name = "webhint.io",
       url = "https://raw.githubusercontent.com/webhintio/hint/main/packages/hint/src/lib/config/config-schema.json"
+    }, {
+      description = "Schema for configuring AVA, the Node.js test runner",
+      fileMatch = { "ava.config.json" },
+      name = "AVA Configuration Schema",
+      url = "https://json.schemastore.org/ava.json"
     } },
   version = 1
 }
