@@ -27,6 +27,18 @@ require('lspconfig').jsonls.setup {
 
 For an explanation of why the `validate = { enable = true }` option is recommended, see [#8](https://github.com/b0o/SchemaStore.nvim/issues/8).
 
+[yamlls](https://github.com/redhat-developer/yaml-language-server) is also supported:
+
+```lua
+require('lspconfig').yamlls.setup {
+  settings = {
+    yaml = {
+      schemas = require('schemastore').yaml.schemas(),
+    },
+  },
+}
+```
+
 To use a subset of the catalog, you can select schemas by name (see [the catalog](https://github.com/SchemaStore/schemastore/blob/master/src/api/json/catalog.json) for a full list):
 
 ```lua
