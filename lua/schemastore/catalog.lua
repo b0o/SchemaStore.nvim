@@ -148,6 +148,7 @@ M.json = {
     Containerlab = 472,
     ["Dart build configuration"] = 116,
     ["Dart test config"] = 117,
+    ["Datahub Ingestion Recipe Schema"] = 509,
     Deno = 121,
     ["Deployer Recipe"] = 124,
     Devfile = 142,
@@ -3263,6 +3264,11 @@ M.json = {
       fileMatch = { "ava.config.json" },
       name = "AVA Configuration Schema",
       url = "https://json.schemastore.org/ava.json"
+    }, {
+      description = "Schema for Datahub Ingestion recipe. \n\nSee also at https://datahubproject.io/docs/metadata-ingestion\n\n",
+      fileMatch = { "*.dhub.yml", "*.dhub.yaml", "*.dhub.json" },
+      name = "Datahub Ingestion Recipe Schema",
+      url = "https://datahubproject.io/schemas/datahub_ingestion_schema.json"
     } },
   version = 1
 }
