@@ -272,6 +272,7 @@ M.json = {
     ["PocketMine plugin.yml"] = 289,
     ["Pull Request Labeler"] = 312,
     Qodana = 491,
+    ["Quali Torque Blueprint Spec 2"] = 510,
     ["RKE Cluster Configuration JSON Schema"] = 475,
     ["RKE Cluster Configuration YAML Schema"] = 474,
     Ray = 444,
@@ -3269,6 +3270,11 @@ M.json = {
       fileMatch = { "*.dhub.yml", "*.dhub.yaml", "*.dhub.json" },
       name = "Datahub Ingestion Recipe Schema",
       url = "https://datahubproject.io/schemas/datahub_ingestion_schema.json"
+    }, {
+      description = "Schema for Torque bluerpint",
+      fileMatch = { "**/blueprints/*.yaml" },
+      name = "Quali Torque Blueprint Spec 2",
+      url = "https://raw.githubusercontent.com/QualiTorque/torque-vs-code-extensions/master/client/schemas/blueprint-spec2-schema.json"
     } },
   version = 1
 }
