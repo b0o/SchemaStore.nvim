@@ -148,6 +148,7 @@ M.json = {
     Containerlab = 474,
     ["Dart build configuration"] = 116,
     ["Dart test config"] = 117,
+    ["Datadog Service Catalog Definition"] = 223,
     ["Datahub Ingestion Recipe Schema"] = 511,
     Deno = 121,
     ["Deployer Recipe"] = 124,
@@ -499,7 +500,6 @@ M.json = {
     ["schema.org - ContactPoint"] = 341,
     ["schema.org - Place"] = 342,
     ["schema.org - Thing"] = 343,
-    ["service.datadog.yaml"] = 223,
     ["servicehub.config.json"] = 420,
     ["servicehub.service.json"] = 419,
     ["settings.job"] = 347,
@@ -1721,7 +1721,7 @@ M.json = {
     }, {
       description = "Datadog service catalog definition file",
       fileMatch = { "service.datadog.yaml" },
-      name = "service.datadog.yaml",
+      name = "Datadog Service Catalog Definition",
       url = "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/version.schema.json"
     }, {
       description = "Schema for Ory Keto configuration file",
