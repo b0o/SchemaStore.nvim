@@ -3284,7 +3284,7 @@ M.json = {
       url = "https://datahubproject.io/schemas/datahub_ingestion_schema.json"
     }, {
       description = "Schema for Torque bluerpint",
-      fileMatch = { "**/blueprints/*.yaml" },
+      fileMatch = { "blueprints/**.yaml" },
       name = "Quali Torque Blueprint Spec 2",
       url = "https://raw.githubusercontent.com/QualiTorque/torque-vs-code-extensions/master/client/schemas/blueprint-spec2-schema.json"
     } },
