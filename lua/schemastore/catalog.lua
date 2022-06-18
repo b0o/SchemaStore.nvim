@@ -428,6 +428,7 @@ M.json = {
     ["ioBroker JSON UI"] = 202,
     ["ioBroker Package manifest"] = 203,
     ["jsconfig.json"] = 220,
+    ["jscpd Configuration Schema"] = 516,
     jsdoc = 445,
     ["k3d.yaml"] = 221,
     ["kustomization.yaml"] = 225,
@@ -3305,6 +3306,11 @@ M.json = {
       fileMatch = { "blueprints/**.yaml" },
       name = "Quali Torque Blueprint Spec 2",
       url = "https://raw.githubusercontent.com/QualiTorque/torque-vs-code-extensions/master/client/schemas/blueprint-spec2-schema.json"
+    }, {
+      description = "Copy/paste detector for programming source code",
+      fileMatch = { ".jscpd.json" },
+      name = "jscpd Configuration Schema",
+      url = "https://json.schemastore.org/jscpd.json"
     } },
   version = 1
 }
