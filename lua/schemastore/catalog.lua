@@ -949,7 +949,7 @@ M.json = {
       description = "Schema for Camel YAML DSL",
       fileMatch = { "*.camel.yaml", "*.camelk.yaml" },
       name = "Camel YAML DSL",
-      url = "https://raw.githubusercontent.com/apache/camel/main/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/camel-yaml-dsl.json"
+      url = "https://raw.githubusercontent.com/apache/camel/main/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/schema/camel-yaml-dsl.json"
     }, {
       description = "Schema for Carafe compatible JavaScript Bundles",
       name = "Carafe",
