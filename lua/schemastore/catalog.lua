@@ -718,7 +718,7 @@ M.json = {
       url = "https://json.schemastore.org/asconfig-schema.json"
     }, {
       description = "A JSON Schema for validating AsyncAPI documentation files",
-      fileMatch = { "asyncapi.json", "*.asyncapi.json", "asyncapi.yml", ".asyncapi.yml", "asyncapi.yaml", ".asyncapi.yaml" },
+      fileMatch = { "asyncapi.json", "*asyncapi.json", "asyncapi.yml", "*asyncapi.yml", "asyncapi.yaml", "*asyncapi.yaml" },
       name = "AsyncAPI",
       url = "https://asyncapi.com/schema-store/2.4.0.json",
       versions = {
@@ -2013,7 +2013,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/outblocks/outblocks-cli/master/schema/schema-project.json"
     }, {
       description = "JSON schema for Outblocks App configuration files",
-      fileMatch = { "app.outblocks.yaml", "app.outblocks.yml", "outblocks.yaml", "outblocks.yml" },
+      fileMatch = { "app.outblocks.yaml", "app.outblocks.yml", "*.app.outblocks.yaml", "*.app.outblocks.yml", "outblocks.yaml", "outblocks.yml" },
       name = "Outblocks App configuration",
       url = "https://raw.githubusercontent.com/outblocks/outblocks-cli/master/schema/schema-app.json"
     }, {
