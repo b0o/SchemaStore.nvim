@@ -277,6 +277,7 @@ M.json = {
     Packer = 287,
     ["Pipeline component"] = 480,
     ["PocketMine plugin.yml"] = 291,
+    Pterodactyl = 518,
     ["Pull Request Labeler"] = 314,
     Qodana = 494,
     ["Quali Torque Blueprint Spec 2"] = 516,
@@ -3319,6 +3320,11 @@ M.json = {
       fileMatch = { ".jscpd.json" },
       name = "jscpd Configuration Schema",
       url = "https://json.schemastore.org/jscpd.json"
+    }, {
+      description = "Schema for Pterodactyl, a free game server control panel",
+      fileMatch = { "egg-*.json" },
+      name = "Pterodactyl",
+      url = "https://json.schemastore.org/pterodactyl.json"
     } },
   version = 1
 }
