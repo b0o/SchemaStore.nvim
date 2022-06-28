@@ -208,6 +208,7 @@ M.json = {
     HEMTT = 436,
     Hadolint = 448,
     ["Hammerkit YAML Schema"] = 474,
+    ["Hardware Sentry Configuration"] = 519,
     Hayson = 191,
     ["Haystack Pipeline"] = 192,
     ["Hazelcast 5 Configuration"] = 193,
@@ -3325,6 +3326,11 @@ M.json = {
       fileMatch = { "egg-*.json" },
       name = "Pterodactyl",
       url = "https://json.schemastore.org/pterodactyl.json"
+    }, {
+      description = "Hardware Sentry configuration file",
+      fileMatch = { "hws-config.yaml", "hws-config.yml", "hws*.yaml", "hws*.yml" },
+      name = "Hardware Sentry Configuration",
+      url = "https://json.schemastore.org/hws-config.json"
     } },
   version = 1
 }
