@@ -1811,12 +1811,12 @@ M.json = {
       description = "JSON schema for Meltano project definition files",
       fileMatch = { "*meltano.yml" },
       name = "Meltano project definition",
-      url = "https://gitlab.com/meltano/meltano/-/raw/master/schema/meltano.schema.json"
+      url = "https://raw.githubusercontent.com/meltano/meltano/main/schema/meltano.schema.json"
     }, {
       description = "JSON schema for Meltano plugin discovery definition file",
       fileMatch = { "*discovery.yml" },
       name = "Meltano plugin discovery definition",
-      url = "https://gitlab.com/meltano/meltano/-/raw/master/schema/discovery.schema.json"
+      url = "https://raw.githubusercontent.com/meltano/meltano/main/schema/discovery.schema.json"
     }, {
       description = "Microsoft Band Web Tile manifest file",
       name = "Microsoft Band Web Tile",
