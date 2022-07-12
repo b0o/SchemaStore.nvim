@@ -397,6 +397,7 @@ M.json = {
     ["deployed-cli"] = 502,
     ["detekt.yml"] = 127,
     devinit = 464,
+    ["devspace.yaml"] = 523,
     ["docfx.json"] = 130,
     ["docker-compose.yml"] = 463,
     ["dockerd.json"] = 129,
@@ -3352,6 +3353,11 @@ M.json = {
       fileMatch = { "*hws-config*.yaml", "*hws-config*.yml" },
       name = "Hardware Sentry Configuration",
       url = "https://json.schemastore.org/hws-config.json"
+    }, {
+      description = "yaml schema for devspace.yaml",
+      fileMatch = { "devspace.yaml" },
+      name = "devspace.yaml",
+      url = "https://raw.githubusercontent.com/loft-sh/devspace/master/devspace-schema.json"
     } },
   version = 1
 }
