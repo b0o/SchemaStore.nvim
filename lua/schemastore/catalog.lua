@@ -1484,7 +1484,7 @@ M.json = {
       url = "https://json.schemastore.org/github-issue-config.json"
     }, {
       description = "YAML schema for GitHub Workflow",
-      fileMatch = { ".github/workflows/**.yml", ".github/workflows/**.yaml" },
+      fileMatch = { ".github/workflows/*.yml", ".github/workflows/*.yaml" },
       name = "GitHub Workflow",
       url = "https://json.schemastore.org/github-workflow.json"
     }, {
