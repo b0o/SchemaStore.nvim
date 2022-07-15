@@ -935,9 +935,10 @@ M.json = {
       description = "CI configuration for Amdocs Bill Experience projects",
       fileMatch = { "**/bxci.yaml", "**/bxci.yml" },
       name = "BX CI",
-      url = "https://json.schemastore.org/bxci.schema-1.0.json",
+      url = "https://json.schemastore.org/bxci.schema-1.0.1.json",
       versions = {
-        ["1.0"] = "https://json.schemastore.org/bxci.schema-1.0.json"
+        ["1.0"] = "https://json.schemastore.org/bxci.schema-1.0.json",
+        ["1.0.1"] = "https://json.schemastore.org/bxci.schema-1.0.1.json"
       }
     }, {
       description = "Schema for CMake Presets",
