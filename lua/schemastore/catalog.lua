@@ -259,6 +259,7 @@ M.json = {
     ["Minecraft Data Pack Recipe"] = 255,
     ["Minecraft Data Pack Template Pool"] = 256,
     ["Minecraft Resourcepack Sounds"] = 257,
+    ["Monika Configuration Schema"] = 524,
     ["Netin Diagnostic System Template"] = 489,
     ["Netlify config schema"] = 262,
     ["Nightwatch.js"] = 263,
@@ -3347,6 +3348,11 @@ M.json = {
       fileMatch = { "devspace.yaml" },
       name = "devspace.yaml",
       url = "https://raw.githubusercontent.com/loft-sh/devspace/master/devspace-schema.json"
+    }, {
+      description = "Monika configuration schema file",
+      fileMatch = { "*monika*.yaml", "*monika*.yml", "monika.json" },
+      name = "Monika Configuration Schema",
+      url = "https://json.schemastore.org/monika-config-schema.json"
     } },
   version = 1
 }
