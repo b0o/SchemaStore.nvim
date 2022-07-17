@@ -216,6 +216,7 @@ M.json = {
     ["Helm Chart.lock"] = 79,
     ["Helm Chart.yaml"] = 78,
     Hugo = 500,
+    ["Istanbul Schema"] = 525,
     ["JFrog File Spec"] = 211,
     ["JSON Document Transform"] = 219,
     ["JSON Feed"] = 220,
@@ -3353,6 +3354,11 @@ M.json = {
       fileMatch = { "*monika*.yaml", "*monika*.yml", "monika.json" },
       name = "Monika Configuration Schema",
       url = "https://json.schemastore.org/monika-config-schema.json"
+    }, {
+      description = "Schema for Istanbul, a JavaScript code coverage tool",
+      fileMatch = { ".nycrc", ".nycrc.json", ".nycrc.yaml", ".nycrc.yml" },
+      name = "Istanbul Schema",
+      url = "https://json.schemastore.org/nycrc.json"
     } },
   version = 1
 }
