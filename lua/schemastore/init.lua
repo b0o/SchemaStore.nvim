@@ -1,4 +1,4 @@
-local M = { json = {} }
+local M = { json = {}, yaml = {} }
 
 local function get_index(index, tbl, key)
   local index = index[key]
@@ -87,6 +87,16 @@ function M.json.schemas(opts)
     end
   end
 
+  return schemas
+end
+
+-- yaml.schemas returns the list of yaml schemas { url = fileMatch,...}
+function M.yaml.schemas(opts)
+  local origin = M.json.schemas(opts)
+  local schemas = {}
+  vim.tbl_map(function(schema)
+    schemas[schema.url] = schema.fileMatch
+  end, origin)
   return schemas
 end
 
