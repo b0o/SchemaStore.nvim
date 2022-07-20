@@ -241,6 +241,7 @@ M.json = {
     ["Jovo Language Models"] = 214,
     ["KSP-AVC"] = 419,
     ["KSP-CKAN"] = 420,
+    ["KoDE/CI build.yaml"] = 529,
     KrakenD = 227,
     ["LinkML Metamodel"] = 238,
     Liquibase = 484,
@@ -3381,6 +3382,11 @@ M.json = {
       fileMatch = { "*-index.json" },
       name = "MongoDB Atlas Search Index Definition Schema",
       url = "https://json.schemastore.org/mongodb-atlas-search-index-definition.json"
+    }, {
+      description = "yaml schema for kode/ci build",
+      fileMatch = { ".kode/*.yaml" },
+      name = "KoDE/CI build.yaml",
+      url = "https://json.schemastore.org/kode-ci-build-1.0.0.json"
     } },
   version = 1
 }
