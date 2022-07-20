@@ -171,6 +171,7 @@ M.json = {
     ["Dolittle Tenants Configuration"] = 138,
     ["Dolittle Topology"] = 140,
     ["Drush site aliases"] = 144,
+    ["Embrace Config Schema"] = 530,
     ["Error pages"] = 153,
     Esquio = 151,
     ["Estuary Flow Catalog Schema"] = 510,
@@ -3387,6 +3388,11 @@ M.json = {
       fileMatch = { ".kode/*.yaml" },
       name = "KoDE/CI build.yaml",
       url = "https://json.schemastore.org/kode-ci-build-1.0.0.json"
+    }, {
+      description = "JSON Schema definition for the Embrace configuration file",
+      fileMatch = { "embrace-config.json" },
+      name = "Embrace Config Schema",
+      url = "https://json.schemastore.org/embrace-config-schema-1.0.0.json"
     } },
   version = 1
 }
