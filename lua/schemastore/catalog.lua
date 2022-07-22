@@ -1761,7 +1761,7 @@ M.json = {
       url = "https://www.krakend.io/schema/v3.json"
     }, {
       description = "Datadog service catalog definition file",
-      fileMatch = { "service.datadog.yaml" },
+      fileMatch = { "service.datadog.yaml", "service.datadog.yml", "service.datadog.json" },
       name = "Datadog Service Catalog Definition",
       url = "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/version.schema.json"
     }, {
