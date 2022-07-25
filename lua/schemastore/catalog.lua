@@ -1376,8 +1376,8 @@ M.json = {
         ["2.1.0"] = "https://raw.githubusercontent.com/devfile/api/v2.1.0/schemas/latest/devfile.json"
       }
     }, {
-      description = "pm2 ecosystem config file",
-      fileMatch = { "ecosystem.json", "ecosystem.yml", "ecosystem.yaml" },
+      description = "PM2 ecosystem config file",
+      fileMatch = { "ecosystem.json", "ecosystem.yml", "ecosystem.yaml", "ecosystem.config.json", "ecosystem.config.yml", "ecosystem.config.yaml" },
       name = "ecosystem.json",
       url = "https://json.schemastore.org/pm2-ecosystem.json"
     }, {
@@ -2813,9 +2813,14 @@ M.json = {
       url = "https://json-schema.org/draft/2020-12/schema"
     }, {
       description = "xUnit.net runner configuration file",
-      fileMatch = { "xunit.runner.json" },
+      fileMatch = { "xunit.runner.json", "*.xunit.runner.json" },
       name = "xunit.runner.json",
-      url = "https://json.schemastore.org/xunit.runner.schema.json"
+      url = "https://json.schemastore.org/xunit.runner.schema.json",
+      versions = {
+        ["v2.2"] = "https://json.schemastore.org/xunit-2.2.json",
+        ["v2.3"] = "https://json.schemastore.org/xunit-2.3.json",
+        ["v2.4"] = "https://json.schemastore.org/xunit.runner.schema.json"
+      }
     }, {
       description = "Microsoft ServiceHub Service",
       fileMatch = { "*.servicehub.service.json" },
