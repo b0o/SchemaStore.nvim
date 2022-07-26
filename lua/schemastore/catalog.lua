@@ -487,6 +487,7 @@ M.json = {
     ["package.json"] = 295,
     ["package.manifest"] = 296,
     ["pattern.json"] = 299,
+    ["petstore-v1.0"] = 539,
     pgap_yaml_input_reader = 298,
     ["plagiarize-me.yaml"] = 303,
     ["plagiarize.yaml"] = 302,
@@ -3446,6 +3447,14 @@ M.json = {
       fileMatch = { "embrace-config.json" },
       name = "Embrace Config Schema",
       url = "https://json.schemastore.org/embrace-config-schema-1.0.0.json"
+    }, {
+      description = "petstore yaml validation",
+      fileMatch = { "petstore-v1.0.json" },
+      name = "petstore-v1.0",
+      url = "https://json.schemastore.org/petstore-v1.0.json",
+      versions = {
+        ["1.0"] = "https://json.schemastore.org/petstore-v1.0.json"
+      }
     } },
   version = 1
 }
