@@ -2934,14 +2934,14 @@ M.json = {
       name = "JSON Schema Draft 2020-12",
       url = "https://json-schema.org/draft/2020-12/schema"
     }, {
-      description = "xUnit.net runner configuration file",
+      description = "Configuration file for unit test projects using xUnit.net",
       fileMatch = { "xunit.runner.json", "*.xunit.runner.json" },
       name = "xunit.runner.json",
       url = "https://json.schemastore.org/xunit.runner.schema.json",
       versions = {
-        ["v2.2"] = "https://json.schemastore.org/xunit-2.2.json",
-        ["v2.3"] = "https://json.schemastore.org/xunit-2.3.json",
-        ["v2.4"] = "https://json.schemastore.org/xunit.runner.schema.json"
+        ["v2.2"] = "https://xunit.net/schema/v2.2/xunit.runner.schema.json",
+        ["v2.3"] = "https://xunit.net/schema/v2.3/xunit.runner.schema.json",
+        ["v2.4"] = "https://xunit.net/schema/current/xunit.runner.schema.json"
       }
     }, {
       description = "Microsoft ServiceHub Service",
