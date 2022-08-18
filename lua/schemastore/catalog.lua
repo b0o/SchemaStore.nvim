@@ -3569,7 +3569,7 @@ M.json = {
       description = "yaml schema for devspace.yaml",
       fileMatch = { "devspace.yaml" },
       name = "devspace.yaml",
-      url = "https://raw.githubusercontent.com/loft-sh/devspace/master/devspace-schema.json"
+      url = "https://raw.githubusercontent.com/loft-sh/devspace/main/devspace-schema.json"
     }, {
       description = "Monika configuration schema file",
       fileMatch = { "*monika*.yaml", "*monika*.yml", "monika.json" },
