@@ -791,9 +791,10 @@ M.json = {
       description = "Azure Device Update for IoT Hub update manifest schema",
       fileMatch = { "*.updatemanifest.json" },
       name = "Azure Device Update for IoT Hub update manifest",
-      url = "https://json.schemastore.org/azure-deviceupdate-update-manifest-4.json",
+      url = "https://json.schemastore.org/azure-deviceupdate-update-manifest-5.json",
       versions = {
-        ["4"] = "https://json.schemastore.org/azure-deviceupdate-update-manifest-4.json"
+        ["4"] = "https://json.schemastore.org/azure-deviceupdate-update-manifest-4.json",
+        ["5"] = "https://json.schemastore.org/azure-deviceupdate-update-manifest-5.json"
       }
     }, {
       description = "Azure IoT EdgeAgent deployment schema",
