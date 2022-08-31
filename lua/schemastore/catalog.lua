@@ -707,7 +707,7 @@ M.json = {
       description = "Ansible-lint Configuration",
       fileMatch = { ".ansible-lint", ".config/ansible-lint.yml" },
       name = "Ansible-lint Configuration",
-      url = "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible-lint.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible-lint-config.json"
     }, {
       description = "Ansible Navigator Configuration",
       fileMatch = { ".ansible-navigator.json", ".ansible-navigator.yaml", ".ansible-navigator.yml", "ansible-navigator.json", "ansible-navigator.yaml", "ansible-navigator.yml" },
