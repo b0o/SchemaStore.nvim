@@ -261,6 +261,7 @@ M.json = {
     ["Jovo Language Models"] = 236,
     ["KSP-AVC"] = 451,
     ["KSP-CKAN"] = 452,
+    ["Keycloak REST API"] = 571,
     ["KoDE/CI build.yaml"] = 566,
     ["Kong DBLess Schema"] = 567,
     KrakenD = 249,
@@ -3653,6 +3654,16 @@ M.json = {
       fileMatch = { "**/.jfrog-pipelines/**/*.yml", "**/.jfrog-pipelines/**/*.yaml" },
       name = "JFrog Pipelines YML DSL",
       url = "https://json.schemastore.org/jfrog-pipelines.json"
+    }, {
+      description = "REST API schema for Keycloak Admin",
+      name = "Keycloak REST API",
+      url = "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-19.0.0.json",
+      versions = {
+        ["16.0"] = "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-16.0.json",
+        ["17.0.1"] = "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-17.0.1.json",
+        ["18.0.0"] = "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-18.0.0.json",
+        ["19.0.0"] = "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-19.0.0.json"
+      }
     } },
   version = 1
 }
