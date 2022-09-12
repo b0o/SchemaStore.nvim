@@ -3669,7 +3669,7 @@ M.json = {
       url = "https://json.schemastore.org/jfrog-pipelines.json"
     }, {
       description = "StrmPrivacy derived from the BatchJob protobuf definition",
-      fileMatch = { "*batch-job-config.json*", "*batch-job-config*.yaml" },
+      fileMatch = { "*batch-job-config*.json", "*batch-job-config*.yaml" },
       name = "StrmPrivacy batch job configuration file",
       url = "https://docs.strmprivacy.io/jsonschema/BatchJob.json",
       versions = {
