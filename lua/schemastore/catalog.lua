@@ -999,11 +999,12 @@ M.json = {
       description = "CI configuration for Amdocs Bill Experience projects",
       fileMatch = { "**/bxci.yaml", "**/bxci.yml" },
       name = "BX CI",
-      url = "https://json.schemastore.org/bxci.schema-2.0.0.json",
+      url = "https://json.schemastore.org/bxci.schema-2.x.json",
       versions = {
         ["1.0"] = "https://json.schemastore.org/bxci.schema-1.0.json",
         ["1.0.1"] = "https://json.schemastore.org/bxci.schema-1.0.1.json",
-        ["2.0.0"] = "https://json.schemastore.org/bxci.schema-2.0.0.json"
+        ["2.0.0"] = "https://json.schemastore.org/bxci.schema-2.0.0.json",
+        ["2.x"] = "https://json.schemastore.org/bxci.schema-2.x.json"
       }
     }, {
       description = "Better scripts configuration file",
