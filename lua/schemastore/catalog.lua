@@ -131,7 +131,7 @@ M.json = {
     Buildkite = 64,
     ["Bukkit plugin.yml"] = 63,
     ["BungeeCord plugin.yml"] = 67,
-    ["Butane config schema"] = 548,
+    ["Butane Config"] = 548,
     ["CICS TS region tagging"] = 555,
     ["CICS TS resource import"] = 556,
     ["CICS TS resource model"] = 557,
@@ -3544,7 +3544,7 @@ M.json = {
     }, {
       description = "Schema to validate butane files for Fedora CoreOS",
       fileMatch = { "*.bu" },
-      name = "Butane config schema",
+      name = "Butane Config",
       url = "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json"
     }, {
       description = "Schema for Updatecli manifest",
