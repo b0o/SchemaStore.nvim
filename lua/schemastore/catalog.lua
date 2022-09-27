@@ -3492,7 +3492,7 @@ M.json = {
       description = "Schema for StackHawk Scanner configuration files",
       fileMatch = { "stackhawk.yml", "stackhawk.yaml", "stackhawk-*.yml", "stackhawk-*.yaml" },
       name = "StackHawk Scanner Configuration",
-      url = "https://download.stackhawk.com/hawk/jsonconfig/hawkconfig.json"
+      url = "https://download.stackhawk.com/hawk/jsonschema/hawkconfig.json"
     }, {
       description = "Schema for serverless framework configuration files",
       fileMatch = { "serverless.yml" },
