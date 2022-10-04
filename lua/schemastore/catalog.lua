@@ -373,6 +373,7 @@ M.json = {
     ["Ubuntu Server Autoinstall"] = 434,
     ["Uniswap Token List"] = 505,
     Updatecli = 553,
+    Uplift = 583,
     ["User Journey Map YAML Schema"] = 524,
     V2Ray = 557,
     ["VSCode Code Snippets"] = 114,
@@ -3738,6 +3739,11 @@ M.json = {
         ["1.1.4"] = "https://raw.githubusercontent.com/hazelops/ize/1.1.4/internal/schema/ize-spec.json",
         ["1.1.5"] = "https://raw.githubusercontent.com/hazelops/ize/1.1.5/internal/schema/ize-spec.json"
       }
+    }, {
+      description = "Uplift configuration file",
+      fileMatch = { ".uplift.yml", ".uplift.yaml", "uplift.yml", "uplift.yaml" },
+      name = "Uplift",
+      url = "https://upliftci.dev/static/schema.json"
     } },
   version = 1
 }
