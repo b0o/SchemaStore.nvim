@@ -731,7 +731,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible-galaxy.json"
     }, {
       description = "Ansible-lint Configuration",
-      fileMatch = { ".ansible-lint", ".config/ansible-lint.yml" },
+      fileMatch = { ".ansible-lint", "**/.config/ansible-lint.yml" },
       name = "Ansible-lint Configuration",
       url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible-lint-config.json"
     }, {
@@ -898,7 +898,7 @@ M.json = {
       url = "https://ide-integration.batect.dev/v1/configSchema.json"
     }, {
       description = "The Bamboo Specs allows you to define Bamboo configuration as code, and have corresponding plans/deployments created or updated automatically in Bamboo",
-      fileMatch = { "bamboo-specs/*.yaml", "bamboo-specs/*.yml" },
+      fileMatch = { "**/bamboo-specs/*.yaml", "**/bamboo-specs/*.yml" },
       name = "bamboo-spec",
       url = "https://json.schemastore.org/bamboo-spec.json"
     }, {
@@ -978,7 +978,7 @@ M.json = {
       url = "https://json.schemastore.org/bukkit-plugin.json"
     }, {
       description = "Schema for Buildkite pipeline.yml files",
-      fileMatch = { "buildkite.yml", "buildkite.yaml", "buildkite.json", "buildkite.*.yml", "buildkite.*.yaml", "buildkite.*.json", ".buildkite/pipeline.yml", ".buildkite/pipeline.yaml", ".buildkite/pipeline.json", ".buildkite/pipeline.*.yml", ".buildkite/pipeline.*.yaml", ".buildkite/pipeline.*.json" },
+      fileMatch = { "buildkite.yml", "buildkite.yaml", "buildkite.json", "buildkite.*.yml", "buildkite.*.yaml", "buildkite.*.json", "**/.buildkite/pipeline.yml", "**/.buildkite/pipeline.yaml", "**/.buildkite/pipeline.json", "**/.buildkite/pipeline.*.yml", "**/.buildkite/pipeline.*.yaml", "**/.buildkite/pipeline.*.json" },
       name = "Buildkite",
       url = "https://raw.githubusercontent.com/buildkite/pipeline-schema/main/schema.json"
     }, {
@@ -1146,7 +1146,7 @@ M.json = {
       url = "https://json.schemastore.org/drupal-links-task.json"
     }, {
       description = "A Drupal schema for migration",
-      fileMatch = { "*.migration.*.yml", "*/migrations/*.yml" },
+      fileMatch = { "*.migration.*.yml", "**/migrations/*.yml" },
       name = "Drupal Migration Schema",
       url = "https://json.schemastore.org/drupal-migration.json"
     }, {
@@ -1161,7 +1161,7 @@ M.json = {
       url = "https://json.schemastore.org/drupal-routing.json"
     }, {
       description = "A Drupal schema for config",
-      fileMatch = { "*/config/schema/*.schema.yml" },
+      fileMatch = { "**/config/schema/*.schema.yml" },
       name = "Drupal Config Schema",
       url = "https://json.schemastore.org/drupal-config.json"
     }, {
@@ -1181,7 +1181,7 @@ M.json = {
       url = "https://json.schemastore.org/chart-lock.json"
     }, {
       description = "Schema for CircleCI config files",
-      fileMatch = { ".circleci/config.yml" },
+      fileMatch = { "**/.circleci/config.yml" },
       name = "CircleCI config.yml",
       url = "https://json.schemastore.org/circleciconfig.json"
     }, {
@@ -1409,12 +1409,12 @@ M.json = {
       url = "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json"
     }, {
       description = "A JSON schema for the Dependabot config.yml files",
-      fileMatch = { ".dependabot/config.yml" },
+      fileMatch = { "**/.dependabot/config.yml" },
       name = "dependabot.json",
       url = "https://json.schemastore.org/dependabot.json"
     }, {
       description = "A JSON schema for the GitHub Action's dependabot.yml files",
-      fileMatch = { ".github/dependabot.yml" },
+      fileMatch = { "**/.github/dependabot.yml" },
       name = "dependabot-v2.json",
       url = "https://json.schemastore.org/dependabot-2.0.json"
     }, {
@@ -1448,7 +1448,7 @@ M.json = {
       url = "https://json.schemastore.org/docfx.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's artifacts",
-      fileMatch = { ".dolittle/artifacts.json" },
+      fileMatch = { "**/.dolittle/artifacts.json" },
       name = "Dolittle Artifacts",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.SDK/v5.0.0/Schemas/Artifacts.Configuration/artifacts.json"
     }, {
@@ -1458,32 +1458,32 @@ M.json = {
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Applications.Configuration/bounded-context.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's event horizon configurations",
-      fileMatch = { ".dolittle/event-horizons.json" },
+      fileMatch = { "**/.dolittle/event-horizons.json" },
       name = "Dolittle Event Horizons Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Events/event-horizons.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's resource configurations",
-      fileMatch = { ".dolittle/resources.json" },
+      fileMatch = { "**/.dolittle/resources.json" },
       name = "Dolittle Resources Configuration",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/v5.1.0/Schemas/ResourceTypes.Configuration/resources.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's event horizon's interaction server configuration",
-      fileMatch = { ".dolittle/server.json" },
+      fileMatch = { "**/.dolittle/server.json" },
       name = "Dolittle Server Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Server/server.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's tenant configuration",
-      fileMatch = { ".dolittle/tenants.json" },
+      fileMatch = { "**/.dolittle/tenants.json" },
       name = "Dolittle Tenants Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Tenancy/tenants.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's tenant mapping configurations",
-      fileMatch = { ".dolittle/tenant-map.json" },
+      fileMatch = { "**/.dolittle/tenant-map.json" },
       name = "Dolittle Tenant Map Configuration",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json"
     }, {
       description = "A JSON schema for a Dolittle bounded context's topology",
-      fileMatch = { ".dolittle/topology.json" },
+      fileMatch = { "**/.dolittle/topology.json" },
       name = "Dolittle Topology",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.SDK/master/Schemas/Applications.Configuration/topology.json"
     }, {
@@ -1503,7 +1503,7 @@ M.json = {
       url = "https://json.schemastore.org/drone.json"
     }, {
       description = "JSON Schema for Drush 9 site aliases file",
-      fileMatch = { "sites/*.site.yml" },
+      fileMatch = { "**/sites/*.site.yml" },
       name = "Drush site aliases",
       url = "https://json.schemastore.org/drush.site.yml.json"
     }, {
@@ -1602,7 +1602,7 @@ M.json = {
       url = "https://json.schemastore.org/fabric.mod.json"
     }, {
       description = "Schema for F-Droid Data app metadata files",
-      fileMatch = { "metadata/*.yml" },
+      fileMatch = { "**/metadata/*.yml" },
       name = "F-Droid Data metadata",
       url = "https://gitlab.com/fdroid/fdroiddata/-/raw/master/schemas/metadata.json"
     }, {
@@ -1612,7 +1612,7 @@ M.json = {
       url = "https://ffizer.github.io/ffizer/ffizer.schema.json"
     }, {
       description = "A bot that helps onboarding new open-source contributors.",
-      fileMatch = { ".github/first-timers.yml" },
+      fileMatch = { "**/.github/first-timers.yml" },
       name = "first-timers-bot",
       url = "https://json.schemastore.org/first-timers.json"
     }, {
@@ -1675,27 +1675,27 @@ M.json = {
       url = "https://json.schemastore.org/github-action.json"
     }, {
       description = "YAML schema for GitHub Funding",
-      fileMatch = { ".github/FUNDING.yml", ".github/funding.yml", ".github/funding.yaml" },
+      fileMatch = { "**/.github/FUNDING.yml", "**/.github/funding.yml", "**/.github/funding.yaml" },
       name = "GitHub Funding",
       url = "https://json.schemastore.org/github-funding.json"
     }, {
       description = "YAML schema for GitHub issue forms",
-      fileMatch = { ".github/ISSUE_TEMPLATE/**.yml", ".github/ISSUE_TEMPLATE/**.yaml" },
+      fileMatch = { "**/.github/ISSUE_TEMPLATE/**.yml", "**/.github/ISSUE_TEMPLATE/**.yaml" },
       name = "GitHub issue forms",
       url = "https://json.schemastore.org/github-issue-forms.json"
     }, {
       description = "YAML schema for configuring GitHub Issue Templates",
-      fileMatch = { ".github/ISSUE_TEMPLATE/config.yml", ".github/ISSUE_TEMPLATE/config.yaml" },
+      fileMatch = { "**/.github/ISSUE_TEMPLATE/config.yml", "**/.github/ISSUE_TEMPLATE/config.yaml" },
       name = "GitHub Issue Template configuration",
       url = "https://json.schemastore.org/github-issue-config.json"
     }, {
       description = "YAML schema for GitHub Workflow",
-      fileMatch = { ".github/workflows/*.yml", ".github/workflows/*.yaml" },
+      fileMatch = { "**/.github/workflows/*.yml", "**/.github/workflows/*.yaml" },
       name = "GitHub Workflow",
       url = "https://json.schemastore.org/github-workflow.json"
     }, {
       description = "Json schema for properties json file for a GitHub Workflow template",
-      fileMatch = { ".github/workflow-templates/**.properties.json" },
+      fileMatch = { "**/.github/workflow-templates/**.properties.json" },
       name = "GitHub Workflow Template Properties",
       url = "https://json.schemastore.org/github-workflow-template-properties.json"
     }, {
@@ -1773,7 +1773,7 @@ M.json = {
       url = "https://json.schemastore.org/grunt-watch-task.json"
     }, {
       description = "Schema for standard Grunt tasks",
-      fileMatch = { "grunt/*.json", "*-tasks.json" },
+      fileMatch = { "**/grunt/*.json", "*-tasks.json" },
       name = "Grunt base task",
       url = "https://json.schemastore.org/grunt-task.json"
     }, {
@@ -1969,7 +1969,7 @@ M.json = {
       url = "https://json.schemastore.org/kustomization.json"
     }, {
       description = "A JSON schema for the configuration of the Label Commenter GitHub Action",
-      fileMatch = { ".github/label-commenter-config.yml" },
+      fileMatch = { "**/.github/label-commenter-config.yml" },
       name = "label-commenter-config.yml",
       url = "https://json.schemastore.org/label-commenter-config.json"
     }, {
@@ -2250,7 +2250,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/outblocks/outblocks-cli/master/schema/schema-app.json"
     }, {
       description = "JSON schema for Outblocks database table files",
-      fileMatch = { "database/**/*.outblocks.yaml", "database/**/*.outblocks.yml" },
+      fileMatch = { "**/database/**/*.outblocks.yaml", "**/database/**/*.outblocks.yml" },
       name = "Outblocks database table",
       url = "https://raw.githubusercontent.com/outblocks/outblocks-cli/master/schema/schema-table.json"
     }, {
@@ -2265,7 +2265,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/ort-configuration-schema.json"
     }, {
       description = "Schema for ORT's curation files",
-      fileMatch = { "curations/**/*.yml", "curations/**/*.yaml", "curations.yml", "curations.yaml" },
+      fileMatch = { "**/curations/**/*.yml", "**/curations/**/*.yaml", "curations.yml", "curations.yaml" },
       name = "OSS Review Toolkit curation",
       url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/curations-schema.json"
     }, {
@@ -2446,7 +2446,7 @@ M.json = {
       url = "https://json.schemastore.org/pubspec.json"
     }, {
       description = "A GitHub Action for automatically labelling pull requests",
-      fileMatch = { ".github/labeler.yml" },
+      fileMatch = { "**/.github/labeler.yml" },
       name = "Pull Request Labeler",
       url = "https://json.schemastore.org/pull-request-labeler.json"
     }, {
@@ -2509,7 +2509,7 @@ M.json = {
       }
     }, {
       description = "Renovate config file (https://github.com/renovatebot/renovate)",
-      fileMatch = { "renovate.json", "renovate.json5", ".github/renovate.json", ".github/renovate.json5", ".renovaterc", ".renovaterc.json" },
+      fileMatch = { "renovate.json", "renovate.json5", "**/.github/renovate.json", "**/.github/renovate.json5", ".renovaterc", ".renovaterc.json" },
       name = "Renovate",
       url = "https://docs.renovatebot.com/renovate-schema.json"
     }, {
@@ -2616,7 +2616,7 @@ M.json = {
       url = "https://json.schemastore.org/semantic-release.json"
     }, {
       description = "Semgrep code scanning patterns and rules",
-      fileMatch = { ".semgrep/**.yaml", ".semgrep/**.yml", ".semgrep.yaml", ".semgrep.yml" },
+      fileMatch = { "**/.semgrep/**.yaml", "**/.semgrep/**.yml", ".semgrep.yaml", ".semgrep.yml" },
       name = "Semgrep Rule",
       url = "https://json.schemastore.org/semgrep.json"
     }, {
@@ -2720,7 +2720,7 @@ M.json = {
       url = "https://starship.rs/config-schema.json"
     }, {
       description = "A Statamic Blueprint Schema",
-      fileMatch = { "resources/blueprints/**/*.yml", "resources/blueprints/**/*.yaml" },
+      fileMatch = { "**/resources/blueprints/**/*.yml", "**/resources/blueprints/**/*.yaml" },
       name = "Statamic Blueprint",
       url = "https://raw.githubusercontent.com/Konafets/statamic-blueprint-validation/main/statamic.blueprint.schema.json"
     }, {
@@ -2765,7 +2765,7 @@ M.json = {
       url = "https://json.schemastore.org/taurus.json"
     }, {
       description = "JSON schema .NET template files",
-      fileMatch = { ".template.config/template.json" },
+      fileMatch = { "**/.template.config/template.json" },
       name = "template.json",
       url = "https://json.schemastore.org/template.json"
     }, {
@@ -2883,7 +2883,7 @@ M.json = {
       url = "https://json.schemastore.org/up.json"
     }, {
       description = "UI5 Manifest (manifest.json)",
-      fileMatch = { "webapp/manifest.json", "src/main/webapp/manifest.json", "src/manifest.json" },
+      fileMatch = { "**/webapp/manifest.json", "**/src/main/webapp/manifest.json", "**/src/manifest.json" },
       name = "UI5 Manifest",
       url = "https://raw.githubusercontent.com/SAP/ui5-manifest/master/schema.json"
     }, {
@@ -2928,7 +2928,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json"
     }, {
       description = "JSON schema for vim plugin addon-info.json metadata files",
-      fileMatch = { "*vim*/addon-info.json" },
+      fileMatch = { "**/*vim*/addon-info.json" },
       name = "vim-addon-info",
       url = "https://json.schemastore.org/vim-addon-info.json"
     }, {
@@ -3084,7 +3084,7 @@ M.json = {
       url = "https://typedoc.org/schema.json"
     }, {
       description = "Schema for tmuxinator, a tmux session manager",
-      fileMatch = { ".tmuxinator.yaml", ".tmuxinator.yml", ".tmuxinator/*.yaml", ".tmuxinator/*.yml", "tmuxinator/*.yaml", "tmuxinator/*.yml" },
+      fileMatch = { ".tmuxinator.yaml", ".tmuxinator.yml", "**/.tmuxinator/*.yaml", "**/.tmuxinator/*.yml", "**/tmuxinator/*.yaml", "**/tmuxinator/*.yml" },
       name = "tmuxinator",
       url = "https://json.schemastore.org/tmuxinator.json"
     }, {
@@ -3124,7 +3124,7 @@ M.json = {
       url = "https://json.schemastore.org/xs-app.json"
     }, {
       description = "Opctl schema for describing an op",
-      fileMatch = { ".opspec/*/*.yml", ".opspec/*/*.yaml" },
+      fileMatch = { "**/.opspec/*/*.yml", "**/.opspec/*/*.yaml" },
       name = "Opctl",
       url = "https://json.schemastore.org/opspec-io-0.1.7.json"
     }, {
@@ -3162,12 +3162,12 @@ M.json = {
       url = "https://raw.githubusercontent.com/Neotys-Labs/neoload-cli/master/resources/as-code.latest.schema.json"
     }, {
       description = "Release Drafter configuration file",
-      fileMatch = { ".github/release-drafter.yml" },
+      fileMatch = { "**/.github/release-drafter.yml" },
       name = "release drafter",
       url = "https://raw.githubusercontent.com/release-drafter/release-drafter/master/schema.json"
     }, {
       description = "Zuul CI configuration file",
-      fileMatch = { "*zuul.d/*.yaml", "*/.zuul.yaml" },
+      fileMatch = { "**/*zuul.d/*.yaml", ".zuul.yaml" },
       name = "zuul",
       url = "https://json.schemastore.org/zuul.json"
     }, {
@@ -3197,7 +3197,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/hadolint/hadolint/master/contrib/hadolint.json"
     }, {
       description = "Helmfile is a declarative spec for deploying helm charts",
-      fileMatch = { "helmfile.yaml", "helmfile.d/**/*.yaml" },
+      fileMatch = { "helmfile.yaml", "**/helmfile.d/**/*.yaml" },
       name = "helmfile",
       url = "https://json.schemastore.org/helmfile.json"
     }, {
@@ -3212,7 +3212,7 @@ M.json = {
       url = "https://github.com/fbecart/zinoma/releases/latest/download/zinoma-schema.json"
     }, {
       description = "Windows Package Manager Singleton Manifest file",
-      fileMatch = { "manifests/?/*/*/*/*.*.yaml" },
+      fileMatch = { "**/manifests/?/*/*/*/*.*.yaml" },
       name = "Windows Package Manager Singleton Manifest",
       url = "https://json.schemastore.org/winget-pkgs-singleton-1.0.0.json",
       versions = {
@@ -3221,12 +3221,12 @@ M.json = {
       }
     }, {
       description = "Windows Package Manager Installer Manifest file, used for detailing installer specific metadata.",
-      fileMatch = { "manifests/?/*/*/*/*.*.installer.yaml" },
+      fileMatch = { "**/manifests/?/*/*/*/*.*.installer.yaml" },
       name = "Windows Package Manager Installer Manifest",
       url = "https://json.schemastore.org/winget-pkgs-installer-1.0.0.json"
     }, {
       description = "Windows Package Manager Locale Manifest file, used for detailing locale specific metadata.",
-      fileMatch = { "manifests/?/*/*/*/*.*.locale@(.en-US|fr-FR|it-IT|ja-JP|ko-KR|pt-BR|ru-RU|zh-CN|zh-TW).yaml" },
+      fileMatch = { "**/manifests/?/*/*/*/*.*.locale@(.en-US|fr-FR|it-IT|ja-JP|ko-KR|pt-BR|ru-RU|zh-CN|zh-TW).yaml" },
       name = "Windows Package Manager Locale Manifest",
       url = "https://json.schemastore.org/winget-pkgs-locale-1.0.0.json"
     }, {
