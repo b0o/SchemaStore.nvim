@@ -267,6 +267,7 @@ M.json = {
     ["KSP-AVC"] = 460,
     ["KSP-CKAN"] = 461,
     ["Keycloak REST API"] = 581,
+    ["Knative Functions - func.yaml"] = 192,
     ["KoDE/CI build.yaml"] = 575,
     ["Kong DBLess Schema"] = 576,
     KrakenD = 254,
@@ -465,7 +466,6 @@ M.json = {
     ["first-timers-bot"] = 187,
     ["fly.io Schema"] = 45,
     fulibWorkflows = 534,
-    ["func.yaml"] = 192,
     ["function.json"] = 193,
     ["geojson.json"] = 196,
     ["gitlab-ci"] = 204,
@@ -1636,10 +1636,13 @@ M.json = {
       name = "Fossa's fossa-deps file",
       url = "https://raw.githubusercontent.com/fossas/fossa-cli/master/docs/references/files/fossa-deps.schema.json"
     }, {
-      description = "JSON schema for Knative Func Plugin func.yaml files",
+      description = "JSON schema for Knative Functions func.yaml files",
       fileMatch = { "func.yaml" },
-      name = "func.yaml",
-      url = "https://raw.githubusercontent.com/knative-sandbox/kn-plugin-func/main/schema/func_yaml-schema.json"
+      name = "Knative Functions - func.yaml",
+      url = "https://raw.githubusercontent.com/knative/func/latest-release/schema/func_yaml-schema.json",
+      versions = {
+        ["1.7"] = "https://raw.githubusercontent.com/knative/func/release-1.7/schema/func_yaml-schema.json"
+      }
     }, {
       description = "JSON schema for Azure Functions function.json files",
       fileMatch = { "function.json" },
