@@ -2143,7 +2143,7 @@ M.json = {
       url = "https://github.com/napari/npe2/releases/latest/download/schema.json"
     }, {
       description = "This schema describes the YAML config that Netlify uses",
-      fileMatch = { "admin/config*.yml" },
+      fileMatch = { "**/admin/config*.yml" },
       name = "Netlify config schema",
       url = "https://json.schemastore.org/netlify.json"
     }, {
@@ -2616,7 +2616,7 @@ M.json = {
       url = "https://json.schemastore.org/schema-org-thing.json"
     }, {
       description = "Scoop bucket app manifest",
-      fileMatch = { "bucket/**.json" },
+      fileMatch = { "**/bucket/**.json" },
       name = "Scoop manifest",
       url = "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json"
     }, {
@@ -2720,7 +2720,7 @@ M.json = {
       url = "https://schema.stackhead.io/stackhead/tag/v1/-/project-definition.schema.json"
     }, {
       description = "Configuration file for Stale for closing abandoned issues and pull requests. See https://probot.github.io/apps/stale/.",
-      fileMatch = { ".github/stale.yml" },
+      fileMatch = { "**/.github/stale.yml" },
       name = "Stale",
       url = "https://json.schemastore.org/stale.json"
     }, {
@@ -3661,7 +3661,7 @@ M.json = {
       url = "https://datahubproject.io/schemas/datahub_ingestion_schema.json"
     }, {
       description = "Schema for Torque bluerpint",
-      fileMatch = { "blueprints/**.yaml" },
+      fileMatch = { "**/blueprints/**.yaml" },
       name = "Quali Torque Blueprint Spec 2",
       url = "https://raw.githubusercontent.com/QualiTorque/torque-vs-code-extensions/master/client/schemas/blueprint-spec2-schema.json"
     }, {
@@ -3701,7 +3701,7 @@ M.json = {
       url = "https://json.schemastore.org/mongodb-atlas-search-index-definition.json"
     }, {
       description = "yaml schema for kode/ci build",
-      fileMatch = { ".kode/*.yaml" },
+      fileMatch = { "**/.kode/*.yaml" },
       name = "KoDE/CI build.yaml",
       url = "https://json.schemastore.org/kode-ci-build-1.0.0.json"
     }, {
