@@ -1947,7 +1947,7 @@ M.json = {
       url = "https://json.schemastore.org/jsonld.json"
     }, {
       description = "JSONPatch files",
-      fileMatch = { "*.patch" },
+      fileMatch = { "*.patch", "*.patch.json" },
       name = "JSONPatch",
       url = "https://json.schemastore.org/json-patch.json"
     }, {
