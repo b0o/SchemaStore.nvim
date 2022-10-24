@@ -1858,7 +1858,7 @@ M.json = {
       description = "Schema for ioBroker adapters io-package file",
       fileMatch = { "io-package.json" },
       name = "ioBroker Package manifest",
-      url = "https://json.schemastore.org/io-package.json"
+      url = "https://raw.githubusercontent.com/ioBroker/ioBroker.js-controller/master/schemas/io-package.json"
     }, {
       description = "Schema for jasmine JSON config file",
       fileMatch = { "jasmine.json" },
