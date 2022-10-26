@@ -322,6 +322,7 @@ M.json = {
     PyProject = 354,
     Qodana = 545,
     ["Quali Torque Blueprint Spec 2"] = 567,
+    ["QueryFirst config file"] = 584,
     ["RKE Cluster Configuration JSON Schema"] = 526,
     ["RKE Cluster Configuration YAML Schema"] = 525,
     Ray = 496,
@@ -3747,6 +3748,14 @@ M.json = {
       fileMatch = { ".uplift.yml", ".uplift.yaml", "uplift.yml", "uplift.yaml" },
       name = "Uplift",
       url = "https://upliftci.dev/static/schema.json"
+    }, {
+      description = "Config options for QueryFirst, SQL wrapper generator.",
+      fileMatch = { "qfconfig.json" },
+      name = "QueryFirst config file",
+      url = "https://json.schemastore.org/qfconfig.json",
+      versions = {
+        ["1.0"] = "https://json.schemastore.org/qfconfig.json"
+      }
     } },
   version = 1
 }
