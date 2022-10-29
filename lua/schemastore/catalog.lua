@@ -3345,9 +3345,9 @@ M.json = {
       url = "https://json.schemastore.org/jsone.json"
     }, {
       description = "JSON Schema for Taskfile files.",
-      fileMatch = { "Taskfile.yaml", "Taskfile.yml" },
+      fileMatch = { "Taskfile.yaml", "Taskfile.dist.yaml", "Taskfile.yml", "Taskfile.dist.yml" },
       name = "Taskfile YAML Schema",
-      url = "https://json.schemastore.org/taskfile.json"
+      url = "https://taskfile.dev/schema.json"
     }, {
       description = "JSON Schema for Containerlab topology definition files.",
       fileMatch = { "*-clab.yaml", "*-clab.yml", "*.clab.yaml", "*.clab.yml" },
