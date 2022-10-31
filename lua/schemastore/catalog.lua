@@ -2521,8 +2521,8 @@ M.json = {
         ["1.0.0"] = "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json"
       }
     }, {
-      description = "Renovate config file (https://github.com/renovatebot/renovate)",
-      fileMatch = { "renovate.json", "renovate.json5", "**/.github/renovate.json", "**/.github/renovate.json5", ".renovaterc", ".renovaterc.json" },
+      description = "Renovate configuration file (https://docs.renovatebot.com/configuration-options/)",
+      fileMatch = { "renovate.json", "renovate.json5", "**/.github/renovate.json", "**/.github/renovate.json5", "**/.gitlab/renovate.json", "**/.gitlab/renovate.json5", ".renovaterc", ".renovaterc.json" },
       name = "Renovate",
       url = "https://docs.renovatebot.com/renovate-schema.json"
     }, {
