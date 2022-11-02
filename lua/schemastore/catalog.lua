@@ -884,7 +884,7 @@ M.json = {
       url = "https://json.schemastore.org/asmdef.json"
     }, {
       description = "Babel configuration file",
-      fileMatch = { ".babelrc", "babel.config.json" },
+      fileMatch = { ".babelrc", ".babelrc.json", "babel.config.json" },
       name = "babelrc.json",
       url = "https://json.schemastore.org/babelrc.json"
     }, {
@@ -2826,7 +2826,7 @@ M.json = {
       url = "https://static.trunk.io/pub/trunk-yaml-schema.json"
     }, {
       description = "TypeScript compiler configuration file",
-      fileMatch = { "tsconfig.json" },
+      fileMatch = { "tsconfig*.json" },
       name = "tsconfig.json",
       url = "https://json.schemastore.org/tsconfig.json"
     }, {
