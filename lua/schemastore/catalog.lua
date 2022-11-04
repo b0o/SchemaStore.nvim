@@ -635,7 +635,7 @@ M.json = {
       description = "JSON Schema for @factorial/drupal-breakpoints-css config file",
       fileMatch = { "breakpoints.config.yml" },
       name = "@factorial/drupal-breakpoints-css",
-      url = "https://json.schemastore.org/factorial-drupal-breakpoints-css-0.1.0.json"
+      url = "https://json.schemastore.org/factorial-drupal-breakpoints-css-0.2.0.json"
     }, {
       description = "AdonisJS configuration file",
       fileMatch = { ".adonisrc.json" },
