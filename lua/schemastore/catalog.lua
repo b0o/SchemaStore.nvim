@@ -1540,11 +1540,12 @@ M.json = {
       description = "JSON schema for Devfiles",
       fileMatch = { "devfile.yaml", ".devfile.yaml" },
       name = "Devfile",
-      url = "https://raw.githubusercontent.com/devfile/api/v2.1.0/schemas/latest/devfile.json",
+      url = "https://raw.githubusercontent.com/devfile/api/v2.2.0/schemas/latest/devfile.json",
       versions = {
         ["1.0.0"] = "https://raw.githubusercontent.com/eclipse-che/che-server/master/wsmaster/che-core-api-workspace/src/main/resources/schema/1.0.0/devfile.json",
         ["2.0.0"] = "https://raw.githubusercontent.com/devfile/api/v2.0.0/schemas/latest/devfile.json",
-        ["2.1.0"] = "https://raw.githubusercontent.com/devfile/api/v2.1.0/schemas/latest/devfile.json"
+        ["2.1.0"] = "https://raw.githubusercontent.com/devfile/api/v2.1.0/schemas/latest/devfile.json",
+        ["2.2.0"] = "https://raw.githubusercontent.com/devfile/api/v2.2.0/schemas/latest/devfile.json"
       }
     }, {
       description = "PM2 ecosystem config file",
@@ -1662,7 +1663,8 @@ M.json = {
       name = "Knative Functions - func.yaml",
       url = "https://raw.githubusercontent.com/knative/func/latest-release/schema/func_yaml-schema.json",
       versions = {
-        ["1.7"] = "https://raw.githubusercontent.com/knative/func/release-1.7/schema/func_yaml-schema.json"
+        ["1.7"] = "https://raw.githubusercontent.com/knative/func/release-1.7/schema/func_yaml-schema.json",
+        ["1.8"] = "https://raw.githubusercontent.com/knative/func/release-1.8/schema/func_yaml-schema.json"
       }
     }, {
       description = "JSON schema for Azure Functions function.json files",
