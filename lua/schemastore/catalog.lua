@@ -1569,17 +1569,17 @@ M.json = {
       }
     }, {
       description = "Schema for exchange publishing tools gateway definitions",
-      fileMatch = { "**/exchange-config/gateway/*.yaml" },
+      fileMatch = { "**/exchange-config/gateway/prod/*.yaml", "**/exchange-config/gateway/prod/*.yml", "**/exchange-config/gateway/non-prod/*.yaml", "**/exchange-config/gateway/non-prod/*.yml" },
       name = "DWP Exchange - gateway",
-      url = "https://raw.githubusercontent.com/dwp/schemas/main/exchange/publishing-tools/root-schema.json"
+      url = "https://raw.githubusercontent.com/dwp/schemas/main/exchange/publishing-tools/gateway-config-schema.json"
     }, {
       description = "Schema for exchange publishing tools meta definition",
-      fileMatch = { "**/exchange-config/meta.yaml" },
+      fileMatch = { "**/exchange-config/meta.yaml", "**/exchange-config/meta.yml" },
       name = "DWP Exchange - meta",
       url = "https://raw.githubusercontent.com/dwp/schemas/main/exchange/publishing-tools/meta-schema.json"
     }, {
       description = "Schema for exchange publishing tools catalogue entry definition",
-      fileMatch = { "**/exchange-config/portal/catalogue-entry.yaml" },
+      fileMatch = { "**/exchange-config/portal/catalogue-entry.yaml", "**/exchange-config/portal/catalogue-entry.yml" },
       name = "DWP Exchange - catalogue entry",
       url = "https://raw.githubusercontent.com/dwp/schemas/main/exchange/publishing-tools/catalogue-entry-schema.json"
     }, {
