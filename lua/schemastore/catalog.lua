@@ -1841,7 +1841,7 @@ M.json = {
       description = "Haxelib manifest",
       fileMatch = { "haxelib.json" },
       name = "haxelib.json",
-      url = "https://json.schemastore.org/haxelib.json"
+      url = "https://raw.githubusercontent.com/HaxeFoundation/haxelib/master/schema.json"
     }, {
       description = "Project Haystack data",
       fileMatch = { "*.hayson.json", "*.hayson.yaml", "*.hayson.yml" },
