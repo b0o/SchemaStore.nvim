@@ -1467,7 +1467,11 @@ M.json = {
       description = "Detekt Configuration File schema",
       fileMatch = { "detekt.yml", "detekt.yaml" },
       name = "detekt.yml",
-      url = "https://json.schemastore.org/detekt.json"
+      url = "https://json.schemastore.org/detekt-1.22.0.json",
+      versions = {
+        ["1.14.1"] = "https://json.schemastore.org/detekt-1.14.1.json",
+        ["1.22.0"] = "https://json.schemastore.org/detekt-1.22.0.json"
+      }
     }, {
       description = "Execute Discord Webhook JSON Schema",
       name = "Discord Webhook",
