@@ -381,6 +381,7 @@ M.json = {
     ["UTAM Page Object"] = 447,
     ["Ubuntu Server Autoinstall"] = 443,
     ["Uniswap Token List"] = 516,
+    ["Unreal Engine Uplugin"] = 600,
     Updatecli = 564,
     Uplift = 598,
     ["User Journey Map YAML Schema"] = 535,
@@ -3868,6 +3869,11 @@ M.json = {
       versions = {
         ["1.0"] = "https://json.schemastore.org/qfconfig.json"
       }
+    }, {
+      description = "Unreal Engine plugin configuration file",
+      fileMatch = { ".uplugin" },
+      name = "Unreal Engine Uplugin",
+      url = "https://json.schemastore.org/uplugin.json"
     } },
   version = 1
 }
