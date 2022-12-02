@@ -382,6 +382,7 @@ M.json = {
     ["Ubuntu Server Autoinstall"] = 443,
     ["Uniswap Token List"] = 516,
     ["Unreal Engine Uplugin"] = 600,
+    ["Unreal Engine Uproject"] = 601,
     Updatecli = 564,
     Uplift = 598,
     ["User Journey Map YAML Schema"] = 535,
@@ -3874,6 +3875,11 @@ M.json = {
       fileMatch = { ".uplugin" },
       name = "Unreal Engine Uplugin",
       url = "https://json.schemastore.org/uplugin.json"
+    }, {
+      description = "Unreal Engine project configuration file",
+      fileMatch = { ".uproject" },
+      name = "Unreal Engine Uproject",
+      url = "https://json.schemastore.org/uproject.json"
     } },
   version = 1
 }
