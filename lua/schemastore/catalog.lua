@@ -671,7 +671,8 @@ M.json = {
       versions = {
         ["1.2"] = "https://json.schemastore.org/agripparc-1.2.json",
         ["1.3"] = "https://json.schemastore.org/agripparc-1.3.json",
-        ["1.4"] = "https://json.schemastore.org/agripparc-1.4.json"
+        ["1.4"] = "https://json.schemastore.org/agripparc-1.4.json",
+        ["2.0"] = "https://json.schemastore.org/agripparc-2.0.json"
       }
     }, {
       description = "Settings for project analysis by the application inspector",
@@ -707,52 +708,52 @@ M.json = {
       description = "Ansible execution-environment.yml file",
       fileMatch = { "**/execution-environment.yml" },
       name = "Ansible Execution Environment",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible-ee.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/execution-environment.json"
     }, {
       description = "Ansible meta/main.yml file",
       fileMatch = { "**/meta/main.yml" },
       name = "Ansible Meta",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible-meta.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/meta.json"
     }, {
       description = "Ansible meta/runtime.yml file",
       fileMatch = { "**/meta/runtime.yml" },
       name = "Ansible Meta Runtime",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible-meta-runtime.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/meta-runtime.json"
     }, {
       description = "Ansible meta/argument_specs.yml file",
       fileMatch = { "**/meta/argument_specs.yml" },
       name = "Ansible Argument Specs",
-      url = "https://github.com/ansible/schemas/raw/main/f/ansible-argument-specs.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/arg_specs.json"
     }, {
       description = "Ansible requirements file",
       fileMatch = { "requirements.yml" },
       name = "Ansible Requirements",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible-requirements.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/requirements.json"
     }, {
       description = "Ansible variables File",
       fileMatch = { "**/vars/*.yml", "**/vars/*.yaml", "**/defaults/*.yml", "**/defaults/*.yaml", "**/host_vars/*.yml", "**/host_vars/*.yaml", "**/group_vars/*.yml", "**/group_vars/*.yaml" },
       name = "Ansible Vars File",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible-vars.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/vars.json"
     }, {
       description = "Ansible tasks file",
       fileMatch = { "**/tasks/*.yml", "**/tasks/*.yaml", "**/handlers/*.yml", "**/handlers/*.yaml" },
       name = "Ansible Tasks File",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible.json#/$defs/tasks"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/tasks"
     }, {
       description = "Ansible playbook files",
       fileMatch = { "playbook.yml", "playbook.yaml", "site.yml", "site.yaml", "**/playbooks/*.yml", "**/playbooks/*.yaml" },
       name = "Ansible Playbook",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible.json#/$defs/playbook"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook"
     }, {
       description = "Ansible inventory files",
       fileMatch = { "inventory.yml", "inventory.yaml" },
       name = "Ansible Inventory",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible-inventory.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/inventory.json"
     }, {
       description = "Ansible Collection Galaxy metadata",
       fileMatch = { "galaxy.yml" },
       name = "Ansible Collection Galaxy",
-      url = "https://raw.githubusercontent.com/ansible/schemas/main/f/ansible-galaxy.json"
+      url = "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/galaxy.json"
     }, {
       description = "Ansible-lint Configuration",
       fileMatch = { ".ansible-lint", "**/.config/ansible-lint.yml" },
