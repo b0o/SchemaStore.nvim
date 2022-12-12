@@ -1254,7 +1254,7 @@ M.json = {
       description = "JSON schema for Codemagic CI/CD file configuration",
       fileMatch = { "codemagic.yaml", "codemagic.yml" },
       name = "codemagic",
-      url = "https://static.codemagic.io/codemagic-schema.json"
+      url = "https://codemagic.io/codemagic-schema.json"
     }, {
       description = "Codux configuration file",
       fileMatch = { "codux.config.json" },
