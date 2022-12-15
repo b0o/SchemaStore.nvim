@@ -3712,12 +3712,12 @@ M.json = {
       description = "JSON schema for resource import in IBM CICS Transaction Server for z/OS",
       fileMatch = { "*.cicsresourceimport.yaml", "*.cicsresourceimport.yml" },
       name = "CICS TS resource import",
-      url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/resourceimport.json"
+      url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/cicsts-resourceimport.json"
     }, {
       description = "JSON schema for resource model in IBM CICS Transaction Server for z/OS",
       fileMatch = { "*.cicsresourcemodel.yaml", "*.cicsresourcemodel.yml", "*.cicsappconstraints.yaml", "*.cicsappconstraints.yml" },
       name = "CICS TS resource model",
-      url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/resourcemodel.json"
+      url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/cicsts-resourcemodel.json"
     }, {
       description = "JSON schema for resource overrides in IBM CICS Transaction Server for z/OS",
       fileMatch = { "**/resourceoverrides/*.yaml", "**/resourceoverrides/*.yml", "*.cicsoverrides.yaml", "*.cicsoverrides.yml" },
