@@ -2609,7 +2609,7 @@ M.json = {
       description = "JSON schema for Ruff, a fast Python linter",
       fileMatch = { "ruff.toml" },
       name = "Ruff",
-      url = "https://raw.githubusercontent.com/charliermarsh/ruff/main/ruff.schema.json"
+      url = "https://json.schemastore.org/ruff.json"
     }, {
       description = "JSON schema for non-Cargo based Rust projects",
       fileMatch = { "rust-project.json" },
