@@ -1827,7 +1827,7 @@ M.json = {
       description = "JSON Schema for GraphQL Mesh config file",
       fileMatch = { ".meshrc.yml", ".meshrc.yaml", ".meshrc.json", ".meshrc.js", ".graphql-mesh.yaml", ".graphql-mesh.yml" },
       name = "GraphQL Mesh",
-      url = "https://unpkg.com/@graphql-mesh/types/config-schema.json"
+      url = "https://unpkg.com/@graphql-mesh/types/esm/config-schema.json"
     }, {
       description = "JSON Schema for GraphQL Config config file",
       fileMatch = { "graphql.config.json", "graphql.config.js", "graphql.config.yaml", "graphql.config.yml", ".graphqlrc", ".graphqlrc.json", ".graphqlrc.yaml", ".graphqlrc.yml", ".graphqlrc.js" },
