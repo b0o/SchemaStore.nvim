@@ -3620,7 +3620,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/fujaba/fulibWorkflows/main/schemas/fulibWorkflows.schema.json"
     }, {
       description = "YAML schema for configuring Woodpecker CI",
-      fileMatch = { "**/.woodpecker/**.yml", "**/.woodpecker.yml" },
+      fileMatch = { "**/.woodpecker/**.yml", "**/.woodpecker.yml", "**/.woodpecker/**.yaml", "**/.woodpecker.yaml" },
       name = "Woodpecker pipeline config",
       url = "https://raw.githubusercontent.com/woodpecker-ci/woodpecker/master/pipeline/schema/schema.json"
     }, {
