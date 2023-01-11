@@ -3652,7 +3652,7 @@ M.json = {
       url = "https://json.schemastore.org/mboats-config-0.2.json",
       versions = {
         ["0.1"] = "https://json.schemastore.org/mboats-config-0.1.json",
-        ["0.2"] = "https://json.schemastore.org/mboats-config-0.1.json"
+        ["0.2"] = "https://json.schemastore.org/mboats-config-0.2.json"
       }
     }, {
       description = "Schema for StackHawk Scanner configuration files",
@@ -3869,6 +3869,7 @@ M.json = {
       name = "petstore-v1.0",
       url = "https://json.schemastore.org/petstore-v1.0.json",
       versions = {
+        ["0.2"] = "https://json.schemastore.org/mboats-config-0.2.json",
         ["1.0"] = "https://json.schemastore.org/petstore-v1.0.json"
       }
     }, {
