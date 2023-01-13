@@ -326,6 +326,7 @@ M.json = {
     ["Outblocks database table"] = 330,
     ["Outblocks project configuration"] = 328,
     Packer = 339,
+    Pantsbuild = 616,
     ["Pipeline component"] = 553,
     ["PocketMine plugin.yml"] = 343,
     Pterodactyl = 594,
@@ -3968,6 +3969,14 @@ M.json = {
       fileMatch = { ".uproject" },
       name = "Unreal Engine Uproject",
       url = "https://json.schemastore.org/uproject.json"
+    }, {
+      description = "Pantsbuild configuration file",
+      fileMatch = { "pants*.toml" },
+      name = "Pantsbuild",
+      url = "https://json.schemastore.org/pantsbuild-2.14.0.json",
+      versions = {
+        ["2.14.0"] = "https://json.schemastore.org/pantsbuild-2.14.0.json"
+      }
     } },
   version = 1
 }
