@@ -696,7 +696,11 @@ M.json = {
       description = "Settings for project analysis by the application inspector",
       fileMatch = { ".aiproj.json" },
       name = ".aiproj.json",
-      url = "https://json.schemastore.org/aiproj.json"
+      url = "https://json.schemastore.org/aiproj-1.1.json",
+      versions = {
+        ["1.0"] = "https://json.schemastore.org/aiproj-1.0.json",
+        ["1.1"] = "https://json.schemastore.org/aiproj-1.1.json"
+      }
     }, {
       description = "Airlock Microgateway configuration schema",
       fileMatch = { "microgateway-config.yaml", "microgateway-config.yml", "airlock-microgateway-config.yaml", "airlock-microgateway-config.yml" },
@@ -1388,7 +1392,7 @@ M.json = {
       description = "The AWS Serverless Application Model (AWS SAM, previously known as Project Flourish) extends AWS CloudFormation to provide a simplified way of defining the Amazon API Gateway APIs, AWS Lambda functions, and Amazon DynamoDB tables needed by your serverless application.",
       fileMatch = { "serverless.template", "*.sam.json", "*.sam.yml", "*.sam.yaml", "sam.json", "sam.yml", "sam.yaml" },
       name = "AWS CloudFormation Serverless Application Model (SAM)",
-      url = "https://raw.githubusercontent.com/awslabs/goformation/master/schema/sam.schema.json"
+      url = "https://raw.githubusercontent.com/aws/serverless-application-model/main/samtranslator/schema/schema.json"
     }, {
       description = "A YAML file with citation metadata for software or datasets.",
       fileMatch = { "CITATION.cff" },
