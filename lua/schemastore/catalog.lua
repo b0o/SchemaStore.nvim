@@ -98,6 +98,7 @@ M.json = {
     ["Airlock Microgateway"] = 9,
     ["Airplane task"] = 10,
     ["Alacritty Configuration Schema"] = 570,
+    ["All Contributors configuration file"] = 622,
     ["Ansible Argument Specs"] = 16,
     ["Ansible Collection Galaxy"] = 22,
     ["Ansible Execution Environment"] = 13,
@@ -4018,6 +4019,11 @@ M.json = {
       versions = {
         ["2.14.0"] = "https://json.schemastore.org/pantsbuild-2.14.0.json"
       }
+    }, {
+      description = "The configuration file used by the All Contributors CLI and GitHub bot.",
+      fileMatch = { ".all-contributorsrc" },
+      name = "All Contributors configuration file",
+      url = "https://json.schemastore.org/all-contributors.json"
     } },
   version = 1
 }
