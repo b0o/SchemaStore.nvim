@@ -706,7 +706,7 @@ M.json = {
         ["1.4"] = "https://json.schemastore.org/agripparc-1.4.json"
       }
     }, {
-      description = "Settings for project analysis by the application inspector",
+      description = "Settings for project analysis by the Application Inspector",
       fileMatch = { ".aiproj.json" },
       name = ".aiproj.json",
       url = "https://json.schemastore.org/aiproj-1.1.json",
