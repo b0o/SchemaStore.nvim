@@ -4082,9 +4082,10 @@ M.json = {
       description = "Pantsbuild configuration file",
       fileMatch = { "pants*.toml" },
       name = "Pantsbuild",
-      url = "https://json.schemastore.org/pantsbuild-2.14.0.json",
+      url = "https://json.schemastore.org/pantsbuild-2.15.0.json",
       versions = {
-        ["2.14.0"] = "https://json.schemastore.org/pantsbuild-2.14.0.json"
+        ["2.14.0"] = "https://json.schemastore.org/pantsbuild-2.14.0.json",
+        ["2.15.0"] = "https://json.schemastore.org/pantsbuild-2.15.0.json"
       }
     }, {
       description = "The configuration file used by the All Contributors CLI and GitHub bot.",
