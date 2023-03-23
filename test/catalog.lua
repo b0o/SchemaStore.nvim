@@ -21,6 +21,14 @@ Describe('the schemastore.catalog module', function()
       Expect(m.json.schemas).To.Be.LongerThan(400)
     end)
 
+    It('should not have duplicate schema names', function()
+      local names = {}
+      for _, schema in ipairs(m.json.schemas) do
+        Expect(names[schema.name]).To.Be.Nil()
+        names[schema.name] = schema.name
+      end
+    end)
+
     Describe('the "index" table', function()
       It('should be a dict-like table with an equal number of elements to the schemas table', function()
         Expect(m.json.index).To.Be.A.UniformDict()
