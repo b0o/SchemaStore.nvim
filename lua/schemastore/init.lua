@@ -10,7 +10,7 @@ end
 
 -- load returns a table of of the format { json = { schemas = { ... list of json schemas ... } } }
 function M.load()
-  return require('schemastore.catalog')
+  return require 'schemastore.catalog'
 end
 
 -- json.load returns a table of of the format { schemas = { ... list of json schemas ... } }
@@ -24,23 +24,20 @@ function M.json.get(name)
   return get_index(catalog.index, catalog.schemas, name), nil
 end
 
--- json.schemas returns the list of json schemas
--- [opts] is an optional table which can contain the following fields:
---
---  - select - A list-like table of strings representing the names of schemas
---             to select. If this option is not present, all schemas are
---             returned. If it is present, only the selected schemas are
---             returned. `select` and `ignore` are mutually exclusive.
---
---  - ignore - A list-like table of strings representing the names of schemas
---             to ignore. `select` and `ignore` are mutually exclusive.
---
---  - replace - A dictionary-like table of (strings:table) elements
---              representing schemas to replace with a custom schema. The
---              string key is the name of the schema to replace, the table
---              value is the schema definition. If a schema with the given name
---              isn't found, the custom schema will not be returned.
---
+---@class SchemaEntry
+---@field name string
+---@field description string
+---@field fileMatch string | string[]
+---@field url string
+
+---@class SchemaOpts
+---@field select? string[] A list-like table of strings representing the names of schemas to select. If this option is not present, all schemas are returned. If it is present, only the selected schemas are returned. `select` and `ignore` are mutually exclusive.
+---@field ignore? string[] A list-like table of strings representing the names of schemas to ignore. `select` and `ignore` are mutually exclusive.
+---@field replace? table<string, SchemaEntry>? A dictionary-like table of (strings:table) elements representing schemas to replace with a custom schema. The string key is the name of the schema to replace, the table value is the schema definition. If a schema with the given name isn't found, the custom schema will not be returned.
+---@field extra? SchemaEntry[] Additional schemas to include.
+
+---json.schemas returns the list of json schemas
+---@param opts? SchemaOpts
 function M.json.schemas(opts)
   local catalog = M.json.load()
   local schemas = vim.deepcopy(catalog.schemas)
@@ -48,46 +45,57 @@ function M.json.schemas(opts)
     return schemas
   end
 
+  ---@type SchemaOpts
   opts = vim.tbl_extend('force', {
     select = {},
     replace = {},
     ignore = {},
+    extra = {},
   }, opts)
 
-  if type(opts.replace) == "table" and not vim.tbl_isempty(opts.replace) then
+  if type(opts.replace) == 'table' and not vim.tbl_isempty(opts.replace) then
     for name, schema in pairs(opts.replace) do
       local _, index = get_index(catalog.index, schemas, name)
-      assert(index ~= nil, "schemastore.json.schemas(): replace: schema not found: " .. name)
+      assert(index ~= nil, 'schemastore.json.schemas(): replace: schema not found: ' .. name)
       schemas[index] = schema
     end
   end
 
-  local has_select = type(opts.select) == "table" and not vim.tbl_isempty(opts.select)
-  local has_ignore = type(opts.ignore) == "table" and not vim.tbl_isempty(opts.ignore)
+  local has_select = type(opts.select) == 'table' and not vim.tbl_isempty(opts.select)
+  local has_ignore = type(opts.ignore) == 'table' and not vim.tbl_isempty(opts.ignore)
 
-  assert(not (has_select and has_ignore), "schemastore.json.schemas(): the 'select' and 'ignore' settings are mutually exclusive")
+  assert(
+    not (has_select and has_ignore),
+    "schemastore.json.schemas(): the 'select' and 'ignore' settings are mutually exclusive"
+  )
 
   if has_select then
     schemas = vim.tbl_map(function(name)
       local schema = get_index(catalog.index, schemas, name)
-      assert(schema ~= nil, "schemastore.json.schemas(): select: schema not found: " .. name)
+      assert(schema ~= nil, 'schemastore.json.schemas(): select: schema not found: ' .. name)
       return schema
     end, opts.select)
-
   elseif has_ignore then
     local ignore = {}
     for _, name in ipairs(opts.ignore) do
       local _, index = get_index(catalog.index, schemas, name)
-      assert(index ~= nil, "schemastore.json.schemas(): ignore: schema not found: " .. name)
+      assert(index ~= nil, 'schemastore.json.schemas(): ignore: schema not found: ' .. name)
       table.insert(ignore, index)
     end
-    table.sort(ignore, function(a, b) return a > b end)
+    table.sort(ignore, function(a, b)
+      return a > b
+    end)
     for _, index in ipairs(ignore) do
       table.remove(schemas, index)
     end
   end
 
-  return schemas
+  if type(opts.extra) == 'table' and not vim.tbl_isempty(opts.extra) then
+    -- We { unpack(opts.extra) } as to not mutate opts.extra
+    return vim.list_extend({ unpack(opts.extra) }, schemas)
+  else
+    return schemas
+  end
 end
 
 -- yaml.schemas returns the list of yaml schemas { url = fileMatch,...}

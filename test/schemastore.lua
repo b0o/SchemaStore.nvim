@@ -171,6 +171,38 @@ Describe('the schemastore.init module', function()
           return m.json.schemas(123)
         end).To.ThrowError()
       end)
+
+      It('should include extra schemas', function()
+        local extra = {
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
+        }
+
+        Expect(m.json.schemas {
+          extra = extra,
+        }).To.Be.DeepEqual(vim.list_extend({
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
+        }, m.json.schemas()))
+
+        -- Should not mutate the original extra table
+        Expect(extra).To.Be.DeepEqual {
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
+        }
+      end)
     end)
   end)
 end)
