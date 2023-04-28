@@ -3024,7 +3024,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json"
     }, {
       description = "The schema definition for all available SDF blocks",
-      fileMatch = { ".sdf.yml" },
+      fileMatch = { "*.sdf.yml" },
       name = "Semantic Data Fabric (SDF) file",
       url = "https://cdn.sdf.com/schemas/sdf-schema-1.0.json"
     }, {
