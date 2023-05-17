@@ -578,6 +578,7 @@ M.json = {
     ["lsdlschema.json"] = 309,
     ["markdown-lint-check"] = 606,
     mboats = 613,
+    ["micro-settings.json"] = 673,
     ["mimetypes.json"] = 316,
     ["mirrord-schema"] = 551,
     ["mta.yaml"] = 552,
@@ -3591,7 +3592,7 @@ M.json = {
       url = "https://json.schemastore.org/huskyrc.json"
     }, {
       description = "JSON schema for lint-staged config",
-      fileMatch = { ".lintstagedrc", ".lintstagedrc.json" },
+      fileMatch = { ".lintstagedrc", ".lintstagedrc.json", ".lintstagedrc.yaml", ".lintstagedrc.yml" },
       name = ".lintstagedrc",
       url = "https://json.schemastore.org/lintstagedrc.schema.json"
     }, {
@@ -4354,6 +4355,11 @@ M.json = {
       fileMatch = { "bashly-strings.yml", "bashly-strings.yaml" },
       name = "bashly-strings.yml",
       url = "https://raw.githubusercontent.com/DannyBen/bashly/master/schemas/strings.json"
+    }, {
+      description = "Micro settings",
+      fileMatch = { "**/.config/micro/settings.json" },
+      name = "micro-settings.json",
+      url = "https://raw.githubusercontent.com/zyedidia/micro/master/data/micro.json"
     } },
   version = 1
 }
