@@ -1,9 +1,11 @@
---  Copyright 2021-2023 Maddison Hellstrom
+-- !! AUTO-GENERATED - DO NOT EDIT !!
 --
---  This file contains an automatically generated version of the SchemaStore
---  JSON schema catalog which has been converted from JSON to Lua.
+--  This file is an automatically generated version of the SchemaStore
+--  catalog, converted from JSON to Lua.
 --
---  The SchemaStore project can be found at
+--  SchemaStore.nvim is copyright 2021-2023 Maddison Hellstrom and contributors
+--
+--  The SchemaStore project can be found at:
 --
 --      https://schemastore.org
 --
