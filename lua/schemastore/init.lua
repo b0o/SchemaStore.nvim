@@ -10,7 +10,7 @@ end
 
 -- load returns a table of of the format { json = { schemas = { ... list of json schemas ... } } }
 function M.load()
-  return require 'schemastore.catalog'
+  return require('schemastore.catalog')
 end
 
 -- json.load returns a table of of the format { schemas = { ... list of json schemas ... } }
@@ -81,30 +81,26 @@ function M.json.schemas(opts)
     end
   end
 
-  local has_select = type(opts.select) == 'table' and not vim.tbl_isempty(opts.select)
-  local has_ignore = type(opts.ignore) == 'table' and not vim.tbl_isempty(opts.ignore)
+  local has_select = type(opts.select) == "table" and not vim.tbl_isempty(opts.select)
+  local has_ignore = type(opts.ignore) == "table" and not vim.tbl_isempty(opts.ignore)
 
-  assert(
-    not (has_select and has_ignore),
-    "schemastore.json.schemas(): the 'select' and 'ignore' settings are mutually exclusive"
-  )
+  assert(not (has_select and has_ignore), "schemastore.json.schemas(): the 'select' and 'ignore' settings are mutually exclusive")
 
   if has_select then
     schemas = vim.tbl_map(function(name)
       local schema = get_index(catalog.index, schemas, name)
-      assert(schema ~= nil, 'schemastore.json.schemas(): select: schema not found: ' .. name)
+      assert(schema ~= nil, "schemastore.json.schemas(): select: schema not found: " .. name)
       return schema
     end, opts.select)
+
   elseif has_ignore then
     local ignore = {}
     for _, name in ipairs(opts.ignore) do
       local _, index = get_index(catalog.index, schemas, name)
-      assert(index ~= nil, 'schemastore.json.schemas(): ignore: schema not found: ' .. name)
+      assert(index ~= nil, "schemastore.json.schemas(): ignore: schema not found: " .. name)
       table.insert(ignore, index)
     end
-    table.sort(ignore, function(a, b)
-      return a > b
-    end)
+    table.sort(ignore, function(a, b) return a > b end)
     for _, index in ipairs(ignore) do
       table.remove(schemas, index)
     end
