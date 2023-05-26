@@ -111,8 +111,8 @@ If you want to use your own schemas in addition to schemas from SchemaStore, you
 require('lspconfig').jsonls.setup {
   settings = {
     json = {
-      schemas = require('schemastore').json.schemas {
-        extra = {
+      schemas = vim.list_extend(
+        {
           {
             description = 'My Custom JSON schema',
             fileMatch = { 'foobar.json', '.foobar.json' },
@@ -120,27 +120,14 @@ require('lspconfig').jsonls.setup {
             url = 'https://example.com/schema/foobar.json',
           },
         },
-        select = {
-          '.eslintrc',
-          'package.json',
-        },
-      }
+        require('schemastore').json.schemas {
+          select = {
+            '.eslintrc',
+            'package.json',
+          },
+        }
+      ),
       validate = { enable = true },
-    },
-  },
-}
-```
-
-## YAML support
-
-To set up schemas for the YAML language server:
-
-```lua
-require('lspconfig').jsonls.setup {
-  settings = {
-    json = {
-      schemas = require('schemastore').yaml.schemas()
-      validate = true,
     },
   },
 }
