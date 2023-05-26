@@ -157,6 +157,14 @@ Describe('the schemastore.init module', function()
         end).To.ThrowError()
       end)
 
+      It('should throw an error if passed a table "replace" list containing mismatching name', function()
+        Expect(function()
+          return m.json.schemas {
+            replace = { ['package.json'] = { name = 'not-package.json' } },
+          }
+        end).To.ThrowError()
+      end)
+
       It('should throw an error if passed a table with both "select" and "ignore" lists', function()
         Expect(function()
           return m.json.schemas {

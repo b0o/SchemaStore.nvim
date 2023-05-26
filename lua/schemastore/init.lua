@@ -66,8 +66,16 @@ function M.json.schemas(opts)
 
   if type(opts.replace) == 'table' and not vim.tbl_isempty(opts.replace) then
     for name, schema in pairs(opts.replace) do
-      local _, index = get_index(catalog.index, schemas, name)
+      local orig_schema, index = get_index(catalog.index, schemas, name)
       assert(index ~= nil, 'schemastore.json.schemas(): replace: schema not found: ' .. name)
+      assert(
+        schema.name == orig_schema.name,
+        string.format(
+          'schemastore.json.schemas(): replace: replaced schema has different name: %s != %s',
+          schema.name,
+          orig_schema.name
+        )
+      )
       schemas[index] = schema
     end
   end
