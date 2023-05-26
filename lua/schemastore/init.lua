@@ -56,7 +56,8 @@ function M.json.schemas(opts)
     -- Extend the catalog with extra schema entries
     catalog = vim.deepcopy(catalog)
     for _, extra_schema in ipairs(opts.extra) do
-      local idx = #catalog.schemas + 1
+      local _, idx = get_index(catalog.index, catalog.schemas, extra_schema.name)
+      idx = idx or #catalog.schemas + 1
       catalog.schemas[idx] = extra_schema
       catalog.index[extra_schema.name] = idx
     end

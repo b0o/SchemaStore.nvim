@@ -289,6 +289,29 @@ Describe('the schemastore.init module', function()
           replaced_schema,
         }))
       end)
+
+      It('should prioritize extra schemas if schema name already exists', function()
+        local extra = {
+          {
+            description = 'My custom package.json schema',
+            fileMatch = { 'package.json' },
+            name = 'package.json',
+            url = 'https://example.com/schema/npm.json',
+          },
+        }
+
+        local schemas = vim.tbl_filter(
+          function(schema)
+            return schema.name == 'package.json'
+          end,
+          m.json.schemas {
+            extra = extra,
+          }
+        )
+
+        Expect(#schemas).To.Be.Equal(1)
+        Expect(schemas).To.Be.DeepEqual(extra)
+      end)
     end)
   end)
 end)
