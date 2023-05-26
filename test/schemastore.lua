@@ -192,8 +192,22 @@ Describe('the schemastore.init module', function()
             url = 'https://example.com/schema/foobar.json',
           },
         }, m.json.schemas()))
+      end)
 
-        -- Should not mutate the original extra table
+      It('should not mutate the extra input table', function()
+        local extra = {
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
+        }
+
+        m.json.schemas {
+          extra = extra,
+        }
+
         Expect(extra).To.Be.DeepEqual {
           {
             description = 'My Custom JSON schema',

@@ -99,6 +99,7 @@ function M.json.schemas(opts)
 end
 
 -- yaml.schemas returns the list of yaml schemas { url = fileMatch,...}
+---@param opts? SchemaOpts
 function M.yaml.schemas(opts)
   local origin = M.json.schemas(opts)
   local schemas = {}
