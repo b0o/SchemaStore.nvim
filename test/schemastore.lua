@@ -184,14 +184,14 @@ Describe('the schemastore.init module', function()
 
         Expect(m.json.schemas {
           extra = extra,
-        }).To.Be.DeepEqual(vim.list_extend({
+        }).To.Be.DeepEqual(vim.list_extend(m.json.schemas(), {
           {
             description = 'My Custom JSON schema',
             fileMatch = { 'foobar.json', '.foobar.json' },
             name = 'foobar.json',
             url = 'https://example.com/schema/foobar.json',
           },
-        }, m.json.schemas()))
+        }))
       end)
 
       It('should not mutate the extra input table', function()
@@ -216,6 +216,70 @@ Describe('the schemastore.init module', function()
             url = 'https://example.com/schema/foobar.json',
           },
         }
+      end)
+
+      It('should support extra + select', function()
+        local extra = {
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
+        }
+
+        Expect(m.json.schemas {
+          extra = extra,
+          select = { 'foobar.json' },
+        }).To.Be.DeepEqual {
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
+        }
+      end)
+
+      It('should support extra + ignore', function()
+        local extra = {
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
+        }
+
+        Expect(m.json.schemas {
+          extra = extra,
+          ignore = { 'foobar.json' },
+        }).To.Be.DeepEqual(m.json.schemas())
+      end)
+
+      It('should support extra + replace', function()
+        local extra = {
+          {
+            description = 'My Custom JSON schema',
+            fileMatch = { 'foobar.json', '.foobar.json' },
+            name = 'foobar.json',
+            url = 'https://example.com/schema/foobar.json',
+          },
+        }
+
+        local replaced_schema = {
+          description = 'Replaced schema',
+          fileMatch = { 'foobar.json' },
+          name = 'foobar.json',
+          url = 'https://example.com/schema/foobar.json',
+        }
+
+        Expect(m.json.schemas {
+          extra = extra,
+          replace = { ['foobar.json'] = replaced_schema },
+        }).To.Be.DeepEqual(vim.list_extend(m.json.schemas(), {
+          replaced_schema,
+        }))
       end)
     end)
   end)

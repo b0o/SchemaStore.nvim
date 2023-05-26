@@ -40,9 +40,8 @@ end
 ---@param opts? SchemaOpts
 function M.json.schemas(opts)
   local catalog = M.json.load()
-  local schemas = vim.deepcopy(catalog.schemas)
   if not opts then
-    return schemas
+    return catalog.schemas
   end
 
   ---@type SchemaOpts
@@ -52,6 +51,18 @@ function M.json.schemas(opts)
     ignore = {},
     extra = {},
   }, opts)
+
+  if type(opts.extra) == 'table' and not vim.tbl_isempty(opts.extra) then
+    -- Extend the catalog with extra schema entries
+    catalog = vim.deepcopy(catalog)
+    for _, extra_schema in ipairs(opts.extra) do
+      local idx = #catalog.schemas + 1
+      catalog.schemas[idx] = extra_schema
+      catalog.index[extra_schema.name] = idx
+    end
+  end
+
+  local schemas = vim.deepcopy(catalog.schemas)
 
   if type(opts.replace) == 'table' and not vim.tbl_isempty(opts.replace) then
     for name, schema in pairs(opts.replace) do
@@ -90,12 +101,7 @@ function M.json.schemas(opts)
     end
   end
 
-  if type(opts.extra) == 'table' and not vim.tbl_isempty(opts.extra) then
-    -- We { unpack(opts.extra) } as to not mutate opts.extra
-    return vim.list_extend({ unpack(opts.extra) }, schemas)
-  else
-    return schemas
-  end
+  return schemas
 end
 
 -- yaml.schemas returns the list of yaml schemas { url = fileMatch,...}
