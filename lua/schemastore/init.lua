@@ -24,40 +24,59 @@ function M.json.get(name)
   return get_index(catalog.index, catalog.schemas, name), nil
 end
 
--- json.schemas returns the list of json schemas
--- [opts] is an optional table which can contain the following fields:
---
---  - select - A list-like table of strings representing the names of schemas
---             to select. If this option is not present, all schemas are
---             returned. If it is present, only the selected schemas are
---             returned. `select` and `ignore` are mutually exclusive.
---
---  - ignore - A list-like table of strings representing the names of schemas
---             to ignore. `select` and `ignore` are mutually exclusive.
---
---  - replace - A dictionary-like table of (strings:table) elements
---              representing schemas to replace with a custom schema. The
---              string key is the name of the schema to replace, the table
---              value is the schema definition. If a schema with the given name
---              isn't found, the custom schema will not be returned.
---
+---@class SchemaEntry
+---@field name string
+---@field description string
+---@field fileMatch string | string[]
+---@field url string
+
+---@class SchemaOpts
+---@field select? string[] A list-like table of strings representing the names of schemas to select. If this option is not present, all schemas are returned. If it is present, only the selected schemas are returned. `select` and `ignore` are mutually exclusive.
+---@field ignore? string[] A list-like table of strings representing the names of schemas to ignore. `select` and `ignore` are mutually exclusive.
+---@field replace? table<string, SchemaEntry>? A dictionary-like table of (strings:table) elements representing schemas to replace with a custom schema. The string key is the name of the schema to replace, the table value is the schema definition. If a schema with the given name isn't found, the custom schema will not be returned.
+---@field extra? SchemaEntry[] Additional schemas to include.
+
+---json.schemas returns the list of json schemas
+---@param opts? SchemaOpts
 function M.json.schemas(opts)
   local catalog = M.json.load()
-  local schemas = vim.deepcopy(catalog.schemas)
   if not opts then
-    return schemas
+    return catalog.schemas
   end
 
+  ---@type SchemaOpts
   opts = vim.tbl_extend('force', {
     select = {},
     replace = {},
     ignore = {},
+    extra = {},
   }, opts)
 
-  if type(opts.replace) == "table" and not vim.tbl_isempty(opts.replace) then
+  if type(opts.extra) == 'table' and not vim.tbl_isempty(opts.extra) then
+    -- Extend the catalog with extra schema entries
+    catalog = vim.deepcopy(catalog)
+    for _, extra_schema in ipairs(opts.extra) do
+      local _, idx = get_index(catalog.index, catalog.schemas, extra_schema.name)
+      idx = idx or #catalog.schemas + 1
+      catalog.schemas[idx] = extra_schema
+      catalog.index[extra_schema.name] = idx
+    end
+  end
+
+  local schemas = vim.deepcopy(catalog.schemas)
+
+  if type(opts.replace) == 'table' and not vim.tbl_isempty(opts.replace) then
     for name, schema in pairs(opts.replace) do
-      local _, index = get_index(catalog.index, schemas, name)
-      assert(index ~= nil, "schemastore.json.schemas(): replace: schema not found: " .. name)
+      local orig_schema, index = get_index(catalog.index, schemas, name)
+      assert(index ~= nil, 'schemastore.json.schemas(): replace: schema not found: ' .. name)
+      assert(
+        schema.name == orig_schema.name,
+        string.format(
+          'schemastore.json.schemas(): replace: replaced schema has different name: %s != %s',
+          schema.name,
+          orig_schema.name
+        )
+      )
       schemas[index] = schema
     end
   end
@@ -91,6 +110,7 @@ function M.json.schemas(opts)
 end
 
 -- yaml.schemas returns the list of yaml schemas { url = fileMatch,...}
+---@param opts? SchemaOpts
 function M.yaml.schemas(opts)
   local origin = M.json.schemas(opts)
   local schemas = {}
