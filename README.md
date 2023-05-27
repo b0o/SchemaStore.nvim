@@ -158,6 +158,6 @@ require('lspconfig').jsonls.setup {
 
 ## License
 
-&copy; 2021-2022 Maddison Hellstrom
+&copy; 2021-2023 Maddison Hellstrom and Contributors.
 
 Released under the Apache 2.0 License.

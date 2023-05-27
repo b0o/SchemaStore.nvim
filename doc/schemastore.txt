@@ -203,7 +203,7 @@ If you want to include additional schemas, you can use extra:
 >
   Apache License, Version 2.0
 
-  © 2021 Maddison Hellstrom <github.com/b0o>
+  © 2021-2023 Maddison Hellstrom <github.com/b0o> and Contributors
 
   Full license information is available in the LICENSE and NOTICE files at the
   root of this repository.
