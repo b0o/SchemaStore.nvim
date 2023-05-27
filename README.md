@@ -105,28 +105,28 @@ require('lspconfig').jsonls.setup {
 }
 ```
 
-If you want to use your own schemas in addition to schemas from SchemaStore, you can merge them:
+If you want to include additional schemas, you can use `extra`:
 
 ```lua
 require('lspconfig').jsonls.setup {
   settings = {
     json = {
-      schemas = vim.list_extend(
-        {
+      schemas = require('schemastore').json.schemas {
+        extra = {
           {
-            description = 'My Custom JSON schema',
-            fileMatch = { 'foobar.json', '.foobar.json' },
-            name = 'foobar.json',
-            url = 'https://example.com/schema/foobar.json',
+            description = 'My custom JSON schema',
+            fileMatch = 'foo.json',
+            name = 'foo.json',
+            url = 'https://example.com/schema/foo.json',
+          },
+          {
+            description = 'My other custom JSON schema',
+            fileMatch = { 'bar.json', '.baar.json' },
+            name = 'bar.json',
+            url = 'https://example.com/schema/bar.json',
           },
         },
-        require('schemastore').json.schemas {
-          select = {
-            '.eslintrc',
-            'package.json',
-          },
-        }
-      ),
+      },
       validate = { enable = true },
     },
   },
