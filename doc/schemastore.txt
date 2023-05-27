@@ -3,7 +3,7 @@
 Author:         Maddison Hellstrom <https://github.com/b0o/>
 Licence:        MIT
 Homepage:       https://github.com/b0o/schemastore.nvim
-Version:        0.1.0
+Version:        0.2.0
 
 ==============================================================================
 CONTENTS                                                  *schemastore-contents*
@@ -178,6 +178,11 @@ If you want to include additional schemas, you can use extra:
 <
 ==============================================================================
 3. Changelog                                             *schemastore-changelog*
+
+26 May 2023                                                             v0.2.0
+  Feat: Add `extra` option to add additional schemas (@williamboman)
+  Docs: Mention disabling built-in for yaml (@davidosomething)
+  Feat: Add support for yamlls (@ZenLian)
 
 21 Dec 2021                                                             v0.1.0
   Perf: Add lookup table from schema name to schema index

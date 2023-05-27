@@ -136,6 +136,11 @@ require('lspconfig').jsonls.setup {
 ## Changelog
 
 ```
+26 May 2023                                                             v0.2.0
+  Feat: Add `extra` option to add additional schemas (@williamboman)
+  Docs: Mention disabling built-in for yaml (@davidosomething)
+  Feat: Add support for yamlls (@ZenLian)
+
 21 Dec 2021                                                             v0.1.0
   Perf: Add lookup table from schema name to schema index
   Note that select & ignore are mutually exclusive
