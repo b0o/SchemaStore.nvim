@@ -144,7 +144,38 @@ The `select` and `replace` options can be used simultaneously:
     },
     -- The rest of your jslonls settings
   }
+<
 
+If you want to include additional schemas, you can use extra:
+>
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+  require('lspconfig').jsonls.setup {
+    capabilities = capabilities,
+    settings = {
+      json = {
+        schemas = require('schemastore').json.schemas {
+          extra = {
+            {
+              description = 'My custom JSON schema',
+              fileMatch = 'foo.json',
+              name = 'foo.json',
+              url = 'https://example.com/schema/foo.json',
+            },
+            {
+              description = 'My other custom JSON schema',
+              fileMatch = { 'bar.json', '.baar.json' },
+              name = 'bar.json',
+              url = 'https://example.com/schema/bar.json',
+            },
+          },
+        },
+        validate = { enable = true },
+      },
+    },
+  }
+<
 ==============================================================================
 3. Changelog                                             *schemastore-changelog*
 
