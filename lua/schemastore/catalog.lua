@@ -2886,12 +2886,12 @@ M.json = {
       url = "https://json.schemastore.org/prometheus.json"
     }, {
       description = "Prometheus rules file",
-      fileMatch = { "*.rules" },
+      fileMatch = { "*.rules.yml", "*.rules.yaml", "*rules.yml", "*rules.yaml", "rules.yml", "rules.yaml" },
       name = "prometheus.rules.json",
       url = "https://json.schemastore.org/prometheus.rules.json"
     }, {
       description = "Prometheus rules test file",
-      fileMatch = { "*.rules.test" },
+      fileMatch = { "*.tests.yml", "*.tests.yaml", "*tests.yml", "*tests.yaml", "tests.yml", "tests.yaml", "*.test.yml", "*.test.yaml", "*test.yml", "*test.yaml", "test.yml", "test.yaml" },
       name = "prometheus.rules.test.json",
       url = "https://json.schemastore.org/prometheus.rules.test.json"
     }, {
