@@ -159,8 +159,8 @@ M.json = {
     ["Calqulus pipeline"] = 92,
     ["Camel YAML DSL"] = 93,
     Carafe = 94,
-    ["Cargo Config Schema"] = 95,
     ["Cargo Make"] = 96,
+    ["Cargo Manifest"] = 95,
     ["Catalog Info Backstage"] = 97,
     Cheatsheets = 645,
     ["Chrome Extension"] = 143,
@@ -1288,9 +1288,9 @@ M.json = {
         ["draft-02"] = "https://carafe.fm/schema/draft-02/bundle.schema.json"
       }
     }, {
-      description = "Configuration for Cargo, the Rust package manager and build tool",
+      description = "Manifest for Cargo, the Rust package manager and build tool",
       fileMatch = { "Cargo.toml" },
-      name = "Cargo Config Schema",
+      name = "Cargo Manifest",
       url = "https://json.schemastore.org/cargo.json"
     }, {
       description = "Schema for cargo-make, a Rust task runner and build tool",
@@ -3178,7 +3178,11 @@ M.json = {
       description = "The schema definition for all available SDF blocks",
       fileMatch = { "*.sdf.yml" },
       name = "Semantic Data Fabric (SDF) file",
-      url = "https://cdn.sdf.com/schemas/sdf-schema-1.0.json"
+      url = "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
+      versions = {
+        ["1.0"] = "https://cdn.sdf.com/schemas/sdf-schema-1.0.json",
+        ["1.1"] = "https://cdn.sdf.com/schemas/sdf-schema-1.1.json"
+      }
     }, {
       description = "Configuration for semantic-release",
       fileMatch = { ".releaserc", ".releaserc.yaml", ".releaserc.yml", ".releaserc.json" },
