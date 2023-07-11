@@ -4386,7 +4386,7 @@ M.json = {
       url = "https://json.schemastore.org/jfrog-pipelines.json"
     }, {
       description = "Schema for https://github.com/monebag/safebox",
-      fileMatch = { "*safebox*.yaml" },
+      fileMatch = { "*safebox*.yaml", "*safebox*.yml" },
       name = "Safebox Config Schema",
       url = "https://json.schemastore.org/safebox-schema-v1.0.0.json"
     }, {
