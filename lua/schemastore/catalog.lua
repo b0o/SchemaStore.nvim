@@ -548,7 +548,7 @@ M.json = {
     ["dprint.json"] = 194,
     ["drone.json"] = 195,
     ["dss-2.0.0.json"] = 197,
-    ["dstack Workflows"] = 198,
+    ["dstack configuration"] = 198,
     ["dvc.yaml"] = 199,
     ["ecosystem.json"] = 204,
     eksctl = 205,
@@ -1810,10 +1810,10 @@ M.json = {
       name = "dss-2.0.0.json",
       url = "https://json.schemastore.org/dss-2.0.0.json"
     }, {
-      description = "YAML schema for dstack Workflows",
-      fileMatch = { "**/.dstack/workflows/*.yml", "**/.dstack/workflows/*.yaml" },
-      name = "dstack Workflows",
-      url = "https://raw.githubusercontent.com/dstackai/dstack/master/cli/dstack/schemas/workflows.json"
+      description = "YAML schema for dstack configurations",
+      fileMatch = { "*.dstack.yml", "*.dstack.yaml" },
+      name = "dstack configuration",
+      url = "https://dstack-runner-downloads.s3.eu-west-1.amazonaws.com/latest/schemas/configuration.json"
     }, {
       description = "JSON Schema for dvc.yaml file",
       fileMatch = { "dvc.yaml" },
