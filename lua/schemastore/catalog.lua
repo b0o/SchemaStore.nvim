@@ -1433,7 +1433,7 @@ M.json = {
       description = "A Helm Unittest Test Suite file",
       fileMatch = { "**/charts/*/tests/*.yaml" },
       name = "Helm Unittest Test Suite",
-      url = "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.3.1/schema/helm-testsuite.json"
+      url = "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.3.3/schema/helm-testsuite.json"
     }, {
       description = "Schema for CircleCI config files",
       fileMatch = { "**/.circleci/config.yml" },
