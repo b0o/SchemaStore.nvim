@@ -314,6 +314,7 @@ M.json = {
     ["Kong DBLess Schema"] = 674,
     KrakenD = 300,
     LOOBin = 316,
+    Lefthook = 307,
     ["LinkML Metamodel"] = 314,
     Liquibase = 623,
     ["Liquibase Flow File"] = 624,
@@ -590,7 +591,6 @@ M.json = {
     ["kustomization.yaml"] = 304,
     ["label-commenter-config.yml"] = 305,
     ["launchsettings.json"] = 306,
-    ["lefthook.json"] = 307,
     ["lego.json"] = 308,
     ["lerna.json"] = 309,
     ["lgtm.yml"] = 310,
@@ -2384,8 +2384,8 @@ M.json = {
       url = "https://json.schemastore.org/launchsettings.json"
     }, {
       description = "Fast and powerful Git hooks manager",
-      fileMatch = { "lefthook.json" },
-      name = "lefthook.json",
+      fileMatch = { "{.lefthook,lefthook,lefthook-local,.lefthook-local}.{yml,yaml,toml,json}" },
+      name = "Lefthook",
       url = "https://json.schemastore.org/lefthook.json"
     }, {
       description = "Config file for the lego-build CLI tool.",
