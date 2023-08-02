@@ -39,6 +39,7 @@ M.json = {
     [".adonisrc.json"] = 7,
     [".agripparc.json"] = 11,
     [".aiproj.json"] = 12,
+    [".aliases"] = 705,
     [".angular-cli.json"] = 16,
     [".appsemblerc.yaml"] = 32,
     [".asmdef"] = 61,
@@ -4566,6 +4567,11 @@ M.json = {
       fileMatch = { "secrethub.yml", "secrethub.yaml" },
       name = "secrethub.yml",
       url = "https://raw.githubusercontent.com/DannyBen/secret_hub/master/schemas/secrethub.json"
+    }, {
+      description = "Dynamic Bash aliases",
+      fileMatch = { ".aliases" },
+      name = ".aliases",
+      url = "https://json.schemastore.org/aliases.json"
     } },
   version = 1
 }
