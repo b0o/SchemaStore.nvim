@@ -525,6 +525,7 @@ M.json = {
     ["component.json"] = 156,
     ["composer.json"] = 155,
     ["config.json"] = 158,
+    ["config.yml"] = 707,
     ["contentmanifest.json"] = 146,
     ["contribute.json"] = 159,
     ["cosmos.config.json"] = 142,
@@ -4578,6 +4579,11 @@ M.json = {
       fileMatch = { ".aliases" },
       name = ".aliases",
       url = "https://json.schemastore.org/aliases.json"
+    }, {
+      description = "Lazy Git settings",
+      fileMatch = { "**/lazygit/config.yml" },
+      name = "config.yml",
+      url = "https://json.schemastore.org/lazygit.json"
     } },
   version = 1
 }
