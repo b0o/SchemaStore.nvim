@@ -3439,7 +3439,7 @@ M.json = {
       description = "Language grammar description files in Textmate and compatible editors",
       fileMatch = { "*.tmLanguage.json" },
       name = "tmLanguage",
-      url = "https://raw.githubusercontent.com/Septh/tmlanguage/master/tmlanguage.json"
+      url = "https://json.schemastore.org/tmlanguage.json"
     }, {
       description = "Schema for Visual Studio's test environment config",
       fileMatch = { "testEnvironments.json" },
