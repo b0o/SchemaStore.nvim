@@ -527,7 +527,6 @@ M.json = {
     ["composer.json"] = 155,
     ["config.json"] = 158,
     ["config.yaml"] = 424,
-    ["config.yml"] = 711,
     ["contentmanifest.json"] = 146,
     ["contribute.json"] = 159,
     ["cosmos.config.json"] = 142,
@@ -597,6 +596,8 @@ M.json = {
     ["kustomization.yaml"] = 305,
     ["label-commenter-config.yml"] = 306,
     ["launchsettings.json"] = 307,
+    lazydocker = 712,
+    lazygit = 711,
     ["lego.json"] = 309,
     ["lerna.json"] = 310,
     ["lgtm.yml"] = 311,
@@ -4605,8 +4606,13 @@ M.json = {
     }, {
       description = "Lazy Git settings",
       fileMatch = { "**/lazygit/config.yml" },
-      name = "config.yml",
+      name = "lazygit",
       url = "https://json.schemastore.org/lazygit.json"
+    }, {
+      description = "Lazy Docker settings",
+      fileMatch = { "**/lazydocker/config.yml" },
+      name = "lazydocker",
+      url = "https://json.schemastore.org/lazydocker.json"
     } },
   version = 1
 }
