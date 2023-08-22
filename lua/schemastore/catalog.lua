@@ -4295,7 +4295,7 @@ M.json = {
       url = "https://json.schemastore.org/hugo.json"
     }, {
       description = "Cheatsheets config file schema",
-      fileMatch = { "conf.yml", "conf.yaml" },
+      fileMatch = { "**/cheat/conf.yaml", "**/cheat/conf.yml", "**/.cheat/conf.yml" },
       name = "Cheatsheets",
       url = "https://json.schemastore.org/cheatsheets.json"
     }, {
