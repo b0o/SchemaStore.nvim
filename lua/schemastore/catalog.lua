@@ -535,6 +535,7 @@ M.json = {
     ["cosmos.config.json"] = 143,
     ["crowdin.yml"] = 162,
     cspell = 168,
+    ["custom-elements.json"] = 719,
     ["cypress.json"] = 166,
     ["datalogic-scan2deploy-android"] = 174,
     ["datalogic-scan2deploy-ce"] = 175,
@@ -1296,7 +1297,11 @@ M.json = {
       description = "Schema for Camel YAML DSL",
       fileMatch = { "*.camel.yaml", "*.camelk.yaml" },
       name = "Camel YAML DSL",
-      url = "https://raw.githubusercontent.com/apache/camel/main/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/schema/camel-yaml-dsl.json"
+      url = "https://raw.githubusercontent.com/apache/camel/main/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/schema/camelYamlDsl.json",
+      versions = {
+        ["3.x"] = "https://raw.githubusercontent.com/apache/camel/camel-3.x/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/schema/camel-yaml-dsl.json",
+        ["4.x"] = "https://raw.githubusercontent.com/apache/camel/main/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/schema/camelYamlDsl.json"
+      }
     }, {
       description = "Schema for Carafe compatible JavaScript Bundles",
       name = "Carafe",
@@ -4649,6 +4654,11 @@ M.json = {
       fileMatch = { "**/lazydocker/config.yml" },
       name = "lazydocker",
       url = "https://json.schemastore.org/lazydocker.json"
+    }, {
+      description = "A file format for describing custom elements",
+      fileMatch = { "custom-elements.json" },
+      name = "custom-elements.json",
+      url = "https://raw.githubusercontent.com/webcomponents/custom-elements-manifest/main/schema.json"
     } },
   version = 1
 }
