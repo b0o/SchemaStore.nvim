@@ -2327,10 +2327,11 @@ M.json = {
       description = "JSON schema for JReleaser config file",
       fileMatch = { "jreleaser.yml", "jreleaser.json" },
       name = "JReleaser",
-      url = "https://json.schemastore.org/jreleaser-1.7.0.json",
+      url = "https://json.schemastore.org/jreleaser-1.8.0.json",
       versions = {
         ["1.6.0"] = "https://json.schemastore.org/jreleaser-1.6.0.json",
-        ["1.7.0"] = "https://json.schemastore.org/jreleaser-1.7.0.json"
+        ["1.7.0"] = "https://json.schemastore.org/jreleaser-1.7.0.json",
+        ["1.8.0"] = "https://json.schemastore.org/jreleaser-1.8.0.json"
       }
     }, {
       description = "js-beautify configuration file",
