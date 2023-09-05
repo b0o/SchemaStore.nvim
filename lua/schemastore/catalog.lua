@@ -2873,7 +2873,7 @@ M.json = {
       name = "Paper paper-plugin.yml",
       url = "https://json.schemastore.org/paper-plugin.json"
     }, {
-      description = "JSON schema for Transcend's Pathfinder, a proxy that intercepts calls to AI tools to enable AI governance",
+      description = "Configuration for Transcend's Pathfinder, a proxy that intercepts calls to AI tools to enable AI governance",
       fileMatch = { "pathfinder.yml", "pathfinder.yaml", "transcend-pathfinder.yml", "transcend-pathfinder.yaml" },
       name = "pathfinder.yml",
       url = "https://raw.githubusercontent.com/transcend-io/cli/main/pathfinder-policy-yml-schema.json"
