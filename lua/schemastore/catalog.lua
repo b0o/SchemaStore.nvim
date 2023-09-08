@@ -2961,7 +2961,9 @@ M.json = {
       name = "prettierrc.json",
       url = "https://json.schemastore.org/prettierrc.json",
       versions = {
-        ["1.8.2"] = "https://json.schemastore.org/prettierrc-1.8.2.json"
+        ["1.8.2"] = "https://json.schemastore.org/prettierrc-1.8.2.json",
+        ["2.8.8"] = "https://json.schemastore.org/prettierrc-2.8.8.json",
+        ["3.0.0"] = "https://json.schemastore.org/prettierrc.json"
       }
     }, {
       description = "prisma.yml service definition file",
