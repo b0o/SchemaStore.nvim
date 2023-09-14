@@ -750,6 +750,9 @@ M.json = {
     ["vss-extension.json"] = 557,
     ["vtesttree.yaml"] = 558,
     ["vtestunit.yaml"] = 559,
+    ["warp-keysets.json"] = 725,
+    ["warp-themes.json"] = 726,
+    ["warp-workflows.json"] = 727,
     ["webhint.io"] = 678,
     ["webjobpublishsettings.json"] = 565,
     ["webjobs-list.json"] = 564,
@@ -4697,6 +4700,21 @@ M.json = {
       fileMatch = { "custom-elements.json" },
       name = "custom-elements.json",
       url = "https://raw.githubusercontent.com/webcomponents/custom-elements-manifest/main/schema.json"
+    }, {
+      description = "Warp keyboard shortcut presets",
+      fileMatch = { "**/.warp/keybindings.yaml" },
+      name = "warp-keysets.json",
+      url = "https://json.schemastore.org/warp-keysets.json"
+    }, {
+      description = "Warp themes",
+      fileMatch = { "**/.warp/themes/*.yaml" },
+      name = "warp-themes.json",
+      url = "https://json.schemastore.org/warp-themes.json"
+    }, {
+      description = "Warp workflows",
+      fileMatch = { "**/.warp/workflows/*.yaml" },
+      name = "warp-workflows.json",
+      url = "https://json.schemastore.org/warp-workflows.json"
     } },
   version = 1
 }
