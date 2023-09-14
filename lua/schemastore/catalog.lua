@@ -2416,7 +2416,7 @@ M.json = {
       description = "KrakenD API Gateway configuration file",
       fileMatch = { "krakend.yaml", "krakend.yml", "krakend.json", "krakend.toml" },
       name = "KrakenD",
-      url = "https://www.krakend.io/schema/v3.json"
+      url = "https://www.krakend.io/schema/krakend.json"
     }, {
       description = "Datadog Service Definition file",
       fileMatch = { "service.datadog.yaml", "service.datadog.yml", "service.datadog.json" },
