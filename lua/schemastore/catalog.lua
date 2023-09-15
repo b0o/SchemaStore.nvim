@@ -523,7 +523,6 @@ M.json = {
     cloudify = 129,
     codemagic = 131,
     ["coffeelint.json"] = 157,
-    comet = 627,
     ["commands.json"] = 141,
     ["compile_commands.json"] = 140,
     ["compilerconfig.json"] = 139,
@@ -706,6 +705,7 @@ M.json = {
     ["skyuxconfig.json"] = 488,
     snapcraft = 489,
     ["sqlc configuration"] = 497,
+    starlake = 627,
     ["stripe-app-local.json"] = 504,
     ["stripe-app.json"] = 503,
     swcrc = 628,
@@ -4022,7 +4022,7 @@ M.json = {
         latest = "https://raw.githubusercontent.com/nagyesta/yippee-ki-json/main/schema/yippee-ki-json_config_schema.json"
       }
     }, {
-      description = "The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications. ",
+      description = "The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.",
       fileMatch = { "**/docker-compose.yml", "**/docker-compose.yaml", "**/docker-compose.*.yml", "**/docker-compose.*.yaml", "**/compose.yml", "**/compose.yaml", "**/compose.*.yml", "**/compose.*.yaml" },
       name = "docker-compose.yml",
       url = "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"
@@ -4092,10 +4092,10 @@ M.json = {
       name = "Better Code Hub",
       url = "https://json.schemastore.org/bettercodehub.json"
     }, {
-      description = "JSON Schema for a Comet Data Pipeline.",
-      fileMatch = { "*.comet.yaml", "*.comet.yml" },
-      name = "comet",
-      url = "https://json.schemastore.org/comet.json"
+      description = "JSON Schema for a Starlake Data Pipeline.",
+      fileMatch = { "*.sl.yml" },
+      name = "starlake",
+      url = "https://json.schemastore.org/starlake.json"
     }, {
       description = "JSON Schema for swc configuration files.",
       fileMatch = { ".swcrc" },
