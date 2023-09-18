@@ -95,9 +95,9 @@ M.json = {
     ["1Password SSH Agent Config"] = 3,
     ["<div>RIOTS' studio configuration"] = 561,
     ["@factorial/drupal-breakpoints-css"] = 6,
-    ["A micro editor config schema"] = 329,
+    ["A micro editor config"] = 329,
     ["API Builder"] = 622,
-    ["AVA Configuration Schema"] = 678,
+    ["AVA Configuration"] = 678,
     ["AWS CDK cdk.json"] = 151,
     ["AWS CloudFormation"] = 152,
     ["AWS CloudFormation Serverless Application Model (SAM)"] = 153,
@@ -106,7 +106,7 @@ M.json = {
     ["Aerleon Policy"] = 10,
     ["Airlock Microgateway"] = 13,
     ["Airplane task"] = 14,
-    ["Alacritty Configuration Schema"] = 653,
+    ["Alacritty Configuration"] = 653,
     ["All Contributors configuration file"] = 707,
     ["Ansible Argument Specs"] = 20,
     ["Ansible Collection Galaxy"] = 27,
@@ -157,7 +157,7 @@ M.json = {
     ["CICS TS resource model"] = 674,
     ["CICS TS resource overrides"] = 675,
     ["CMake Presets"] = 91,
-    ["CNC Codes JSON Schema"] = 100,
+    ["CNC Codes"] = 100,
     ["Calqulus pipeline"] = 92,
     ["Camel YAML DSL"] = 93,
     Carafe = 94,
@@ -171,18 +171,21 @@ M.json = {
     CityJSON = 98,
     ["Code Climate"] = 124,
     CodeCV = 53,
+    ["CodeShip Pro services configuration files"] = 135,
+    ["CodeShip Pro steps configuration files"] = 136,
+    ["Codecov configuration files"] = 134,
     Codux = 132,
     ["Cog config file"] = 101,
     ["Commandbox Box.json"] = 102,
     ["Commandbox Server.json"] = 103,
-    ["Common Catalog Schema"] = 142,
+    ["Common Catalog Data"] = 142,
     ["Common types for all schemas"] = 1,
     Conjure = 99,
     ["Container Structure Test"] = 609,
     Containerlab = 634,
-    ["Crowdsec collection Schema"] = 163,
-    ["Crowdsec parser Schema"] = 164,
-    ["Crowdsec scenario Schema"] = 165,
+    ["Crowdsec collection config"] = 163,
+    ["Crowdsec parser config"] = 164,
+    ["Crowdsec scenario config"] = 165,
     ["DWP Exchange - catalogue entry"] = 207,
     ["DWP Exchange - gateway"] = 205,
     ["DWP Exchange - meta"] = 206,
@@ -190,11 +193,11 @@ M.json = {
     ["Dart test config"] = 172,
     ["DashLord configuration"] = 173,
     ["Datadog Service Definition"] = 308,
-    ["Datahub Ingestion Recipe Schema"] = 679,
-    ["Dein Config Schema"] = 105,
+    ["Datahub Ingestion Recipe"] = 679,
+    ["Dein Config"] = 105,
     Deno = 179,
     ["Deployer Recipe"] = 182,
-    ["Deta Spacefile Schema"] = 106,
+    ["Deta Spacefile"] = 106,
     Devfile = 204,
     ["Discord Webhook"] = 184,
     ["Dolittle Artifacts"] = 188,
@@ -205,24 +208,24 @@ M.json = {
     ["Dolittle Tenant Map Configuration"] = 194,
     ["Dolittle Tenants Configuration"] = 193,
     ["Dolittle Topology"] = 195,
-    ["Drupal Breakpoints Schema"] = 107,
-    ["Drupal Config Schema"] = 118,
-    ["Drupal Info Schema"] = 108,
-    ["Drupal Layouts Schema"] = 109,
-    ["Drupal Libraries Schema"] = 110,
-    ["Drupal Links Action Schema"] = 111,
-    ["Drupal Links Contextual Schema"] = 112,
-    ["Drupal Links Menu Schema"] = 113,
-    ["Drupal Links Task Schema"] = 114,
-    ["Drupal Migration Schema"] = 115,
-    ["Drupal Permissions Schema"] = 116,
-    ["Drupal Routing Schema"] = 117,
-    ["Drupal Services Schema"] = 119,
+    ["Drupal Breakpoints"] = 107,
+    ["Drupal Config"] = 118,
+    ["Drupal Info"] = 108,
+    ["Drupal Layouts"] = 109,
+    ["Drupal Libraries"] = 110,
+    ["Drupal Links Action"] = 111,
+    ["Drupal Links Contextual"] = 112,
+    ["Drupal Links Menu"] = 113,
+    ["Drupal Links Task"] = 114,
+    ["Drupal Migration"] = 115,
+    ["Drupal Permissions"] = 116,
+    ["Drupal Routing"] = 117,
+    ["Drupal Services"] = 119,
     ["Drush site aliases"] = 200,
-    ["Embrace Config Schema"] = 690,
+    ["Embrace Config"] = 690,
     ["Error pages"] = 213,
     Esquio = 211,
-    ["Estuary Flow Catalog Schema"] = 669,
+    ["Estuary Flow Catalog"] = 669,
     ["Expo SDK"] = 216,
     ["F-Droid Data metadata"] = 221,
     ["Facets - FSDL - Application"] = 219,
@@ -283,12 +286,12 @@ M.json = {
     ["IBM Zapp document"] = 273,
     ["IBM zCodeFormatSettings"] = 274,
     ["IMG Catapult PSP"] = 279,
-    ["Istanbul Schema"] = 686,
-    ["JDownloader2 crawler multi-rule schema"] = 289,
-    ["JDownloader2 crawler single-rule schema"] = 288,
+    Istanbul = 686,
+    ["JDownloader2 crawler multi-rules"] = 289,
+    ["JDownloader2 crawler single-rules"] = 288,
     ["JFrog File Spec"] = 290,
     ["JFrog Pipelines YML DSL"] = 692,
-    ["JMeter DSL cli config schema"] = 291,
+    ["JMeter DSL cli config"] = 291,
     JReleaser = 293,
     ["JSON Document Transform"] = 300,
     ["JSON Feed"] = 301,
@@ -296,10 +299,7 @@ M.json = {
     ["JSON Schema Draft 2020-12"] = 573,
     ["JSON Schema Draft 4"] = 570,
     ["JSON Schema Draft 7"] = 571,
-    ["JSON Schema Draft 8"] = 572,
-    ["JSON schema for CodeShip Pro services configuration files"] = 135,
-    ["JSON schema for CodeShip Pro steps configuration files"] = 136,
-    ["JSON schema for Codecov configuration files"] = 134,
+    ["JSON Schema Draft 8 (2019-09)"] = 572,
     ["JSON-API"] = 299,
     ["JSON-e templates"] = 631,
     ["JSON-stat 2.0"] = 567,
@@ -316,7 +316,7 @@ M.json = {
     ["Keycloak REST API"] = 699,
     ["Knative Functions - func.yaml"] = 233,
     ["KoDE/CI build.yaml"] = 688,
-    ["Kong DBLess Schema"] = 689,
+    ["Kong DBLess config"] = 689,
     KrakenD = 307,
     LOOBin = 324,
     Lefthook = 315,
@@ -351,13 +351,13 @@ M.json = {
     ["Minecraft Resource Pack Texture Mcmeta"] = 352,
     ["Minecraft Resourcepack Sounds"] = 351,
     ["MkDocs Configuration 1.0"] = 355,
-    ["MongoDB Atlas Search Index Definition Schema"] = 687,
-    ["Monika Configuration Schema"] = 685,
+    ["MongoDB Atlas Search Index Definition"] = 687,
+    ["Monika Configuration"] = 685,
     ["Motif config"] = 590,
     ["NOX Framework (Service)"] = 369,
     ["Netin Diagnostic System Template"] = 648,
-    ["Netlify config schema"] = 360,
-    ["Nexus-as-Code schema"] = 361,
+    ["Netlify config"] = 360,
+    ["Nexus-as-Code Data Model"] = 361,
     ["Nightwatch.js"] = 362,
     ["ONe's service descriptor"] = 382,
     ["OSS Review Toolkit configuration"] = 389,
@@ -392,8 +392,8 @@ M.json = {
     Qodana = 658,
     ["Quali Torque Blueprint Spec 2"] = 680,
     ["QueryFirst config file"] = 702,
-    ["RKE Cluster Configuration JSON Schema"] = 637,
-    ["RKE Cluster Configuration YAML Schema"] = 636,
+    ["RKE Cluster Configuration JSON"] = 637,
+    ["RKE Cluster Configuration YAML"] = 636,
     ["Rancher Fleet"] = 432,
     Ray = 605,
     ["Read the Docs"] = 434,
@@ -401,7 +401,7 @@ M.json = {
     ["Red-DiscordBot Cog Repo"] = 440,
     ["Red-DiscordBot Trivia"] = 441,
     Renovate = 450,
-    ["Replit schema"] = 444,
+    ["Replit config"] = 444,
     RoadRunner = 451,
     Ruff = 447,
     ["Rust Project"] = 448,
@@ -409,7 +409,7 @@ M.json = {
     ["SIL Kit Participant Configuration"] = 484,
     ["SIL Kit Registry Configuration"] = 485,
     SWADL = 508,
-    ["Safebox Config Schema"] = 693,
+    ["Safebox Config"] = 693,
     ["Sapphire CLI Config"] = 456,
     ["SauceCTL Configuration"] = 645,
     ["Schema Catalog"] = 470,
@@ -418,7 +418,7 @@ M.json = {
     ["Semgrep Rule"] = 478,
     ["Serenity Code Generator (Sergen)"] = 479,
     ["Serverless Framework Configuration"] = 652,
-    ["Serverless Workflow Schema"] = 654,
+    ["Serverless Workflow"] = 654,
     ["Settings.paf"] = 481,
     ["Shopware 6 Configuration"] = 655,
     ["Shopware CLI Extension Store Configuration"] = 656,
@@ -433,6 +433,7 @@ M.json = {
     ["Sponge Mixin configuration"] = 495,
     ["StackHawk Scanner Configuration"] = 651,
     Stale = 500,
+    ["Starlake Data Pipeline"] = 627,
     Starship = 501,
     ["Statamic Blueprint"] = 502,
     ["StrmPrivacy Data Connector"] = 697,
@@ -445,7 +446,7 @@ M.json = {
     ["Swagger API 2.0"] = 509,
     TSON = 533,
     ["Talisman configuration"] = 511,
-    ["Taskfile YAML Schema"] = 632,
+    ["Taskfile config"] = 632,
     Taurus = 512,
     ["TestEnvironment.json"] = 521,
     ["Tier.run pricing.json"] = 515,
@@ -463,7 +464,7 @@ M.json = {
     ["Unreal Engine Uproject"] = 705,
     Updatecli = 666,
     Uplift = 701,
-    ["User Journey Map YAML Schema"] = 635,
+    ["User Journey Map"] = 635,
     V2Ray = 670,
     ["VSCode Code Snippets"] = 138,
     ["VSIX CLI publishing"] = 556,
@@ -477,7 +478,7 @@ M.json = {
     ["Windows Package Manager Locale Manifest"] = 613,
     ["Windows Package Manager Singleton Manifest"] = 611,
     ["Woodpecker pipeline config"] = 647,
-    ["Xstate Machine Schema"] = 664,
+    ["Xstate Machine"] = 664,
     ["Yippee-Ki-JSON configuration YML"] = 617,
     ["aerleon.yml"] = 8,
     ["angular.json"] = 15,
@@ -517,8 +518,8 @@ M.json = {
     ["chutzpah.json"] = 146,
     clangd = 127,
     clib = 128,
-    ["cloud-init: cloud-config userdata JSON schema"] = 130,
-    ["cloud-sdk-pipeline-config-schema"] = 148,
+    ["cloud-init: cloud-config userdata"] = 130,
+    ["cloud-sdk-pipeline-configuration"] = 148,
     ["cloudbuild.json"] = 149,
     cloudify = 129,
     codemagic = 131,
@@ -553,8 +554,8 @@ M.json = {
     ["devspace.yaml"] = 684,
     djlint = 620,
     ["docfx.json"] = 187,
+    ["docker sequencer"] = 186,
     ["docker-compose.yml"] = 618,
-    ["docker-seq schema"] = 186,
     ["dockerd.json"] = 185,
     ["dotnet Release Index manifest"] = 196,
     ["dotnetcli.host.json"] = 197,
@@ -565,14 +566,14 @@ M.json = {
     ["dvc.yaml"] = 203,
     ["ecosystem.json"] = 208,
     eksctl = 209,
-    ["electron-builder configuration file."] = 214,
+    ["electron-builder configuration file"] = 214,
     ["epr-manifest.json"] = 212,
     ["evcc.yaml"] = 215,
-    ["ezd schema"] = 217,
+    ["ezd task runner"] = 217,
     ["fabric.mod.json"] = 220,
     ["first-timers-bot"] = 224,
     ["flagd flag configuration"] = 57,
-    ["fly.io Schema"] = 58,
+    ["fly.io Configuration"] = 58,
     fulibWorkflows = 646,
     ["function.json"] = 234,
     ["geojson.json"] = 239,
@@ -596,7 +597,7 @@ M.json = {
     ["ioBroker Package manifest"] = 283,
     ["ize.toml"] = 700,
     ["jsconfig.json"] = 304,
-    ["jscpd Configuration Schema"] = 681,
+    ["jscpd Configuration"] = 681,
     jsdoc = 604,
     ["k3d.yaml"] = 305,
     ["kontinuous-config.yaml"] = 311,
@@ -621,7 +622,7 @@ M.json = {
     mboats = 650,
     ["micro-settings.json"] = 715,
     ["mimetypes.json"] = 335,
-    ["mirrord-schema"] = 587,
+    ["mirrord config"] = 587,
     ["mta.yaml"] = 588,
     ["mtad.yaml"] = 589,
     ["mycode.json"] = 358,
@@ -632,7 +633,7 @@ M.json = {
     ["ninjs (News in JSON) 2.0"] = 363,
     ["nlu.json"] = 366,
     ["nodemon.json"] = 368,
-    ["noodl.schema.json"] = 649,
+    ["noodl config"] = 649,
     now = 595,
     ["npm-badges"] = 371,
     ["nswag.json"] = 374,
@@ -705,7 +706,6 @@ M.json = {
     ["skyuxconfig.json"] = 488,
     snapcraft = 489,
     ["sqlc configuration"] = 497,
-    starlake = 627,
     ["stripe-app-local.json"] = 504,
     ["stripe-app.json"] = 503,
     swcrc = 628,
@@ -720,7 +720,7 @@ M.json = {
     tmLanguage = 520,
     tmuxinator = 584,
     ["transcend.yml"] = 526,
-    ["trunk.yaml schema"] = 527,
+    ["trunk.yaml"] = 527,
     ["ts-force-config.json"] = 531,
     ["tsconfig.json"] = 528,
     ["tsd.json"] = 529,
@@ -772,7 +772,7 @@ M.json = {
       name = "base-04",
       url = "https://json.schemastore.org/base-04.json"
     }, {
-      description = "Configuration file for the 1Password SSH agent.",
+      description = "Configuration file for the 1Password SSH agent",
       fileMatch = { "**/1password/ssh/agent.toml" },
       name = "1Password SSH Agent Config",
       url = "https://developer.1password.com/schema/ssh-agent-config.json"
@@ -790,7 +790,7 @@ M.json = {
         ["1.0"] = "https://json.schemastore.org/anywork-ac-1.0.json"
       }
     }, {
-      description = "JSON Schema for @factorial/drupal-breakpoints-css config file",
+      description = "@factorial/drupal-breakpoints-css config file",
       fileMatch = { "breakpoints.config.yml" },
       name = "@factorial/drupal-breakpoints-css",
       url = "https://json.schemastore.org/factorial-drupal-breakpoints-css-0.2.0.json"
@@ -815,7 +815,7 @@ M.json = {
       name = "Aerleon Policy",
       url = "https://raw.githubusercontent.com/aerleon/aerleon/main/schemas/aerleon-policies.schema.json"
     }, {
-      description = "JSON schema for the Agrippa config file",
+      description = "the Agrippa config file",
       fileMatch = { ".agripparc.json", "agripparc.json" },
       name = ".agripparc.json",
       url = "https://json.schemastore.org/agripparc-1.4.json",
@@ -834,7 +834,7 @@ M.json = {
         ["1.1"] = "https://json.schemastore.org/aiproj-1.1.json"
       }
     }, {
-      description = "Airlock Microgateway configuration schema",
+      description = "Airlock Microgateway configuration",
       fileMatch = { "microgateway-config.yaml", "microgateway-config.yml", "airlock-microgateway-config.yaml", "airlock-microgateway-config.yml" },
       name = "Airlock Microgateway",
       url = "https://json.schemastore.org/airlock-microgateway-3.2.json",
@@ -844,7 +844,7 @@ M.json = {
         ["3.2"] = "https://json.schemastore.org/airlock-microgateway-3.2.json"
       }
     }, {
-      description = "Schema for building Airplane tasks",
+      description = "Airplane tasks",
       fileMatch = { "*.task.json", "*.task.yaml", "*.task.yml" },
       name = "Airplane task",
       url = "https://api.airplane.dev/v0/schemas/task.json"
@@ -954,12 +954,12 @@ M.json = {
       name = "appveyor.yml",
       url = "https://json.schemastore.org/appveyor.json"
     }, {
-      description = "Architect.io Component Schema",
+      description = "Architect.io Component",
       fileMatch = { "architect.yml", "architect.yaml", "*.architect.yml", "*.architect.yaml" },
       name = "architect.yml",
       url = "https://raw.githubusercontent.com/architect-team/architect-cli/main/src/dependency-manager/schema/architect.schema.json"
     }, {
-      description = "A JSON schema for OpenJS Architect",
+      description = "A OpenJS Architect",
       fileMatch = { "arc.json", "arc.yml", "arc.yaml" },
       name = "arc.json",
       url = "https://raw.githubusercontent.com/architect/parser/v2.3.0/arc-schema.json"
@@ -977,7 +977,7 @@ M.json = {
       name = "artifacthub-repo.yml",
       url = "https://json.schemastore.org/artifacthub-repo.json"
     }, {
-      description = "AssemblyScript is TypeScript-like language that is compiled to WebAssembly (wasm).",
+      description = "AssemblyScript is TypeScript-like language that is compiled to WebAssembly (wasm)",
       fileMatch = { "asconfig.json" },
       name = "AssemblyScript",
       url = "https://json.schemastore.org/asconfig-schema.json"
@@ -987,12 +987,12 @@ M.json = {
       name = "AsyncAPI",
       url = "https://www.asyncapi.com/schema-store/all.schema-store.json"
     }, {
-      description = "A JSON Schema for validating AsyncAPI tool files",
+      description = "A validating AsyncAPI tool files",
       fileMatch = { ".asyncapi-tool" },
       name = "AsyncAPI Tool File",
       url = "https://raw.githubusercontent.com/asyncapi/website/master/scripts/tools/tools-schema.json"
     }, {
-      description = "Yaml schema for Aurora Agile Meta-Framework",
+      description = "Aurora Agile Meta-Framework",
       fileMatch = { "*.aurora.yaml", "*.aurora.yml" },
       name = "Aurora Agile Meta-Framework",
       url = "https://json.schemastore.org/aurora-1.0.json",
@@ -1000,12 +1000,12 @@ M.json = {
         ["1.0"] = "https://json.schemastore.org/aurora-1.0.json"
       }
     }, {
-      description = "Avro Schema Avsc file",
+      description = "Avro Avsc file",
       fileMatch = { "*.avsc" },
       name = "Avro Avsc",
       url = "https://json.schemastore.org/avro-avsc.json"
     }, {
-      description = "Azure Device Update for IoT Hub import manifest schema",
+      description = "Azure Device Update for IoT Hub import manifest",
       fileMatch = { "*.importmanifest.json" },
       name = "Azure Device Update for IoT Hub import manifest",
       url = "https://json.schemastore.org/azure-deviceupdate-import-manifest-5.0.json",
@@ -1014,7 +1014,7 @@ M.json = {
         ["5.0"] = "https://json.schemastore.org/azure-deviceupdate-import-manifest-5.0.json"
       }
     }, {
-      description = "Azure Device Update for IoT Hub update manifest schema",
+      description = "Azure Device Update for IoT Hub update manifest",
       fileMatch = { "*.updatemanifest.json" },
       name = "Azure Device Update for IoT Hub update manifest",
       url = "https://json.schemastore.org/azure-deviceupdate-update-manifest-5.json",
@@ -1023,14 +1023,14 @@ M.json = {
         ["5"] = "https://json.schemastore.org/azure-deviceupdate-update-manifest-5.json"
       }
     }, {
-      description = "Azure DevOps extension manifest schema",
+      description = "Azure DevOps extension manifest",
       name = "Azure DevOps extension manifest",
       url = "https://json.schemastore.org/azure-devops-extension-manifest-1.0.json",
       versions = {
         ["1.0"] = "https://json.schemastore.org/azure-devops-extension-manifest-1.0.json"
       }
     }, {
-      description = "Azure IoT EdgeAgent deployment schema",
+      description = "Azure IoT EdgeAgent deployment",
       name = "Azure IoT EdgeAgent deployment",
       url = "https://json.schemastore.org/azure-iot-edgeagent-deployment-1.1.json",
       versions = {
@@ -1038,7 +1038,7 @@ M.json = {
         ["1.1"] = "https://json.schemastore.org/azure-iot-edgeagent-deployment-1.1.json"
       }
     }, {
-      description = "Azure IoT EdgeHub deployment schema",
+      description = "Azure IoT EdgeHub deployment",
       name = "Azure IoT EdgeHub deployment",
       url = "https://json.schemastore.org/azure-iot-edgehub-deployment-1.2.json",
       versions = {
@@ -1047,7 +1047,7 @@ M.json = {
         ["1.2"] = "https://json.schemastore.org/azure-iot-edgehub-deployment-1.2.json"
       }
     }, {
-      description = "Azure IoT Edge deployment schema",
+      description = "Azure IoT Edge deployment",
       name = "Azure IoT Edge deployment",
       url = "https://json.schemastore.org/azure-iot-edge-deployment-2.0.json",
       versions = {
@@ -1055,7 +1055,7 @@ M.json = {
         ["1.1"] = "https://json.schemastore.org/azure-iot-edge-deployment-2.0.json"
       }
     }, {
-      description = "Azure IoT Edge deployment template schema",
+      description = "Azure IoT Edge deployment template",
       fileMatch = { "deployment.template.json", "deployment.debug.template.json" },
       name = "Azure IoT Edge deployment template",
       url = "https://json.schemastore.org/azure-iot-edge-deployment-template-4.0.json",
@@ -1097,12 +1097,12 @@ M.json = {
         ["0.1.1"] = "https://raw.githubusercontent.com/open-feature/schemas/json/json-schema-v0.1.1/json/flagd-definitions.json"
       }
     }, {
-      description = "Schema for fly.io, a cloud provider",
+      description = "fly.io, a cloud provider, configuration",
       fileMatch = { "fly.toml" },
-      name = "fly.io Schema",
+      name = "fly.io Configuration",
       url = "https://json.schemastore.org/fly.json"
     }, {
-      description = "Schema for Freifunk.de Community API. See more details https://github.com/freifunk/directory.api.freifunk.net",
+      description = "Freifunk.de Community API. See more details https://github.com/freifunk/directory.api.freifunk.net",
       fileMatch = { "*.freifunk-api.json" },
       name = "Freifunk.de Community API",
       url = "https://raw.githubusercontent.com/freifunk/api.freifunk.net/master/specs/0.5.2.json",
@@ -1153,42 +1153,42 @@ M.json = {
       name = "bamboo-spec",
       url = "https://json.schemastore.org/bamboo-spec.json"
     }, {
-      description = "Beef (Business Entity Execution Framework) database code-generation configuration.",
+      description = "Beef (Business Entity Execution Framework) database code-generation configuration",
       fileMatch = { "database.beef.yaml", "database.beef.yml", "database.beef.json" },
       name = "beef-database-codegen",
       url = "https://raw.githubusercontent.com/Avanade/Beef/master/tools/Beef.CodeGen.Core/Schema/database.beef.json"
     }, {
-      description = "Beef (Business Entity Execution Framework) entity code-generation configuration.",
+      description = "Beef (Business Entity Execution Framework) entity code-generation configuration",
       fileMatch = { "entity.beef.yaml", "entity.beef.yml", "entity.beef.json", "refdata.beef.yaml", "refdata.beef.yml", "refdata.beef.json", "datamodel.beef.yaml", "datamodel.beef.yml", "datamodel.beef.json" },
       name = "beef-entity-codegen",
       url = "https://raw.githubusercontent.com/Avanade/Beef/master/tools/Beef.CodeGen.Core/Schema/entity.beef.json"
     }, {
-      description = "Beef (Business Entity Execution Framework) database code-generation configuration (v5).",
+      description = "Beef (Business Entity Execution Framework) database code-generation configuration (v5)",
       fileMatch = { "database.beef-5.yaml", "database.beef-5.yml", "database.beef-5.json" },
       name = "beef-database-v5-codegen",
       url = "https://raw.githubusercontent.com/Avanade/Beef/master/tools/Beef.CodeGen.Core/Schema/database.beef-5.json"
     }, {
-      description = "Beef (Business Entity Execution Framework) entity code-generation configuration (v5).",
+      description = "Beef (Business Entity Execution Framework) entity code-generation configuration (v5)",
       fileMatch = { "entity.beef-5.yaml", "entity.beef-5.yml", "entity.beef-5.json", "refdata.beef-5.yaml", "refdata.beef-5.yml", "refdata.beef-5.json", "datamodel.beef-5.yaml", "datamodel.beef-5.yml", "datamodel.beef-5.json" },
       name = "beef-entity-v5-codegen",
       url = "https://raw.githubusercontent.com/Avanade/Beef/master/tools/Beef.CodeGen.Core/Schema/entity.beef-5.json"
     }, {
-      description = "BigQuery table schema",
+      description = "BigQuery table",
       fileMatch = { "*.bigquery.json" },
       name = "bigquery-table",
       url = "https://json.schemastore.org/bigquery-table.json"
     }, {
-      description = "Bitbucket Pipelines CI/CD manifest schema",
+      description = "Bitbucket Pipelines CI/CD manifest",
       fileMatch = { "bitbucket-pipelines.yml" },
       name = "bitbucket-pipelines",
       url = "https://bitbucket.org/atlassianlabs/intellij-bitbucket-references-plugin/raw/master/src/main/resources/schemas/bitbucket-pipelines.schema.json"
     }, {
-      description = "The configuration format of the Bitrise CLI. Bitrise is a collection of tools and services to help you with the development and automation of your software projects, with a main focus on mobile apps.",
+      description = "The configuration format of the Bitrise CLI. Bitrise is a collection of tools and services to help you with the development and automation of your software projects, with a main focus on mobile apps",
       fileMatch = { "bitrise.yml", "bitrise.yaml", "bitrise.json" },
       name = "bitrise",
       url = "https://json.schemastore.org/bitrise.json"
     }, {
-      description = "Steps and Workflows are the heart of how Bitrise works. A Bitrise build is simply a series of Steps. Bitrise is a collection of tools and services to help you with the development and automation of your software projects, with a main focus on mobile apps.",
+      description = "Steps and Workflows are the heart of how Bitrise works. A Bitrise build is simply a series of Steps. Bitrise is a collection of tools and services to help you with the development and automation of your software projects, with a main focus on mobile apps",
       fileMatch = { "step.yml" },
       name = "bitrise-step",
       url = "https://json.schemastore.org/bitrise-step.json"
@@ -1228,17 +1228,17 @@ M.json = {
       name = "bucklescript",
       url = "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json"
     }, {
-      description = "Build Info is the metadata of a build. It includes all the details about the build broken down into segments that include version history, artifacts, project modules, dependencies, and everything that was required to create the build.",
+      description = "Build Info is the metadata of a build. It includes all the details about the build broken down into segments that include version history, artifacts, project modules, dependencies, and everything that was required to create the build",
       fileMatch = { "*buildinfo*.json", "*build-info*.json", "*.buildinfo" },
       name = "Build Info",
       url = "https://raw.githubusercontent.com/jfrog/build-info-go/main/buildinfo-schema.json"
     }, {
-      description = "Schema for Minecraft Bukkit plugin description files",
+      description = "Minecraft Bukkit plugin description files",
       fileMatch = { "plugin.yml" },
       name = "Bukkit plugin.yml",
       url = "https://json.schemastore.org/bukkit-plugin.json"
     }, {
-      description = "Schema for Buildkite pipeline.yml files",
+      description = "Buildkite pipeline.yml files",
       fileMatch = { "buildkite.yml", "buildkite.yaml", "buildkite.json", "buildkite.*.yml", "buildkite.*.yaml", "buildkite.*.json", "**/.buildkite/pipeline.yml", "**/.buildkite/pipeline.yaml", "**/.buildkite/pipeline.json", "**/.buildkite/pipeline.*.yml", "**/.buildkite/pipeline.*.yaml", "**/.buildkite/pipeline.*.json" },
       name = "Buildkite",
       url = "https://raw.githubusercontent.com/buildkite/pipeline-schema/main/schema.json"
@@ -1252,17 +1252,17 @@ M.json = {
         ["0.65.0"] = "https://json.schemastore.org/sourcehut-build-0.65.0.json"
       }
     }, {
-      description = "Schema for bundleconfig.json files",
+      description = "bundleconfig.json files",
       fileMatch = { "bundleconfig.json" },
       name = "bundleconfig.json",
       url = "https://json.schemastore.org/bundleconfig.json"
     }, {
-      description = "Schema for BungeeCord plugin description files",
+      description = "BungeeCord plugin description files",
       fileMatch = { "plugin.yml", "bungee.yml" },
       name = "BungeeCord plugin.yml",
       url = "https://json.schemastore.org/bungee-plugin.json"
     }, {
-      description = "Schema WordPress block.json files",
+      description = "WordPress block.json files",
       fileMatch = { "block.json" },
       name = "block.json",
       url = "https://schemas.wp.org/trunk/block.json",
@@ -1270,7 +1270,7 @@ M.json = {
         trunk = "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json"
       }
     }, {
-      description = "Schema for Block Metadata in Block Protocol",
+      description = "Block Metadata in Block Protocol",
       fileMatch = { "block-metadata.json" },
       name = "Block Protocol Metadata",
       url = "https://blockprotocol.org/schemas/block-metadata.json"
@@ -1291,17 +1291,17 @@ M.json = {
       name = "Better Scripts",
       url = "https://raw.githubusercontent.com/iamyoki/better-scripts/main/lib/schema.json"
     }, {
-      description = "Schema for CMake Presets",
+      description = "CMake Presets",
       fileMatch = { "CMakePresets.json", "CMakeUserPresets.json" },
       name = "CMake Presets",
       url = "https://raw.githubusercontent.com/Kitware/CMake/master/Help/manual/presets/schema.json"
     }, {
-      description = "Schema for Qualisys Calqulus pipeline",
+      description = "Qualisys Calqulus pipeline",
       fileMatch = { "*.calqulus.yaml", "*.calqulus.yml" },
       name = "Calqulus pipeline",
       url = "https://raw.githubusercontent.com/qualisys/qualisys-schemas/master/calqulus-pipeline.schema.json"
     }, {
-      description = "Schema for Camel YAML DSL",
+      description = "Camel YAML DSL",
       fileMatch = { "*.camel.yaml", "*.camelk.yaml" },
       name = "Camel YAML DSL",
       url = "https://raw.githubusercontent.com/apache/camel/main/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/schema/camelYamlDsl.json",
@@ -1310,7 +1310,7 @@ M.json = {
         ["4.x"] = "https://raw.githubusercontent.com/apache/camel/main/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/schema/camelYamlDsl.json"
       }
     }, {
-      description = "Schema for Carafe compatible JavaScript Bundles",
+      description = "Carafe compatible JavaScript Bundles",
       name = "Carafe",
       url = "https://carafe.fm/schema/draft-02/bundle.schema.json",
       versions = {
@@ -1323,17 +1323,17 @@ M.json = {
       name = "Cargo Manifest",
       url = "https://json.schemastore.org/cargo.json"
     }, {
-      description = "Schema for cargo-make, a Rust task runner and build tool",
+      description = "cargo-make, a Rust task runner and build tool",
       fileMatch = { "Makefile.toml" },
       name = "Cargo Make",
       url = "https://json.schemastore.org/cargo-make.json"
     }, {
-      description = "Schema for Backstage Catalog Info",
+      description = "Backstage Catalog Info",
       fileMatch = { "catalog-info.yaml" },
       name = "Catalog Info Backstage",
       url = "https://json.schemastore.org/catalog-info.json"
     }, {
-      description = "Schema for the representation of 3D city models",
+      description = "the representation of 3D city models",
       name = "CityJSON",
       url = "https://raw.githubusercontent.com/cityjson/specs/master/schemas/cityjson.min.schema.json"
     }, {
@@ -1342,9 +1342,9 @@ M.json = {
       name = "Conjure",
       url = "https://raw.githubusercontent.com/palantir/conjure/master/conjure.schema.json"
     }, {
-      description = "Schema definition for G/M codes for Machine Tools or 3D Printers",
+      description = "G/M codes for Machine Tools or 3D Printers",
       fileMatch = { "*.cncc.json" },
-      name = "CNC Codes JSON Schema",
+      name = "CNC Codes",
       url = "https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-07/schema",
       versions = {
         ["2022-06"] = "https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-06/schema",
@@ -1352,7 +1352,7 @@ M.json = {
         latest = "https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-07/schema"
       }
     }, {
-      description = "Schema for cog.yaml files",
+      description = "cog.yaml files",
       fileMatch = { "cog.yaml", "cog.yml" },
       name = "Cog config file",
       url = "https://raw.githubusercontent.com/replicate/cog/main/pkg/config/data/config_schema_v1.0.json",
@@ -1360,95 +1360,95 @@ M.json = {
         ["1.0"] = "https://raw.githubusercontent.com/replicate/cog/main/pkg/config/data/config_schema_v1.0.json"
       }
     }, {
-      description = "Box.json Schema used with Commandbox cli, cfml web servers and modules.",
+      description = "Commandbox used with cli, cfml web servers and modules",
       name = "Commandbox Box.json",
       url = "https://raw.githubusercontent.com/Ortus-Solutions/vscode-commandbox/master/resources/schemas/box.schema.json"
     }, {
-      description = "Server.json Schema used with Commandbox cfml web servers.",
+      description = "Commandbox used with cfml web servers",
       name = "Commandbox Server.json",
       url = "https://raw.githubusercontent.com/Ortus-Solutions/vscode-commandbox/master/resources/schemas/server.schema.json"
     }, {
-      description = "Schema for dbt project configurations",
+      description = "dbt project configurations",
       fileMatch = { "dbt_project.yml" },
       name = "dbt Project",
       url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/dbt_project.json"
     }, {
-      description = "Schema for Dein.vim, a Vim/Neovim plugin manager",
+      description = "Dein.vim, a Vim/Neovim plugin manager",
       fileMatch = { "dein.toml" },
-      name = "Dein Config Schema",
+      name = "Dein Config",
       url = "https://json.schemastore.org/dein.json"
     }, {
       description = "Configuration file for Space Apps",
       fileMatch = { "Spacefile" },
-      name = "Deta Spacefile Schema",
+      name = "Deta Spacefile",
       url = "https://deta.space/assets/spacefile.schema.json"
     }, {
-      description = "A Drupal schema for breakpoints",
+      description = "Drupal configuration for breakpoints",
       fileMatch = { "*.breakpoints.yml" },
-      name = "Drupal Breakpoints Schema",
+      name = "Drupal Breakpoints",
       url = "https://json.schemastore.org/drupal-breakpoints.json"
     }, {
-      description = "A Drupal schema for info",
+      description = "Drupal configuration for info",
       fileMatch = { "*.info.yml" },
-      name = "Drupal Info Schema",
+      name = "Drupal Info",
       url = "https://json.schemastore.org/drupal-info.json"
     }, {
-      description = "A Drupal schema for layouts",
+      description = "Drupal configuration for layouts",
       fileMatch = { "*.layouts.yml" },
-      name = "Drupal Layouts Schema",
+      name = "Drupal Layouts",
       url = "https://json.schemastore.org/drupal-layouts.json"
     }, {
-      description = "A Drupal schema for libraries",
+      description = "Drupal configuration for libraries",
       fileMatch = { "*.libraries.yml" },
-      name = "Drupal Libraries Schema",
+      name = "Drupal Libraries",
       url = "https://json.schemastore.org/drupal-libraries.json"
     }, {
-      description = "A Drupal schema for action links",
+      description = "Drupal configuration for action links",
       fileMatch = { "*.links.action.yml" },
-      name = "Drupal Links Action Schema",
+      name = "Drupal Links Action",
       url = "https://json.schemastore.org/drupal-links-action.json"
     }, {
-      description = "A Drupal schema for contextual links",
+      description = "Drupal configuration for contextual links",
       fileMatch = { "*.links.contextual.yml" },
-      name = "Drupal Links Contextual Schema",
+      name = "Drupal Links Contextual",
       url = "https://json.schemastore.org/drupal-links-contextual.json"
     }, {
-      description = "A Drupal schema for menu links",
+      description = "Drupal configuration for menu links",
       fileMatch = { "*.links.menu.yml" },
-      name = "Drupal Links Menu Schema",
+      name = "Drupal Links Menu",
       url = "https://json.schemastore.org/drupal-links-menu.json"
     }, {
-      description = "A Drupal schema for task links",
+      description = "Drupal configuration for task links",
       fileMatch = { "*.links.task.yml" },
-      name = "Drupal Links Task Schema",
+      name = "Drupal Links Task",
       url = "https://json.schemastore.org/drupal-links-task.json"
     }, {
-      description = "A Drupal schema for migration",
+      description = "Drupal configuration for migration",
       fileMatch = { "*.migration.*.yml", "**/migrations/*.yml" },
-      name = "Drupal Migration Schema",
+      name = "Drupal Migration",
       url = "https://json.schemastore.org/drupal-migration.json"
     }, {
-      description = "A Drupal schema for permissions",
+      description = "Drupal configuration for permissions",
       fileMatch = { "*.permissions.yml" },
-      name = "Drupal Permissions Schema",
+      name = "Drupal Permissions",
       url = "https://json.schemastore.org/drupal-permissions.json"
     }, {
-      description = "A Drupal schema for routing",
+      description = "Drupal configuration for routing",
       fileMatch = { "*.routing.yml" },
-      name = "Drupal Routing Schema",
+      name = "Drupal Routing",
       url = "https://json.schemastore.org/drupal-routing.json"
     }, {
-      description = "A Drupal schema for config",
+      description = "Drupal configuration for config",
       fileMatch = { "**/config/schema/*.schema.yml" },
-      name = "Drupal Config Schema",
+      name = "Drupal Config",
       url = "https://json.schemastore.org/drupal-config.json"
     }, {
-      description = "A Drupal schema for services",
+      description = "Drupal configuration for services",
       fileMatch = { "*.services.yml" },
-      name = "Drupal Services Schema",
+      name = "Drupal Services",
       url = "https://json.schemastore.org/drupal-services.json"
     }, {
-      description = "The Chart.yaml file is required for a chart.",
+      description = "The Chart.yaml file is required for a chart",
       fileMatch = { "Chart.yaml" },
       name = "Helm Chart.yaml",
       url = "https://json.schemastore.org/chart.json"
@@ -1463,12 +1463,12 @@ M.json = {
       name = "Helm Unittest Test Suite",
       url = "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.3.3/schema/helm-testsuite.json"
     }, {
-      description = "Schema for CircleCI config files",
+      description = "CircleCI config files",
       fileMatch = { "**/.circleci/config.yml" },
       name = "CircleCI config.yml",
       url = "https://json.schemastore.org/circleciconfig.json"
     }, {
-      description = "Configuration file as an alternative for configuring your repository in the settings page.",
+      description = "Configuration file as an alternative for configuring your repository in the settings page",
       fileMatch = { ".codeclimate.yml", ".codeclimate.json" },
       name = "Code Climate",
       url = "https://json.schemastore.org/codeclimate.json"
@@ -1498,12 +1498,12 @@ M.json = {
       name = "cloudify",
       url = "https://json.schemastore.org/cloudify.json"
     }, {
-      description = "JSON schema for #cloud-config userdata YAML",
+      description = "#cloud-config userdata YAML",
       fileMatch = { "cloudconfig.yaml", "cloud-config.yaml", "*.cloudconfig.yaml", "*.cloud-config.yaml" },
-      name = "cloud-init: cloud-config userdata JSON schema",
+      name = "cloud-init: cloud-config userdata",
       url = "https://raw.githubusercontent.com/canonical/cloud-init/main/cloudinit/config/schemas/versions.schema.cloud-config.json"
     }, {
-      description = "JSON schema for Codemagic CI/CD file configuration",
+      description = "Codemagic CI/CD file configuration",
       fileMatch = { "codemagic.yaml", "codemagic.yml" },
       name = "codemagic",
       url = "https://codemagic.io/codemagic-schema.json"
@@ -1513,24 +1513,24 @@ M.json = {
       name = "Codux",
       url = "https://wixplosives.github.io/codux-config-schema/codux.config.schema.json"
     }, {
-      description = "Schema for dev container configuration files.",
+      description = "dev container configuration files",
       fileMatch = { "devcontainer.json", ".devcontainer.json" },
       name = "devcontainer.json",
       url = "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json"
     }, {
-      description = "Schema for codecov.yml files.",
+      description = "codecov.yml files",
       fileMatch = { ".codecov.yml", "codecov.yml" },
-      name = "JSON schema for Codecov configuration files",
+      name = "Codecov configuration files",
       url = "https://json.schemastore.org/codecov.json"
     }, {
-      description = "Schema for codeship-services.yml files.",
+      description = "codeship-services.yml files",
       fileMatch = { "codeship-services.yml" },
-      name = "JSON schema for CodeShip Pro services configuration files",
+      name = "CodeShip Pro services configuration files",
       url = "https://json.schemastore.org/codeship-services.json"
     }, {
-      description = "Schema for codeship-steps.yml files.",
+      description = "codeship-steps.yml files",
       fileMatch = { "codeship-steps.yml" },
-      name = "JSON schema for CodeShip Pro steps configuration files",
+      name = "CodeShip Pro steps configuration files",
       url = "https://json.schemastore.org/codeship-steps.json"
     }, {
       description = "Vercel configuration file",
@@ -1538,12 +1538,12 @@ M.json = {
       name = "Vercel",
       url = "https://openapi.vercel.sh/vercel.json"
     }, {
-      description = "Schema for code snippet files in visual studio code extensions",
+      description = "code snippet files in visual studio code extensions",
       fileMatch = { "*.code-snippets" },
       name = "VSCode Code Snippets",
       url = "https://raw.githubusercontent.com/Yash-Singh1/vscode-snippets-json-schema/main/schema.json"
     }, {
-      description = "Schema for compilerconfig.json files",
+      description = "compilerconfig.json files",
       fileMatch = { "compilerconfig.json" },
       name = "compilerconfig.json",
       url = "https://json.schemastore.org/compilerconfig.json"
@@ -1558,9 +1558,9 @@ M.json = {
       name = "commands.json",
       url = "https://json.schemastore.org/commands.json"
     }, {
-      description = "Universal schema for all catalog data focused on transformations and relationships",
+      description = "Universal all catalog data focused on transformations and relationships",
       fileMatch = { "*.cat.json", "*.catalog.json", "*.cat.yml", "*.catalog.yml" },
-      name = "Common Catalog Schema",
+      name = "Common Catalog Data",
       url = "https://raw.githubusercontent.com/howlowck/common-catalog-schema/main/schema-versions.json"
     }, {
       description = "React Cosmos configuration file",
@@ -1589,7 +1589,7 @@ M.json = {
     }, {
       description = "SAP Cloud SDK Pipeline configuration",
       fileMatch = { "pipeline_config.yml" },
-      name = "cloud-sdk-pipeline-config-schema",
+      name = "cloud-sdk-pipeline-configuration",
       url = "https://json.schemastore.org/cloud-sdk-pipeline-config-schema.json"
     }, {
       description = "Google Cloud Build configuration file",
@@ -1602,17 +1602,17 @@ M.json = {
       name = "Google Cloud Workflows",
       url = "https://json.schemastore.org/workflows.json"
     }, {
-      description = "Schema for AWS CDK context files",
+      description = "AWS CDK context files",
       fileMatch = { "cdk.json" },
       name = "AWS CDK cdk.json",
       url = "https://json.schemastore.org/cdk.json"
     }, {
-      description = "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment.",
+      description = "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment",
       fileMatch = { "*.cf.json", "*.cf.yml", "*.cf.yaml", "cloudformation.json", "cloudformation.yml", "cloudformation.yaml" },
       name = "AWS CloudFormation",
       url = "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
     }, {
-      description = "The AWS Serverless Application Model (AWS SAM, previously known as Project Flourish) extends AWS CloudFormation to provide a simplified way of defining the Amazon API Gateway APIs, AWS Lambda functions, and Amazon DynamoDB tables needed by your serverless application.",
+      description = "The AWS Serverless Application Model (AWS SAM, previously known as Project Flourish) extends AWS CloudFormation to provide a simplified way of defining the Amazon API Gateway APIs, AWS Lambda functions, and Amazon DynamoDB tables needed by your serverless application",
       fileMatch = { "template.yaml", "serverless.template", "*.sam.json", "*.sam.yml", "*.sam.yaml", "sam.json", "sam.yml", "sam.yaml" },
       name = "AWS CloudFormation Serverless Application Model (SAM)",
       url = "https://raw.githubusercontent.com/aws/serverless-application-model/main/samtranslator/schema/schema.json"
@@ -1627,7 +1627,7 @@ M.json = {
       name = "chisel-slices.json",
       url = "https://json.schemastore.org/chisel-slices.json"
     }, {
-      description = "A YAML file with citation metadata for software or datasets.",
+      description = "A YAML file with citation metadata for software or datasets",
       fileMatch = { "CITATION.cff" },
       name = "Citation File Format",
       url = "https://citation-file-format.github.io/1.2.0/schema.json"
@@ -1652,29 +1652,29 @@ M.json = {
       name = "component-detection-manifest.json",
       url = "https://json.schemastore.org/component-detection-manifest.json"
     }, {
-      description = "A JSON schema for open-source project contribution data by Mozilla",
+      description = "A open-source project contribution data by Mozilla",
       fileMatch = { "contribute.json" },
       name = "contribute.json",
       url = "https://raw.githubusercontent.com/mozilla/contribute.json/master/schema.json"
     }, {
-      description = "A JSON schema to configure Crowdin, a crowd-translation platform. See https://support.crowdin.com/configuration-file/.",
+      description = "Crowdin, a crowd-translation platform. See https://support.crowdin.com/configuration-file/",
       fileMatch = { "**/crowdin.yml" },
       name = "crowdin.yml",
       url = "https://json.schemastore.org/crowdin.json"
     }, {
-      description = "A YAML schema for Crowdsec collection configuration files",
+      description = "A YAML Crowdsec collection configuration files",
       fileMatch = { "**/collections/*/*.yaml" },
-      name = "Crowdsec collection Schema",
+      name = "Crowdsec collection config",
       url = "https://raw.githubusercontent.com/crowdsecurity/crowdsec-yaml-schemas/main/collection_schema.yaml"
     }, {
-      description = "A YAML schema for Crowdsec parser configuration files",
+      description = "A YAML Crowdsec parser configuration files",
       fileMatch = { "**/parsers/s00-raw/*/*.yaml", "**/parsers/s01-parse/*/*.yaml", "**/parsers/s02-enrich/*/*.yaml", "**/postoverflows/s00-enrich/*/*.yaml", "**/postoverflows/s01-whitelist/*/*.yaml" },
-      name = "Crowdsec parser Schema",
+      name = "Crowdsec parser config",
       url = "https://raw.githubusercontent.com/crowdsecurity/crowdsec-yaml-schemas/main/parser_schema.yaml"
     }, {
-      description = "A YAML schema for Crowdsec scenario configuration files",
+      description = "A YAML Crowdsec scenario configuration files",
       fileMatch = { "**/scenarios/*/*.yaml" },
-      name = "Crowdsec scenario Schema",
+      name = "Crowdsec scenario config",
       url = "https://raw.githubusercontent.com/crowdsecurity/crowdsec-yaml-schemas/main/scenario_schema.yaml"
     }, {
       description = "Cypress.io test runner configuration file",
@@ -1687,17 +1687,17 @@ M.json = {
       name = ".creatomic",
       url = "https://json.schemastore.org/creatomic.json"
     }, {
-      description = "JSON schema for cspell configuration file",
+      description = "cspell configuration file",
       fileMatch = { ".cspell.json", "cspell.json", ".cSpell.json", "cSpell.json", "cspell.config.json", "cspell.config.yaml", "cspell.config.yml", "cspell.yaml", "cspell.yml" },
       name = "cspell",
       url = "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json"
     }, {
-      description = "A JSON schema CSS Comb's configuration file",
+      description = "CSS Comb's configuration file",
       fileMatch = { ".csscomb.json" },
       name = ".csscomb.json",
       url = "https://json.schemastore.org/csscomb.json"
     }, {
-      description = "A JSON schema CSS Lint's configuration file",
+      description = "CSS Lint's configuration file",
       fileMatch = { ".csslintrc" },
       name = ".csslintrc",
       url = "https://json.schemastore.org/csslintrc.json"
@@ -1736,32 +1736,32 @@ M.json = {
       name = "ddev-project",
       url = "https://raw.githubusercontent.com/ddev/ddev/master/pkg/ddevapp/schema.json"
     }, {
-      description = "A JSON schema for the ASP.NET DebugSettings.json files",
+      description = "A the ASP.NET DebugSettings.json files",
       fileMatch = { "debugsettings.json" },
       name = "debugsettings.json",
       url = "https://json.schemastore.org/debugsettings.json"
     }, {
-      description = "A JSON representation of a Deno configuration file.",
+      description = "A JSON representation of a Deno configuration file",
       fileMatch = { "deno.json", "deno.jsonc" },
       name = "Deno",
       url = "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json"
     }, {
-      description = "A JSON schema for the Dependabot config.yml files",
+      description = "A the Dependabot config.yml files",
       fileMatch = { "**/.dependabot/config.yml" },
       name = "dependabot.json",
       url = "https://json.schemastore.org/dependabot.json"
     }, {
-      description = "A JSON schema for the GitHub Action's dependabot.yml files",
+      description = "A the GitHub Action's dependabot.yml files",
       fileMatch = { "**/.github/dependabot.yml", "**/.github/dependabot.yaml" },
       name = "dependabot-v2.json",
       url = "https://json.schemastore.org/dependabot-2.0.json"
     }, {
-      description = "A JSON schema for Deployer yaml recipes",
+      description = "A Deployer yaml recipes",
       fileMatch = { "deploy.yaml", "deploy.yml" },
       name = "Deployer Recipe",
       url = "https://raw.githubusercontent.com/deployphp/deployer/master/src/schema.json"
     }, {
-      description = "Detekt Configuration File schema",
+      description = "Detekt Configuration File",
       fileMatch = { "detekt.yml", "detekt.yaml" },
       name = "detekt.yml",
       url = "https://json.schemastore.org/detekt-1.22.0.json",
@@ -1770,7 +1770,7 @@ M.json = {
         ["1.22.0"] = "https://json.schemastore.org/detekt-1.22.0.json"
       }
     }, {
-      description = "Execute Discord Webhook JSON Schema",
+      description = "Execute Discord Webhook",
       name = "Discord Webhook",
       url = "https://raw.githubusercontent.com/AxoCode/json-schema/master/discord/webhook.json"
     }, {
@@ -1779,62 +1779,62 @@ M.json = {
       name = "dockerd.json",
       url = "https://json.schemastore.org/dockerd.json"
     }, {
-      description = "Schema for docker-seq.\n\nSee at: https://gitlab.com/sbenv/veroxis/docker-seq",
+      description = "docker-seq.\n\nSee at: https://gitlab.com/sbenv/veroxis/docker-seq",
       fileMatch = { "docker-seq.yaml", "docker-seq.json", "docker-seq.yml", "*.docker-seq.yaml", "*.docker-seq.json", "*.docker-seq.yml" },
-      name = "docker-seq schema",
+      name = "docker sequencer",
       url = "https://gitlab.com/sbenv/veroxis/docker-seq/-/raw/HEAD/docker-seq.schema.json"
     }, {
-      description = "A JSON schema for DocFx configuration files",
+      description = "A DocFx configuration files",
       fileMatch = { "docfx.json" },
       name = "docfx.json",
       url = "https://json.schemastore.org/docfx.json"
     }, {
-      description = "A JSON schema for a Dolittle bounded context's artifacts",
+      description = "A a Dolittle bounded context's artifacts",
       fileMatch = { "**/.dolittle/artifacts.json" },
       name = "Dolittle Artifacts",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.SDK/v5.0.0/Schemas/Artifacts.Configuration/artifacts.json"
     }, {
-      description = "A JSON schema for Dolittle application's bounded context configuration",
+      description = "A Dolittle application's bounded context configuration",
       fileMatch = { "bounded-context.json" },
       name = "Dolittle Bounded Context Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Applications.Configuration/bounded-context.json"
     }, {
-      description = "A JSON schema for a Dolittle bounded context's event horizon configurations",
+      description = "A a Dolittle bounded context's event horizon configurations",
       fileMatch = { "**/.dolittle/event-horizons.json" },
       name = "Dolittle Event Horizons Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Events/event-horizons.json"
     }, {
-      description = "A JSON schema for a Dolittle bounded context's resource configurations",
+      description = "A a Dolittle bounded context's resource configurations",
       fileMatch = { "**/.dolittle/resources.json" },
       name = "Dolittle Resources Configuration",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/v5.1.0/Schemas/ResourceTypes.Configuration/resources.json"
     }, {
-      description = "A JSON schema for a Dolittle bounded context's event horizon's interaction server configuration",
+      description = "A a Dolittle bounded context's event horizon's interaction server configuration",
       fileMatch = { "**/.dolittle/server.json" },
       name = "Dolittle Server Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Server/server.json"
     }, {
-      description = "A JSON schema for a Dolittle bounded context's tenant configuration",
+      description = "A a Dolittle bounded context's tenant configuration",
       fileMatch = { "**/.dolittle/tenants.json" },
       name = "Dolittle Tenants Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Tenancy/tenants.json"
     }, {
-      description = "A JSON schema for a Dolittle bounded context's tenant mapping configurations",
+      description = "A a Dolittle bounded context's tenant mapping configurations",
       fileMatch = { "**/.dolittle/tenant-map.json" },
       name = "Dolittle Tenant Map Configuration",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json"
     }, {
-      description = "A JSON schema for a Dolittle bounded context's topology",
+      description = "A a Dolittle bounded context's topology",
       fileMatch = { "**/.dolittle/topology.json" },
       name = "Dolittle Topology",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.SDK/master/Schemas/Applications.Configuration/topology.json"
     }, {
-      description = "JSON schema for .NET product collection manifests",
+      description = ".NET product collection manifests",
       fileMatch = { "dotnet-release-index.json" },
       name = "dotnet Release Index manifest",
       url = "https://json.schemastore.org/dotnet-releases-index.json"
     }, {
-      description = "JSON schema for .NET CLI template host files",
+      description = ".NET CLI template host files",
       fileMatch = { "dotnetcli.host.json" },
       name = "dotnetcli.host.json",
       url = "https://json.schemastore.org/dotnetcli.host.json"
@@ -1849,7 +1849,7 @@ M.json = {
       name = "drone.json",
       url = "https://json.schemastore.org/drone.json"
     }, {
-      description = "JSON Schema for Drush 9 site aliases file",
+      description = "Drush 9 site aliases file",
       fileMatch = { "**/sites/*.site.yml" },
       name = "Drush site aliases",
       url = "https://json.schemastore.org/drush.site.yml.json"
@@ -1858,17 +1858,17 @@ M.json = {
       name = "dss-2.0.0.json",
       url = "https://json.schemastore.org/dss-2.0.0.json"
     }, {
-      description = "YAML schema for dstack configurations",
+      description = "YAML dstack configurations",
       fileMatch = { "*.dstack.yml", "*.dstack.yaml" },
       name = "dstack configuration",
       url = "https://dstack-runner-downloads.s3.eu-west-1.amazonaws.com/latest/schemas/configuration.json"
     }, {
-      description = "JSON Schema for dvc.yaml file",
+      description = "dvc.yaml file",
       fileMatch = { "dvc.yaml" },
       name = "dvc.yaml",
       url = "https://raw.githubusercontent.com/iterative/dvcyaml-schema/master/schema.json"
     }, {
-      description = "JSON schema for Devfiles",
+      description = "Devfiles",
       fileMatch = { "devfile.yaml", ".devfile.yaml" },
       name = "Devfile",
       url = "https://raw.githubusercontent.com/devfile/api/v2.2.0/schemas/latest/devfile.json",
@@ -1879,17 +1879,17 @@ M.json = {
         ["2.2.0"] = "https://raw.githubusercontent.com/devfile/api/v2.2.0/schemas/latest/devfile.json"
       }
     }, {
-      description = "Schema for exchange publishing tools gateway definitions",
+      description = "exchange publishing tools gateway definitions",
       fileMatch = { "**/exchange-config/gateway/prod/*.yaml", "**/exchange-config/gateway/prod/*.yml", "**/exchange-config/gateway/non-prod/*.yaml", "**/exchange-config/gateway/non-prod/*.yml" },
       name = "DWP Exchange - gateway",
       url = "https://raw.githubusercontent.com/dwp/schemas/main/exchange/publishing-tools/gateway-config-schema.json"
     }, {
-      description = "Schema for exchange publishing tools meta definition",
+      description = "exchange publishing tools meta definition",
       fileMatch = { "**/exchange-config/meta.yaml", "**/exchange-config/meta.yml" },
       name = "DWP Exchange - meta",
       url = "https://raw.githubusercontent.com/dwp/schemas/main/exchange/publishing-tools/meta-schema.json"
     }, {
-      description = "Schema for exchange publishing tools catalogue entry definition",
+      description = "exchange publishing tools catalogue entry definition",
       fileMatch = { "**/exchange-config/portal/catalogue-entry.yaml", "**/exchange-config/portal/catalogue-entry.yml" },
       name = "DWP Exchange - catalogue entry",
       url = "https://raw.githubusercontent.com/dwp/schemas/main/exchange/publishing-tools/catalogue-entry-schema.json"
@@ -1908,7 +1908,7 @@ M.json = {
       name = ".esmrc.json",
       url = "https://json.schemastore.org/esmrc.json"
     }, {
-      description = "JSON schema for Esquio configuration files",
+      description = "Esquio configuration files",
       name = "Esquio",
       url = "https://json.schemastore.org/esquio.json"
     }, {
@@ -1925,17 +1925,17 @@ M.json = {
         ["1.0"] = "https://cdn.jsdelivr.net/gh/tarampampam/error-pages@latest/schemas/config/1.0.schema.json"
       }
     }, {
-      description = "JSON schema for electron-build configuration file.",
+      description = "electron-build configuration file",
       fileMatch = { "electron-builder.json" },
-      name = "electron-builder configuration file.",
+      name = "electron-builder configuration file",
       url = "https://json.schemastore.org/electron-builder.json"
     }, {
-      description = "JSON schema for evcc configuration file.",
+      description = "evcc configuration file",
       fileMatch = { "evcc*.yaml" },
       name = "evcc.yaml",
       url = "https://raw.githubusercontent.com/andig/evcc/master/schema.json"
     }, {
-      description = "JSON schema for Expo SDK app manifest",
+      description = "Expo SDK app manifest",
       fileMatch = { "app.json" },
       name = "Expo SDK",
       url = "https://json.schemastore.org/expo-46.0.0.json",
@@ -1949,12 +1949,12 @@ M.json = {
         ["46.0.0"] = "https://json.schemastore.org/expo-46.0.0.json"
       }
     }, {
-      description = "Schema for ezd task runner.\n\nSee at: https://gitlab.com/sbenv/veroxis/ezd-rs",
+      description = "ezd task runner.\n\nSee at: https://gitlab.com/sbenv/veroxis/ezd-rs",
       fileMatch = { "ezd.yaml", "ezd.json", "ezd.yml" },
-      name = "ezd schema",
+      name = "ezd task runner",
       url = "https://gitlab.com/sbenv/veroxis/ezd-rs/-/raw/HEAD/ezd.schema.json"
     }, {
-      description = "JSON schema for ESLint configuration files",
+      description = "ESLint configuration files",
       fileMatch = { ".eslintrc", ".eslintrc.json", ".eslintrc.yml", ".eslintrc.yaml" },
       name = ".eslintrc",
       url = "https://json.schemastore.org/eslintrc.json"
@@ -1969,67 +1969,67 @@ M.json = {
       name = "fabric.mod.json",
       url = "https://json.schemastore.org/fabric.mod.json"
     }, {
-      description = "Schema for F-Droid Data app metadata files",
+      description = "F-Droid Data app metadata files",
       fileMatch = { "**/metadata/*.yml" },
       name = "F-Droid Data metadata",
       url = "https://gitlab.com/fdroid/fdroiddata/-/raw/master/schemas/metadata.json"
     }, {
-      description = "JSON schema for ffizer template configuration files",
+      description = "ffizer template configuration files",
       fileMatch = { ".ffizer.yaml" },
       name = ".ffizer.yaml",
       url = "https://ffizer.github.io/ffizer/ffizer.schema.json"
     }, {
-      description = "JSON Schema for firebase",
+      description = "firebase",
       fileMatch = { "firebase.json" },
       name = "Firebase",
       url = "https://raw.githubusercontent.com/firebase/firebase-tools/master/schema/firebase-config.json"
     }, {
-      description = "A bot that helps onboarding new open-source contributors.",
+      description = "A bot that helps onboarding new open-source contributors",
       fileMatch = { "**/.github/first-timers.yml" },
       name = "first-timers-bot",
       url = "https://json.schemastore.org/first-timers.json"
     }, {
-      description = "Base schema for Module/system/World manifest schemas to inherit from.",
+      description = "Base Module/system/World manifest to inherit from",
       fileMatch = {},
       name = "Foundry VTT - Base package Manifest",
       url = "https://json.schemastore.org/foundryvtt-base-package-manifest.json"
     }, {
-      description = "JSON schema for Foundry VTT module.json files.",
+      description = "Foundry VTT module.json files",
       fileMatch = { "**/modules/*/module.json" },
       name = "Foundry VTT - Module Manifest",
       url = "https://json.schemastore.org/foundryvtt-module-manifest.json"
     }, {
-      description = "JSON schema for Foundry VTT system.json files.",
+      description = "Foundry VTT system.json files",
       fileMatch = { "**/systems/*/system.json" },
       name = "Foundry VTT - System Manifest",
       url = "https://json.schemastore.org/foundryvtt-system-manifest.json"
     }, {
-      description = "JSON schema for Foundry VTT world.json files.",
+      description = "Foundry VTT world.json files",
       fileMatch = { "**/worlds/*/world.json" },
       name = "Foundry VTT - World Manifest",
       url = "https://json.schemastore.org/foundryvtt-world-manifest.json"
     }, {
-      description = "JSON schema for Foundry VTT template.json files.",
+      description = "Foundry VTT template.json files",
       fileMatch = { "**/systems/*/template.json" },
       name = "Foundry VTT - System Data Template",
       url = "https://json.schemastore.org/foundryvtt-template.json"
     }, {
-      description = "JSON schema for FOSSA CLI's .fossa.yml configuration file",
+      description = "FOSSA CLI's .fossa.yml configuration file",
       fileMatch = { ".fossa.yml" },
       name = "Fossa configuration file",
       url = "https://raw.githubusercontent.com/fossas/fossa-cli/master/docs/references/files/fossa-yml.v3.schema.json"
     }, {
-      description = "JSON schema for FOSSA CLI's fossa-deps file",
+      description = "FOSSA CLI's fossa-deps file",
       fileMatch = { "fossa-deps.yml", "fossa-deps.yaml", "fossa-deps.json" },
       name = "Fossa's fossa-deps file",
       url = "https://raw.githubusercontent.com/fossas/fossa-cli/master/docs/references/files/fossa-deps.schema.json"
     }, {
-      description = "Schema for configuring Karakum, a converter of TypeScript declaration files to Kotlin declarations",
+      description = "configuring Karakum, a converter of TypeScript declaration files to Kotlin declarations",
       fileMatch = { "karakum.config.json" },
       name = "Karakum configuration file",
       url = "https://raw.githubusercontent.com/karakum-team/karakum/master/schema/karakum-schema.json"
     }, {
-      description = "JSON schema for Knative Functions func.yaml files",
+      description = "Knative Functions func.yaml files",
       fileMatch = { "func.yaml" },
       name = "Knative Functions - func.yaml",
       url = "https://raw.githubusercontent.com/knative/func/latest-release/schema/func_yaml-schema.json",
@@ -2038,12 +2038,12 @@ M.json = {
         ["1.8"] = "https://raw.githubusercontent.com/knative/func/release-1.8/schema/func_yaml-schema.json"
       }
     }, {
-      description = "JSON schema for Azure Functions function.json files",
+      description = "Azure Functions function.json files",
       fileMatch = { "function.json" },
       name = "function.json",
       url = "https://json.schemastore.org/function.json"
     }, {
-      description = "JSON Schema for defining mappings for Python-based grapheme-to-phoneme engine 'g2p'.",
+      description = "defining mappings for Python-based grapheme-to-phoneme engine 'g2p'",
       fileMatch = { "config-g2p.yaml", "config-g2p.json" },
       name = "G2P Mapping Configuration",
       url = "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json",
@@ -2051,7 +2051,7 @@ M.json = {
         ["2.0"] = "https://raw.githubusercontent.com/roedoejet/g2p/main/g2p/mappings/.schema/g2p-config-schema-2.0.json"
       }
     }, {
-      description = "JSON schema for Cloudtoid GatewayCore API Gateway and Reverse Proxy",
+      description = "Cloudtoid GatewayCore API Gateway and Reverse Proxy",
       fileMatch = { "gwcore.json", "gwcore.yml", "gwcore.yaml", "gatewaycore.json", "gatewaycore.yml", "gatewaycore.yaml", "*.gwcore.json", "*.gwcore.yml", "*.gwcore.yaml", "*.gatewaycore.json", "*.gatewaycore.yml", "*.gatewaycore.yaml" },
       name = "GatewayCore API Gateway",
       url = "https://raw.githubusercontent.com/cloudtoid/gateway-core/master/src/Cloudtoid.GatewayCore/Options/Schema/2021-07.json",
@@ -2060,17 +2060,17 @@ M.json = {
         latest = "https://raw.githubusercontent.com/cloudtoid/gateway-core/master/src/Cloudtoid.GatewayCore/Options/Schema/2021-07.json"
       }
     }, {
-      description = "JSON schema for Blueprint Solutions for Google Cloud",
+      description = "Blueprint Solutions for Google Cloud",
       fileMatch = { "metadata.yaml", "metadata.display.yaml" },
       name = "GCP Blueprint Metadata",
       url = "https://json.schemastore.org/gcp-blueprint-metadata.json"
     }, {
-      description = "Configuration for GPC, so a site can convey its support for the Global Privacy Control.",
+      description = "Configuration for GPC, so a site can convey its support for the Global Privacy Control",
       fileMatch = { "**/.well-known/gpc.json" },
       name = "Global Privacy Control",
       url = "https://json.schemastore.org/gpc.json"
     }, {
-      description = "GeoJSON format for representing geographic data.",
+      description = "GeoJSON format for representing geographic data",
       name = "geojson.json",
       url = "https://json.schemastore.org/geojson.json"
     }, {
@@ -2079,47 +2079,47 @@ M.json = {
       name = "GitVersion",
       url = "https://json.schemastore.org/gitversion.json"
     }, {
-      description = "YAML schema for GitHub Actions",
+      description = "YAML GitHub Actions",
       fileMatch = { "action.yml", "action.yaml" },
       name = "GitHub Action",
       url = "https://json.schemastore.org/github-action.json"
     }, {
-      description = "YAML schema for GitHub Discussions",
+      description = "YAML GitHub Discussions",
       fileMatch = { "**/.github/DISCUSSION_TEMPLATE/*.yml", "**/.github/DISCUSSION_TEMPLATE/*.yaml" },
       name = "GitHub Discussion",
       url = "https://json.schemastore.org/github-discussion.json"
     }, {
-      description = "YAML schema for GitHub Funding",
+      description = "YAML GitHub Funding",
       fileMatch = { "**/.github/FUNDING.yml", "**/.github/funding.yml", "**/.github/funding.yaml" },
       name = "GitHub Funding",
       url = "https://json.schemastore.org/github-funding.json"
     }, {
-      description = "YAML schema for GitHub issue forms",
+      description = "YAML GitHub issue forms",
       fileMatch = { "**/.github/ISSUE_TEMPLATE/**.yml", "**/.github/ISSUE_TEMPLATE/**.yaml" },
       name = "GitHub issue forms",
       url = "https://json.schemastore.org/github-issue-forms.json"
     }, {
-      description = "YAML schema for configuring GitHub Issue Templates",
+      description = "YAML configuring GitHub Issue Templates",
       fileMatch = { "**/.github/ISSUE_TEMPLATE/config.yml", "**/.github/ISSUE_TEMPLATE/config.yaml" },
       name = "GitHub Issue Template configuration",
       url = "https://json.schemastore.org/github-issue-config.json"
     }, {
-      description = "YAML schema for GitHub Workflow",
+      description = "YAML GitHub Workflow",
       fileMatch = { "**/.github/workflows/*.yml", "**/.github/workflows/*.yaml" },
       name = "GitHub Workflow",
       url = "https://json.schemastore.org/github-workflow.json"
     }, {
-      description = "Json schema for properties json file for a GitHub Workflow template",
+      description = "properties json file for a GitHub Workflow template",
       fileMatch = { "**/.github/workflow-templates/**.properties.json" },
       name = "GitHub Workflow Template Properties",
       url = "https://json.schemastore.org/github-workflow-template-properties.json"
     }, {
-      description = "JSON schema for configuring Gitlab CI",
+      description = "configuring Gitlab CI",
       fileMatch = { "*.gitlab-ci.yml" },
       name = "gitlab-ci",
       url = "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
     }, {
-      description = "JSON schema for configuring Gitpod.io",
+      description = "configuring Gitpod.io",
       fileMatch = { ".gitpod.yml" },
       name = "Gitpod Configuration",
       url = "https://gitpod.io/schemas/gitpod-schema.json"
@@ -2148,21 +2148,21 @@ M.json = {
       name = "Goss",
       url = "https://github.com/goss-org/goss/raw/master/docs/goss-json-schema.yaml"
     }, {
-      description = "JSON Schema for Grafana 5.x Dashboards",
+      description = "Grafana 5.x Dashboards",
       name = "Grafana 5.x Dashboard",
       url = "https://json.schemastore.org/grafana-dashboard-5.x.json"
     }, {
-      description = "JSON Schema for GraphQL Mesh config file",
+      description = "GraphQL Mesh config file",
       fileMatch = { ".meshrc.yml", ".meshrc.yaml", ".meshrc.json", ".meshrc.js", ".graphql-mesh.yaml", ".graphql-mesh.yml" },
       name = "GraphQL Mesh",
       url = "https://unpkg.com/@graphql-mesh/types/esm/config-schema.json"
     }, {
-      description = "JSON Schema for GraphQL Config config file",
+      description = "GraphQL Config config file",
       fileMatch = { "graphql.config.json", "graphql.config.js", "graphql.config.yaml", "graphql.config.yml", ".graphqlrc", ".graphqlrc.json", ".graphqlrc.yaml", ".graphqlrc.yml", ".graphqlrc.js" },
       name = "GraphQL Config",
       url = "https://unpkg.com/graphql-config/config-schema.json"
     }, {
-      description = "JSON Schema for GraphQL Code Generator config file",
+      description = "GraphQL Code Generator config file",
       fileMatch = { "codegen.yml", "codegen.yaml", "codegen.json", "codegen.js", ".codegen.yml", ".codegen.yaml", ".codegen.json", ".codegen.js" },
       name = "GraphQL Code Generator",
       url = "https://www.graphql-code-generator.com/config.schema.json"
@@ -2192,7 +2192,7 @@ M.json = {
       name = "Grunt Watch task",
       url = "https://json.schemastore.org/grunt-watch-task.json"
     }, {
-      description = "Schema for standard Grunt tasks",
+      description = "standard Grunt tasks",
       fileMatch = { "**/grunt/*.json", "*-tasks.json" },
       name = "Grunt base task",
       url = "https://json.schemastore.org/grunt-task.json"
@@ -2212,17 +2212,17 @@ M.json = {
       name = "Haystack Pipeline",
       url = "https://raw.githubusercontent.com/deepset-ai/haystack-json-schema/main/json-schema/haystack-pipeline.schema.json"
     }, {
-      description = "YAML schema for configuring Hazelcast 5 Platform (member and client)",
+      description = "YAML configuring Hazelcast 5 Platform (member and client)",
       fileMatch = { "hazelcast*.yaml", "hazelcast*.json", "hz-*.yaml", "hz-*.json" },
       name = "Hazelcast 5 Configuration",
       url = "https://hazelcast.com/schema/config/hazelcast-config-5.3.json"
     }, {
-      description = "JSON schema for Azure Functions host.json files",
+      description = "Azure Functions host.json files",
       fileMatch = { "host.json" },
       name = "host.json",
       url = "https://json.schemastore.org/host.json"
     }, {
-      description = "Schema for host-meta JDR files",
+      description = "host-meta JDR files",
       fileMatch = { "host-meta.json" },
       name = "host-meta.json",
       url = "https://json.schemastore.org/host-meta.json"
@@ -2232,32 +2232,32 @@ M.json = {
       name = ".htmlhintrc",
       url = "https://json.schemastore.org/htmlhint.json"
     }, {
-      description = "Schema for Ory Hydra configuration file",
+      description = "Ory Hydra configuration file",
       fileMatch = { "hydra.json", "hydra.yml", "hydra.yaml", "hydra.toml" },
       name = "Ory Hydra configuration",
       url = "https://raw.githubusercontent.com/ory/hydra/master/.schema/version.schema.json"
     }, {
-      description = "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor.",
+      description = "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
       fileMatch = { "zapp.yaml", "zapp.json" },
       name = "IBM Zapp document",
       url = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json"
     }, {
-      description = "IBM Enterprise languages code formatter settings file for IBM zDevOps development tools such as Z Open Editor.",
+      description = "IBM Enterprise languages code formatter settings file for IBM zDevOps development tools such as Z Open Editor",
       fileMatch = { "zcodeformat.yaml", "zcodeformat.json" },
       name = "IBM zCodeFormatSettings",
       url = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zcodeformat/zcodeformat-schema-0.0.1.json"
     }, {
-      description = "JSON schema for IDE template host file",
+      description = "IDE template host file",
       fileMatch = { "ide.host.json" },
       name = "ide.host.json",
       url = "https://json.schemastore.org/ide.host.json"
     }, {
-      description = "Schema for IfState configuration file",
+      description = "IfState configuration file",
       fileMatch = { "**/ifstate/config.yml" },
       name = "ifstate.conf",
       url = "https://ifstate.net/schema/ifstate.conf.schema.json"
     }, {
-      description = "Schema for imageoptimizer.json files",
+      description = "imageoptimizer.json files",
       fileMatch = { "imageoptimizer.json" },
       name = "imageoptimizer.json",
       url = "https://json.schemastore.org/imageoptimizer.json"
@@ -2275,7 +2275,7 @@ M.json = {
         ["1.0.0"] = "https://json.schemastore.org/img-catapult-psp-1.0.0.json"
       }
     }, {
-      description = "JSON schema for Import Maps files",
+      description = "Import Maps files",
       fileMatch = { "importmap.json", "import_map.json", "import-map.json" },
       name = "importmap.json",
       url = "https://json.schemastore.org/importmap.json"
@@ -2285,22 +2285,22 @@ M.json = {
       name = "ioBroker Configuration",
       url = "https://raw.githubusercontent.com/ioBroker/ioBroker.js-controller/master/schemas/iobroker.json"
     }, {
-      description = "Schema for ioBroker JSON-based admin user interfaces - config, custom and tabs",
+      description = "ioBroker JSON-based admin user interfaces - config, custom and tabs",
       fileMatch = { "jsonConfig.json", "jsonCustom.json", "jsonTab.json" },
       name = "ioBroker JSON UI",
       url = "https://raw.githubusercontent.com/ioBroker/adapter-react-v5/main/schemas/jsonConfig.json"
     }, {
-      description = "Schema for ioBroker adapters io-package file",
+      description = "ioBroker adapters io-package file",
       fileMatch = { "io-package.json" },
       name = "ioBroker Package manifest",
       url = "https://raw.githubusercontent.com/ioBroker/ioBroker.js-controller/master/schemas/io-package.json"
     }, {
-      description = "Schema for jasmine JSON config file",
+      description = "jasmine JSON config file",
       fileMatch = { "jasmine.json" },
       name = "Jasmine",
       url = "https://json.schemastore.org/jasmine.json"
     }, {
-      description = "Jekyll static site generator config file schema",
+      description = "Jekyll static site generator config file",
       fileMatch = { "_config.yml" },
       name = "Jekyll",
       url = "https://json.schemastore.org/jekyll.json"
@@ -2315,31 +2315,31 @@ M.json = {
       name = "Jenkins X Requirements",
       url = "https://jenkins-x.io/schemas/jx-requirements.json"
     }, {
-      description = "A schema for validating a single jdownloader2 rule",
+      description = "A validating a single jdownloader2 rule",
       fileMatch = { "*.jd2cr", "*.jd2cr.json" },
-      name = "JDownloader2 crawler single-rule schema",
+      name = "JDownloader2 crawler single-rules",
       url = "https://raw.githubusercontent.com/sergxerj/jdownloader2-crawler-rule-json-schema/main/jd2cr.schema.json"
     }, {
-      description = "A schema for validating an array of jdownloader2 rules.",
+      description = "A validating an array of jdownloader2 rules",
       fileMatch = { "*.jd2mcr", "*.jd2mcr.json", "*.linkcrawlerrules.json" },
-      name = "JDownloader2 crawler multi-rule schema",
+      name = "JDownloader2 crawler multi-rules",
       url = "https://raw.githubusercontent.com/sergxerj/jdownloader2-crawler-rule-json-schema/main/jd2mcr.schema.json"
     }, {
-      description = "JFrog File Spec schema definition",
+      description = "JFrog File Spec",
       fileMatch = { "**/filespecs/*.json", "*filespec*.json", "*.filespec" },
       name = "JFrog File Spec",
       url = "https://raw.githubusercontent.com/jfrog/jfrog-cli/v2/schema/filespec-schema.json"
     }, {
-      description = "jmdsl JMeter DSL command line configuration file schema definition",
+      description = "jmdsl JMeter DSL command line configuration file",
       fileMatch = { "*.jmdsl.yml", "*.jmdsl.yaml", "*.jmdsl.json" },
-      name = "JMeter DSL cli config schema",
+      name = "JMeter DSL cli config",
       url = "https://github.com/abstracta/jmeter-java-dsl/releases/latest/download/jmdsl-config-schema.json"
     }, {
-      description = "JSON Schema for Jovo language Models (https://www.jovo.tech/docs/model)",
+      description = "Jovo language Models (https://www.jovo.tech/docs/model)",
       name = "Jovo Language Models",
       url = "https://json.schemastore.org/jovo-language-model.json"
     }, {
-      description = "JSON schema for JReleaser config file",
+      description = "JReleaser config file",
       fileMatch = { "jreleaser.yml", "jreleaser.json" },
       name = "JReleaser",
       url = "https://json.schemastore.org/jreleaser-1.8.0.json",
@@ -2382,7 +2382,7 @@ M.json = {
       name = "JSON Document Transform",
       url = "https://json.schemastore.org/jdt.json"
     }, {
-      description = "JSON schema for the JSON Feed format",
+      description = "the JSON Feed format",
       fileMatch = { "feed.json" },
       name = "JSON Feed",
       url = "https://json.schemastore.org/feed.json",
@@ -2425,17 +2425,17 @@ M.json = {
       name = "Datadog Service Definition",
       url = "https://raw.githubusercontent.com/DataDog/schema/main/service-catalog/version.schema.json"
     }, {
-      description = "Schema for Ory Keto configuration file",
+      description = "Ory Keto configuration file",
       fileMatch = { "keto.json", "keto.yml", "keto.yaml", "keto.toml" },
       name = "Ory Keto configuration",
       url = "https://raw.githubusercontent.com/ory/keto/master/.schema/version.schema.json"
     }, {
-      description = "Schema for Kontinuous values.yaml configuration files",
+      description = "Kontinuous values.yaml configuration files",
       fileMatch = { "**/.kontinuous/values.yaml", "**/.kontinuous/env/*/values.yaml" },
       name = "kontinuous-values.yaml",
       url = "https://raw.githubusercontent.com/socialgouv/kontinuous/v1/docs/values.schema.json"
     }, {
-      description = "Schema for Kontinuous config.yaml configuration files",
+      description = "Kontinuous config.yaml configuration files",
       fileMatch = { "**/.kontinuous/config.yaml" },
       name = "kontinuous-config.yaml",
       url = "https://raw.githubusercontent.com/socialgouv/kontinuous/v1/docs/config.schema.json"
@@ -2445,12 +2445,12 @@ M.json = {
       name = "kustomization.yaml",
       url = "https://json.schemastore.org/kustomization.json"
     }, {
-      description = "A JSON schema for the configuration of the Label Commenter GitHub Action",
+      description = "A the configuration of the Label Commenter GitHub Action",
       fileMatch = { "**/.github/label-commenter-config.yml" },
       name = "label-commenter-config.yml",
       url = "https://json.schemastore.org/label-commenter-config.json"
     }, {
-      description = "A JSON schema for the ASP.NET LaunchSettings.json files",
+      description = "A the ASP.NET LaunchSettings.json files",
       fileMatch = { "launchsettings.json" },
       name = "launchsettings.json",
       url = "https://json.schemastore.org/launchsettings.json"
@@ -2460,7 +2460,7 @@ M.json = {
       name = "Lefthook",
       url = "https://json.schemastore.org/lefthook.json"
     }, {
-      description = "Config file for the lego-build CLI tool.",
+      description = "Config file for the lego-build CLI tool",
       fileMatch = { "lego.json" },
       name = "lego.json",
       url = "https://json.schemastore.org/lego.json",
@@ -2468,22 +2468,22 @@ M.json = {
         ["1.0"] = "https://json.schemastore.org/lego.json"
       }
     }, {
-      description = "A JSON schema for lerna.json files",
+      description = "A lerna.json files",
       fileMatch = { "lerna.json" },
       name = "lerna.json",
       url = "https://json.schemastore.org/lerna.json"
     }, {
-      description = "A JSON schema for lgtm configuration files",
+      description = "A lgtm configuration files",
       fileMatch = { "lgtm.yml", ".lgtm.yml" },
       name = "lgtm.yml",
       url = "https://json.schemastore.org/lgtm.json"
     }, {
-      description = "JSON schema for client-side library config files",
+      description = "client-side library config files",
       fileMatch = { "libman.json" },
       name = "libman.json",
       url = "https://json.schemastore.org/libman.json"
     }, {
-      description = "JSON schema for license report tool configuration file",
+      description = "license report tool configuration file",
       fileMatch = { "license-report-config.json" },
       name = "license-report-config.json",
       url = "https://json.schemastore.org/license-report-config.json"
@@ -2503,7 +2503,7 @@ M.json = {
       name = "Lively Properties",
       url = "https://raw.githubusercontent.com/rocksdanister/lively/core-separation/schemas/livelyPropertiesSchema.json"
     }, {
-      description = "JSON schema for LOOBins macOS binaries. More info at https://github.com/infosecB/LOOBins",
+      description = "LOOBins macOS binaries. More info at https://github.com/infosecB/LOOBins",
       fileMatch = { "**/LOOBins/*.yml" },
       name = "LOOBin",
       url = "https://json.schemastore.org/loobin-1.0.json"
@@ -2513,42 +2513,42 @@ M.json = {
       name = "lotus.yaml",
       url = "https://grnhse-vpc-assets.s3.amazonaws.com/jsonschemas/lotus.yaml.json"
     }, {
-      description = "JSON schema for Azure Functions local.settings.json files",
+      description = "Azure Functions local.settings.json files",
       fileMatch = { "local.settings.json" },
       name = "local.settings.json",
       url = "https://json.schemastore.org/local.settings.json"
     }, {
-      description = "JSON schema for Localazy CLI configuration file. More info at https://localazy.com/docs/cli",
+      description = "Localazy CLI configuration file. More info at https://localazy.com/docs/cli",
       fileMatch = { "localazy.json" },
       name = "localazy.json",
       url = "https://raw.githubusercontent.com/localazy/cli-schema/master/localazy.json"
     }, {
-      description = "JSON schema for Linguistic Schema Definition Language files",
+      description = "Linguistic Language files",
       fileMatch = { "*.lsdl.yaml", "*.lsdl.json" },
       name = "lsdlschema.json",
       url = "https://json.schemastore.org/lsdlschema.json"
     }, {
-      description = "A micro editor config schema",
+      description = "A micro editor config",
       fileMatch = { "*.settings.json" },
-      name = "A micro editor config schema",
+      name = "A micro editor config",
       url = "https://json.schemastore.org/micro.json"
     }, {
-      description = "JSON schema for Mega-Linter configuration file (for Mega-Linter users)",
+      description = "Mega-Linter configuration file (for Mega-Linter users)",
       fileMatch = { ".mega-linter.yml", ".megalinter.yml", "*.mega-linter-config.yml", "*.megalinter-config.yml" },
       name = "MegaLinter configuration",
       url = "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-configuration.jsonschema.json"
     }, {
-      description = "JSON schema for MegaLinter descriptor files (for MegaLinter contributors)",
+      description = "MegaLinter descriptor files (for MegaLinter contributors)",
       fileMatch = { "*.megalinter-descriptor.yml" },
       name = "MegaLinter descriptor",
       url = "https://raw.githubusercontent.com/megalinter/megalinter/main/megalinter/descriptors/schemas/megalinter-descriptor.jsonschema.json"
     }, {
-      description = "JSON schema for Meltano project definition files",
+      description = "Meltano project definition files",
       fileMatch = { "*meltano.yml", "meltano-manifest.json", "meltano-manifest.*.json" },
       name = "Meltano project definition",
       url = "https://raw.githubusercontent.com/meltano/meltano/main/src/meltano/schemas/meltano.schema.json"
     }, {
-      description = "JSON schema for Meltano plugin discovery definition file",
+      description = "Meltano plugin discovery definition file",
       fileMatch = { "*discovery.yml" },
       name = "Meltano plugin discovery definition",
       url = "https://raw.githubusercontent.com/meltano/meltano/main/src/meltano/schemas/discovery.schema.json"
@@ -2557,112 +2557,112 @@ M.json = {
       name = "Microsoft Band Web Tile",
       url = "https://json.schemastore.org/band-manifest.json"
     }, {
-      description = "JSON Schema for mime type collections",
+      description = "mime type collections",
       fileMatch = { "mimetypes.json" },
       name = "mimetypes.json",
       url = "https://json.schemastore.org/mimetypes.json"
     }, {
-      description = "Configuration file defining an advancement for a data pack for Minecraft.",
+      description = "Configuration file defining an advancement for a data pack for Minecraft",
       fileMatch = { "**/data/*/advancements/*.json" },
       name = "Minecraft Data Pack Advancement",
       url = "https://json.schemastore.org/minecraft-advancement.json"
     }, {
-      description = "Configuration file defining a biome for a data pack for Minecraft.",
+      description = "Configuration file defining a biome for a data pack for Minecraft",
       fileMatch = { "**/data/*/worldgen/biome/*.json" },
       name = "Minecraft Data Pack Biome",
       url = "https://json.schemastore.org/minecraft-biome.json"
     }, {
-      description = "Configuration file defining a configured carver for a data pack for Minecraft.",
+      description = "Configuration file defining a configured carver for a data pack for Minecraft",
       fileMatch = { "**/data/*/worldgen/configured_carver/*.json" },
       name = "Minecraft Data Pack Configured Carver",
       url = "https://json.schemastore.org/minecraft-configured-carver.json"
     }, {
-      description = "Configuration file defining a damage type for a data pack for Minecraft.",
+      description = "Configuration file defining a damage type for a data pack for Minecraft",
       fileMatch = { "**/data/*/damage_type/*.json" },
       name = "Minecraft Data Pack Damage Type",
       url = "https://json.schemastore.org/minecraft-damage-type.json"
     }, {
-      description = "Configuration file defining a dimension type for a data pack for Minecraft.",
+      description = "Configuration file defining a dimension type for a data pack for Minecraft",
       fileMatch = { "**/data/*/dimension_type/*.json" },
       name = "Minecraft Data Pack Dimension Type",
       url = "https://json.schemastore.org/minecraft-dimension-type.json"
     }, {
-      description = "Configuration file defining a dimension for a data pack for Minecraft.",
+      description = "Configuration file defining a dimension for a data pack for Minecraft",
       fileMatch = { "**/data/*/dimension/*.json" },
       name = "Minecraft Data Pack Dimension",
       url = "https://json.schemastore.org/minecraft-dimension.json"
     }, {
-      description = "Configuration file defining an item modifier for a data pack for Minecraft.",
+      description = "Configuration file defining an item modifier for a data pack for Minecraft",
       fileMatch = { "**/data/*/item_modifiers/*.json" },
       name = "Minecraft Data Pack Item Modifier",
       url = "https://json.schemastore.org/minecraft-item-modifier.json"
     }, {
-      description = "Configuration file defining a loot table for a data pack for Minecraft.",
+      description = "Configuration file defining a loot table for a data pack for Minecraft",
       fileMatch = { "**/data/*/loot_tables/**/*.json" },
       name = "Minecraft Data Pack Loot Table",
       url = "https://json.schemastore.org/minecraft-loot-table.json"
     }, {
-      description = "Configuration file defining the metadata of a data pack for Minecraft.",
+      description = "Configuration file defining the metadata of a data pack for Minecraft",
       fileMatch = { "**/pack.mcmeta" },
       name = "Minecraft Data Pack Metadata",
       url = "https://json.schemastore.org/minecraft-pack-mcmeta.json"
     }, {
-      description = "Configuration file defining a predicate for a data pack for Minecraft.",
+      description = "Configuration file defining a predicate for a data pack for Minecraft",
       fileMatch = { "**/data/*/predicates/*.json" },
       name = "Minecraft Data Pack Predicate",
       url = "https://json.schemastore.org/minecraft-predicate.json"
     }, {
-      description = "Configuration file defining a recipe for a data pack for Minecraft.",
+      description = "Configuration file defining a recipe for a data pack for Minecraft",
       fileMatch = { "**/data/*/recipes/*.json" },
       name = "Minecraft Data Pack Recipe",
       url = "https://json.schemastore.org/minecraft-recipe.json"
     }, {
-      description = "Configuration file defining a tag for a data pack for Minecraft.",
+      description = "Configuration file defining a tag for a data pack for Minecraft",
       fileMatch = { "**/data/*/tags/**/*.json" },
       name = "Minecraft Data Pack Tag",
       url = "https://json.schemastore.org/minecraft-tag.json"
     }, {
-      description = "Configuration file defining a template pool for a data pack for Minecraft.",
+      description = "Configuration file defining a template pool for a data pack for Minecraft",
       fileMatch = { "**/data/*/worldgen/template_pool/*.json" },
       name = "Minecraft Data Pack Template Pool",
       url = "https://json.schemastore.org/minecraft-template-pool.json"
     }, {
-      description = "Configuration file defining a language for a resource pack for Minecraft.",
+      description = "Configuration file defining a language for a resource pack for Minecraft",
       fileMatch = { "**/assets/*/lang/*.json" },
       name = "Minecraft Resource Pack Lang",
       url = "https://json.schemastore.org/minecraft-lang.json"
     }, {
-      description = "Configuration file defining a particle for a resource pack for Minecraft.",
+      description = "Configuration file defining a particle for a resource pack for Minecraft",
       fileMatch = { "**/assets/*/particles/*.json" },
       name = "Minecraft Resource Pack Particle",
       url = "https://json.schemastore.org/minecraft-particle.json"
     }, {
-      description = "Configuration file defining what sounds play when sound event is triggered for a resourcepack for Minecraft.",
+      description = "Configuration file defining what sounds play when sound event is triggered for a resourcepack for Minecraft",
       fileMatch = { "**/assets/*/sounds.json" },
       name = "Minecraft Resourcepack Sounds",
       url = "https://raw.githubusercontent.com/AxoCode/json-schema/master/minecraft/sounds.json"
     }, {
-      description = "Configuration file defining an mcmeta file for a texture for a resource pack for Minecraft.",
+      description = "Configuration file defining an mcmeta file for a texture for a resource pack for Minecraft",
       fileMatch = { "**/assets/*/textures/**/*.png.mcmeta" },
       name = "Minecraft Resource Pack Texture Mcmeta",
       url = "https://json.schemastore.org/minecraft-texture-mcmeta.json"
     }, {
-      description = "Configuration file defining a trim material for a data pack for Minecraft.",
+      description = "Configuration file defining a trim material for a data pack for Minecraft",
       fileMatch = { "**/data/*/trim_material/*.json" },
       name = "Minecraft Data Pack Trim Material",
       url = "https://json.schemastore.org/minecraft-trim-material.json"
     }, {
-      description = "Configuration file defining a trim pattern for a data pack for Minecraft.",
+      description = "Configuration file defining a trim pattern for a data pack for Minecraft",
       fileMatch = { "**/data/*/trim_pattern/*.json" },
       name = "Minecraft Data Pack Trim Pattern",
       url = "https://json.schemastore.org/minecraft-trim-pattern.json"
     }, {
-      description = "JSON schema for MkDocs configuration file",
+      description = "MkDocs configuration file",
       fileMatch = { "mkdocs.yml" },
       name = "MkDocs Configuration 1.0",
       url = "https://json.schemastore.org/mkdocs-1.0.json"
     }, {
-      description = "JSON schema for MochaJS configuration files",
+      description = "MochaJS configuration files",
       fileMatch = { ".mocharc.json", ".mocharc.jsonc", ".mocharc.yml", ".mocharc.yaml" },
       name = ".mocharc",
       url = "https://json.schemastore.org/mocharc.json"
@@ -2672,39 +2672,39 @@ M.json = {
       name = ".modernizrrc",
       url = "https://json.schemastore.org/modernizrrc.json"
     }, {
-      description = "JSON schema for mycode.js files",
+      description = "mycode.js files",
       fileMatch = { "mycode.json" },
       name = "mycode.json",
       url = "https://json.schemastore.org/mycode.json"
     }, {
-      description = "Schema for a napari plugin manifest",
+      description = "a napari plugin manifest",
       fileMatch = { "napari.yml", "napari.yaml", ".napari.yml", ".napari.yaml" },
       name = "napari plugin manifest",
       url = "https://github.com/napari/npe2/releases/latest/download/schema.json"
     }, {
-      description = "This schema describes the YAML config that Netlify uses",
+      description = "Netlify YAML config",
       fileMatch = { "**/admin/config*.yml" },
-      name = "Netlify config schema",
+      name = "Netlify config",
       url = "https://json.schemastore.org/netlify.json"
     }, {
-      description = "Cisco Nexus-as-Code Data Model JSON Schema",
+      description = "Cisco Nexus-as-Code Data Model",
       fileMatch = { "*.nac.yml", "*.nac.yaml", "*.aac.yml", "*.aac.yaml" },
-      name = "Nexus-as-Code schema",
+      name = "Nexus-as-Code Data Model",
       url = "https://raw.githubusercontent.com/netascode/nac-validate/main/schema.json"
     }, {
-      description = "nightwatch.js schema",
+      description = "nightwatch.js config",
       fileMatch = { "nightwatch.json" },
       name = "Nightwatch.js",
       url = "https://json.schemastore.org/nightwatch.json"
     }, {
-      description = "A JSON Schema for ninjs by the IPTC. News and publishing information. See https://iptc.org/standards/ninjs/",
+      description = "A ninjs by the IPTC. News and publishing information. See https://iptc.org/standards/ninjs/",
       name = "ninjs (News in JSON) 2.0",
       url = "https://json.schemastore.org/ninjs-2.0.json",
       versions = {
         ["2.0"] = "https://json.schemastore.org/ninjs-2.0.json"
       }
     }, {
-      description = "A JSON Schema for ninjs by the IPTC. News and publishing information. See https://iptc.org/standards/ninjs/",
+      description = "A ninjs by the IPTC. News and publishing information. See https://iptc.org/standards/ninjs/",
       name = "ninjs (News in JSON) 1.3",
       url = "https://json.schemastore.org/ninjs-1.3.json",
       versions = {
@@ -2714,27 +2714,27 @@ M.json = {
         ["1.3"] = "https://json.schemastore.org/ninjs-1.3.json"
       }
     }, {
-      description = "A progressive Node.js framework for building efficient and scalable server-side applications 🚀.",
+      description = "A progressive Node.js framework for building efficient and scalable server-side applications 🚀",
       fileMatch = { ".nestcli.json", ".nest-cli.json", "nest-cli.json", "nest.json" },
       name = "nest-cli",
       url = "https://json.schemastore.org/nest-cli.json"
     }, {
-      description = "Schema for NPM-Link-Up",
+      description = "NPM-Link-Up",
       fileMatch = { "nlu.json", ".nlu.json" },
       name = "nlu.json",
       url = "https://raw.githubusercontent.com/oresoftware/npm-link-up/master/assets/nlu.schema.json"
     }, {
-      description = "JSON schema for .nodehawkrc configuration files.",
+      description = ".nodehawkrc configuration files",
       fileMatch = { ".nodehawkrc" },
       name = ".nodehawkrc",
       url = "https://json.schemastore.org/nodehawkrc.json"
     }, {
-      description = "JSON schema for nodemon.json configuration files.",
+      description = "nodemon.json configuration files",
       fileMatch = { "nodemon.json" },
       name = "nodemon.json",
       url = "https://json.schemastore.org/nodemon.json"
     }, {
-      description = "Schema for NOX service definition",
+      description = "NOX service definition",
       fileMatch = { "service.nox.yaml", "service.nox.yml", "service.nox.json" },
       name = "NOX Framework (Service)",
       url = "https://noxorg.dev/schemas/NoxConfiguration.json"
@@ -2744,38 +2744,38 @@ M.json = {
       name = ".npmpackagejsonlintrc",
       url = "https://json.schemastore.org/npmpackagejsonlintrc.json"
     }, {
-      description = "JSON schema for the NPM package badges.",
+      description = "the NPM package badges",
       name = "npm-badges",
       url = "https://json.schemastore.org/npm-badges.json"
     }, {
-      description = "JSON schema for Nuclei Template YAML files.",
+      description = "Nuclei Template YAML files",
       fileMatch = { "**/nuclei-templates/**/*.yaml" },
       name = "nuclei-template.yaml",
       url = "https://raw.githubusercontent.com/projectdiscovery/nuclei/master/nuclei-jsonschema.json"
     }, {
-      description = "JSON schema for NuGet project.json files.",
+      description = "NuGet project.json files",
       name = "nuget-project.json",
       url = "https://json.schemastore.org/nuget-project.json",
       versions = {
         ["3.3.0"] = "https://json.schemastore.org/nuget-project-3.3.0.json"
       }
     }, {
-      description = "JSON schema for nswag configuration",
+      description = "nswag configuration",
       fileMatch = { "nswag.json" },
       name = "nswag.json",
       url = "https://json.schemastore.org/nswag.json"
     }, {
-      description = "NTangle (https://github.com/Avanade/ntangle) CDC code-generation configuration.",
+      description = "NTangle (https://github.com/Avanade/ntangle) CDC code-generation configuration",
       fileMatch = { "ntangle.yaml", "ntangle.yml", "ntangle.json", "ntangle.jsn" },
       name = "ntangle",
       url = "https://raw.githubusercontent.com/Avanade/NTangle/main/schemas/ntangle.json"
     }, {
-      description = "Schema for Ory Oathkeeper configuration file",
+      description = "Ory Oathkeeper configuration file",
       fileMatch = { "oathkeeper.json", "oathkeeper.yml", "oathkeeper.yaml", "oathkeeper.toml" },
       name = "Ory Oathkeeper configuration",
       url = "https://raw.githubusercontent.com/ory/oathkeeper/master/.schema/version.schema.json"
     }, {
-      description = "JSON schema for the Ocelot Api Gateway.",
+      description = "the Ocelot Api Gateway",
       fileMatch = { "ocelot.json" },
       name = "ocelot.json",
       url = "https://json.schemastore.org/ocelot.json"
@@ -2785,7 +2785,7 @@ M.json = {
       name = "omnisharp.json",
       url = "https://json.schemastore.org/omnisharp.json"
     }, {
-      description = "A JSON schema for Open API documentation files",
+      description = "A Open API documentation files",
       fileMatch = { "openapi.json", "openapi.yml", "openapi.yaml" },
       name = "openapi.json",
       url = "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json",
@@ -2794,17 +2794,17 @@ M.json = {
         ["3.1"] = "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json"
       }
     }, {
-      description = "A JSON schema for OpenRPC documents. See https://open-rpc.org for more information.",
+      description = "A OpenRPC documents. See https://open-rpc.org for more information",
       fileMatch = { "openrpc.json", "openrpc.yml", "openrpc.yaml", "open-rpc.json", "open-rpc.yml", "open-rpc.yaml" },
       name = "openrpc.json",
       url = "https://meta.open-rpc.org/"
     }, {
-      description = "Schema for Ops configuration file (ops.yaml)",
+      description = "Ops configuration file (ops.yaml)",
       fileMatch = { "ops.yml", "ops.yaml" },
       name = "ops.yaml",
       url = "https://raw.githubusercontent.com/LeShaunJ/ops-schema/main/ops.schema.json"
     }, {
-      description = "JSON schema for ONe's service descriptor",
+      description = "ONe's service descriptor",
       fileMatch = { "service-descriptor.yml" },
       name = "ONe's service descriptor",
       url = "https://json.schemastore.org/one-service-descriptor-schema-0.1.json"
@@ -2813,52 +2813,52 @@ M.json = {
       name = "openfin.json",
       url = "https://json.schemastore.org/openfin.json"
     }, {
-      description = "JSON schema for OpenRewrite resource descriptors",
+      description = "OpenRewrite resource descriptors",
       fileMatch = { "**/META-INF/rewrite/*.yml" },
       name = "OpenRewrite Resource",
       url = "https://raw.githubusercontent.com/openrewrite/rewrite/main/rewrite-core/openrewrite.json"
     }, {
-      description = "JSON schema for Outblocks project configuration files",
+      description = "Outblocks project configuration files",
       fileMatch = { "project.outblocks.yaml", "project.outblocks.yml" },
       name = "Outblocks project configuration",
       url = "https://raw.githubusercontent.com/outblocks/outblocks-cli/master/schema/schema-project.json"
     }, {
-      description = "JSON schema for Outblocks App configuration files",
+      description = "Outblocks App configuration files",
       fileMatch = { "app.outblocks.yaml", "app.outblocks.yml", "*.app.outblocks.yaml", "*.app.outblocks.yml", "outblocks.yaml", "outblocks.yml" },
       name = "Outblocks App configuration",
       url = "https://raw.githubusercontent.com/outblocks/outblocks-cli/master/schema/schema-app.json"
     }, {
-      description = "JSON schema for Outblocks database table files",
+      description = "Outblocks database table files",
       fileMatch = { "**/database/**/*.outblocks.yaml", "**/database/**/*.outblocks.yml" },
       name = "Outblocks database table",
       url = "https://raw.githubusercontent.com/outblocks/outblocks-cli/master/schema/schema-table.json"
     }, {
-      description = "Schema for Ory Kratos configuration file",
+      description = "Ory Kratos configuration file",
       fileMatch = { "kratos.json", "kratos.yml", "kratos.yaml", "kratos.toml" },
       name = "Ory Kratos configuration",
       url = "https://raw.githubusercontent.com/ory/kratos/master/.schema/version.schema.json"
     }, {
-      description = "Schema for ORT's main configuration file",
+      description = "ORT's main configuration file",
       fileMatch = { "**/.ort/config/config.yml", "**/.ort/config/config.yaml" },
       name = "OSS Review Toolkit configuration",
       url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/ort-configuration-schema.json"
     }, {
-      description = "Schema for ORT's curation files",
+      description = "ORT's curation files",
       fileMatch = { "**/curations/**/*.yml", "**/curations/**/*.yaml", "curations.yml", "curations.yaml" },
       name = "OSS Review Toolkit curation",
       url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/curations-schema.json"
     }, {
-      description = "Schema for ORT's package configuration file",
+      description = "ORT's package configuration file",
       fileMatch = { "vcs.yml", "vcs.yaml", "source-artifact.yml", "source-artifact.yaml" },
       name = "OSS Review Toolkit package configuration",
       url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/package-configuration-schema.json"
     }, {
-      description = "Schema for ORT's repository configuration file",
+      description = "ORT's repository configuration file",
       fileMatch = { "*.ort.yml", "*.ort.yaml" },
       name = "OSS Review Toolkit repository configuration",
       url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/repository-configuration-schema.json"
     }, {
-      description = "Schema for ORT's resolutions file",
+      description = "ORT's resolutions file",
       fileMatch = { "resolutions.yml", "resolutions.yaml" },
       name = "OSS Review Toolkit resolutions",
       url = "https://raw.githubusercontent.com/oss-review-toolkit/ort/main/integrations/schemas/resolutions-schema.json"
@@ -2882,7 +2882,7 @@ M.json = {
       name = "Packer",
       url = "https://json.schemastore.org/packer.json"
     }, {
-      description = "JSON Schema for Paper Plugins YAML",
+      description = "Paper Plugins YAML",
       fileMatch = { "paper-plugin.yml" },
       name = "Paper paper-plugin.yml",
       url = "https://json.schemastore.org/paper-plugin.json"
@@ -2912,7 +2912,7 @@ M.json = {
       name = "PocketMine plugin.yml",
       url = "https://json.schemastore.org/pocketmine-plugin.json"
     }, {
-      description = "Yaml schema for Plagiarize",
+      description = "Yaml Plagiarize",
       fileMatch = { "plagiarize.yaml", "plagiarize.json" },
       name = "plagiarize.yaml",
       url = "https://json.schemastore.org/plagiarize.json",
@@ -2920,7 +2920,7 @@ M.json = {
         ["0.0"] = "https://json.schemastore.org/plagiarize-0.0.json"
       }
     }, {
-      description = "Yaml schema for Plagiarize MEe",
+      description = "Yaml Plagiarize MEe",
       fileMatch = { "plagiarize-me.yaml", "plagiarize-me.json" },
       name = "plagiarize-me.yaml",
       url = "https://json.schemastore.org/plagiarize-me.json",
@@ -2928,7 +2928,7 @@ M.json = {
         ["0.0"] = "https://json.schemastore.org/plagiarize-me-0.0.json"
       }
     }, {
-      description = "JSON schema for Portman's configuration file",
+      description = "Portman's configuration file",
       fileMatch = { "portman-config.json", "portman.json" },
       name = "portman.json",
       url = "https://raw.githubusercontent.com/apideck-libraries/portman/main/src/utils/portman-config-schema.json"
@@ -2938,7 +2938,7 @@ M.json = {
       name = ".postcssrc",
       url = "https://json.schemastore.org/postcssrc.json"
     }, {
-      description = "JSON schema for Postman collections",
+      description = "Postman collections",
       fileMatch = { "*.postman_collection.json" },
       name = "Postman collection",
       url = "https://schema.postman.com/collection/json/v2.1.0/draft-07/collection.json",
@@ -3046,17 +3046,17 @@ M.json = {
       name = "prometheus.rules.test.json",
       url = "https://json.schemastore.org/prometheus.rules.test.json"
     }, {
-      description = "JSON schema for Azure Function Proxies proxies.json files",
+      description = "Azure Function Proxies proxies.json files",
       fileMatch = { "proxies.json" },
       name = "proxies.json",
       url = "https://json.schemastore.org/proxies.json"
     }, {
-      description = "JSON schema for publiccode.yml",
+      description = "publiccode.yml",
       fileMatch = { "publiccode.yml" },
       name = "publiccode.yml",
       url = "https://json.schemastore.org/publiccode.json"
     }, {
-      description = "Schema for pubspecs, the format used by Dart's dependency manager",
+      description = "pubspecs, the format used by Dart's dependency manager",
       fileMatch = { "pubspec.yaml" },
       name = "pubspec.yaml",
       url = "https://json.schemastore.org/pubspec.json"
@@ -3066,12 +3066,12 @@ M.json = {
       name = "Pull Request Labeler",
       url = "https://json.schemastore.org/pull-request-labeler.json"
     }, {
-      description = "JSON schema for 🐊Putout configuration file",
+      description = "🐊Putout configuration file",
       fileMatch = { ".putout.json" },
       name = ".putout.json",
       url = "https://json.schemastore.org/putout.json"
     }, {
-      description = "Pyrseas database schema versioning for Postgres databases, v0.8",
+      description = "Pyrseas database versioning for Postgres databases, v0.8",
       fileMatch = { "pyrseas-0.8.json" },
       name = "pyrseas-0.8.json",
       url = "https://json.schemastore.org/pyrseas-0.8.json"
@@ -3091,17 +3091,17 @@ M.json = {
       name = "Read the Docs",
       url = "https://raw.githubusercontent.com/readthedocs/readthedocs.org/master/readthedocs/rtd_tests/fixtures/spec/v2/schema.json"
     }, {
-      description = "JSON schema for Pulumi project metadata and configuration",
+      description = "Pulumi project metadata and configuration",
       fileMatch = { "Pulumi.yaml", "pulumi.yaml" },
       name = "Pulumi",
       url = "https://json.schemastore.org/pulumi.json"
     }, {
-      description = "JSON schema for Python project metadata and configuration",
+      description = "Python project metadata and configuration",
       fileMatch = { "pyproject.toml" },
       name = "PyProject",
       url = "https://json.schemastore.org/pyproject.json"
     }, {
-      description = "Pyright Configuration Schema",
+      description = "Pyright Configuration",
       fileMatch = { "pyrightconfig.json" },
       name = "Pyright",
       url = "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json"
@@ -3135,9 +3135,9 @@ M.json = {
       name = ".remarkrc",
       url = "https://json.schemastore.org/remarkrc.json"
     }, {
-      description = "Schema for replit.com, a cloud IDE and code runner",
+      description = "replit.com, a cloud IDE and code runner",
       fileMatch = { "replit.toml" },
-      name = "Replit schema",
+      name = "Replit config",
       url = "https://json.schemastore.org/replit.json"
     }, {
       description = "Windows App localization file",
@@ -3145,22 +3145,22 @@ M.json = {
       name = "*.resjson",
       url = "https://json.schemastore.org/resjson.json"
     }, {
-      description = "JSON schema for rtx config, a polyglot dev tool manager",
+      description = "rtx config, a polyglot dev tool manager",
       fileMatch = { ".rtx.toml", ".rtx.*.toml", "**/rtx/config.toml" },
       name = "rtx",
       url = "https://rtx.pub/schema/rtx.json"
     }, {
-      description = "JSON schema for Ruff, a fast Python linter",
+      description = "Ruff, a fast Python linter",
       fileMatch = { "ruff.toml", ".ruff.toml" },
       name = "Ruff",
       url = "https://json.schemastore.org/ruff.json"
     }, {
-      description = "JSON schema for non-Cargo based Rust projects",
+      description = "non-Cargo based Rust projects",
       fileMatch = { "rust-project.json" },
       name = "Rust Project",
       url = "https://json.schemastore.org/rust-project.json"
     }, {
-      description = "A JSON schema to describe a résumé.",
+      description = "JSON résumé files",
       fileMatch = { "**/resume.json", "**/*.resume.json", "**/resume.yaml", "**/*.resume.yaml", "**/resume.yml", "**/*.resume.yml" },
       name = "JSON Resume",
       url = "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
@@ -3173,7 +3173,7 @@ M.json = {
       name = "Renovate",
       url = "https://docs.renovatebot.com/renovate-schema.json"
     }, {
-      description = "Spiral Roadrunner config file schema",
+      description = "Spiral Roadrunner config file",
       fileMatch = { ".rr*.yml", ".rr*.yaml" },
       name = "RoadRunner",
       url = "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/3.0.schema.json",
@@ -3183,22 +3183,22 @@ M.json = {
         ["3.0"] = "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/3.0.schema.json"
       }
     }, {
-      description = "Schema for fustfmt, a tool to format Rust code",
+      description = "fustfmt, a tool to format Rust code",
       fileMatch = { "rustfmt.toml" },
       name = "rustfmt",
       url = "https://json.schemastore.org/rustfmt.json"
     }, {
-      description = "A declarative schema for managing the Rust toolchain",
+      description = "A declarative managing the Rust toolchain",
       fileMatch = { "rust-toolchain.toml" },
       name = "Rust toolchain",
       url = "https://json.schemastore.org/rust-toolchain.json"
     }, {
-      description = "JSON schema for SAMT configuration files",
+      description = "SAMT configuration files",
       fileMatch = { "samt.yaml" },
       name = "samt",
       url = "https://json.schemastore.org/samt.json"
     }, {
-      description = "JSON schema for SAMT linter configuration files",
+      description = "SAMT linter configuration files",
       fileMatch = { ".samtrc.yaml" },
       name = "samtrc",
       url = "https://json.schemastore.org/samtrc.json"
@@ -3264,19 +3264,19 @@ M.json = {
       name = "Schema Catalog",
       url = "https://json.schemastore.org/schema-catalog.json"
     }, {
-      description = "JSON Schema for Action as defined by schema.org",
+      description = "Action as defined by schema.org",
       name = "schema.org - Action",
       url = "https://json.schemastore.org/schema-org-action.json"
     }, {
-      description = "JSON Schema for ContactPoint as defined by schema.org",
+      description = "ContactPoint as defined by schema.org",
       name = "schema.org - ContactPoint",
       url = "https://json.schemastore.org/schema-org-contact-point.json"
     }, {
-      description = "JSON Schema for Place as defined by schema.org",
+      description = "Place as defined by schema.org",
       name = "schema.org - Place",
       url = "https://json.schemastore.org/schema-org-place.json"
     }, {
-      description = "JSON Schema for Thing as defined by schema.org",
+      description = "Thing as defined by schema.org",
       name = "schema.org - Thing",
       url = "https://json.schemastore.org/schema-org-thing.json"
     }, {
@@ -3285,7 +3285,7 @@ M.json = {
       name = "Scoop manifest",
       url = "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json"
     }, {
-      description = "The schema definition for all available SDF blocks",
+      description = "SDF blocks",
       fileMatch = { "*.sdf.yml" },
       name = "Semantic Data Fabric (SDF) file",
       url = "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
@@ -3373,12 +3373,12 @@ M.json = {
       name = "Source Maps v3",
       url = "https://json.schemastore.org/sourcemap-v3.json"
     }, {
-      description = "Sourcery YAML Schema",
+      description = "Sourcery YAML files",
       fileMatch = { ".sourcery.yaml" },
       name = "Sourcery",
       url = "https://json.schemastore.org/sourcery_yaml_schema.json"
     }, {
-      description = "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. See https://specif.de and https://github.com/GfSE.",
+      description = "The Specification Integration Facility (SpecIF) integrates partial system models from different methods and tools in a semantic net. See https://specif.de and https://github.com/GfSE",
       fileMatch = { "*.specif", "*.specif.json" },
       name = "SpecIF",
       url = "https://json.schemastore.org/specif-1.1.json",
@@ -3392,7 +3392,7 @@ M.json = {
       name = "Sponge Mixin configuration",
       url = "https://json.schemastore.org/sponge-mixins.json"
     }, {
-      description = "Schema for image sprite generation files",
+      description = "image sprite generation files",
       fileMatch = { "*.sprite" },
       name = ".sprite files",
       url = "https://json.schemastore.org/sprite.json"
@@ -3402,7 +3402,7 @@ M.json = {
       name = "sqlc configuration",
       url = "https://json.schemastore.org/sqlc-2.0.json"
     }, {
-      description = "Documentation: https://aka.ms/swa/config-schema",
+      description = "Documentation: https://learn.microsoft.com/en-us/azure/static-web-apps/configuration",
       fileMatch = { "staticwebapp.config.json" },
       name = "Azure Static Web Apps configuration file",
       url = "https://json.schemastore.org/staticwebapp.config.json"
@@ -3412,17 +3412,17 @@ M.json = {
       name = "Azure Static Web Apps CLI configuration file",
       url = "https://json.schemastore.org/swa-cli.config.json"
     }, {
-      description = "Configuration file for Stale for closing abandoned issues and pull requests. See https://probot.github.io/apps/stale/.",
+      description = "Configuration file for Stale for closing abandoned issues and pull requests. See https://probot.github.io/apps/stale/",
       fileMatch = { "**/.github/stale.yml" },
       name = "Stale",
       url = "https://json.schemastore.org/stale.json"
     }, {
-      description = "Configuration file for Starship. See https://starship.rs.",
+      description = "Configuration file for Starship. See https://starship.rs",
       fileMatch = { "starship.toml" },
       name = "Starship",
       url = "https://starship.rs/config-schema.json"
     }, {
-      description = "A Statamic Blueprint Schema",
+      description = "A Statamic Blueprint",
       fileMatch = { "**/resources/blueprints/**/*.yml", "**/resources/blueprints/**/*.yaml" },
       name = "Statamic Blueprint",
       url = "https://raw.githubusercontent.com/Konafets/statamic-blueprint-validation/main/statamic.blueprint.schema.json"
@@ -3437,7 +3437,7 @@ M.json = {
       name = "stripe-app-local.json",
       url = "https://raw.githubusercontent.com/stripe/stripe-apps/main/schema/stripe-app-local.schema.json"
     }, {
-      description = "Configuration file for Stryker Mutator, the mutation testing framework for JavaScript and friends. See https://stryker-mutator.io.",
+      description = "Configuration file for Stryker Mutator, the mutation testing framework for JavaScript and friends. See https://stryker-mutator.io",
       fileMatch = { "stryker.conf.json", "stryker-*.conf.json" },
       name = "Stryker Mutator",
       url = "https://raw.githubusercontent.com/stryker-mutator/stryker/master/packages/api/schema/stryker-core.json"
@@ -3457,7 +3457,7 @@ M.json = {
       name = "SWADL",
       url = "https://raw.githubusercontent.com/SymphonyPlatformSolutions/symphony-wdk/master/workflow-language/src/main/resources/swadl-schema-1.0.json"
     }, {
-      description = "Swagger API 2.0 schema",
+      description = "Swagger API 2.0",
       fileMatch = { "swagger.json" },
       name = "Swagger API 2.0",
       url = "https://json.schemastore.org/swagger-2.0.json"
@@ -3477,12 +3477,12 @@ M.json = {
       name = "Taurus",
       url = "https://json.schemastore.org/taurus.json"
     }, {
-      description = "JSON schema .NET template files",
+      description = ".NET template files",
       fileMatch = { "**/.template.config/template.json" },
       name = "template.json",
       url = "https://json.schemastore.org/template.json"
     }, {
-      description = "SideWaffle template source schema",
+      description = "SideWaffle template source",
       fileMatch = { "templatesources.json" },
       name = "templatsources.json",
       url = "https://json.schemastore.org/templatesources.json"
@@ -3521,7 +3521,7 @@ M.json = {
       name = "tmLanguage",
       url = "https://json.schemastore.org/tmlanguage.json"
     }, {
-      description = "Schema for Visual Studio's test environment config",
+      description = "Visual Studio's test environment config",
       fileMatch = { "testEnvironments.json" },
       name = "TestEnvironment.json",
       url = "https://json.schemastore.org/testenvironments.json"
@@ -3545,14 +3545,14 @@ M.json = {
       name = "Traefik v2 File Provider",
       url = "https://json.schemastore.org/traefik-v2-file-provider.json"
     }, {
-      description = "Define personal data schema in code using Transcend",
+      description = "Define personal data in code using Transcend",
       fileMatch = { "transcend.yml", "transcend.yaml" },
       name = "transcend.yml",
       url = "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-v4.json"
     }, {
-      description = "Configuration schema for trunk, a powerful linter runner - https://docs.trunk.io",
+      description = "Configuration trunk, a powerful linter runner - https://docs.trunk.io",
       fileMatch = { "trunk.yaml" },
-      name = "trunk.yaml schema",
+      name = "trunk.yaml",
       url = "https://static.trunk.io/pub/trunk-yaml-schema.json"
     }, {
       description = "TypeScript compiler configuration file",
@@ -3560,7 +3560,7 @@ M.json = {
       name = "tsconfig.json",
       url = "https://json.schemastore.org/tsconfig.json"
     }, {
-      description = "JSON schema for DefinitelyTyped description manager (TSD)",
+      description = "DefinitelyTyped description manager (TSD)",
       fileMatch = { "tsd.json" },
       name = "tsd.json",
       url = "https://json.schemastore.org/tsd.json"
@@ -3580,7 +3580,7 @@ M.json = {
       name = "tslint.json",
       url = "https://json.schemastore.org/tslint.json"
     }, {
-      description = "Schema for TSON (Tuning-Spectrum Object Notation) data",
+      description = "TSON (Tuning-Spectrum Object Notation) data",
       fileMatch = { "*.tson", "*.tson.yaml", "*.tson.yml", "*.tson.json" },
       name = "TSON",
       url = "https://raw.githubusercontent.com/spectral-discord/TSON/main/schema/tson.json"
@@ -3590,7 +3590,7 @@ M.json = {
       name = "typewiz.json",
       url = "https://json.schemastore.org/typewiz.json"
     }, {
-      description = "Schema for the Typo3 CMS",
+      description = "the Typo3 CMS",
       fileMatch = { "**/sites/*/config.yaml", "**/sites/*/config.yml" },
       name = "typo3.json",
       url = "https://json.schemastore.org/typo3.json"
@@ -3670,7 +3670,7 @@ M.json = {
       name = "version.json",
       url = "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json"
     }, {
-      description = "JSON schema for vim plugin addon-info.json metadata files",
+      description = "vim plugin addon-info.json metadata files",
       fileMatch = { "**/*vim*/addon-info.json" },
       name = "vim-addon-info",
       url = "https://json.schemastore.org/vim-addon-info.json"
@@ -3680,32 +3680,32 @@ M.json = {
       name = "vsls.json",
       url = "https://json.schemastore.org/vsls.json"
     }, {
-      description = "JSON schema for Visual Studio template host file",
+      description = "Visual Studio template host file",
       fileMatch = { "vs-2017.3.host.json" },
       name = "vs-2017.3.host.json",
       url = "https://json.schemastore.org/vs-2017.3.host.json"
     }, {
-      description = "JSON schema for Visual Studio's file nesting feature",
+      description = "Visual Studio's file nesting feature",
       fileMatch = { "*.filenesting.json", ".filenesting.json" },
       name = "vs-nesting.json",
       url = "https://json.schemastore.org/vs-nesting.json"
     }, {
-      description = "JSON schema for Visual Studio component configuration files",
+      description = "Visual Studio component configuration files",
       fileMatch = { "*.vsconfig" },
       name = ".vsconfig",
       url = "https://json.schemastore.org/vsconfig.json"
     }, {
-      description = "JSON schema for Visual Studio extension pack manifests",
+      description = "Visual Studio extension pack manifests",
       fileMatch = { "*.vsext" },
       name = ".vsext",
       url = "https://json.schemastore.org/vsext.json"
     }, {
-      description = "JSON schema for Visual Studio extension publishing",
+      description = "Visual Studio extension publishing",
       fileMatch = { "vs-publish.json" },
       name = "VSIX CLI publishing",
       url = "https://json.schemastore.org/vsix-publish.json"
     }, {
-      description = "JSON Schema for Azure DevOps Extensions",
+      description = "Azure DevOps Extensions",
       fileMatch = { "vss-extension.json" },
       name = "vss-extension.json",
       url = "https://json.schemastore.org/vss-extension.json"
@@ -3720,17 +3720,17 @@ M.json = {
       name = "vtestunit.yaml",
       url = "https://json.schemastore.org/vtestunit-schema.json"
     }, {
-      description = "v8r configuration file schema",
+      description = "v8r configuration file",
       fileMatch = { ".v8rrc.json", ".v8rrc.yaml", ".v8rrc.yml" },
       name = "v8r",
       url = "https://raw.githubusercontent.com/chris48s/v8r/main/config-schema.json"
     }, {
-      description = "JSON schema for the <div>RIOTS' studio configuration",
+      description = "the <div>RIOTS' studio configuration",
       fileMatch = { "studio.config.json" },
       name = "<div>RIOTS' studio configuration",
       url = "https://webcomponents.dev/assets2/schemas/studio.config.json"
     }, {
-      description = "JSON schema for WebExtension manifest files",
+      description = "WebExtension manifest files",
       fileMatch = { "manifest.json" },
       name = "WebExtensions",
       url = "https://json.schemastore.org/webextension.json"
@@ -3755,7 +3755,7 @@ M.json = {
       name = "Web types",
       url = "https://json.schemastore.org/web-types.json"
     }, {
-      description = "JSON-stat 2.0 Schema",
+      description = "JSON-stat 2.0",
       name = "JSON-stat 2.0",
       url = "https://json-stat.org/format/schema/2.0/"
     }, {
@@ -3769,20 +3769,20 @@ M.json = {
       name = "KSP-CKAN",
       url = "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema"
     }, {
-      description = "Meta-validation schema for JSON Schema Draft 4",
+      description = "Meta-validation JSON Schema Draft 4",
       name = "JSON Schema Draft 4",
       url = "https://json-schema.org/draft-04/schema"
     }, {
-      description = "Meta-validation schema for JSON Schema Draft 7",
+      description = "Meta-validation JSON Schema Draft 7",
       fileMatch = { "*.schema.json" },
       name = "JSON Schema Draft 7",
       url = "https://json-schema.org/draft-07/schema"
     }, {
-      description = "Meta-validation schema for JSON Schema Draft 8",
-      name = "JSON Schema Draft 8",
+      description = "Meta-validation JSON Schema Draft 8 (2019-09)",
+      name = "JSON Schema Draft 8 (2019-09)",
       url = "https://json-schema.org/draft/2019-09/schema"
     }, {
-      description = "Meta-validation schema for JSON Schema Draft 2020-12",
+      description = "Meta-validation JSON Schema Draft 2020-12",
       name = "JSON Schema Draft 2020-12",
       url = "https://json-schema.org/draft/2020-12/schema"
     }, {
@@ -3806,42 +3806,42 @@ M.json = {
       name = "servicehub.config.json",
       url = "https://json.schemastore.org/servicehub.config.schema.json"
     }, {
-      description = "A JSON schema for CRYENGINE projects (.cryproj files)",
+      description = "A CRYENGINE projects (.cryproj files)",
       fileMatch = { "*.cryproj" },
       name = ".cryproj engine-5.2",
       url = "https://json.schemastore.org/cryproj.52.schema.json"
     }, {
-      description = "A JSON schema for CRYENGINE projects (.cryproj files)",
+      description = "A CRYENGINE projects (.cryproj files)",
       fileMatch = { "*.cryproj" },
       name = ".cryproj engine-5.3",
       url = "https://json.schemastore.org/cryproj.53.schema.json"
     }, {
-      description = "A JSON schema for CRYENGINE projects (.cryproj files)",
+      description = "A CRYENGINE projects (.cryproj files)",
       fileMatch = { "*.cryproj" },
       name = ".cryproj engine-5.4",
       url = "https://json.schemastore.org/cryproj.54.schema.json"
     }, {
-      description = "A JSON schema for CRYENGINE projects (.cryproj files)",
+      description = "A CRYENGINE projects (.cryproj files)",
       fileMatch = { "*.cryproj" },
       name = ".cryproj engine-5.5",
       url = "https://json.schemastore.org/cryproj.55.schema.json"
     }, {
-      description = "A JSON schema for CRYENGINE projects (.cryproj files)",
+      description = "A CRYENGINE projects (.cryproj files)",
       fileMatch = { "*.cryproj" },
       name = ".cryproj engine-dev",
       url = "https://json.schemastore.org/cryproj.dev.schema.json"
     }, {
-      description = "A JSON schema for CRYENGINE projects (.cryproj files)",
+      description = "A CRYENGINE projects (.cryproj files)",
       fileMatch = { "*.cryproj" },
       name = ".cryproj (generic)",
       url = "https://json.schemastore.org/cryproj.json"
     }, {
-      description = "A JSON schema for the Typedoc configuration file",
+      description = "A the Typedoc configuration file",
       fileMatch = { "typedoc.json" },
       name = "typedoc.json",
       url = "https://typedoc.org/schema.json"
     }, {
-      description = "Schema for tmuxinator, a tmux session manager",
+      description = "tmuxinator, a tmux session manager",
       fileMatch = { ".tmuxinator.yaml", ".tmuxinator.yml", "**/.tmuxinator/*.yaml", "**/.tmuxinator/*.yml", "**/tmuxinator/*.yaml", "**/tmuxinator/*.yml" },
       name = "tmuxinator",
       url = "https://json.schemastore.org/tmuxinator.json"
@@ -3851,42 +3851,42 @@ M.json = {
       name = "huskyrc",
       url = "https://json.schemastore.org/huskyrc.json"
     }, {
-      description = "JSON schema for lint-staged config",
+      description = "lint-staged config",
       fileMatch = { ".lintstagedrc", ".lintstagedrc.json", ".lintstagedrc.yaml", ".lintstagedrc.yml" },
       name = ".lintstagedrc",
       url = "https://json.schemastore.org/lintstagedrc.schema.json"
     }, {
-      description = "Schema for mirrord.",
+      description = "mirrord",
       fileMatch = { "*.mirrord.+(toml|json|y?(a)ml)" },
-      name = "mirrord-schema",
+      name = "mirrord config",
       url = "https://raw.githubusercontent.com/metalbear-co/mirrord/main/mirrord-schema.json"
     }, {
-      description = "A JSON schema for MTA projects v3.3",
+      description = "A MTA projects v3.3",
       fileMatch = { "mta.yaml", "mta.yml" },
       name = "mta.yaml",
       url = "https://json.schemastore.org/mta.json"
     }, {
-      description = "A JSON schema for MTA deployment descriptors v3.3",
+      description = "A MTA deployment descriptors v3.3",
       fileMatch = { "mtad.yaml", "mtad.yml" },
       name = "mtad.yaml",
       url = "https://json.schemastore.org/mtad.json"
     }, {
-      description = "A JSON schema for a Motif config file.",
+      description = "A a Motif config file",
       fileMatch = { "motif.json" },
       name = "Motif config",
       url = "https://motif.land/api/motif.schema.json"
     }, {
-      description = "A JSON schema for MTA extension descriptors v3.3",
+      description = "A MTA extension descriptors v3.3",
       fileMatch = { "*.mtaext" },
       name = ".mtaext",
       url = "https://json.schemastore.org/mtaext.json"
     }, {
-      description = "JSON schema for the SAP Application Router v8.2.2",
+      description = "the SAP Application Router v8.2.2",
       fileMatch = { "xs-app.json" },
       name = "xs-app.json",
       url = "https://json.schemastore.org/xs-app.json"
     }, {
-      description = "Opctl schema for describing an op",
+      description = "Opctl describing an op",
       fileMatch = { "**/.opspec/*/*.yml", "**/.opspec/*/*.yaml" },
       name = "Opctl",
       url = "https://json.schemastore.org/opspec-io-0.1.7.json"
@@ -3909,12 +3909,12 @@ M.json = {
       name = "taskcat",
       url = "https://raw.githubusercontent.com/aws-quickstart/taskcat/master/taskcat/cfg/config_schema.json"
     }, {
-      description = "BizTalk server application inventory json file.",
+      description = "BizTalk server application inventory json file",
       fileMatch = { "BizTalkServerInventory.json" },
       name = "BizTalkServerApplicationSchema",
       url = "https://json.schemastore.org/BizTalkServerApplicationSchema.json"
     }, {
-      description = "Http-mocker is a tool for mock local requests or proxy remote requests.",
+      description = "Http-mocker is a tool for mock local requests or proxy remote requests",
       fileMatch = { ".httpmockrc", ".httpmock.json" },
       name = "httpmockrc",
       url = "https://json.schemastore.org/httpmockrc.json"
@@ -3954,7 +3954,7 @@ M.json = {
       name = "Ray",
       url = "https://raw.githubusercontent.com/ray-project/ray/master/python/ray/autoscaler/ray-schema.json"
     }, {
-      description = "A smarter Dockerfile linter that helps you build best practice Docker images.",
+      description = "A smarter Dockerfile linter that helps you build best practice Docker images",
       fileMatch = { ".hadolint.yaml", "hadolint.yaml", ".hadolint.yml", "hadolint.yml" },
       name = "Hadolint",
       url = "https://raw.githubusercontent.com/hadolint/hadolint/master/contrib/hadolint.json"
@@ -3969,7 +3969,7 @@ M.json = {
       name = "helmwave",
       url = "https://github.com/helmwave/helmwave/releases/latest/download/schema.json"
     }, {
-      description = "The Container Structure Tests provide a powerful framework to validate the structure of a container image.",
+      description = "The Container Structure Tests provide a powerful framework to validate the structure of a container image",
       fileMatch = { "container-structure-test.yaml", "structure-test.yaml" },
       name = "Container Structure Test",
       url = "https://json.schemastore.org/container-structure-test.json"
@@ -3988,17 +3988,17 @@ M.json = {
         ["1.0.0"] = "https://json.schemastore.org/winget-pkgs-singleton-1.0.0.json"
       }
     }, {
-      description = "Windows Package Manager Installer Manifest file, used for detailing installer specific metadata.",
+      description = "Windows Package Manager Installer Manifest file, used for detailing installer specific metadata",
       fileMatch = { "**/manifests/?/*/*/*/*.*.installer.yaml" },
       name = "Windows Package Manager Installer Manifest",
       url = "https://json.schemastore.org/winget-pkgs-installer-1.0.0.json"
     }, {
-      description = "Windows Package Manager Locale Manifest file, used for detailing locale specific metadata.",
+      description = "Windows Package Manager Locale Manifest file, used for detailing locale specific metadata",
       fileMatch = { "**/manifests/?/*/*/*/*.*.locale@(.en-US|fr-FR|it-IT|ja-JP|ko-KR|pt-BR|ru-RU|zh-CN|zh-TW).yaml" },
       name = "Windows Package Manager Locale Manifest",
       url = "https://json.schemastore.org/winget-pkgs-locale-1.0.0.json"
     }, {
-      description = "JSON schema for commitlint configuration files",
+      description = "commitlint configuration files",
       fileMatch = { ".commitlintrc", ".commitlintrc.json" },
       name = ".commitlintrc",
       url = "https://json.schemastore.org/commitlintrc.json"
@@ -4013,7 +4013,7 @@ M.json = {
       name = "yamllint",
       url = "https://json.schemastore.org/yamllint.json"
     }, {
-      description = "Action and rule configuration descriptor for Yippee-Ki-JSON transformations.",
+      description = "Action and rule configuration descriptor for Yippee-Ki-JSON transformations",
       fileMatch = { "**/yippee-*.yml", "**/*.yippee.yml" },
       name = "Yippee-Ki-JSON configuration YML",
       url = "https://raw.githubusercontent.com/nagyesta/yippee-ki-json/main/schema/yippee-ki-json_config_schema.json",
@@ -4022,12 +4022,12 @@ M.json = {
         latest = "https://raw.githubusercontent.com/nagyesta/yippee-ki-json/main/schema/yippee-ki-json_config_schema.json"
       }
     }, {
-      description = "The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.",
+      description = "The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications",
       fileMatch = { "**/docker-compose.yml", "**/docker-compose.yaml", "**/docker-compose.*.yml", "**/docker-compose.*.yaml", "**/compose.yml", "**/compose.yaml", "**/compose.*.yml", "**/compose.*.yaml" },
       name = "docker-compose.yml",
       url = "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"
     }, {
-      description = "Devinit configuration file schema.",
+      description = "Devinit configuration file",
       fileMatch = { "devinit.json", ".devinit.json" },
       name = "devinit",
       url = "https://json.schemastore.org/devinit.schema-6.0.json",
@@ -4040,22 +4040,22 @@ M.json = {
         ["6.0"] = "https://json.schemastore.org/devinit.schema-6.0.json"
       }
     }, {
-      description = "JSON Schema for djLint configuration file",
+      description = "djLint configuration file",
       fileMatch = { ".djlintrc" },
       name = "djlint",
       url = "https://json.schemastore.org/djlint.json"
     }, {
-      description = "JSON Schema for the tsoa configuration file",
+      description = "the tsoa configuration file",
       fileMatch = { "**/tsoa.json" },
       name = "tsoa",
       url = "https://json.schemastore.org/tsoa.json"
     }, {
-      description = "apibuilder.io schema",
+      description = "apibuilder.io",
       fileMatch = { "**/api.json" },
       name = "API Builder",
       url = "https://json.schemastore.org/apibuilder.json"
     }, {
-      description = "Gradle Enterprise configuration schema",
+      description = "Gradle Enterprise configuration",
       fileMatch = { "*gradle-enterprise.yml", "*gradle-enterprise.yaml" },
       name = "Gradle Enterprise",
       url = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
@@ -4070,7 +4070,7 @@ M.json = {
         ["8.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json"
       }
     }, {
-      description = "Gradle Build Cache Node configuration schema",
+      description = "Gradle Build Cache Node configuration",
       fileMatch = { "*build-cache-node-config.yml", "*build-cache-node-config.yaml" },
       name = "Gradle Build Cache Node",
       url = "https://docs.gradle.com/build-cache-node/schema/build-cache-node-config-schema-5.json",
@@ -4082,72 +4082,72 @@ M.json = {
         ["5.0"] = "https://docs.gradle.com/build-cache-node/schema/build-cache-node-config-schema-5.json"
       }
     }, {
-      description = "JSON Schema for Yarnrc files",
+      description = "Yarnrc files",
       fileMatch = { ".yarnrc.yml" },
       name = ".yarnrc.yml",
       url = "https://yarnpkg.com/configuration/yarnrc.json"
     }, {
-      description = "Configuration file for Better Code Hub to override the default configuration.",
+      description = "Configuration file for Better Code Hub to override the default configuration",
       fileMatch = { ".bettercodehub.yml" },
       name = "Better Code Hub",
       url = "https://json.schemastore.org/bettercodehub.json"
     }, {
-      description = "JSON Schema for a Starlake Data Pipeline.",
+      description = "Starlake Data Pipeline",
       fileMatch = { "*.sl.yml" },
-      name = "starlake",
+      name = "Starlake Data Pipeline",
       url = "https://json.schemastore.org/starlake.json"
     }, {
-      description = "JSON Schema for swc configuration files.",
+      description = "swc configuration files",
       fileMatch = { ".swcrc" },
       name = "swcrc",
       url = "https://json.schemastore.org/swcrc.json"
     }, {
-      description = "JSON Schema for OpenWeather Road Risk API responses.",
+      description = "OpenWeather Road Risk API responses",
       fileMatch = {},
       name = "OpenWeather Road Risk API",
       url = "https://json.schemastore.org/openweather.roadrisk.json"
     }, {
-      description = "JSON Schema for OpenWeather Current Weather API responses.",
+      description = "OpenWeather Current Weather API responses",
       fileMatch = {},
       name = "OpenWeather Current Weather API",
       url = "https://json.schemastore.org/openweather.current.json"
     }, {
-      description = "JSON Schema for JSON-e templates.",
+      description = "JSON-e templates",
       fileMatch = {},
       name = "JSON-e templates",
       url = "https://json.schemastore.org/jsone.json"
     }, {
-      description = "JSON Schema for Taskfile files.",
+      description = "Taskfile files",
       fileMatch = { "Taskfile.yaml", "Taskfile.dist.yaml", "Taskfile.yml", "Taskfile.dist.yml" },
-      name = "Taskfile YAML Schema",
+      name = "Taskfile config",
       url = "https://taskfile.dev/schema.json"
     }, {
-      description = "JSON Schema for hammerkit files.",
+      description = "hammerkit files",
       fileMatch = { ".hammerkit.yaml", ".hammerkit.yml", "*.hammerkit.yaml", "*.hammerkit.yml" },
       name = "Hammerkit",
       url = "https://json.schemastore.org/hammerkit.json"
     }, {
-      description = "JSON Schema for Containerlab topology definition files.",
+      description = "Containerlab topology definition files",
       fileMatch = { "*-clab.yaml", "*-clab.yml", "*.clab.yaml", "*.clab.yml" },
       name = "Containerlab",
       url = "https://raw.githubusercontent.com/srl-labs/containerlab/main/schemas/clab.schema.json"
     }, {
-      description = "JSON Schema for user journey map definition files.",
+      description = "user journey map definition files",
       fileMatch = { "*.jm.yaml", "*.jm.yml" },
-      name = "User Journey Map YAML Schema",
+      name = "User Journey Map",
       url = "https://raw.githubusercontent.com/arvinxx/components/master/packages/journey-map/schema/journey-map.schema.json"
     }, {
-      description = "YAML Schema for the cluster.yml configuration file for RKE",
+      description = "the cluster.yml configuration file for RKE",
       fileMatch = { "cluster.yml", "cluster.yaml" },
-      name = "RKE Cluster Configuration YAML Schema",
+      name = "RKE Cluster Configuration YAML",
       url = "https://raw.githubusercontent.com/dcermak/vscode-rke-cluster-config/main/schemas/cluster.yml.json"
     }, {
-      description = "JSON Schema for the cluster.json configuration file for RKE",
+      description = "the cluster.json configuration file for RKE",
       fileMatch = { "cluster.json" },
-      name = "RKE Cluster Configuration JSON Schema",
+      name = "RKE Cluster Configuration JSON",
       url = "https://raw.githubusercontent.com/dcermak/vscode-rke-cluster-config/main/schemas/cluster.json"
     }, {
-      description = "Use this schema to get auto-suggestions for your liquibase JSON/YAML files.",
+      description = "liquibase JSON/YAML files",
       fileMatch = { "**/db/changelog/**/*.yaml", "**/db/changelog/**/*.yml", "**/db/changelog/**/*.json" },
       name = "Liquibase",
       url = "https://json.schemastore.org/liquibase-3.2.json",
@@ -4156,17 +4156,17 @@ M.json = {
         ["3.2"] = "https://json.schemastore.org/liquibase-3.2.json"
       }
     }, {
-      description = "Use this schema to get what objects are allowed for your liquibase flow JSON/YAML files.",
+      description = "liquibase flow JSON/YAML files",
       fileMatch = { "*.flowfile.yaml", "*.flowfile.yml" },
       name = "Liquibase Flow File",
       url = "https://www.liquibase.org/json/schema/liquibase-flow-file-latest.json"
     }, {
-      description = "YAML schema for the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or a interconnected graph of tasks. See https://cloud-pipelines.github.io/links/component_authoring_documentation",
+      description = "YAML the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or a interconnected graph of tasks. See https://cloud-pipelines.github.io/links/component_authoring_documentation",
       fileMatch = { "component.yaml", "kfp_component.yaml", "kfp_component.json" },
       name = "Pipeline component",
       url = "https://raw.githubusercontent.com/Cloud-Pipelines/component_spec_schema/stable/component_spec.json_schema.json"
     }, {
-      description = "Schema for the skaffold.yaml configuration file for Skaffold (https://skaffold.dev/)",
+      description = "the skaffold.yaml configuration file for Skaffold (https://skaffold.dev/)",
       fileMatch = { "skaffold.yaml", "skaffold.yml" },
       name = "skaffold.yaml",
       url = "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v3.json",
@@ -4235,47 +4235,47 @@ M.json = {
         v4beta5 = "https://raw.githubusercontent.com/GoogleContainerTools/skaffold/main/docs-v2/content/en/schemas/v4beta5.json"
       }
     }, {
-      description = "Markdownlint config file schema",
+      description = "Markdownlint config file",
       fileMatch = { ".markdownlintrc", ".markdownlint.json", ".markdownlint.jsonc", ".markdownlint.yaml", ".markdownlint.yml" },
       name = "Markdownlint",
       url = "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json"
     }, {
-      description = "Schema for markdown-lint-check",
+      description = "markdown-lint-check",
       fileMatch = { ".markdown-lint-check.json" },
       name = "markdown-lint-check",
       url = "https://json.schemastore.org/markdown-lint-check.json"
     }, {
-      description = "JSON schema for Mason, a package manager for Neovim.",
+      description = "Mason, a package manager for Neovim",
       fileMatch = { "**/packages/*/package.yaml" },
       name = "Mason Registry",
       url = "https://json.schemastore.org/mason-registry.json"
     }, {
-      description = "JSON Schema for SauceCTL configuration files.",
+      description = "SauceCTL configuration files",
       fileMatch = { "**/.sauce/*.yml" },
       name = "SauceCTL Configuration",
       url = "https://raw.githubusercontent.com/saucelabs/saucectl/main/api/saucectl.schema.json"
     }, {
-      description = "JSON Schema for fulibWorkflows",
+      description = "fulibWorkflows",
       fileMatch = { "*.es.yaml", "*.es.yml" },
       name = "fulibWorkflows",
       url = "https://raw.githubusercontent.com/fujaba/fulibWorkflows/main/schemas/fulibWorkflows.schema.json"
     }, {
-      description = "YAML schema for configuring Woodpecker CI",
+      description = "YAML configuring Woodpecker CI",
       fileMatch = { "**/.woodpecker/**.yml", "**/.woodpecker.yml", "**/.woodpecker/**.yaml", "**/.woodpecker.yaml" },
       name = "Woodpecker pipeline config",
       url = "https://raw.githubusercontent.com/woodpecker-ci/woodpecker/master/pipeline/schema/schema.json"
     }, {
-      description = "Device template schema",
+      description = "Device template",
       fileMatch = { "*.ndst.yml", "*.ndst.yaml", "*.ndst.json" },
       name = "Netin Diagnostic System Template",
       url = "https://s3.eu-central-1.amazonaws.com/files.netin.io/spider-schemas/template.schema.json"
     }, {
-      description = "YAML Schema for NOODL applications",
+      description = "NOODL application config",
       fileMatch = { "*.noodl.yml" },
-      name = "noodl.schema.json",
+      name = "noodl config",
       url = "https://noodl.s3.us-west-1.amazonaws.com/noodl.schema.json"
     }, {
-      description = "Schema for MBOATS Configuration",
+      description = "MBOATS Configuration",
       fileMatch = { "*.mboats.yaml", "*.mboats.yml" },
       name = "mboats",
       url = "https://json.schemastore.org/mboats-config-0.2.json",
@@ -4284,24 +4284,24 @@ M.json = {
         ["0.2"] = "https://json.schemastore.org/mboats-config-0.2.json"
       }
     }, {
-      description = "Schema for StackHawk Scanner configuration files",
+      description = "StackHawk Scanner configuration files",
       fileMatch = { "stackhawk.yml", "stackhawk.yaml", "stackhawk-*.yml", "stackhawk-*.yaml" },
       name = "StackHawk Scanner Configuration",
       url = "https://download.stackhawk.com/hawk/jsonschema/hawkconfig.json"
     }, {
-      description = "Schema for serverless framework configuration files",
+      description = "Serverless framework configuration files",
       fileMatch = { "serverless.yml" },
       name = "Serverless Framework Configuration",
       url = "https://raw.githubusercontent.com/lalcebo/json-schema/master/serverless/reference.json"
     }, {
-      description = "Schema for Alacritty configuration yaml file",
+      description = "Alacritty configuration yaml file",
       fileMatch = { ".alacritty.yml", "alacritty.yml" },
-      name = "Alacritty Configuration Schema",
+      name = "Alacritty Configuration",
       url = "https://raw.githubusercontent.com/distinction-dev/alacritty-schema/main/alacritty/reference.json"
     }, {
-      description = "Schema for serverless workflows",
+      description = "serverless workflows",
       fileMatch = { "*.sw.json", "*.sw.yml" },
-      name = "Serverless Workflow Schema",
+      name = "Serverless Workflow",
       url = "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.json",
       versions = {
         ["v0.5"] = "https://raw.githubusercontent.com/serverlessworkflow/specification/0.5.x/schema/workflow.json",
@@ -4310,81 +4310,81 @@ M.json = {
         ["v0.8"] = "https://raw.githubusercontent.com/serverlessworkflow/specification/0.8.x/schema/workflow.json"
       }
     }, {
-      description = "Schema for Shopware 6 custom configurations",
+      description = "Shopware 6 custom configurations",
       fileMatch = { "shopware.yml", "shopware.yaml" },
       name = "Shopware 6 Configuration",
       url = "https://raw.githubusercontent.com/shopware/platform/trunk/config-schema.json"
     }, {
-      description = "Schema for Shopware CLI Extension Store Configuration",
+      description = "Shopware CLI Extension Store Configuration",
       fileMatch = { ".shopware-extension.yml" },
       name = "Shopware CLI Extension Store Configuration",
       url = "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/extension/shopware-extension-schema.json"
     }, {
-      description = "Schema for Shopware CLI Project Store Configuration",
+      description = "Shopware CLI Project Store Configuration",
       fileMatch = { ".shopware-project.yml" },
       name = "Shopware CLI Project Store Configuration",
       url = "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/shop/shopware-project-schema.json"
     }, {
-      description = "A standard qodana.yaml (or qodana.yml) format for Qodana (https://jetbrains.com/qodana) configuration.",
+      description = "A standard qodana.yaml (or qodana.yml) format for Qodana (https://jetbrains.com/qodana) configuration",
       fileMatch = { "qodana.yaml", "qodana.yml" },
       name = "Qodana",
       url = "https://json.schemastore.org/qodana-1.0.json"
     }, {
-      description = "Schema for Tye configuration files",
+      description = "Tye configuration files",
       fileMatch = { "tye.yaml", "tye.yml" },
       name = "Tye",
       url = "https://raw.githubusercontent.com/dotnet/tye/main/src/schema/tye-schema.json"
     }, {
-      description = "Schema for unist syntax trees",
+      description = "unist syntax trees",
       fileMatch = {},
       name = "unist",
       url = "https://json.schemastore.org/unist.json"
     }, {
-      description = "Hugo static site generator config file schema",
+      description = "Hugo static site generator config file",
       fileMatch = { "hugo.toml", "hugo.json", "hugo.yaml" },
       name = "Hugo",
       url = "https://json.schemastore.org/hugo.json"
     }, {
-      description = "Cheatsheets config file schema",
+      description = "Cheatsheets config file",
       fileMatch = { "**/cheat/conf.yaml", "**/cheat/conf.yml", "**/.cheat/conf.yml" },
       name = "Cheatsheets",
       url = "https://json.schemastore.org/cheatsheets.json"
     }, {
-      description = "JSON schema for the deployed cli config file. \n\nSee also: https://hyhello.github.io/deployed\n\n",
+      description = "the deployed cli config file. \n\nSee also: https://hyhello.github.io/deployed\n\n",
       fileMatch = { ".deployedrc", ".deployed.json", ".deployed.yaml", ".deployed.yml" },
       name = "deployed-cli",
       url = "https://json.schemastore.org/deployed.json"
     }, {
-      description = "Schema for making statecharts",
+      description = "JSON that represents a statechart",
       fileMatch = {},
-      name = "Xstate Machine Schema",
+      name = "Xstate Machine",
       url = "https://raw.githubusercontent.com/statelyai/xstate/main/packages/core/src/machine.schema.json"
     }, {
-      description = "Fedora CoreOS Butane config file schema",
+      description = "Fedora CoreOS Butane config file",
       fileMatch = { "*.bu" },
       name = "Butane Config",
       url = "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json"
     }, {
-      description = "Schema for Updatecli manifest",
+      description = "Updatecli manifest",
       fileMatch = { "**/updatecli.d/**/*.yaml", "**/updatecli.d/**/*.yml", "updatecli.yml", "updatecli.yaml" },
       name = "Updatecli",
       url = "https://www.updatecli.io/schema/latest/config.json"
     }, {
-      description = "GeoJSON format for representing geographic data. Newest version from GeoJSON org.",
+      description = "GeoJSON format for representing geographic data. Newest version from GeoJSON org",
       name = "GeoJSON.json latest",
       url = "https://geojson.org/schema/GeoJSON.json"
     }, {
-      description = "yaml schema for clang-format config",
+      description = "yaml clang-format config",
       fileMatch = { ".clang-format" },
       name = ".clang-format",
       url = "https://json.schemastore.org/clang-format.json"
     }, {
-      description = "JSON schema for Flow catalog files. See: https://github.com/estuary/flow",
+      description = "Flow catalog files. See: https://github.com/estuary/flow",
       fileMatch = { "flow.yaml", "*.flow.yaml", "flow.json", "*.flow.json" },
-      name = "Estuary Flow Catalog Schema",
+      name = "Estuary Flow Catalog",
       url = "https://raw.githubusercontent.com/estuary/flow/master/flow.schema.json"
     }, {
-      description = "JSON schema for V2Ray jsonv4/jsonv5 configuration format",
+      description = "V2Ray jsonv4/jsonv5 configuration format",
       fileMatch = { "**/v2ray/*.json" },
       name = "V2Ray",
       url = "https://raw.githubusercontent.com/EHfive/v2ray-jsonschema/main/v4-config.schema.json",
@@ -4398,27 +4398,27 @@ M.json = {
       name = "GherKing",
       url = "https://raw.githubusercontent.com/gherking/gherking/master/schema/gherking.schema.json"
     }, {
-      description = "JSON schema for CICS region tagging in IBM CICS Transaction Server for z/OS",
+      description = "CICS region tagging in IBM CICS Transaction Server for z/OS",
       fileMatch = { "cicstags.yaml" },
       name = "CICS TS region tagging",
       url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/cicstags.json"
     }, {
-      description = "JSON schema for resource import in IBM CICS Transaction Server for z/OS",
+      description = "resource import in IBM CICS Transaction Server for z/OS",
       fileMatch = { "*.cicsresourceimport.yaml", "*.cicsresourceimport.yml" },
       name = "CICS TS resource import",
       url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/cicsts-resourceimport.json"
     }, {
-      description = "JSON schema for resource model in IBM CICS Transaction Server for z/OS",
+      description = "resource model in IBM CICS Transaction Server for z/OS",
       fileMatch = { "*.cicsresourcemodel.yaml", "*.cicsresourcemodel.yml", "*.cicsappconstraints.yaml", "*.cicsappconstraints.yml" },
       name = "CICS TS resource model",
       url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/cicsts-resourcemodel.json"
     }, {
-      description = "JSON schema for resource overrides in IBM CICS Transaction Server for z/OS",
+      description = "resource overrides in IBM CICS Transaction Server for z/OS",
       fileMatch = { "**/resourceoverrides/*.yaml", "**/resourceoverrides/*.yml", "*.cicsoverrides.yaml", "*.cicsoverrides.yml" },
       name = "CICS TS resource overrides",
       url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/resourceoverrides.json"
     }, {
-      description = "YAML schema for a webman package",
+      description = "YAML a webman package",
       fileMatch = { "*.webman-pkg.yml" },
       name = "Webman package recipe",
       url = "https://raw.githubusercontent.com/candrewlee14/webman/main/schema/pkg_schema.json"
@@ -4428,27 +4428,27 @@ M.json = {
       name = "webhint.io",
       url = "https://raw.githubusercontent.com/webhintio/hint/main/packages/hint/src/lib/config/config-schema.json"
     }, {
-      description = "Schema for configuring AVA, the Node.js test runner",
+      description = "configuring AVA, the Node.js test runner",
       fileMatch = { "ava.config.json" },
-      name = "AVA Configuration Schema",
+      name = "AVA Configuration",
       url = "https://json.schemastore.org/ava.json"
     }, {
-      description = "Schema for Datahub Ingestion recipe. \n\nSee also at https://datahubproject.io/docs/metadata-ingestion\n\n",
+      description = "Datahub Ingestion recipe. \n\nSee also at https://datahubproject.io/docs/metadata-ingestion\n\n",
       fileMatch = { "*.dhub.yml", "*.dhub.yaml", "*.dhub.json" },
-      name = "Datahub Ingestion Recipe Schema",
+      name = "Datahub Ingestion Recipe",
       url = "https://datahubproject.io/schemas/datahub_ingestion_schema.json"
     }, {
-      description = "Schema for Torque bluerpint",
+      description = "Torque bluerpint",
       fileMatch = { "**/blueprints/**.yaml" },
       name = "Quali Torque Blueprint Spec 2",
       url = "https://raw.githubusercontent.com/QualiTorque/torque-vs-code-extensions/master/client/schemas/blueprint-spec2-schema.json"
     }, {
       description = "Copy/paste detector for programming source code",
       fileMatch = { ".jscpd.json" },
-      name = "jscpd Configuration Schema",
+      name = "jscpd Configuration",
       url = "https://json.schemastore.org/jscpd.json"
     }, {
-      description = "Schema for Pterodactyl, a free game server control panel",
+      description = "Pterodactyl, a free game server control panel",
       fileMatch = { "egg-*.json" },
       name = "Pterodactyl",
       url = "https://json.schemastore.org/pterodactyl.json"
@@ -4458,39 +4458,39 @@ M.json = {
       name = "Hardware Sentry Configuration",
       url = "https://json.schemastore.org/hws-config.json"
     }, {
-      description = "yaml schema for devspace.yaml",
+      description = "yaml devspace.yaml",
       fileMatch = { "devspace.yaml" },
       name = "devspace.yaml",
       url = "https://raw.githubusercontent.com/loft-sh/devspace/main/devspace-schema.json"
     }, {
-      description = "Monika configuration schema file",
+      description = "Monika configuration file",
       fileMatch = { "*monika*.yaml", "*monika*.yml", "monika.json" },
-      name = "Monika Configuration Schema",
+      name = "Monika Configuration",
       url = "https://json.schemastore.org/monika-config-schema.json"
     }, {
-      description = "Schema for Istanbul, a JavaScript code coverage tool",
+      description = "Istanbul, a JavaScript code coverage tool",
       fileMatch = { ".nycrc", ".nycrc.json", ".nycrc.yaml", ".nycrc.yml" },
-      name = "Istanbul Schema",
+      name = "Istanbul",
       url = "https://json.schemastore.org/nycrc.json"
     }, {
-      description = "Schema for MongoDB Atlas Search index",
+      description = "MongoDB Atlas Search index",
       fileMatch = { "*-index.json" },
-      name = "MongoDB Atlas Search Index Definition Schema",
+      name = "MongoDB Atlas Search Index Definition",
       url = "https://json.schemastore.org/mongodb-atlas-search-index-definition.json"
     }, {
-      description = "yaml schema for kode/ci build",
+      description = "yaml kode/ci build",
       fileMatch = { "**/.kode/*.yaml" },
       name = "KoDE/CI build.yaml",
       url = "https://json.schemastore.org/kode-ci-build-1.0.0.json"
     }, {
-      description = "yaml schema dbless configuration",
+      description = "dbless configuration YAML",
       fileMatch = { "kong.yaml", "kong.yml" },
-      name = "Kong DBLess Schema",
+      name = "Kong DBLess config",
       url = "https://json.schemastore.org/kong_json_schema.json"
     }, {
-      description = "JSON Schema definition for the Embrace configuration file",
+      description = "Embrace configuration file",
       fileMatch = { "embrace-config.json" },
-      name = "Embrace Config Schema",
+      name = "Embrace Config",
       url = "https://json.schemastore.org/embrace-config-schema-1.0.0.json"
     }, {
       description = "petstore yaml validation",
@@ -4502,14 +4502,14 @@ M.json = {
         ["1.0"] = "https://json.schemastore.org/petstore-v1.0.json"
       }
     }, {
-      description = "Schema for JFrog Pipelines YML based DSL schema definition",
+      description = "JFrog Pipelines YML based DSL definition",
       fileMatch = { "**/.jfrog-pipelines/**/*.yml", "**/.jfrog-pipelines/**/*.yaml" },
       name = "JFrog Pipelines YML DSL",
       url = "https://json.schemastore.org/jfrog-pipelines.json"
     }, {
-      description = "Schema for https://github.com/monebag/safebox",
+      description = "https://github.com/monebag/safebox",
       fileMatch = { "*safebox*.yaml", "*safebox*.yml" },
-      name = "Safebox Config Schema",
+      name = "Safebox Config",
       url = "https://json.schemastore.org/safebox-schema-v1.0.0.json"
     }, {
       description = "StrmPrivacy batch job\nhttps://docs.strmprivacy.io/docs/latest/concepts/data-processing/batch-jobs/",
@@ -4552,7 +4552,7 @@ M.json = {
         ["1.0"] = "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataContract.json"
       }
     }, {
-      description = "REST API schema for Keycloak Admin",
+      description = "REST API Keycloak Admin",
       name = "Keycloak REST API",
       url = "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-19.0.0.json",
       versions = {
@@ -4562,7 +4562,7 @@ M.json = {
         ["19.0.0"] = "https://raw.githubusercontent.com/dahag-ag/keycloak-openapi/main/OpenApiDefinitions/keycloak-19.0.0.json"
       }
     }, {
-      description = "TOML Schema ❯ize Infra Tool",
+      description = "ize Infra Tool",
       fileMatch = { "ize.toml" },
       name = "ize.toml",
       url = "https://raw.githubusercontent.com/hazelops/ize/1.1.5/internal/schema/ize-spec.json",
@@ -4576,7 +4576,7 @@ M.json = {
       name = "Uplift",
       url = "https://upliftci.dev/static/schema.json"
     }, {
-      description = "Config options for QueryFirst, SQL wrapper generator.",
+      description = "Config options for QueryFirst, SQL wrapper generator",
       fileMatch = { "qfconfig.json" },
       name = "QueryFirst config file",
       url = "https://json.schemastore.org/qfconfig.json",
@@ -4584,7 +4584,7 @@ M.json = {
         ["1.0"] = "https://json.schemastore.org/qfconfig.json"
       }
     }, {
-      description = "UET is an unofficial tool for Unreal Engine. The BuildConfig.json file allows you to specify how UET should build an Unreal Engine plugin, project or the engine itself.",
+      description = "UET is an unofficial tool for Unreal Engine. The BuildConfig.json file allows you to specify how UET should build an Unreal Engine plugin, project or the engine itself",
       fileMatch = { "BuildConfig.json" },
       name = "UET BuildConfig.json",
       url = "https://raw.githubusercontent.com/RedpointGames/uet-schema/main/root.json"
@@ -4610,12 +4610,12 @@ M.json = {
         ["2.17.0"] = "https://json.schemastore.org/pantsbuild-2.17.0.json"
       }
     }, {
-      description = "The configuration file used by the All Contributors CLI and GitHub bot.",
+      description = "The configuration file used by the All Contributors CLI and GitHub bot",
       fileMatch = { ".all-contributorsrc" },
       name = "All Contributors configuration file",
       url = "https://json.schemastore.org/all-contributors.json"
     }, {
-      description = "The configuration file used for ES6 Import Sorter - a vscode extention .",
+      description = "The configuration file used for ES6 Import Sorter - a vscode extention",
       fileMatch = { ".es6importsorterrc.json" },
       name = ".es6importsorterrc.json",
       url = "https://json.schemastore.org/es6importsorterrc.json"
@@ -4660,7 +4660,7 @@ M.json = {
       name = "quilt.mod.json",
       url = "https://raw.githubusercontent.com/QuiltMC/quilt-json-schemas/main/quilt.mod.json/schemas/main.json"
     }, {
-      description = "auto api case schema",
+      description = "auto api case",
       fileMatch = { "**/test_data/*.yml" },
       name = "AutoAPICase",
       url = "https://json.schemastore.org/case_schema.json"
