@@ -983,7 +983,7 @@ M.json = {
       url = "https://json.schemastore.org/asconfig-schema.json"
     }, {
       description = "A JSON Schema for validating AsyncAPI documentation files",
-      fileMatch = { "asyncapi.json", "*asyncapi.json", "asyncapi.yml", "*asyncapi.yml", "asyncapi.yaml", "*asyncapi.yaml" },
+      fileMatch = { "*asyncapi*.json", "*asyncapi*.yml", "*asyncapi*.yaml" },
       name = "AsyncAPI",
       url = "https://www.asyncapi.com/schema-store/all.schema-store.json"
     }, {
