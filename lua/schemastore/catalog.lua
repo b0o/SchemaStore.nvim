@@ -1304,7 +1304,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/qualisys/qualisys-schemas/master/calqulus-pipeline.schema.json"
     }, {
       description = "Camel YAML DSL",
-      fileMatch = { "*.camel.yaml", "*.camelk.yaml" },
+      fileMatch = { "*.camel.yaml", "*.camelk.yaml", "*.camel.yml", "*.camelk.yml" },
       name = "Camel YAML DSL",
       url = "https://raw.githubusercontent.com/apache/camel/main/dsl/camel-yaml-dsl/camel-yaml-dsl/src/generated/resources/schema/camelYamlDsl.json",
       versions = {
