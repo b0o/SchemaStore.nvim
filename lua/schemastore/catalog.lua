@@ -581,6 +581,7 @@ M.json = {
     ["geojson.json"] = 240,
     ["gitlab-ci"] = 249,
     ["global.json"] = 251,
+    ["goblet.schema.json"] = 729,
     ["golangci-lint Configuration"] = 252,
     ["haxelib.json"] = 266,
     helmfile = 609,
@@ -4721,6 +4722,11 @@ M.json = {
       fileMatch = { "**/.warp/workflows/*.yaml" },
       name = "warp-workflows.json",
       url = "https://json.schemastore.org/warp-workflows.json"
+    }, {
+      description = "Goblet serverless framework config",
+      fileMatch = { "**/.goblet/config.json" },
+      name = "goblet.schema.json",
+      url = "https://raw.githubusercontent.com/goblet/goblet/main/goblet.schema.json"
     } },
   version = 1
 }
