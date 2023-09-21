@@ -257,6 +257,7 @@ M.json = {
     GitVersion = 241,
     ["Gitpod Configuration"] = 250,
     ["Global Privacy Control"] = 239,
+    Goblet = 729,
     ["Google Cloud Workflows"] = 150,
     Goreleaser = 253,
     ["Goreleaser Pro"] = 254,
@@ -581,7 +582,6 @@ M.json = {
     ["geojson.json"] = 240,
     ["gitlab-ci"] = 249,
     ["global.json"] = 251,
-    ["goblet.schema.json"] = 729,
     ["golangci-lint Configuration"] = 252,
     ["haxelib.json"] = 266,
     helmfile = 609,
@@ -985,7 +985,7 @@ M.json = {
       name = "AssemblyScript",
       url = "https://json.schemastore.org/asconfig-schema.json"
     }, {
-      description = "A JSON Schema for validating AsyncAPI documentation files",
+      description = "AsyncAPI documentation files",
       fileMatch = { "*asyncapi*.json", "*asyncapi*.yml", "*asyncapi*.yaml" },
       name = "AsyncAPI",
       url = "https://www.asyncapi.com/schema-store/all.schema-store.json"
@@ -4725,7 +4725,7 @@ M.json = {
     }, {
       description = "Goblet serverless framework config",
       fileMatch = { "**/.goblet/config.json" },
-      name = "goblet.schema.json",
+      name = "Goblet",
       url = "https://raw.githubusercontent.com/goblet/goblet/main/goblet.schema.json"
     } },
   version = 1
