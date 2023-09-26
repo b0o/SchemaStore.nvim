@@ -302,6 +302,7 @@ M.json = {
     ["JSON Schema Draft 2020-12"] = 576,
     ["JSON Schema Draft 4"] = 573,
     ["JSON Schema Draft 7"] = 574,
+    ["JSON Schema Draft 7 (unofficial strict)"] = 732,
     ["JSON Schema Draft 8 (2019-09)"] = 575,
     ["JSON-API"] = 301,
     ["JSON-e templates"] = 634,
@@ -4739,6 +4740,10 @@ M.json = {
       fileMatch = { "**/.databricks.yml" },
       name = "Databricks Asset Bundles",
       url = "https://json.schemastore.org/databricks-asset-bundles.json"
+    }, {
+      description = "Meta-validation JSON Schema Draft 7 (unofficial strict)",
+      name = "JSON Schema Draft 7 (unofficial strict)",
+      url = "https://json.schemastore.org/metaschema-draft-07-unofficial-strict.json"
     } },
   version = 1
 }
