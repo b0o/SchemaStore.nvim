@@ -193,6 +193,7 @@ M.json = {
     ["Dart test config"] = 172,
     ["DashLord configuration"] = 173,
     ["Data Contract Specification"] = 174,
+    ["Databricks Asset Bundles"] = 731,
     ["Datadog Service Definition"] = 310,
     ["Datahub Ingestion Recipe"] = 682,
     ["Dein Config"] = 105,
@@ -4733,6 +4734,11 @@ M.json = {
       fileMatch = { "**/.goblet/config.json" },
       name = "Goblet",
       url = "https://raw.githubusercontent.com/goblet/goblet/main/goblet.schema.json"
+    }, {
+      description = "Databricks Asset Bundles config",
+      fileMatch = { "**/.databricks.yml" },
+      name = "Databricks Asset Bundles",
+      url = "https://json.schemastore.org/databricks-asset-bundles.json"
     } },
   version = 1
 }
