@@ -476,6 +476,7 @@ M.json = {
     ["VSIX CLI publishing"] = 560,
     ["Vela Pipeline Configuration"] = 550,
     Vercel = 137,
+    Visivo = 734,
     ["Web App Manifest"] = 567,
     ["Web types"] = 570,
     WebExtensions = 566,
@@ -4750,6 +4751,11 @@ M.json = {
       description = "Meta-validation JSON Schema Draft 7 (unofficial strict)",
       name = "JSON Schema Draft 7 (unofficial strict)",
       url = "https://json.schemastore.org/metaschema-draft-07-unofficial-strict.json"
+    }, {
+      description = "Visivo IO Project Files",
+      fileMatch = { "visivo.yml", "visivo.yaml", "visivo_project.yml", "visivo_project.yaml", "*.visivo.yml", "*.visivo.yaml" },
+      name = "Visivo",
+      url = "https://docs.visivo.io/assets/visivo_schema.json"
     } },
   version = 1
 }
