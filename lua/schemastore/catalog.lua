@@ -2105,10 +2105,14 @@ M.json = {
       name = "geojson.json",
       url = "https://json.schemastore.org/geojson.json"
     }, {
-      description = "The output from the GitVersion tool",
-      fileMatch = { "gitversion.json" },
+      description = "Configuration file for GitVersion",
+      fileMatch = { "GitVersion.yml", "GitVersion.yaml" },
       name = "GitVersion",
-      url = "https://json.schemastore.org/gitversion.json"
+      url = "https://raw.githubusercontent.com/GitTools/GitVersion/main/schemas/6.0/GitVersion.configuration.json",
+      versions = {
+        ["5.12"] = "https://raw.githubusercontent.com/GitTools/GitVersion/main/schemas/5.12/GitVersion.configuration.json",
+        ["6.0"] = "https://raw.githubusercontent.com/GitTools/GitVersion/main/schemas/6.0/GitVersion.configuration.json"
+      }
     }, {
       description = "YAML GitHub Actions",
       fileMatch = { "action.yml", "action.yaml" },
