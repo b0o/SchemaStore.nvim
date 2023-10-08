@@ -1092,8 +1092,8 @@ M.json = {
         ["0.9.9"] = "https://raw.githubusercontent.com/hexagonkt/codecv/0.9.9/cv.schema.json"
       }
     }, {
-      description = "Lobe Agents is an AI agent for [LobeChat](https://github.com/lobehub/lobe-chat)",
-      fileMatch = { "*.json" },
+      description = "Lobe Agents is an AI agent for LobeChat",
+      fileMatch = { "lobe-agent.json" },
       name = "Lobe AI Agent",
       url = "https://chat-agents.lobehub.com/schema/lobeAgentSchema_v1.json"
     }, {
