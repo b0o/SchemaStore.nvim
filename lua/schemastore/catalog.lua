@@ -3772,7 +3772,7 @@ M.json = {
       name = "vss-extension.json",
       url = "https://json.schemastore.org/vss-extension.json"
     }, {
-      description = "Test execution tree description for a Vector test unit created with VS Code",
+      description = "Vector test execution tree description",
       fileMatch = { "*.vtesttree.yaml", "*.vtesttree.yml", "*.vtesttree.json" },
       name = "vtesttree.yaml",
       url = "https://json.schemastore.org/vtesttree-schema.json"
