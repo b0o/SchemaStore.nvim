@@ -228,6 +228,7 @@ M.json = {
     ["Drupal Services"] = 124,
     ["Drush site aliases"] = 206,
     ["Embrace Config"] = 699,
+    Endurica = 740,
     ["Error pages"] = 219,
     Esquio = 217,
     ["Estuary Flow Catalog"] = 678,
@@ -4790,6 +4791,11 @@ M.json = {
       fileMatch = { "visivo.yml", "visivo.yaml", "visivo_project.yml", "visivo_project.yaml", "*.visivo.yml", "*.visivo.yaml" },
       name = "Visivo",
       url = "https://docs.visivo.io/assets/visivo_schema.json"
+    }, {
+      description = "Endurica Input File",
+      fileMatch = { "*.ki.json" },
+      name = "Endurica",
+      url = "https://enduricastorage.blob.core.windows.net/public/endurica-cl-schema.json"
     } },
   version = 1
 }
