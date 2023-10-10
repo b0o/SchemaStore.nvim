@@ -3778,7 +3778,7 @@ M.json = {
       name = "vtesttree.yaml",
       url = "https://json.schemastore.org/vtesttree-schema.json"
     }, {
-      description = "Test unit description for Vector CANoe4SW Server Edition or Vector Test Unit Runner",
+      description = "Vector test unit description",
       fileMatch = { "*.vtestunit.yaml", "*.vtestunit.yml", "*.vtestunit.json" },
       name = "vtestunit.yaml",
       url = "https://json.schemastore.org/vtestunit-schema.json"
