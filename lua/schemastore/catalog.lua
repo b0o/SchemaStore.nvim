@@ -1702,7 +1702,7 @@ M.json = {
       description = "PHP Composer configuration file",
       fileMatch = { "composer.json" },
       name = "composer.json",
-      url = "https://raw.githubusercontent.com/composer/composer/main/res/composer-schema.json"
+      url = "https://getcomposer.org/schema.json"
     }, {
       description = "Web component file",
       fileMatch = { "component.json" },
