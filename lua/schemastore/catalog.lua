@@ -3286,10 +3286,10 @@ M.json = {
       name = "Renovate",
       url = "https://docs.renovatebot.com/renovate-schema.json"
     }, {
-      description = "RenderCV configuration file",
-      fileMatch = { "rendercv_*.yml", "rendercv_*.yaml", "rendercv_*.json", "rendercv_*.json5", "*_rendercv.yml", "*_rendercv.yaml", "*_rendercv.json", "*_rendercv.json5", "*_CV.yml", "*_CV.yaml", "*_CV.json", "*_CV.json5" },
+      description = "RenderCV input file",
+      fileMatch = { "*_CV.yml", "*_CV.yaml", "*_CV.json", "*_CV.json5", "*_cv.yml", "*_cv.yaml", "*_cv.json", "*_cv.json5" },
       name = "RenderCV",
-      url = "https://json.schemastore.org/rendercv.json"
+      url = "https://raw.githubusercontent.com/sinaatalay/rendercv/main/schema.json"
     }, {
       description = "Spiral Roadrunner config file",
       fileMatch = { ".rr*.yml", ".rr*.yaml" },
