@@ -475,6 +475,7 @@ M.json = {
     Tikibase = 539,
     ["Traefik v2"] = 547,
     ["Traefik v2 File Provider"] = 548,
+    TunnelHub = 761,
     Turborepo = 545,
     Tye = 685,
     ["UET BuildConfig.json"] = 732,
@@ -4916,6 +4917,11 @@ M.json = {
       fileMatch = { "*.ki.json" },
       name = "Endurica",
       url = "https://enduricastorage.blob.core.windows.net/public/endurica-cl-schema.json"
+    }, {
+      description = "TunnelHub Automation Configuration File",
+      fileMatch = { "tunnelhub.yml", "tunnelhub.yaml" },
+      name = "TunnelHub",
+      url = "https://json.schemastore.org/tunnelhub.json"
     } },
   version = 1
 }
