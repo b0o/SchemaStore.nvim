@@ -4440,7 +4440,7 @@ M.json = {
       description = "YAML configuring Woodpecker CI",
       fileMatch = { "**/.woodpecker/**.yml", "**/.woodpecker.yml", "**/.woodpecker/**.yaml", "**/.woodpecker.yaml" },
       name = "Woodpecker pipeline config",
-      url = "https://raw.githubusercontent.com/woodpecker-ci/woodpecker/master/pipeline/schema/schema.json"
+      url = "https://raw.githubusercontent.com/woodpecker-ci/woodpecker/main/pipeline/frontend/yaml/linter/schema/schema.json"
     }, {
       description = "Device template",
       fileMatch = { "*.ndst.yml", "*.ndst.yaml", "*.ndst.json" },
