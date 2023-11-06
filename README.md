@@ -12,7 +12,7 @@ use "b0o/schemastore.nvim"
 
 ## Usage
 
-To use SchemaStore.nvim with [lspconfig](https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#jsonls) + [jsonls](https://github.com/hrsh7th/vscode-langservers-extracted):
+To use SchemaStore.nvim with [lspconfig](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jsonls) + [jsonls](https://github.com/hrsh7th/vscode-langservers-extracted):
 
 ```lua
 require('lspconfig').jsonls.setup {
