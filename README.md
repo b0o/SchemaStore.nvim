@@ -135,6 +135,21 @@ require('lspconfig').jsonls.setup {
 }
 ```
 
+To use a local schema file, specify the path using the `file://` scheme or plain file paths:
+
+```lua
+require("schemastore").json.schemas({
+  extra = {
+    {
+      description = "Local JSON schema",
+      fileMatch = "local.json",
+      name = "local.json",
+      url = "file:///path/to/your/schema.json", -- or '/path/to/your/schema.json'
+    },
+  },
+})
+```
+
 ## Changelog
 
 ```
