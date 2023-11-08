@@ -3226,7 +3226,11 @@ M.json = {
       description = "Rancher Fleet fleet.yaml configuration file",
       fileMatch = { "fleet.yaml" },
       name = "Rancher Fleet",
-      url = "https://json.schemastore.org/rancher-fleet.json"
+      url = "https://json.schemastore.org/rancher-fleet-0.8.json",
+      versions = {
+        ["0.5"] = "https://json.schemastore.org/rancher-fleet-0.5.json",
+        ["0.8"] = "https://json.schemastore.org/rancher-fleet-0.8.json"
+      }
     }, {
       description = "Projektor settings",
       fileMatch = { "**/.projektor/config.yaml" },
