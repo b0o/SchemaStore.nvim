@@ -2391,7 +2391,7 @@ M.json = {
       name = ".imgbotconfig",
       url = "https://json.schemastore.org/imgbotconfig.json"
     }, {
-      description = "Imagination Techologies Catapult platform support pack contents",
+      description = "Imagination Technologies Catapult platform support pack contents",
       fileMatch = { "contents.yaml" },
       name = "IMG Catapult PSP",
       url = "https://json.schemastore.org/img-catapult-psp-1.0.0.json",
@@ -4835,7 +4835,7 @@ M.json = {
       name = "All Contributors configuration file",
       url = "https://json.schemastore.org/all-contributors.json"
     }, {
-      description = "The configuration file used for ES6 Import Sorter - a vscode extention",
+      description = "The configuration file used for ES6 Import Sorter - a vscode extension",
       fileMatch = { ".es6importsorterrc.json" },
       name = ".es6importsorterrc.json",
       url = "https://json.schemastore.org/es6importsorterrc.json"
