@@ -401,6 +401,7 @@ M.json = {
     ["PocketMine plugin.yml"] = 424,
     Poetry = 425,
     ["Postman collection"] = 430,
+    ["Problem object RFC9457"] = 767,
     ["Problem package generators"] = 437,
     Pterodactyl = 715,
     ["Pull Request Labeler"] = 452,
@@ -4958,6 +4959,11 @@ M.json = {
       fileMatch = { "tunnelhub.yml", "tunnelhub.yaml" },
       name = "TunnelHub",
       url = "https://json.schemastore.org/tunnelhub.json"
+    }, {
+      description = "Problem object per RFC 9457",
+      fileMatch = {},
+      name = "Problem object RFC9457",
+      url = "https://json.schemastore.org/problem-object-rfc9457.json"
     } },
   version = 1
 }
