@@ -344,6 +344,7 @@ M.json = {
     ["Mason Registry"] = 674,
     ["MegaLinter configuration"] = 348,
     ["MegaLinter descriptor"] = 349,
+    Melange = 769,
     ["Meltano plugin discovery definition"] = 351,
     ["Meltano project definition"] = 350,
     ["Microsoft Band Web Tile"] = 352,
@@ -513,6 +514,7 @@ M.json = {
     ["Yippee-Ki-JSON configuration YML"] = 647,
     ["aerleon.yml"] = 8,
     ["angular.json"] = 15,
+    apko = 768,
     ["app-definition.yaml"] = 32,
     ["apple-app-site-association"] = 30,
     ["appsettings.json"] = 35,
@@ -4964,6 +4966,16 @@ M.json = {
       fileMatch = {},
       name = "Problem object RFC9457",
       url = "https://json.schemastore.org/problem-object-rfc9457.json"
+    }, {
+      description = "apko (apk-based OCI image builder) config",
+      fileMatch = { "apko.json", "*.apko.json", "apko.yaml", "*.apko.yaml", "apko.yml", "*.apko.yml" },
+      name = "apko",
+      url = "https://raw.githubusercontent.com/chainguard-dev/apko/main/pkg/build/types/schema.json"
+    }, {
+      description = "Melange pipeline config",
+      fileMatch = { "melange.json", "*.melange.json", "melange.yaml", "*.melange.yaml", "melange.yml", "*.melange.yml" },
+      name = "Melange",
+      url = "https://raw.githubusercontent.com/chainguard-dev/melange/main/pkg/config/schema.json"
     } },
   version = 1
 }
