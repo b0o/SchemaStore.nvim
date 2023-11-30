@@ -350,6 +350,7 @@ M.json = {
     ["Meltano plugin discovery definition"] = 352,
     ["Meltano project definition"] = 351,
     ["Microsoft Band Web Tile"] = 353,
+    ["Minecraft Custom Main Menu Mod"] = 774,
     ["Minecraft Data Pack Advancement"] = 355,
     ["Minecraft Data Pack Biome"] = 356,
     ["Minecraft Data Pack Configured Carver"] = 357,
@@ -5000,6 +5001,11 @@ M.json = {
       fileMatch = { "melange.json", "*.melange.json", "melange.yaml", "*.melange.yaml", "melange.yml", "*.melange.yml" },
       name = "Melange",
       url = "https://raw.githubusercontent.com/chainguard-dev/melange/main/pkg/config/schema.json"
+    }, {
+      description = "Minecraft 1.12 Forge mod 'Custom Main Menu' config",
+      fileMatch = { "mainmenu.yml", "mainmenu.yaml", "mainmenu.json" },
+      name = "Minecraft Custom Main Menu Mod",
+      url = "https://json.schemastore.org/minecraft-custom-main-menu-mod.json"
     } },
   version = 1
 }
