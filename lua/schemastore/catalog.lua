@@ -4931,7 +4931,7 @@ M.json = {
       description = "Lazy Git settings",
       fileMatch = { "**/lazygit/config.yml" },
       name = "lazygit",
-      url = "https://json.schemastore.org/lazygit.json"
+      url = "https://raw.githubusercontent.com/jesseduffield/lazygit/master/schema/config.json"
     }, {
       description = "Lazy Docker settings",
       fileMatch = { "**/lazydocker/config.yml" },
