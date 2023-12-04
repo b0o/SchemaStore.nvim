@@ -377,7 +377,7 @@ M.json = {
     ["NOX Framework (Service)"] = 391,
     ["Netin Diagnostic System Template"] = 682,
     ["Netlify config"] = 382,
-    ["Nexus-as-Code Data Model"] = 383,
+    ["Network-as-Code Data Model"] = 383,
     ["Nightwatch.js"] = 384,
     ["ONe's service descriptor"] = 406,
     ["OSS Review Toolkit configuration"] = 413,
@@ -2850,10 +2850,10 @@ M.json = {
       name = "Netlify config",
       url = "https://json.schemastore.org/netlify.json"
     }, {
-      description = "Cisco Nexus-as-Code Data Model",
+      description = "Cisco Network-as-Code Data Model",
       fileMatch = { "*.nac.yml", "*.nac.yaml", "*.aac.yml", "*.aac.yaml" },
-      name = "Nexus-as-Code Data Model",
-      url = "https://raw.githubusercontent.com/netascode/nac-validate/main/schema.json"
+      name = "Network-as-Code Data Model",
+      url = "https://raw.githubusercontent.com/netascode/schema/main/schema.json"
     }, {
       description = "nightwatch.js config",
       fileMatch = { "nightwatch.json" },
