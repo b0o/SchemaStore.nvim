@@ -4291,7 +4291,7 @@ M.json = {
       description = "Gradle Enterprise configuration",
       fileMatch = { "*gradle-enterprise.yml", "*gradle-enterprise.yaml" },
       name = "Gradle Enterprise",
-      url = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
+      url = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
       versions = {
         ["1.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json",
         ["2.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
@@ -4300,7 +4300,8 @@ M.json = {
         ["5.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-5.json",
         ["6.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-6.json",
         ["7.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json",
-        ["8.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json"
+        ["8.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
+        ["9.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json"
       }
     }, {
       description = "Gradle Build Cache Node configuration",
