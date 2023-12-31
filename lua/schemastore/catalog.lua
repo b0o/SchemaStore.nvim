@@ -736,6 +736,7 @@ M.json = {
     ["quilt.mod.json"] = 771,
     ["release drafter"] = 648,
     ["release-plz.toml"] = 480,
+    ["rivet.yaml"] = 792,
     rtx = 484,
     rustfmt = 491,
     samt = 493,
@@ -5112,6 +5113,11 @@ M.json = {
       fileMatch = { "mainmenu.yml", "mainmenu.yaml", "mainmenu.json" },
       name = "Minecraft Custom Main Menu Mod",
       url = "https://json.schemastore.org/minecraft-custom-main-menu-mod.json"
+    }, {
+      description = "Rivet game configuration file",
+      fileMatch = { "rivet.yaml", "rivet.*.yaml", "rivet.toml", "rivet.*.toml", "rivet.json", "rivet.*.json" },
+      name = "rivet.yaml",
+      url = "https://rivet.gg/rivet.schema.json"
     } },
   version = 1
 }
