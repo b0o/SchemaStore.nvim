@@ -441,6 +441,7 @@ M.json = {
     Renovate = 490,
     ["Replit config"] = 484,
     RoadRunner = 492,
+    ["Rudder techniques"] = 795,
     Ruff = 487,
     ["Rust Project"] = 488,
     ["Rust toolchain"] = 494,
@@ -5131,6 +5132,11 @@ M.json = {
       fileMatch = { "rivet.yaml", "rivet.*.yaml", "rivet.toml", "rivet.*.toml", "rivet.json", "rivet.*.json" },
       name = "rivet.yaml",
       url = "https://rivet.gg/rivet.schema.json"
+    }, {
+      description = "Rudder techniques",
+      fileMatch = { "technique.yml", "technique.ids.yml" },
+      name = "Rudder techniques",
+      url = "https://json.schemastore.org/rudder-techniques.json"
     } },
   version = 1
 }
