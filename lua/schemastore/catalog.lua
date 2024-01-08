@@ -465,6 +465,7 @@ M.json = {
     ["Shopware CLI Project Store Configuration"] = 712,
     Sigma = 526,
     ["Sigrid scope configuration file"] = 527,
+    ["SkyPilot Task JSON"] = 798,
     ["Slack app manifest"] = 531,
     Solidarity = 534,
     ["Solution filters"] = 535,
@@ -5149,6 +5150,11 @@ M.json = {
       fileMatch = { "technique.yml", "technique.ids.yml" },
       name = "Rudder techniques",
       url = "https://json.schemastore.org/rudder-techniques.json"
+    }, {
+      description = "SkyPilot Task JSON to specify a task (resource requirements, setup commands, run commands, file mounts, storage mounts, and so on)",
+      fileMatch = { "skypilot-task.yml", "skypilot-task.yaml" },
+      name = "SkyPilot Task JSON",
+      url = "https://json.schemastore.org/skypilot-task.json"
     } },
   version = 1
 }
