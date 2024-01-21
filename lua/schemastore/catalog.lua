@@ -103,6 +103,7 @@ M.json = {
     ["AWS CloudFormation"] = 173,
     ["AWS CloudFormation Serverless Application Model (SAM)"] = 174,
     ["AWS SAM CLI Samconfig"] = 175,
+    ["Adobe UXP Manifest"] = 809,
     ["Aerleon Network & Service Definitions"] = 9,
     ["Aerleon Policy"] = 10,
     ["Airlock Microgateway"] = 14,
@@ -5217,6 +5218,14 @@ M.json = {
       fileMatch = { "skypilot-task.yml", "skypilot-task.yaml" },
       name = "SkyPilot Task JSON",
       url = "https://json.schemastore.org/skypilot-task.json"
+    }, {
+      description = "Plug-in manifest for Adobe's Unified Extensibility Platform",
+      fileMatch = {},
+      name = "Adobe UXP Manifest",
+      url = "https://json.schemastore.org/uxp-manifest-5.json",
+      versions = {
+        ["5"] = "https://json.schemastore.org/uxp-manifest-5.json"
+      }
     } },
   version = 1
 }
