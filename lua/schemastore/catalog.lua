@@ -3400,7 +3400,11 @@ M.json = {
       description = "A GitHub Action for automatically labelling pull requests",
       fileMatch = { "**/.github/labeler.yml" },
       name = "Pull Request Labeler",
-      url = "https://json.schemastore.org/pull-request-labeler.json"
+      url = "https://json.schemastore.org/pull-request-labeler.json",
+      versions = {
+        ["4"] = "https://json.schemastore.org/pull-request-labeler.json",
+        ["5"] = "https://json.schemastore.org/pull-request-labeler-5.json"
+      }
     }, {
       description = "🐊Putout configuration file",
       fileMatch = { ".putout.json" },
