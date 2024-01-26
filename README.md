@@ -4,6 +4,12 @@ A Neovim Lua plugin providing access to the [SchemaStore](https://github.com/Sch
 
 ## Install
 
+[Lazy.nvim](https://github.com/folke/lazy.nvim):
+
+```lua
+  "b0o/schemastore.nvim",
+```
+
 [Packer](https://github.com/wbthomason/packer.nvim):
 
 ```lua
