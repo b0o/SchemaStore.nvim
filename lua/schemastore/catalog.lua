@@ -494,6 +494,7 @@ M.json = {
     ["Stryker Mutator"] = 561,
     ["StyleCop Analyzers Configuration"] = 562,
     ["Sublime Syntax"] = 769,
+    ["Subsquid squid manifest"] = 813,
     ["Swagger API 2.0"] = 565,
     TSON = 590,
     TSTyche = 591,
@@ -5249,6 +5250,11 @@ M.json = {
       versions = {
         ["5"] = "https://json.schemastore.org/uxp-manifest-5.json"
       }
+    }, {
+      description = "Squid manifest for Subsquid Cloud deployments",
+      fileMatch = { "squid.yaml", "*.squid.yaml", "squid.yml", "*.squid.yml" },
+      name = "Subsquid squid manifest",
+      url = "https://cdn.subsquid.io/schemas/squid_manifest.json"
     } },
   version = 1
 }
