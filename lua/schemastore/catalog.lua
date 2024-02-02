@@ -2307,17 +2307,17 @@ M.json = {
       url = "https://json.schemastore.org/github-funding.json"
     }, {
       description = "YAML GitHub issue forms",
-      fileMatch = { "**/.github/ISSUE_TEMPLATE/**.yml", "**/.github/ISSUE_TEMPLATE/**.yaml" },
+      fileMatch = { "**/.github/ISSUE_TEMPLATE/**.yml", "**/.github/ISSUE_TEMPLATE/**.yaml", "**/.gitea/ISSUE_TEMPLATE/**.yml", "**/.gitea/ISSUE_TEMPLATE/**.yaml", "**/.forgejo/ISSUE_TEMPLATE/**.yml", "**/.forgejo/ISSUE_TEMPLATE/**.yaml" },
       name = "GitHub issue forms",
       url = "https://json.schemastore.org/github-issue-forms.json"
     }, {
       description = "YAML configuring GitHub Issue Templates",
-      fileMatch = { "**/.github/ISSUE_TEMPLATE/config.yml", "**/.github/ISSUE_TEMPLATE/config.yaml" },
+      fileMatch = { "**/.github/ISSUE_TEMPLATE/config.yml", "**/.github/ISSUE_TEMPLATE/config.yaml", "**/.gitea/ISSUE_TEMPLATE/config.yml", "**/.gitea/ISSUE_TEMPLATE/config.yaml", "**/.forgejo/ISSUE_TEMPLATE/config.yml", "**/.forgejo/ISSUE_TEMPLATE/config.yaml" },
       name = "GitHub Issue Template configuration",
       url = "https://json.schemastore.org/github-issue-config.json"
     }, {
       description = "YAML GitHub Workflow",
-      fileMatch = { "**/.github/workflows/*.yml", "**/.github/workflows/*.yaml" },
+      fileMatch = { "**/.github/workflows/*.yml", "**/.github/workflows/*.yaml", "**/.gitea/workflows/*.yml", "**/.gitea/workflows/*.yaml", "**/.forgejo/workflows/*.yml", "**/.forgejo/workflows/*.yaml" },
       name = "GitHub Workflow",
       url = "https://json.schemastore.org/github-workflow.json"
     }, {
