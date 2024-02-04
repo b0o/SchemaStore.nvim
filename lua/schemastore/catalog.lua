@@ -1160,7 +1160,11 @@ M.json = {
       description = "Configuration file for bottom",
       fileMatch = { "bottom.toml" },
       name = "bottom configuration",
-      url = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json"
+      url = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v1.0/bottom.json",
+      versions = {
+        ["1.0"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v1.0/bottom.json",
+        nightly = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json"
+      }
     }, {
       description = "buf.yaml is used to define a module. It's the primary configuration file, and is responsible for the module's name, dependencies, and lint and breaking configuration",
       fileMatch = { "buf.yaml" },
