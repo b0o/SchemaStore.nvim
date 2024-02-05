@@ -1078,12 +1078,13 @@ M.json = {
       name = "Atmos Manifests",
       url = "https://atmos.tools/schemas/atmos/atmos-manifest/1.0/atmos-manifest.json"
     }, {
-      description = "Aurora Agile Meta-Framework",
+      description = "Yaml for Aurora Agile Meta-Framework",
       fileMatch = { "*.aurora.yaml", "*.aurora.yml" },
       name = "Aurora Agile Meta-Framework",
-      url = "https://json.schemastore.org/aurora-1.0.json",
+      url = "https://json.schemastore.org/aurora-1.1.json",
       versions = {
-        ["1.0"] = "https://json.schemastore.org/aurora-1.0.json"
+        ["1.0"] = "https://json.schemastore.org/aurora-1.0.json",
+        ["1.1"] = "https://json.schemastore.org/aurora-1.1.json"
       }
     }, {
       description = "Avro Avsc file",
