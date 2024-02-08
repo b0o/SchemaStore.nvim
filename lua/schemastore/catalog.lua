@@ -268,6 +268,7 @@ M.json = {
     ["GitHub Workflow"] = 272,
     ["GitHub Workflow Template Properties"] = 273,
     ["GitHub issue forms"] = 270,
+    ["GitLab Agent for Kubernetes configuration"] = 802,
     GitVersion = 266,
     ["Gitpod Configuration"] = 275,
     ["Global Privacy Control"] = 265,
@@ -5188,6 +5189,11 @@ M.json = {
       fileMatch = { "squid.yaml", "*.squid.yaml", "squid.yml", "*.squid.yml" },
       name = "Subsquid squid manifest",
       url = "https://cdn.subsquid.io/schemas/squid_manifest.json"
+    }, {
+      description = "GitLab Agent for Kubernetes configuration file",
+      fileMatch = { "**/.gitlab/agents/*/config.yaml" },
+      name = "GitLab Agent for Kubernetes configuration",
+      url = "https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/raw/master/pkg/agentcfg/agentcfg_schemas/ConfigurationFile.json"
     } },
   version = 1
 }
