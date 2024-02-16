@@ -272,6 +272,7 @@ M.json = {
     ["GitLab Agent for Kubernetes configuration"] = 804,
     GitVersion = 267,
     ["Gitpod Configuration"] = 276,
+    ["GlazeWM settings"] = 806,
     ["Global Privacy Control"] = 266,
     Goblet = 787,
     ["Google Chrome Related Website Sets"] = 249,
@@ -308,6 +309,7 @@ M.json = {
     ["IBM Zapp document"] = 303,
     ["IBM zCodeFormatSettings"] = 304,
     ["IMG Catapult PSP"] = 309,
+    ["IVMS101 by CODE Protocol"] = 805,
     Istanbul = 745,
     ["JDownloader2 crawler multi-rules"] = 319,
     ["JDownloader2 crawler single-rules"] = 318,
@@ -5206,6 +5208,16 @@ M.json = {
       fileMatch = { "**/.gitlab/agents/*/config.yaml" },
       name = "GitLab Agent for Kubernetes configuration",
       url = "https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/raw/master/pkg/agentcfg/agentcfg_schemas/ConfigurationFile.json"
+    }, {
+      description = "IVMS101 format from interVASP by CODE Protocol",
+      fileMatch = {},
+      name = "IVMS101 by CODE Protocol",
+      url = "https://raw.githubusercontent.com/codevasp-lab/IVMS101/main/json-schema.json"
+    }, {
+      description = "GlazeWM settings",
+      fileMatch = { "**/.glaze-wm/config.yaml" },
+      name = "GlazeWM settings",
+      url = "https://json.schemastore.org/glazewm.json"
     } },
   version = 1
 }
