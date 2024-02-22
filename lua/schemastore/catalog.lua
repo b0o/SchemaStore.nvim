@@ -151,6 +151,7 @@ M.json = {
     ["Bukkit plugin.yml"] = 95,
     ["BungeeCord plugin.yml"] = 99,
     ["Butane Config"] = 723,
+    ["CGS Custom Card Game (CardGameDef.json)"] = 808,
     ["CICS TS region tagging"] = 732,
     ["CICS TS resource import"] = 733,
     ["CICS TS resource model"] = 734,
@@ -5224,6 +5225,11 @@ M.json = {
       fileMatch = { "**/.glaze-wm/config.yaml" },
       name = "GlazeWM settings",
       url = "https://json.schemastore.org/glazewm.json"
+    }, {
+      description = "Card Game Simulator (CGS) custom card game specification",
+      fileMatch = { "CardGameDef.json" },
+      name = "CGS Custom Card Game (CardGameDef.json)",
+      url = "https://www.cardgamesimulator.com/schema/CardGameDef.json"
     } },
   version = 1
 }
