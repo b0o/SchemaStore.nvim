@@ -5076,7 +5076,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/QuiltMC/quilt-json-schemas/main/quilt.mod.json/schemas/main.json"
     }, {
       description = "auto api case",
-      fileMatch = { "**/test_data/*.yml" },
+      fileMatch = { "**/test_data/**/*.yml" },
       name = "AutoAPICase",
       url = "https://json.schemastore.org/case_schema.json"
     }, {
