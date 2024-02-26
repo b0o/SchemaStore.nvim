@@ -190,6 +190,8 @@ M.json = {
     ["Crowdsec parser config"] = 186,
     ["Crowdsec scenario config"] = 187,
     ["CumulusCI Config"] = 120,
+    ["Custom Machinery Machine"] = 809,
+    ["Custom Machinery Recipe"] = 810,
     ["DWP Exchange - catalogue entry"] = 231,
     ["DWP Exchange - gateway"] = 229,
     ["DWP Exchange - meta"] = 230,
@@ -5230,6 +5232,16 @@ M.json = {
       fileMatch = { "CardGameDef.json" },
       name = "CGS Custom Card Game (CardGameDef.json)",
       url = "https://www.cardgamesimulator.com/schema/CardGameDef.json"
+    }, {
+      description = "Custom machinery machine specification (Minecraft mod)",
+      fileMatch = { "**/data/*/machines/*.json", "**/data/*/machine/*.json" },
+      name = "Custom Machinery Machine",
+      url = "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_machine.json"
+    }, {
+      description = "Custom machinery recipes specification (Minecraft mod)",
+      fileMatch = { "**/data/*/recipes/**/*.json" },
+      name = "Custom Machinery Recipe",
+      url = "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json"
     } },
   version = 1
 }
