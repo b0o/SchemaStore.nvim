@@ -399,6 +399,7 @@ M.json = {
     ["Netlify config"] = 399,
     ["Network-as-Code Data Model"] = 400,
     ["Nightwatch.js"] = 401,
+    ["Nuitka.yaml"] = 811,
     ["ONe's changelog entry"] = 424,
     ["ONe's service descriptor"] = 423,
     ["OSS Review Toolkit configuration"] = 431,
@@ -5242,6 +5243,11 @@ M.json = {
       fileMatch = { "**/data/*/recipes/**/*.json" },
       name = "Custom Machinery Recipe",
       url = "https://alec016.github.io/Custom-Machinery/Json%20Schema/src/main/resources/schemas/custom_machinery_recipe.json"
+    }, {
+      description = "Nuitka Package Configuration",
+      fileMatch = { "*.nuitka-package.config.yml", "*.nuitka-package.config.yaml" },
+      name = "Nuitka.yaml",
+      url = "https://raw.githubusercontent.com/Nuitka/Nuitka/develop/misc/nuitka-package-config-schema.json"
     } },
   version = 1
 }
