@@ -2393,7 +2393,7 @@ M.json = {
       description = "Goss - Quick and Easy server validation",
       fileMatch = { "goss.yaml", "goss.yml", "goss.json" },
       name = "Goss",
-      url = "https://github.com/goss-org/goss/raw/master/docs/goss-json-schema.yaml"
+      url = "https://github.com/goss-org/goss/raw/master/docs/schema.yaml"
     }, {
       description = "Grafana 5.x Dashboards",
       name = "Grafana 5.x Dashboard",
