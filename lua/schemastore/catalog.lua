@@ -1922,7 +1922,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/socialgouv/dashlord/main/schema.json"
     }, {
       description = "Data Contract Specification file",
-      fileMatch = { "datacontract.yaml", "datacontract.yml", "*-datacontract.yaml", "*-datacontract.yml", "datacontract-*.yaml", "datacontract-*.yml" },
+      fileMatch = { "datacontract.yaml", "datacontract.yml", "*-datacontract.yaml", "*-datacontract.yml", "*.datacontract.yaml", "*.datacontract.yml", "datacontract-*.yaml", "datacontract-*.yml", "**/datacontract/*.yml", "**/datacontract/*.yaml", "**/datacontracts/*.yml", "**/datacontracts/*.yaml" },
       name = "Data Contract Specification",
       url = "https://raw.githubusercontent.com/datacontract/datacontract-specification/main/datacontract.schema.json"
     }, {
