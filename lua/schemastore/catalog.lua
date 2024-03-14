@@ -1559,7 +1559,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/connections.schema.json"
     }, {
       description = "Declarative definition of sequential pipeline steps within a DataYoga job",
-      fileMatch = { "*.dy.yaml" },
+      fileMatch = { "**/jobs/*.dy.yaml" },
       name = "DataYoga Job",
       url = "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/job.schema.json"
     }, {
