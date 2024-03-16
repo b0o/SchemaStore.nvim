@@ -576,7 +576,7 @@ M.json = {
     ["beef-entity-v5-codegen"] = 79,
     ["behat.yml"] = 88,
     ["bigquery-table"] = 80,
-    ["bioimageio json"] = 819,
+    ["bioimageio resource description"] = 819,
     ["bitbucket-pipelines"] = 82,
     bitrise = 83,
     ["bitrise-step"] = 84,
@@ -5295,9 +5295,9 @@ M.json = {
       name = "Nuitka.yaml",
       url = "https://raw.githubusercontent.com/Nuitka/Nuitka/develop/misc/nuitka-package-config-schema.json"
     }, {
-      description = "Bioimage.io community specifications json, may be produced or consumed by bioimage.io-compatible consumers",
-      fileMatch = {},
-      name = "bioimageio json",
+      description = "Bioimage.io resource descriptions may be produced or consumed by bioimage.io-compatible software",
+      fileMatch = { "bioimageio.yaml", "*.bioimageio.yaml" },
+      name = "bioimageio resource description",
       url = "https://bioimage-io.github.io/spec-bioimage-io/bioimageio_schema_latest.json"
     } },
   version = 1
