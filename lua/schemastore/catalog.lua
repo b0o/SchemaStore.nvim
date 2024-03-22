@@ -1569,7 +1569,7 @@ M.json = {
       description = "dbt project configurations",
       fileMatch = { "dbt_project.yml" },
       name = "dbt Project",
-      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/dbt_project.json"
+      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_project-latest.json"
     }, {
       description = "Dein.vim, a Vim/Neovim plugin manager",
       fileMatch = { "dein.toml" },
