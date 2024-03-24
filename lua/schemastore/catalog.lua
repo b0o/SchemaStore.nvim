@@ -709,7 +709,7 @@ M.json = {
     ["localazy.json"] = 368,
     ["lotus.yaml"] = 366,
     ["lsdlschema.json"] = 369,
-    ["markdown-lint-check"] = 717,
+    ["markdown-link-check"] = 717,
     mboats = 724,
     ["micro-settings.json"] = 793,
     ["mimetypes.json"] = 378,
@@ -4752,10 +4752,10 @@ M.json = {
       name = "Markdownlint",
       url = "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json"
     }, {
-      description = "markdown-lint-check",
-      fileMatch = { ".markdown-lint-check.json" },
-      name = "markdown-lint-check",
-      url = "https://json.schemastore.org/markdown-lint-check.json"
+      description = "markdown-link-check",
+      fileMatch = { ".markdown-link-check.json" },
+      name = "markdown-link-check",
+      url = "https://json.schemastore.org/markdown-link-check.json"
     }, {
       description = "Mason, a package manager for Neovim",
       fileMatch = { "**/packages/*/package.yaml" },
