@@ -801,6 +801,7 @@ M.json = {
     ["servicehub.service.json"] = 646,
     ["settings.job"] = 540,
     ["sfdx-hardis configuration"] = 542,
+    ["shard.yml"] = 831,
     ["size-limit configuration"] = 547,
     ["skaffold.yaml"] = 716,
     ["skyuxconfig.json"] = 549,
@@ -5375,6 +5376,11 @@ M.json = {
       fileMatch = { "bioimageio.yaml", "*.bioimageio.yaml" },
       name = "bioimageio resource description",
       url = "https://bioimage-io.github.io/spec-bioimage-io/bioimageio_schema_latest.json"
+    }, {
+      description = "Shards configuration file",
+      fileMatch = { "shard.yml" },
+      name = "shard.yml",
+      url = "https://raw.githubusercontent.com/crystal-lang/shards/master/docs/shard.yml.schema.json"
     } },
   version = 1
 }
