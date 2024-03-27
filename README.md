@@ -103,7 +103,7 @@ require('lspconfig').jsonls.setup {
       schemas = require('schemastore').json.schemas {
         replace = {
           ['package.json'] = {
-            description = 'package.json overriden',
+            description = 'package.json overridden',
             fileMatch = { 'package.json' },
             name = 'package.json',
             url = 'https://example.com/package.json',
