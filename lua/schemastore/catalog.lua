@@ -924,11 +924,12 @@ M.json = {
       description = "Settings for project analysis by the Application Inspector",
       fileMatch = { ".aiproj.json" },
       name = ".aiproj.json",
-      url = "https://json.schemastore.org/aiproj-1.2.json",
+      url = "https://json.schemastore.org/aiproj-1.3.json",
       versions = {
         ["1.0"] = "https://json.schemastore.org/aiproj-1.0.json",
         ["1.1"] = "https://json.schemastore.org/aiproj-1.1.json",
-        ["1.2"] = "https://json.schemastore.org/aiproj-1.2.json"
+        ["1.2"] = "https://json.schemastore.org/aiproj-1.2.json",
+        ["1.3"] = "https://json.schemastore.org/aiproj-1.3.json"
       }
     }, {
       description = "AIConfig that is used to store generative AI prompts, models and model parameters",
