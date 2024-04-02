@@ -162,7 +162,7 @@ M.json = {
     ["CSS Comb (.csscomb.json)"] = 195,
     ["CSS Lint (.csslintrc)"] = 196,
     ["CSpell (cspell.json)"] = 194,
-    CWL = 831,
+    CWL = 832,
     ["Calqulus pipeline"] = 106,
     ["Camel YAML DSL"] = 107,
     Carafe = 108,
@@ -246,6 +246,8 @@ M.json = {
     ["Embrace Config"] = 768,
     Endurica = 811,
     ["Enterprise Contract Policy Spec"] = 239,
+    ["Erda Pipeline"] = 834,
+    ["Erda Runtime"] = 835,
     ["Error pages"] = 243,
     Esquio = 241,
     ["Estuary Flow Catalog"] = 747,
@@ -255,6 +257,7 @@ M.json = {
     ["FasterCI Configuration"] = 65,
     FiQuS = 255,
     Firebase = 253,
+    ["Flow.json Configurations"] = 831,
     ["Fossa configuration file"] = 262,
     ["Fossa's fossa-deps file"] = 263,
     ["Foundry VTT - Base package Manifest"] = 257,
@@ -802,7 +805,7 @@ M.json = {
     ["servicehub.service.json"] = 646,
     ["settings.job"] = 540,
     ["sfdx-hardis configuration"] = 542,
-    ["shard.yml"] = 832,
+    ["shard.yml"] = 833,
     ["size-limit configuration"] = 547,
     ["skaffold.yaml"] = 716,
     ["skyuxconfig.json"] = 549,
@@ -5379,6 +5382,11 @@ M.json = {
       name = "bioimageio resource description",
       url = "https://bioimage-io.github.io/spec-bioimage-io/bioimageio_schema_latest.json"
     }, {
+      description = "Project configuration for Cadence projects on Flow Blockchain",
+      fileMatch = {},
+      name = "Flow.json Configurations",
+      url = "https://raw.githubusercontent.com/onflow/flow-cli/master/flowkit/schema.json"
+    }, {
       description = "The Common Workflow Language Configuration",
       fileMatch = { "*.cwl" },
       name = "CWL",
@@ -5388,6 +5396,16 @@ M.json = {
       fileMatch = { "shard.yml" },
       name = "shard.yml",
       url = "https://raw.githubusercontent.com/crystal-lang/shards/master/docs/shard.yml.schema.json"
+    }, {
+      description = "Erda Pipeline Configuration File",
+      fileMatch = { "pipeline.yaml", "pipeline.yml", "**/.erda/pipelines/*.yaml", "**/.erda/pipelines/*.yml", "**/.dice/pipelines/*.yaml", "**/.dice/pipelines/*.yml" },
+      name = "Erda Pipeline",
+      url = "https://raw.githubusercontent.com/erda-project/erda/master/.erda/schemas/pipeline.yaml.json"
+    }, {
+      description = "Erda Runtime Configuration File",
+      fileMatch = { "dice.yaml", "erda.yml" },
+      name = "Erda Runtime",
+      url = "https://raw.githubusercontent.com/erda-project/erda/master/.erda/schemas/dice.yaml.json"
     } },
   version = 1
 }
