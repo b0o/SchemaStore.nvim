@@ -354,6 +354,7 @@ M.json = {
     ["KIMMDY config file"] = 346,
     ["KSP-AVC"] = 639,
     ["KSP-CKAN"] = 640,
+    KSY = 836,
     ["Karakum configuration file"] = 264,
     Kas = 344,
     ["Keycloak REST API"] = 778,
@@ -5406,6 +5407,11 @@ M.json = {
       fileMatch = { "dice.yaml", "erda.yml" },
       name = "Erda Runtime",
       url = "https://raw.githubusercontent.com/erda-project/erda/master/.erda/schemas/dice.yaml.json"
+    }, {
+      description = "Kaitai Struct format description file",
+      fileMatch = { "*.ksy" },
+      name = "KSY",
+      url = "https://raw.githubusercontent.com/kaitai-io/ksy_schema/master/ksy_schema.json"
     } },
   version = 1
 }
