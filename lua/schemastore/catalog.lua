@@ -2401,8 +2401,8 @@ M.json = {
       name = "GitHub Workflow Template Properties",
       url = "https://json.schemastore.org/github-workflow-template-properties.json"
     }, {
-      description = "configuring Gitlab CI",
-      fileMatch = { "*.gitlab-ci.yml" },
+      description = "GitLab CI Configuration file",
+      fileMatch = { "**/.gitlab-ci.yml", "**/.gitlab-ci.yaml", "**/*.gitlab-ci.yml", "**/*.gitlab-ci.yaml" },
       name = "gitlab-ci",
       url = "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
     }, {
