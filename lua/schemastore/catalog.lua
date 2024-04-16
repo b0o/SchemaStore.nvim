@@ -2525,7 +2525,7 @@ M.json = {
       description = "YAML configuring Hazelcast 5 Platform (member and client)",
       fileMatch = { "hazelcast*.yaml", "hazelcast*.json", "hz-*.yaml", "hz-*.json" },
       name = "Hazelcast 5 Configuration",
-      url = "https://hazelcast.com/schema/config/hazelcast-config-5.3.json"
+      url = "https://hazelcast.com/schema/config/hazelcast-config-5.4.json"
     }, {
       description = "Azure Functions host.json files",
       fileMatch = { "host.json" },
