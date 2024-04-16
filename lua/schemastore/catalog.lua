@@ -4273,10 +4273,10 @@ M.json = {
       name = "Web types",
       url = "https://json.schemastore.org/web-types.json"
     }, {
-      description = "Experimental JSON config",
-      fileMatch = { "wrangler.json" },
+      description = "Wrangler is a command-line tool for building with Cloudflare developer products",
+      fileMatch = { "wrangler.json", "wrangler.toml" },
       name = "Wrangler CLI",
-      url = "https://github.com/cloudflare/workers-sdk/files/12887590/wrangler.schema.json"
+      url = "https://www.unpkg.com/wrangler/config-schema.json"
     }, {
       description = "JSON-stat 2.0",
       name = "JSON-stat 2.0",
