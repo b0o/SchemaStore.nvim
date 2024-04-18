@@ -2878,7 +2878,7 @@ M.json = {
       url = "https://json.schemastore.org/lsdlschema.json"
     }, {
       description = "A micro editor config",
-      fileMatch = { "settings.json" },
+      fileMatch = { "**/micro/settings.json" },
       name = "A micro editor config",
       url = "https://json.schemastore.org/micro.json"
     }, {
