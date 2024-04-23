@@ -346,6 +346,7 @@ M.json = {
     ["JSON Schema Draft 7 (unofficial strict)"] = 814,
     ["JSON Schema Draft 8 (2019-09)"] = 648,
     ["JSON-API"] = 340,
+    ["JSON-WF"] = 842,
     ["JSON-e templates"] = 710,
     ["JSON-stat 2.0"] = 643,
     JSONPatch = 344,
@@ -5446,6 +5447,11 @@ M.json = {
       fileMatch = { "*.ksy" },
       name = "KSY",
       url = "https://raw.githubusercontent.com/kaitai-io/ksy_schema/master/ksy_schema.json"
+    }, {
+      description = "A blogroll interchange format",
+      fileMatch = {},
+      name = "JSON-WF",
+      url = "https://www.json-wf.org.uk/json-wf-schema-1.0.json"
     } },
   version = 1
 }
