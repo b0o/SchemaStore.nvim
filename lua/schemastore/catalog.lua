@@ -178,6 +178,7 @@ M.json = {
     ["Citation File Format"] = 185,
     CityJSON = 116,
     ["Clawject config"] = 124,
+    ["Cloud Foundry Application Manifest"] = 846,
     ["Code Climate"] = 151,
     CodeCV = 62,
     ["CodeShip Pro services configuration files"] = 162,
@@ -5470,6 +5471,11 @@ M.json = {
       fileMatch = {},
       name = "JSON-WF",
       url = "https://www.json-wf.org.uk/json-wf-schema-1.0.json"
+    }, {
+      description = "A manifest describes a Cloud Foundry application and can be used to deploy it to a Foundation",
+      fileMatch = {},
+      name = "Cloud Foundry Application Manifest",
+      url = "https://json.schemastore.org/cloudfoundry-application-manifest.json"
     } },
   version = 1
 }
