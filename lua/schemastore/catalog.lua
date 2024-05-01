@@ -855,6 +855,7 @@ M.json = {
     unist = 743,
     ["up.json"] = 615,
     v8r = 638,
+    vcluster = 847,
     ["vcpkg configuration file"] = 165,
     ["vcpkg manifest file"] = 164,
     ["vega-lite.json"] = 622,
@@ -2687,10 +2688,11 @@ M.json = {
       description = "JReleaser config file",
       fileMatch = { "jreleaser.yml", "jreleaser.json" },
       name = "JReleaser",
-      url = "https://json.schemastore.org/jreleaser-1.11.0.json",
+      url = "https://json.schemastore.org/jreleaser-1.12.0.json",
       versions = {
         ["1.10.0"] = "https://json.schemastore.org/jreleaser-1.10.0.json",
         ["1.11.0"] = "https://json.schemastore.org/jreleaser-1.11.0.json",
+        ["1.12.0"] = "https://json.schemastore.org/jreleaser-1.12.0.json",
         ["1.6.0"] = "https://json.schemastore.org/jreleaser-1.6.0.json",
         ["1.7.0"] = "https://json.schemastore.org/jreleaser-1.7.0.json",
         ["1.8.0"] = "https://json.schemastore.org/jreleaser-1.8.0.json",
@@ -5201,14 +5203,15 @@ M.json = {
       description = "Pantsbuild configuration file",
       fileMatch = { "pants*.toml" },
       name = "Pantsbuild",
-      url = "https://json.schemastore.org/pantsbuild-2.19.0.json",
+      url = "https://json.schemastore.org/pantsbuild-2.20.0.json",
       versions = {
         ["2.14.0"] = "https://json.schemastore.org/pantsbuild-2.14.0.json",
         ["2.15.0"] = "https://json.schemastore.org/pantsbuild-2.15.0.json",
         ["2.16.0"] = "https://json.schemastore.org/pantsbuild-2.16.0.json",
         ["2.17.0"] = "https://json.schemastore.org/pantsbuild-2.17.0.json",
         ["2.18.0"] = "https://json.schemastore.org/pantsbuild-2.18.0.json",
-        ["2.19.0"] = "https://json.schemastore.org/pantsbuild-2.19.0.json"
+        ["2.19.0"] = "https://json.schemastore.org/pantsbuild-2.19.0.json",
+        ["2.20.0"] = "https://json.schemastore.org/pantsbuild-2.20.0.json"
       }
     }, {
       description = "The configuration file used by the All Contributors CLI and GitHub bot",
@@ -5476,6 +5479,11 @@ M.json = {
       fileMatch = {},
       name = "Cloud Foundry Application Manifest",
       url = "https://json.schemastore.org/cloudfoundry-application-manifest.json"
+    }, {
+      description = "vCluster configuration",
+      fileMatch = { "vCluster.yml", "vCluster.yaml", "vcluster.yaml", "vcluster.yml" },
+      name = "vcluster",
+      url = "https://raw.githubusercontent.com/loft-sh/vcluster/main/chart/values.schema.json"
     } },
   version = 1
 }
