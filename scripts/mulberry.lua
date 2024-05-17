@@ -1,18 +1,17 @@
----- Mulberry v0.0.1
+---- Mulberry v0.0.4
 --
 -- https://github.com/b0o/mulberry
 --
 -- Mulberry is a single-file BDD testing library for Lua targeting Neovim.
--- It's still alpha software. Don't rely on it, it's not fully tested and
--- surely has bugs. You've been warned.
 --
--- Copyright 2021 Maddison Hellstrom
+-- Copyright 2021-2024 Maddison Hellstrom
 -- Released under the MIT License
 
 local operators = {}
 local matchers = {}
 
 ---- Helpers
+local islist = vim.islist or vim.tbl_islist
 
 local function runMatcher(matcherFuncs, ...)
   if type(matcherFuncs) ~= 'table' then
@@ -125,15 +124,21 @@ operators.An = operators.A
 
 -- A table that only has integer keys
 -- The empty table is a ListLike
-operators.A.ListLike = function(actual)
-  return vim.tbl_islist(actual)
-end
+operators.A.ListLike = {
+  operators.A.Table,
+  function(actual)
+    return islist(actual)
+  end,
+}
 
 -- A table that only has kv pairs
 -- The empty table is not DictLike
-operators.A.DictLike = function(actual)
-  return not runMatcher(operators.A.ListLike, actual)
-end
+operators.A.DictLike = {
+  operators.A.Table,
+  function(actual)
+    return not runMatcher(operators.A.ListLike, actual)
+  end,
+}
 
 operators.An.Int = {
   operators.A.Number,
@@ -234,6 +239,16 @@ matchers.Nil = id(nil)
 matchers.Empty = function(actual)
   return #actual == 0
 end
+
+matchers.EmptyString = {
+  operators.A.String,
+  matchers.Empty,
+}
+
+matchers.EmptyTable = {
+  operators.A.Table,
+  matchers.Empty,
+}
 
 ---- Booleans
 
@@ -408,9 +423,22 @@ end
 
 ---- Tables and Strings
 
+local function list_contains(t, value)
+  if vim.list_contains then
+    return vim.list_contains(t, value)
+  end
+  -- for nvim < v0.10
+  for _, v in ipairs(t) do
+    if v == value then
+      return true
+    end
+  end
+  return false
+end
+
 matchers.In = function(actual, expected)
   if type(expected) == 'table' then
-    return expected[actual] ~= nil or vim.tbl_contains(expected, actual)
+    return expected[actual] ~= nil or list_contains(expected, actual)
   end
   if type(expected) == 'string' or type(expected) == 'userdata' then
     return runMatcher(matchers.Match, expected, actual)
@@ -499,6 +527,12 @@ local function log(ctx, ...)
   print(indent(ctx.level - 1, table.concat { ... }))
 end
 
+local function traceback(...)
+  return vim.tbl_map(function(l)
+    return string.gsub(l, '\t', '  ')
+  end, vim.split(debug.traceback(...), '\n'))
+end
+
 -- TODO: Return a 'result' table, delegate formatting to a Formatter
 local function compare(op, actual, expected, name, desc, ctx)
   local res = op(actual, unpack(expected))
@@ -528,7 +562,9 @@ local function compare(op, actual, expected, name, desc, ctx)
   end
 
   local s = indent(4, ('%s<%s> = %s'):format(name, type(actual), inspect(actual)), '  ')
-  msg = vim.list_extend(msg, { '      but got', s })
+  vim.list_extend(msg, { '      but got', s })
+  vim.list_extend(msg, traceback('', 2))
+  table.insert(msg, '')
   log(ctx, indent(1, table.concat(msg, '\n')))
 
   return false
@@ -829,18 +865,21 @@ end
 
 function Runner.runFn(fn, ...)
   local args = { ... }
-  local ok, res = pcall(function()
+  local ok, res = xpcall(function()
     local ctx = Context.new()
     local scope = Scope.open()
     scope:assign('Describe', DescribeFactory(ctx))
+    scope:assign('traceback', traceback)
     fn(unpack(args))
     scope:close()
     return ctx
-  end)
+  end, debug.traceback)
 
   if not ok then
     if type(res) == 'string' then
       print(res)
+    elseif type(res) == 'table' then
+      print(table.concat(res, '\n'))
     end
     vim.cmd 'cquit'
   end
@@ -869,7 +908,24 @@ function Runner.runFile(file)
     assert(#ops > 0, 'File not found: ' .. file)
     foundFile = table.remove(ops, 1)()
   end
-  Runner.runFn(dofile, foundFile)
+  Runner.runFn(function()
+    local lines = { 'return {xpcall(function()', unpack(vim.fn.readfile(foundFile)) }
+    table.insert(lines, 'end, traceback)}')
+    local i = 1
+    local f = load(function()
+      local l = lines[i]
+      if l == nil then
+        return
+      end
+      i = i + 1
+      return l .. '\n'
+    end)
+    local ok, res = unpack(f())
+    if not ok then
+      error(res)
+    end
+    return res
+  end, foundFile)
 end
 
 function Runner.runFiles(files)
@@ -899,6 +955,7 @@ function Runner.run(files)
   else
     Runner.runDir(Runner.opts.rootdir .. '/' .. Runner.opts.testdir)
   end
+  print 'All passed!'
   vim.cmd 'quit'
 end
 
