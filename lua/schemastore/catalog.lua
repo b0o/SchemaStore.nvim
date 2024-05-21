@@ -2683,10 +2683,10 @@ M.json = {
       name = "importmap.json",
       url = "https://json.schemastore.org/importmap.json"
     }, {
-      description = "Model definition for Infrahub by OpsMill",
-      fileMatch = { "*.infrahub.yml", "*.infrahub.yaml" },
+      description = "Repository config definition for Infrahub by OpsMill",
+      fileMatch = { ".infrahub.yml", ".infrahub.yaml" },
       name = "Infrahub",
-      url = "https://schema.infrahub.app/infrahub/schema/latest.json"
+      url = "https://schema.infrahub.app/python-sdk/repository-config/latest.json"
     }, {
       description = "The configuration file of an ioBroker installation",
       fileMatch = { "iobroker.json", "iobroker-dist.json" },
