@@ -622,6 +622,7 @@ M.json = {
     ["buf.work.yaml"] = 63,
     ["buf.yaml"] = 60,
     ["bundleconfig.json"] = 102,
+    changelogging = 864,
     ["chisel-slices.json"] = 187,
     ["chrome-extension-locales-messages.json"] = 177,
     ["chutzpah.json"] = 178,
@@ -5601,6 +5602,11 @@ M.json = {
       fileMatch = { "fursona", "fursona.json", "**/.well-known/fursona", "**/.well-known/fursona.json" },
       name = "well-known-fursona",
       url = "https://raw.githubusercontent.com/pyrox0/fursona-schema/main/schema-07.json"
+    }, {
+      description = "changelogging configuration file",
+      fileMatch = { "**/changelogging.toml" },
+      name = "changelogging",
+      url = "https://raw.githubusercontent.com/nekitdev/changelogging/main/changelogging.schema.json"
     } },
   version = 1
 }
