@@ -192,6 +192,8 @@ M.json = {
     ["Commandbox Box.json"] = 123,
     ["Commandbox Server.json"] = 124,
     ["Common Catalog Data"] = 176,
+    ["Configu .cfgu files"] = 866,
+    ["Configu .configu file"] = 867,
     Conjure = 120,
     ["Container Structure Test"] = 706,
     Containerlab = 731,
@@ -5612,6 +5614,16 @@ M.json = {
       fileMatch = { "**/changelogging.toml" },
       name = "changelogging",
       url = "https://raw.githubusercontent.com/nekitdev/changelogging/main/changelogging.schema.json"
+    }, {
+      description = "A human-readable format for declaring configurations and their characteristics",
+      fileMatch = { "*.cfgu.json", "*.cfgu.yaml", "*.cfgu.yml" },
+      name = "Configu .cfgu files",
+      url = "https://raw.githubusercontent.com/configu/configu/main/packages/schema/.cfgu.json"
+    }, {
+      description = "An optional configuration file used by the various Configu interfaces to customize its behavior",
+      fileMatch = { ".configu" },
+      name = "Configu .configu file",
+      url = "https://raw.githubusercontent.com/configu/configu/main/packages/schema/.configu.json"
     } },
   version = 1
 }
