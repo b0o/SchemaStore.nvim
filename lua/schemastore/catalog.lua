@@ -471,6 +471,7 @@ M.json = {
     Pyright = 507,
     Qgoda = 508,
     Qodana = 756,
+    ["Qt Creator workspace file"] = 868,
     ["Quali Torque Blueprint Spec 2"] = 781,
     ["QueryFirst config file"] = 804,
     ["RKE Cluster Configuration JSON"] = 735,
@@ -5629,6 +5630,11 @@ M.json = {
       fileMatch = { ".configu" },
       name = "Configu .configu file",
       url = "https://raw.githubusercontent.com/configu/configu/main/packages/schema/.configu.json"
+    }, {
+      description = "Qt Creator project json file",
+      fileMatch = { "**/.qtcreator/project.json" },
+      name = "Qt Creator workspace file",
+      url = "https://download.qt.io/official_releases/qtcreator/latest/installer_source/jsonschemas/project.json"
     } },
   version = 1
 }
