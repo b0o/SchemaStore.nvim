@@ -3910,7 +3910,12 @@ M.json = {
       description = "Semgrep code scanning patterns and rules",
       fileMatch = { "**/.semgrep/**.yaml", "**/.semgrep/**.yml", ".semgrep.yaml", ".semgrep.yml" },
       name = "Semgrep Rule",
-      url = "https://json.schemastore.org/semgrep.json"
+      url = "https://json.schemastore.org/semgrep.json",
+      versions = {
+        ["v1.72.0"] = "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.72.0/rule_schema_v1.yaml",
+        ["v1.73.0"] = "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.73.0/rule_schema_v1.yaml",
+        ["v1.74.0"] = "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.74.0/rule_schema_v1.yaml"
+      }
     }, {
       description = "Serenity code generator (sergen) configuration file",
       fileMatch = { "sergen.json", "sergen.*.json", "*.sergen.json" },
