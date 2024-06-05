@@ -4947,10 +4947,10 @@ M.json = {
       name = "markdown-link-check",
       url = "https://json.schemastore.org/markdown-link-check.json"
     }, {
-      description = "Mason, a package manager for Neovim",
+      description = "Package definitions for Mason, a package manager for Neovim",
       fileMatch = { "**/packages/*/package.yaml" },
       name = "Mason Registry",
-      url = "https://json.schemastore.org/mason-registry.json"
+      url = "https://github.com/mason-org/registry-schema/releases/latest/download/package.schema.json"
     }, {
       description = "SauceCTL configuration files",
       fileMatch = { "**/.sauce/*.yml" },
