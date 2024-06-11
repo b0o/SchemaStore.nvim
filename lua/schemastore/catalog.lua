@@ -983,11 +983,13 @@ M.json = {
       }
     }, {
       description = "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
-      fileMatch = { "abc-supply-plan-1.0.0.yml", "abc-supply-plan-1.0.0.yaml" },
+      fileMatch = { "abc-supply-plan-*.json" },
       name = "ABCSupplyPlan",
-      url = "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
+      url = "https://json.schemastore.org/abc-supply-plan-3.0.0.json",
       versions = {
-        ["1.0.0"] = "https://json.schemastore.org/abc-supply-plan-1.0.0.json"
+        ["1.0.0"] = "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
+        ["2.0.0"] = "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
+        ["3.0.0"] = "https://json.schemastore.org/abc-supply-plan-3.0.0.json"
       }
     }, {
       description = "AIConfig that is used to store generative AI prompts, models and model parameters",
