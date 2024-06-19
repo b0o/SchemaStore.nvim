@@ -2963,10 +2963,10 @@ M.json = {
       name = "k9s plugin.yml",
       url = "https://raw.githubusercontent.com/derailed/k9s/master/plugins/schema.json"
     }, {
-      description = "KIMMDY config file, see: hits-mbm-dev.github.io/kimmdy",
+      description = "KIMMDY config file, see: graeter-group.github.io/kimmdy",
       fileMatch = { "kimmdy.yml", "kimmdy.yaml" },
       name = "KIMMDY config file",
-      url = "https://raw.githubusercontent.com/hits-mbm-dev/kimmdy/main/src/kimmdy/kimmdy-yaml-schema.json"
+      url = "https://raw.githubusercontent.com/graeter-group/kimmdy/main/src/kimmdy/kimmdy-yaml-schema.json"
     }, {
       description = "KrakenD API Gateway configuration file",
       fileMatch = { "krakend.yaml", "krakend.yml", "krakend.json", "krakend.toml" },
@@ -5235,7 +5235,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/gherking/gherking/master/schema/gherking.schema.json"
     }, {
       description = "CICS region tagging in IBM CICS Transaction Server for z/OS",
-      fileMatch = { "cicstags.yaml" },
+      fileMatch = { "cicstags.yaml", "cicstags.yml" },
       name = "CICS TS region tagging",
       url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/cics/schemas/json/cicstags.json"
     }, {
