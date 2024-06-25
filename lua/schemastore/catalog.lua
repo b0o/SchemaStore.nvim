@@ -119,6 +119,7 @@ M.json = {
     ["Ansible Tasks File"] = 25,
     ["Ansible Vars File"] = 24,
     ["Ansible-lint Configuration"] = 30,
+    Any = 888,
     ["AnyWork Automation Configuration"] = 5,
     ["App config Spotify Backstage"] = 33,
     ["Application Accelerator"] = 2,
@@ -5785,6 +5786,11 @@ M.json = {
       fileMatch = { "mprocs.json", "mprocs.yaml", "mprocs.yml" },
       name = "mprocs Configuration file",
       url = "https://json.schemastore.org/mprocs-0.6.4.json"
+    }, {
+      description = "Valid for any JSON file",
+      fileMatch = {},
+      name = "Any",
+      url = "https://json.schemastore.org/any.json"
     } },
   version = 1
 }
