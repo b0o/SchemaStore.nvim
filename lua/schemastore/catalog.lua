@@ -4039,11 +4039,12 @@ M.json = {
       description = "SDF blocks",
       fileMatch = { "*.sdf.yml" },
       name = "Semantic Data Fabric (SDF) file",
-      url = "https://cdn.sdf.com/schemas/sdf-schema-1.2.json",
+      url = "https://cdn.sdf.com/schemas/sdf-schema-1.3.json",
       versions = {
         ["1.0"] = "https://cdn.sdf.com/schemas/sdf-schema-1.0.json",
         ["1.1"] = "https://cdn.sdf.com/schemas/sdf-schema-1.1.json",
-        ["1.2"] = "https://cdn.sdf.com/schemas/sdf-schema-1.2.json"
+        ["1.2"] = "https://cdn.sdf.com/schemas/sdf-schema-1.2.json",
+        ["1.3"] = "https://cdn.sdf.com/schemas/sdf-schema-1.3.json"
       }
     }, {
       description = "Configuration for semantic-release",
