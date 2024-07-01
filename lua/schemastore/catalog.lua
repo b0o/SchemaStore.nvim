@@ -2009,66 +2009,42 @@ M.json = {
       description = "Used to manage all of the AWS accounts within the AWS Organization",
       fileMatch = { "accounts-config.yaml" },
       name = "Landing Zone Accelerator on AWS - Accounts Config",
-      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/accounts-config.json",
-      versions = {
-        ["v1.7.0"] = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/accounts-config.json"
-      }
+      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/main/source/packages/@aws-accelerator/config/lib/schemas/accounts-config.json"
     }, {
       description = "Used to manage configuration of custom applications, third-party firewall appliances, and CloudFormation stacks",
       fileMatch = { "customizations-config.yaml" },
       name = "Landing Zone Accelerator on AWS - Customizations Config",
-      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/customizations-config.json",
-      versions = {
-        ["v1.7.0"] = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/customizations-config.json"
-      }
+      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/main/source/packages/@aws-accelerator/config/lib/schemas/customizations-config.json"
     }, {
       description = "Used to manage all of the global properties that can be inherited across the AWS Organization",
       fileMatch = { "global-config.yaml" },
       name = "Landing Zone Accelerator on AWS - Global Config",
-      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/global-config.json",
-      versions = {
-        ["v1.7.0"] = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/global-config.json"
-      }
+      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/main/source/packages/@aws-accelerator/config/lib/schemas/global-config.json"
     }, {
       description = "Used to manage all of the IAM resources across the AWS Organization",
       fileMatch = { "iam-config.yaml" },
       name = "Landing Zone Accelerator on AWS - IAM Config",
-      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/iam-config.json",
-      versions = {
-        ["v1.7.0"] = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/iam-config.json"
-      }
+      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/main/source/packages/@aws-accelerator/config/lib/schemas/iam-config.json"
     }, {
       description = "Used to manage and implement network resources to establish a WAN/LAN architecture to support cloud operations and application workloads in AWS",
       fileMatch = { "network-config.yaml" },
       name = "Landing Zone Accelerator on AWS - Network Config",
-      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/network-config.json",
-      versions = {
-        ["v1.7.0"] = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/network-config.json"
-      }
+      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/main/source/packages/@aws-accelerator/config/lib/schemas/network-config.json"
     }, {
       description = "Used to manage all of the organization units in the AWS Organization",
       fileMatch = { "organization-config.yaml" },
       name = "Landing Zone Accelerator on AWS - Organization Config",
-      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/organization-config.json",
-      versions = {
-        ["v1.7.0"] = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/organization-config.json"
-      }
+      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/main/source/packages/@aws-accelerator/config/lib/schemas/organization-config.json"
     }, {
       description = "Used to manage all of the replacement values across the configuration files",
       fileMatch = { "replacements-config.yaml" },
       name = "Landing Zone Accelerator on AWS - Replacements Config",
-      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/replacements-config.json",
-      versions = {
-        ["v1.7.0"] = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/replacements-config.json"
-      }
+      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/main/source/packages/@aws-accelerator/config/lib/schemas/replacements-config.json"
     }, {
       description = "Used to manage configuration of AWS security services",
       fileMatch = { "security-config.yaml" },
       name = "Landing Zone Accelerator on AWS - Security Config",
-      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/security-config.json",
-      versions = {
-        ["v1.7.0"] = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/v1.7.0/source/packages/@aws-accelerator/config/lib/schemas/security-config.json"
-      }
+      url = "https://raw.githubusercontent.com/awslabs/landing-zone-accelerator-on-aws/main/source/packages/@aws-accelerator/config/lib/schemas/security-config.json"
     }, {
       description = "A way to manage your versioning and changelogs with a focus on monorepos",
       fileMatch = { "**/.changeset/config.json" },
