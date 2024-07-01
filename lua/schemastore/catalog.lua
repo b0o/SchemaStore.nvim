@@ -2083,7 +2083,10 @@ M.json = {
       description = "A YAML file with citation metadata for software or datasets",
       fileMatch = { "CITATION.cff" },
       name = "Citation File Format",
-      url = "https://citation-file-format.github.io/1.2.0/schema.json"
+      url = "https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/schema.json",
+      versions = {
+        ["1.2.0"] = "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json"
+      }
     }, {
       description = "CoffeeLint configuration file",
       fileMatch = { "coffeelint.json" },
