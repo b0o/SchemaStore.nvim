@@ -926,6 +926,8 @@ M.json = {
     ["xs-app.json"] = 712,
     ["xunit.runner.json"] = 692,
     yamllint = 737,
+    ["zerops.io import file"] = 896,
+    ["zerops.yml"] = 895,
     zuul = 721,
     ["Žinoma"] = 731
   },
@@ -5826,6 +5828,16 @@ M.json = {
       fileMatch = {},
       name = "Any",
       url = "https://json.schemastore.org/any.json"
+    }, {
+      description = "zerops.io, dev-first cloud platform - https://zerops.io, configuration YAML file",
+      fileMatch = { "zerops.yml" },
+      name = "zerops.yml",
+      url = "https://api.app-prg1.zerops.io/api/rest/public/settings/zerops-yml-json-schema.json"
+    }, {
+      description = "zerops.io, dev-first cloud platform - https://zerops.io, infrastructure-as-code import YAML file",
+      fileMatch = { "zerops-import.yml", "zerops-*-import.yml" },
+      name = "zerops.io import file",
+      url = "https://api.app-prg1.zerops.io/api/rest/public/settings/import-project-yml-json-schema.json"
     } },
   version = 1
 }
