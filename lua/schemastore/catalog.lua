@@ -867,6 +867,7 @@ M.json = {
     ["skaffold.yaml"] = 764,
     ["skyuxconfig.json"] = 596,
     snapcraft = 597,
+    ["spicepod.yaml"] = 898,
     ["sqlc configuration"] = 605,
     ["stripe-app-local.json"] = 614,
     ["stripe-app.json"] = 613,
@@ -5844,6 +5845,11 @@ M.json = {
       fileMatch = { "zerops-import.yml", "zerops-*-import.yml" },
       name = "zerops.io import file",
       url = "https://api.app-prg1.zerops.io/api/rest/public/settings/import-project-yml-json-schema.json"
+    }, {
+      description = "Spice.ai OSS Spicepod Manifest file",
+      fileMatch = { "spicepod.yml", "spicepod.yaml" },
+      name = "spicepod.yaml",
+      url = "https://raw.githubusercontent.com/spiceai/spiceai/trunk/.schema/spicepod.schema.json"
     } },
   version = 1
 }
