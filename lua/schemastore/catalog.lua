@@ -5262,8 +5262,8 @@ M.json = {
       name = "Butane Config",
       url = "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json"
     }, {
-      description = "Updatecli Compose file",
-      fileMatch = { "update-compose.yaml" },
+      description = "Updatecli Compose file, more information on https://www.updatecli.io/docs/core/compose/",
+      fileMatch = { "update-compose.yaml", "updatecli-compose.yaml" },
       name = "Updatecli Compose",
       url = "https://www.updatecli.io/schema/latest/compose/config.json"
     }, {
