@@ -2580,7 +2580,11 @@ M.json = {
       description = "Configuration for Gaspar",
       fileMatch = { "gaspar.config.json" },
       name = "Gaspar",
-      url = "https://json.schemastore.org/gaspar-1.0.json"
+      url = "https://json.schemastore.org/gaspar-3.0.json",
+      versions = {
+        ["1.0"] = "https://json.schemastore.org/gaspar-1.0.json",
+        ["3.0"] = "https://json.schemastore.org/gaspar-3.0.json"
+      }
     }, {
       description = "Cloudtoid GatewayCore API Gateway and Reverse Proxy",
       fileMatch = { "gwcore.json", "gwcore.yml", "gwcore.yaml", "gatewaycore.json", "gatewaycore.yml", "gatewaycore.yaml", "*.gwcore.json", "*.gwcore.yml", "*.gwcore.yaml", "*.gatewaycore.json", "*.gatewaycore.yml", "*.gatewaycore.yaml" },
