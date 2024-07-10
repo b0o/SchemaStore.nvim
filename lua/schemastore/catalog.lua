@@ -429,6 +429,8 @@ M.json = {
     ["MetricsHub Connector Configuration"] = 415,
     ["Micro Editor Syntax"] = 847,
     ["Microsoft Band Web Tile"] = 416,
+    ["Microsoft RulesEngine workflow rules"] = 899,
+    ["Microsoft RulesEngine workflow rules list"] = 900,
     ["Minecraft Custom Main Menu Mod"] = 864,
     ["Minecraft Data Pack Advancement"] = 418,
     ["Minecraft Data Pack Biome"] = 419,
@@ -868,7 +870,7 @@ M.json = {
     ["skaffold.yaml"] = 764,
     ["skyuxconfig.json"] = 596,
     snapcraft = 597,
-    ["spicepod.yaml"] = 899,
+    ["spicepod.yaml"] = 901,
     ["sqlc configuration"] = 605,
     ["stripe-app-local.json"] = 614,
     ["stripe-app.json"] = 613,
@@ -5851,6 +5853,16 @@ M.json = {
       fileMatch = { "zerops-import.yml", "zerops-*-import.yml" },
       name = "zerops.io import file",
       url = "https://api.app-prg1.zerops.io/api/rest/public/settings/import-project-yml-json-schema.json"
+    }, {
+      description = "Microsoft RulesEngine workflow rules definition https://github.com/microsoft/RulesEngine",
+      fileMatch = { "*.workflow-rules.json", "**/workflow-rules/*.json" },
+      name = "Microsoft RulesEngine workflow rules",
+      url = "https://raw.githubusercontent.com/microsoft/RulesEngine/main/schema/workflow-schema.json"
+    }, {
+      description = "Microsoft RulesEngine workflow list definition https://github.com/microsoft/RulesEngine",
+      fileMatch = { "*.workflow-rules-list.json" },
+      name = "Microsoft RulesEngine workflow rules list",
+      url = "https://raw.githubusercontent.com/microsoft/RulesEngine/main/schema/workflow-list-schema.json"
     }, {
       description = "Spice.ai OSS Spicepod Manifest file",
       fileMatch = { "spicepod.yml", "spicepod.yaml" },
