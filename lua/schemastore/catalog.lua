@@ -201,6 +201,7 @@ M.json = {
     ["Commandbox Box.json"] = 129,
     ["Commandbox Server.json"] = 130,
     ["Common Catalog Data"] = 182,
+    Concord = 902,
     ["Configu .cfgu files"] = 891,
     ["Configu .configu file"] = 892,
     Conjure = 126,
@@ -5872,6 +5873,11 @@ M.json = {
       fileMatch = { "spicepod.yml", "spicepod.yaml" },
       name = "spicepod.yaml",
       url = "https://raw.githubusercontent.com/spiceai/spiceai/trunk/.schema/spicepod.schema.json"
+    }, {
+      description = "Concord - https://github.com/walmartlabs/concord,  workflow orcehstrator",
+      fileMatch = { "*.concord.yaml", "*.concord.yml", ".concord.yml", ".concord.yaml", "concord.yml", "concord.yaml" },
+      name = "Concord",
+      url = "https://raw.githubusercontent.com/amithkb/concord-json-schema/main/.schema/concord.json"
     } },
   version = 1
 }
