@@ -5881,9 +5881,9 @@ M.json = {
       url = "https://raw.githubusercontent.com/spiceai/spiceai/trunk/.schema/spicepod.schema.json"
     }, {
       description = "Concord - https://github.com/walmartlabs/concord,  workflow orcehstrator",
-      fileMatch = { "*.concord.yaml", "*.concord.yml", ".concord.yml", ".concord.yaml", "concord.yml", "concord.yaml" },
+      fileMatch = { "*.concord.yaml", "*.concord.yml", ".concord.yml", ".concord.yaml", "concord.yml", "concord.yaml", "**/*.concord.yaml", "**/*.concord.yml" },
       name = "Concord",
-      url = "https://raw.githubusercontent.com/amithkb/concord-json-schema/main/.schema/concord.json"
+      url = "https://repo1.maven.org/maven2/com/walmartlabs/concord/runtime/v2/concord-runtime-model-v2/2.14.0/concord-runtime-model-v2-2.14.0-schema.json"
     } },
   version = 1
 }
