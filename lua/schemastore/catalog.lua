@@ -238,6 +238,7 @@ M.json = {
     ["Devbox Config"] = 129,
     ["Devbox Plugin"] = 130,
     Devfile = 244,
+    DipDup = 905,
     ["Discord Webhook"] = 223,
     ["DocFx Config (docfx.json)"] = 226,
     ["Dolittle Artifacts"] = 227,
@@ -1780,7 +1781,7 @@ M.json = {
       description = "A Helm Unittest Test Suite file",
       fileMatch = { "**/charts/*/tests/*.yaml" },
       name = "Helm Unittest Test Suite",
-      url = "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.3.3/schema/helm-testsuite.json"
+      url = "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.5.1/schema/helm-testsuite.json"
     }, {
       description = "CircleCI config files",
       fileMatch = { "**/.circleci/config.yml" },
@@ -5890,6 +5891,15 @@ M.json = {
       fileMatch = { "*.concord.yaml", "*.concord.yml", ".concord.yml", ".concord.yaml", "concord.yml", "concord.yaml", "**/*.concord.yaml", "**/*.concord.yml" },
       name = "Concord",
       url = "https://repo1.maven.org/maven2/com/walmartlabs/concord/runtime/v2/concord-runtime-model-v2/2.14.0/concord-runtime-model-v2-2.14.0-schema.json"
+    }, {
+      description = "DipDup project configuration file",
+      fileMatch = { "**/dipdup.yaml", "**/dipdup.yml", "**/dipdup.*.yaml", "**/dipdup.*.yml" },
+      name = "DipDup",
+      url = "https://raw.githubusercontent.com/dipdup-io/dipdup/next/schemas/dipdup-3.0.json",
+      versions = {
+        ["2.0"] = "https://raw.githubusercontent.com/dipdup-io/dipdup/next/schemas/dipdup-2.0.json",
+        ["3.0"] = "https://raw.githubusercontent.com/dipdup-io/dipdup/next/schemas/dipdup-3.0.json"
+      }
     } },
   version = 1
 }
