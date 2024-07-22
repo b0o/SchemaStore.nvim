@@ -587,6 +587,7 @@ M.json = {
     ["Travis CI (.travis.yml)"] = 636,
     TunnelHub = 862,
     Turborepo = 635,
+    Tycho = 906,
     Tye = 784,
     ["UET BuildConfig.json"] = 832,
     ["UI5 Manifest"] = 657,
@@ -5900,6 +5901,11 @@ M.json = {
         ["2.0"] = "https://raw.githubusercontent.com/dipdup-io/dipdup/next/schemas/dipdup-2.0.json",
         ["3.0"] = "https://raw.githubusercontent.com/dipdup-io/dipdup/next/schemas/dipdup-3.0.json"
       }
+    }, {
+      description = "Tycho.yaml file",
+      fileMatch = { "**/*/tycho.yml", "**/*/tycho.yaml" },
+      name = "Tycho",
+      url = "https://deployments.allegrogroup.com/tycho/schema"
     } },
   version = 1
 }
