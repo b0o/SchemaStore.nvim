@@ -169,6 +169,8 @@ M.json = {
     ["CICS TS resource overrides"] = 804,
     ["CMake Presets"] = 101,
     ["CNC Codes"] = 115,
+    ["CRS WAF test file"] = 906,
+    ["CRS WAF test platform overrides file"] = 907,
     ["CSS Comb (.csscomb.json)"] = 206,
     ["CSS Lint (.csslintrc)"] = 207,
     ["CSpell (cspell.json)"] = 205,
@@ -238,7 +240,7 @@ M.json = {
     ["Devbox Config"] = 129,
     ["Devbox Plugin"] = 130,
     Devfile = 244,
-    DipDup = 906,
+    DipDup = 908,
     ["Discord Webhook"] = 223,
     ["DocFx Config (docfx.json)"] = 226,
     ["Dolittle Artifacts"] = 227,
@@ -587,7 +589,7 @@ M.json = {
     ["Travis CI (.travis.yml)"] = 637,
     TunnelHub = 863,
     Turborepo = 636,
-    Tycho = 907,
+    Tycho = 909,
     Tye = 785,
     ["UET BuildConfig.json"] = 833,
     ["UI5 Manifest"] = 658,
@@ -5894,10 +5896,26 @@ M.json = {
       name = "spicepod.yaml",
       url = "https://raw.githubusercontent.com/spiceai/spiceai/trunk/.schema/spicepod.schema.json"
     }, {
-      description = "Concord - https://github.com/walmartlabs/concord,  workflow orcehstrator",
+      description = "Concord - https://github.com/walmartlabs/concord,  workflow orchestrator",
       fileMatch = { "*.concord.yaml", "*.concord.yml", ".concord.yml", ".concord.yaml", "concord.yml", "concord.yaml", "**/*.concord.yaml", "**/*.concord.yml" },
       name = "Concord",
       url = "https://repo1.maven.org/maven2/com/walmartlabs/concord/runtime/v2/concord-runtime-model-v2/2.14.0/concord-runtime-model-v2-2.14.0-schema.json"
+    }, {
+      description = "Definition of a test for verifying WAF behavior",
+      fileMatch = { "*.waft" },
+      name = "CRS WAF test file",
+      url = "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-tests-schema-v2.1.0.json",
+      versions = {
+        ["2.1.0"] = "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-tests-schema-v2.1.0.json"
+      }
+    }, {
+      description = "Definition of platform specific overrides for WAF tests",
+      fileMatch = { "*.wafto" },
+      name = "CRS WAF test platform overrides file",
+      url = "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-platform-overrides-schema-v2.1.0.json",
+      versions = {
+        ["2.1.0"] = "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.0/waf-platform-overrides-schema-v2.1.0.json"
+      }
     }, {
       description = "DipDup project configuration file",
       fileMatch = { "**/dipdup.yaml", "**/dipdup.yml", "**/dipdup.*.yaml", "**/dipdup.*.yml" },
@@ -5909,7 +5927,7 @@ M.json = {
       }
     }, {
       description = "Tycho.yaml file",
-      fileMatch = { "**/*/tycho.yml", "**/*/tycho.yaml" },
+      fileMatch = { "**/tycho.yml", "**/tycho.yaml" },
       name = "Tycho",
       url = "https://deployments.allegrogroup.com/tycho/schema"
     } },
