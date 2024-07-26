@@ -1910,6 +1910,7 @@ M.json = {
     }, {
       description = "Google Chrome extension manifest file",
       name = "Chrome Extension",
+      fileMatch = { "manifest.json" },
       url = "https://json.schemastore.org/chrome-manifest.json"
     }, {
       description = "Google Chrome extension localization file",
@@ -4630,16 +4631,6 @@ M.json = {
       fileMatch = { "studio.config.json" },
       name = "<div>RIOTS' studio configuration",
       url = "https://webcomponents.dev/assets2/schemas/studio.config.json"
-    }, {
-      description = "WebExtension manifest files",
-      fileMatch = { "manifest.json" },
-      name = "WebExtensions",
-      url = "https://json.schemastore.org/webextension.json"
-    }, {
-      description = "Web Application manifest file",
-      fileMatch = { "manifest.json", "*.webmanifest" },
-      name = "Web App Manifest",
-      url = "https://json.schemastore.org/web-manifest-combined.json"
     }, {
       description = "Azure Webjob list file",
       fileMatch = { "webjobs-list.json" },
