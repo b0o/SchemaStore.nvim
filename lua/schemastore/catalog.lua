@@ -1244,9 +1244,10 @@ M.json = {
       description = "Configuration file for bottom",
       fileMatch = { "bottom.toml" },
       name = "bottom configuration",
-      url = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v1.0/bottom.json",
+      url = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json",
       versions = {
-        ["1.0"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v1.0/bottom.json",
+        ["0.10"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.10/bottom.json",
+        ["0.9"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
         nightly = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json"
       }
     }, {
