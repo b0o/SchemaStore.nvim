@@ -5933,7 +5933,7 @@ M.json = {
       url = "https://repo1.maven.org/maven2/com/walmartlabs/concord/runtime/v2/concord-runtime-model-v2/2.14.0/concord-runtime-model-v2-2.14.0-schema.json"
     }, {
       description = "Definition of a test for verifying WAF behavior",
-      fileMatch = { "*.waft" },
+      fileMatch = { "*.waft", ".waft.yaml", ".waft.yml" },
       name = "CRS WAF test file",
       url = "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/main/spec/v2.1.0/waf-tests-schema-v2.1.0.json",
       versions = {
@@ -5941,7 +5941,7 @@ M.json = {
       }
     }, {
       description = "Definition of platform specific overrides for WAF tests",
-      fileMatch = { "*.wafto" },
+      fileMatch = { "*.wafto", ".wafto.yaml", ".wafto.yml" },
       name = "CRS WAF test platform overrides file",
       url = "https://raw.githubusercontent.com/coreruleset/ftw-tests-schema/master/spec/v2.1.0/waf-platform-overrides-schema-v2.1.0.json",
       versions = {
