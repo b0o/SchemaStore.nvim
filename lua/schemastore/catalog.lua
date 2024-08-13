@@ -4806,7 +4806,7 @@ M.json = {
       url = "https://json.schemastore.org/lintstagedrc.schema.json"
     }, {
       description = "mirrord",
-      fileMatch = { "*.mirrord.+(toml|json|y?(a)ml)" },
+      fileMatch = { "*.mirrord.{toml,json,yaml,yml}" },
       name = "mirrord config",
       url = "https://raw.githubusercontent.com/metalbear-co/mirrord/main/mirrord-schema.json"
     }, {
@@ -4958,7 +4958,7 @@ M.json = {
       url = "https://json.schemastore.org/winget-pkgs-installer-1.0.0.json"
     }, {
       description = "Windows Package Manager Locale Manifest file, used for detailing locale specific metadata",
-      fileMatch = { "**/manifests/?/*/*/*/*.*.locale@(.en-US|fr-FR|it-IT|ja-JP|ko-KR|pt-BR|ru-RU|zh-CN|zh-TW).yaml" },
+      fileMatch = { "**/manifests/?/*/*/*/*.*.locale.{en-US,fr-FR,it-IT,ja-JP,ko-KR,pt-BR,ru-RU,zh-CN,zh-TW}.yaml" },
       name = "Windows Package Manager Locale Manifest",
       url = "https://json.schemastore.org/winget-pkgs-locale-1.0.0.json"
     }, {
