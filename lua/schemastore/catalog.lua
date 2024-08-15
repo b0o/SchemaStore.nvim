@@ -1421,7 +1421,7 @@ M.json = {
       description = "Bitbucket Pipelines CI/CD manifest",
       fileMatch = { "bitbucket-pipelines.yml" },
       name = "bitbucket-pipelines",
-      url = "https://bitbucket.org/atlassianlabs/intellij-bitbucket-references-plugin/raw/master/src/main/resources/schemas/bitbucket-pipelines.schema.json"
+      url = "https://api.bitbucket.org/schemas/pipelines-configuration"
     }, {
       description = "The configuration format of the Bitrise CLI. Bitrise is a collection of tools and services to help you with the development and automation of your software projects, with a main focus on mobile apps",
       fileMatch = { "bitrise.yml", "bitrise.yaml", "bitrise.json" },
