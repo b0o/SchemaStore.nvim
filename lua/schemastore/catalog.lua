@@ -266,6 +266,7 @@ M.json = {
     ["EAS config"] = 271,
     ["ES6 Import Sorter (.es6importsorterrc.json)"] = 843,
     ["Elgato Stream Deck"] = 256,
+    Elm = 915,
     ["Embrace Config"] = 824,
     Endurica = 867,
     ["Enterprise Contract Policy Spec"] = 257,
@@ -5016,9 +5017,10 @@ M.json = {
       description = "Gradle Enterprise configuration",
       fileMatch = { "*gradle-enterprise.yml", "*gradle-enterprise.yaml" },
       name = "Gradle Enterprise",
-      url = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
+      url = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
       versions = {
         ["1.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json",
+        ["10.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
         ["2.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
         ["3.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-3.json",
         ["4.0"] = "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-4.json",
@@ -5973,6 +5975,11 @@ M.json = {
       fileMatch = { "**/tycho.yml", "**/tycho.yaml" },
       name = "Tycho",
       url = "https://deployments.allegrogroup.com/tycho/schema"
+    }, {
+      description = "elm.json file",
+      fileMatch = { "elm.json" },
+      name = "Elm",
+      url = "https://json.schemastore.org/elm.json"
     } },
   version = 1
 }
