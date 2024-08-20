@@ -2352,7 +2352,7 @@ M.json = {
       url = "https://enterprisecontract.dev/enterprise-contract-controller/schema/policy_spec.json"
     }, {
       description = "Configuration files for the esm module/package in Node.js",
-      fileMatch = { ".esmrc", ".esmrc.json", ".esmrc.js", ".esmrc.cjs", ".esmrc.mjs" },
+      fileMatch = { ".esmrc", ".esmrc.json" },
       name = ".esmrc.json",
       url = "https://json.schemastore.org/esmrc.json"
     }, {
@@ -2768,17 +2768,17 @@ M.json = {
       url = "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/cli/src/generate/grammar-schema.json"
     }, {
       description = "GraphQL Mesh config file",
-      fileMatch = { ".meshrc.yml", ".meshrc.yaml", ".meshrc.json", ".meshrc.js", ".graphql-mesh.yaml", ".graphql-mesh.yml" },
+      fileMatch = { ".meshrc.yml", ".meshrc.yaml", ".meshrc.json", ".graphql-mesh.yaml", ".graphql-mesh.yml" },
       name = "GraphQL Mesh",
       url = "https://unpkg.com/@graphql-mesh/types/esm/config-schema.json"
     }, {
       description = "GraphQL Config config file",
-      fileMatch = { "graphql.config.json", "graphql.config.js", "graphql.config.yaml", "graphql.config.yml", ".graphqlrc", ".graphqlrc.json", ".graphqlrc.yaml", ".graphqlrc.yml", ".graphqlrc.js" },
+      fileMatch = { "graphql.config.json", "graphql.config.yaml", "graphql.config.yml", ".graphqlrc", ".graphqlrc.json", ".graphqlrc.yaml", ".graphqlrc.yml" },
       name = "GraphQL Config",
       url = "https://unpkg.com/graphql-config/config-schema.json"
     }, {
       description = "GraphQL Code Generator config file",
-      fileMatch = { "codegen.yml", "codegen.yaml", "codegen.json", "codegen.js", ".codegen.yml", ".codegen.yaml", ".codegen.json", ".codegen.js" },
+      fileMatch = { "codegen.yml", "codegen.yaml", "codegen.json", ".codegen.yml", ".codegen.yaml", ".codegen.json" },
       name = "GraphQL Code Generator",
       url = "https://www.graphql-code-generator.com/config.schema.json"
     }, {
@@ -4617,7 +4617,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json"
     }, {
       description = "Conventional Changelog Configuration file",
-      fileMatch = { ".versionrc", ".versionrc.json", ".versionrc.js" },
+      fileMatch = { ".versionrc", ".versionrc.json" },
       name = ".versionrc.json",
       url = "https://raw.githubusercontent.com/conventional-changelog/conventional-changelog-config-spec/master/versions/2.2.0/schema.json",
       versions = {
@@ -4899,7 +4899,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/ahmadnassri/har-schema/master/lib/har.json"
     }, {
       description = "JSDoc configuration file",
-      fileMatch = { "conf.js*", "jsdoc.js*" },
+      fileMatch = { "conf.json", "jsdoc.json" },
       name = "jsdoc",
       url = "https://json.schemastore.org/jsdoc-1.0.0.json"
     }, {
@@ -5375,7 +5375,7 @@ M.json = {
       }
     }, {
       description = "GherKing configuration",
-      fileMatch = { ".gherking.json", ".gherkingrc", ".gherking.js", "gherking.json", "gherking.js" },
+      fileMatch = { ".gherking.json", ".gherkingrc", "gherking.json" },
       name = "GherKing",
       url = "https://raw.githubusercontent.com/gherking/gherking/master/schema/gherking.schema.json"
     }, {
