@@ -190,6 +190,7 @@ M.json = {
     CityJSON = 115,
     ["Clawject config"] = 124,
     ["Cloud Foundry Application Manifest"] = 897,
+    ["Cloud Run Spec v1"] = 919,
     ["CloudEvents specification"] = 116,
     ["Code Climate"] = 157,
     CodeCV = 58,
@@ -5998,6 +5999,11 @@ M.json = {
       fileMatch = { "elm.json" },
       name = "Elm",
       url = "https://json.schemastore.org/elm.json"
+    }, {
+      description = "Specification for Cloud Run Admin API v1",
+      fileMatch = { "cloud-run-v1.yml", "cloud-run-v1.yaml" },
+      name = "Cloud Run Spec v1",
+      url = "https://json.schemastore.org/cloud-run-v1.json"
     } },
   version = 1
 }
