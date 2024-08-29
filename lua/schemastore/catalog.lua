@@ -5702,7 +5702,7 @@ M.json = {
       url = "https://json.schemastore.org/micro-syntax.json"
     }, {
       description = "lazygit settings",
-      fileMatch = { "**/lazygit/config.yml" },
+      fileMatch = { "**/lazygit/config.yml", "lazygit.yml", ".lazygit.yml" },
       name = "lazygit",
       url = "https://raw.githubusercontent.com/jesseduffield/lazygit/master/schema/config.json"
     }, {
