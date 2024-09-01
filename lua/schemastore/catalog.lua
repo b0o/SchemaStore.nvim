@@ -627,7 +627,6 @@ M.json = {
     ["Woodpecker pipeline config"] = 784,
     ["Wrangler CLI"] = 704,
     ["Xstate Machine"] = 802,
-    ["YAML Graph"] = 923,
     ["Yarn Config (.yarnrc.yml)"] = 761,
     ["Yippee-Ki-JSON configuration YML"] = 753,
     ["aerleon.yml"] = 8,
@@ -6028,11 +6027,6 @@ M.json = {
       fileMatch = { "cloud-run-v1.yml", "cloud-run-v1.yaml" },
       name = "Cloud Run Spec v1",
       url = "https://json.schemastore.org/cloud-run-v1.json"
-    }, {
-      description = "The YAML Representation Graph spec encoded as JSON",
-      fileMatch = {},
-      name = "YAML Graph",
-      url = "https://github.com/colltoaction/yaml-graph-jsonschema/raw/main/yaml-graph.schema.json"
     } },
   version = 1
 }
