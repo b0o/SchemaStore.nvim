@@ -3129,11 +3129,12 @@ M.json = {
       description = "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
       fileMatch = { "**/flows/*.yml" },
       name = "Kestra flow file",
-      url = "https://json.schemastore.org/kestra-0.18.2.json",
+      url = "https://json.schemastore.org/kestra-0.18.3.json",
       versions = {
         ["0.18.0"] = "https://json.schemastore.org/kestra-0.18.0.json",
         ["0.18.1"] = "https://json.schemastore.org/kestra-0.18.1.json",
-        ["0.18.2"] = "https://json.schemastore.org/kestra-0.18.2.json"
+        ["0.18.2"] = "https://json.schemastore.org/kestra-0.18.2.json",
+        ["0.18.3"] = "https://json.schemastore.org/kestra-0.18.3.json"
       }
     }, {
       description = "KrakenD API Gateway configuration file",
