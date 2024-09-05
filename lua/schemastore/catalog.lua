@@ -6046,7 +6046,7 @@ M.json = {
       url = "https://json.schemastore.org/cloud-run-v1.json"
     }, {
       description = "JetBrains YouTrack App manifest file",
-      fileMatch = { "manifest.json" },
+      fileMatch = {},
       name = "YouTrack App",
       url = "https://json.schemastore.org/youtrack-app.json"
     } },
