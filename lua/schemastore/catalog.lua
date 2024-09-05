@@ -629,6 +629,7 @@ M.json = {
     ["Xstate Machine"] = 803,
     ["Yarn Config (.yarnrc.yml)"] = 762,
     ["Yippee-Ki-JSON configuration YML"] = 754,
+    ["YouTrack App"] = 924,
     ["aerleon.yml"] = 8,
     ["angular.json"] = 18,
     apko = 877,
@@ -2902,7 +2903,7 @@ M.json = {
       description = "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
       fileMatch = { "zapp.yaml", "zapp.json" },
       name = "IBM Zapp document",
-      url = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json"
+      url = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.1.json"
     }, {
       description = "IBM Enterprise languages code formatter settings file for IBM zDevOps development tools such as Z Open Editor",
       fileMatch = { "zcodeformat.yaml", "zcodeformat.json" },
@@ -6034,6 +6035,11 @@ M.json = {
       fileMatch = { "cloud-run-v1.yml", "cloud-run-v1.yaml" },
       name = "Cloud Run Spec v1",
       url = "https://json.schemastore.org/cloud-run-v1.json"
+    }, {
+      description = "JetBrains YouTrack App manifest file",
+      fileMatch = { "manifest.json" },
+      name = "YouTrack App",
+      url = "https://json.schemastore.org/youtrack-app.json"
     } },
   version = 1
 }
