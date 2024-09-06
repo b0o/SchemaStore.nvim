@@ -186,6 +186,7 @@ M.json = {
     Cheatsheets = 802,
     ["Chrome Extension"] = 182,
     ["Chromia Model"] = 115,
+    Cinnamon = 926,
     ["CircleCI config.yml"] = 158,
     ["Citation File Format"] = 203,
     CityJSON = 117,
@@ -6049,6 +6050,11 @@ M.json = {
       fileMatch = {},
       name = "YouTrack App",
       url = "https://json.schemastore.org/youtrack-app.json"
+    }, {
+      description = "Settings for Cinnamon desktop environment",
+      fileMatch = { "**/*@*/**/settings-schema.json" },
+      name = "Cinnamon",
+      url = "https://raw.githubusercontent.com/cinnamon-spice-settings.json"
     } },
   version = 1
 }
