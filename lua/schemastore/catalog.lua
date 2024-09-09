@@ -186,7 +186,6 @@ M.json = {
     Cheatsheets = 802,
     ["Chrome Extension"] = 182,
     ["Chromia Model"] = 115,
-    Cinnamon = 926,
     ["CircleCI config.yml"] = 158,
     ["Citation File Format"] = 203,
     CityJSON = 117,
@@ -436,6 +435,7 @@ M.json = {
     ["Meltano project definition"] = 426,
     ["Mergify Configuration"] = 457,
     ["Metadata for a Bazel module"] = 428,
+    ["Metadata for a Cinnamon spice"] = 927,
     ["MetricsHub Configuration"] = 429,
     ["MetricsHub Connector Configuration"] = 430,
     ["Micro Editor Syntax"] = 863,
@@ -547,6 +547,7 @@ M.json = {
     ["Serenity Code Generator (Sergen)"] = 602,
     ["Serverless Framework Configuration"] = 791,
     ["Serverless Workflow"] = 793,
+    ["Settings for a Cinnamon spice"] = 926,
     ["Settings.paf"] = 604,
     ["Shopware 6 Configuration"] = 794,
     ["Shopware CLI Extension Store Configuration"] = 795,
@@ -6051,10 +6052,15 @@ M.json = {
       name = "YouTrack App",
       url = "https://json.schemastore.org/youtrack-app.json"
     }, {
-      description = "Settings for Cinnamon desktop environment",
+      description = "Settings for a Cinnamon spice",
       fileMatch = { "**/*@*/**/settings-schema.json" },
-      name = "Cinnamon",
+      name = "Settings for a Cinnamon spice",
       url = "https://raw.githubusercontent.com/cinnamon-spice-settings.json"
+    }, {
+      description = "Metadata for a Cinnamon spice",
+      fileMatch = { "**/*@*/**/metadata.json" },
+      name = "Metadata for a Cinnamon spice",
+      url = "https://raw.githubusercontent.com/cinnamon-spice-metadata.json"
     } },
   version = 1
 }
