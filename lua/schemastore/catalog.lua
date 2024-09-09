@@ -1043,9 +1043,10 @@ M.json = {
       description = "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
       fileMatch = { "abc-inventory-module-data-*.json" },
       name = "ABCInventoryModuleData",
-      url = "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
+      url = "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json",
       versions = {
-        ["1.0.0"] = "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json"
+        ["1.0.0"] = "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
+        ["2.0.0"] = "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json"
       }
     }, {
       description = "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
