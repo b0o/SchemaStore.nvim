@@ -630,6 +630,7 @@ M.json = {
     ["Woodpecker pipeline config"] = 786,
     ["Wrangler CLI"] = 706,
     ["Xstate Machine"] = 804,
+    ["Yandex Workflow Language"] = 928,
     ["Yarn Config (.yarnrc.yml)"] = 763,
     ["Yippee-Ki-JSON configuration YML"] = 755,
     ["YouTrack App"] = 925,
@@ -6062,6 +6063,11 @@ M.json = {
       fileMatch = { "**/*@*/**/metadata.json" },
       name = "Metadata for a Cinnamon spice",
       url = "https://raw.githubusercontent.com/cinnamon-spice-metadata.json"
+    }, {
+      description = "YaWL specification file",
+      fileMatch = { "*.yawl.yaml", "*.yawl.yml" },
+      name = "Yandex Workflow Language",
+      url = "https://raw.githubusercontent.com/yandex-cloud/json-schema-store/master/serverless/workflows/yawl.json"
     } },
   version = 1
 }
