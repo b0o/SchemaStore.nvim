@@ -587,6 +587,8 @@ M.json = {
     ["Swagger API 2.0"] = 638,
     TSON = 666,
     TSTyche = 667,
+    ["Tab data for a LinUtil"] = 933,
+    ["Tab list for a LinUtil"] = 932,
     Talhelper = 640,
     ["Talisman configuration"] = 641,
     ["Taskfile config"] = 771,
@@ -6099,6 +6101,16 @@ M.json = {
       fileMatch = { "**/*winutil*/config/preset.json" },
       name = "Preset list for a WinUtil",
       url = "https://raw.githubusercontent.com/winutil-preset.json"
+    }, {
+      description = "Tab list for a LinUtil",
+      fileMatch = { "**/*linutil*/**/tabs.toml" },
+      name = "Tab list for a LinUtil",
+      url = "https://raw.githubusercontent.com/linutil-tabs.json"
+    }, {
+      description = "Tab data for a LinUtil",
+      fileMatch = { "**/*linutil*/**/tab_data.toml" },
+      name = "Tab data for a LinUtil",
+      url = "https://raw.githubusercontent.com/linutil-tab-data.json"
     } },
   version = 1
 }
