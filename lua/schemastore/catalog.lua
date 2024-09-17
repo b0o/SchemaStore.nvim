@@ -120,6 +120,7 @@ M.json = {
     ["AnyWork Automation Configuration"] = 5,
     ["App config Spotify Backstage"] = 21,
     ["Application Accelerator"] = 2,
+    ["Application list for a WinUtil"] = 930,
     ["Argo Events"] = 29,
     ["Argo Workflows"] = 30,
     AssemblyScript = 33,
@@ -501,6 +502,7 @@ M.json = {
     ["Pipeline component"] = 780,
     ["PocketMine plugin.yml"] = 511,
     ["Postman collection"] = 516,
+    ["Preset list for a WinUtil"] = 931,
     ["Problem object RFC9457"] = 878,
     ["Problem package generators"] = 524,
     Pterodactyl = 825,
@@ -6087,6 +6089,16 @@ M.json = {
       fileMatch = { "*.yawl.yaml", "*.yawl.yml" },
       name = "Yandex Workflow Language",
       url = "https://raw.githubusercontent.com/yandex-cloud/json-schema-store/master/serverless/workflows/yawl.json"
+    }, {
+      description = "Application list for a WinUtil",
+      fileMatch = { "**/*winutil*/config/applications.json" },
+      name = "Application list for a WinUtil",
+      url = "https://raw.githubusercontent.com/winutil-applications.json"
+    }, {
+      description = "Preset list for a WinUtil",
+      fileMatch = { "**/*winutil*/config/preset.json" },
+      name = "Preset list for a WinUtil",
+      url = "https://raw.githubusercontent.com/winutil-preset.json"
     } },
   version = 1
 }
