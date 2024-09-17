@@ -6095,22 +6095,22 @@ M.json = {
       description = "Application list for a WinUtil",
       fileMatch = { "**/*winutil*/config/applications.json" },
       name = "Application list for a WinUtil",
-      url = "https://raw.githubusercontent.com/winutil-applications.json"
+      url = "https://json.schemastore.org/winutil-applications.json"
     }, {
       description = "Preset list for a WinUtil",
       fileMatch = { "**/*winutil*/config/preset.json" },
       name = "Preset list for a WinUtil",
-      url = "https://raw.githubusercontent.com/winutil-preset.json"
+      url = "https://json.schemastore.org/winutil-preset.json"
     }, {
       description = "Tab list for a LinUtil",
       fileMatch = { "**/*linutil*/**/tabs.toml" },
       name = "Tab list for a LinUtil",
-      url = "https://raw.githubusercontent.com/linutil-tabs.json"
+      url = "https://json.schemastore.org/linutil-tabs.json"
     }, {
       description = "Tab data for a LinUtil",
       fileMatch = { "**/*linutil*/**/tab_data.toml" },
       name = "Tab data for a LinUtil",
-      url = "https://raw.githubusercontent.com/linutil-tab-data.json"
+      url = "https://json.schemastore.org/linutil-tab-data.json"
     } },
   version = 1
 }
