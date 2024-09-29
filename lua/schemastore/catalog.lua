@@ -4940,7 +4940,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/metalbear-co/mirrord/main/mirrord-schema.json"
     }, {
       description = "mise config, a polyglot dev tool manager",
-      fileMatch = { ".mise.toml", ".mise.*.toml", "**/mise/config.toml" },
+      fileMatch = { ".mise.toml", ".mise.*.toml", "mise.toml", "mise.*.toml", "**/.mise/config.toml", "**/mise/config.toml" },
       name = "mise",
       url = "https://mise.jdx.dev/schema/mise.json"
     }, {
