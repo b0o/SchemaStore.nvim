@@ -271,6 +271,7 @@ M.json = {
     ["Dynamic Bash Aliases (.aliases)"] = 874,
     ["EAS config"] = 276,
     ["ES6 Import Sorter (.es6importsorterrc.json)"] = 863,
+    ["Eidolon Resource"] = 945,
     ["Elgato Stream Deck"] = 261,
     Elm = 935,
     ["Embrace Config"] = 849,
@@ -628,6 +629,7 @@ M.json = {
     Vercel = 175,
     ["Version Bumper config"] = 702,
     Visivo = 886,
+    ["Waku Config"] = 946,
     ["Web App Manifest"] = 719,
     ["Web types"] = 722,
     WebExtensions = 718,
@@ -6254,6 +6256,16 @@ M.json = {
       fileMatch = { "**/*linutil*/**/tab_data.toml" },
       name = "Tab data for a LinUtil",
       url = "https://json.schemastore.org/linutil-tab-data.json"
+    }, {
+      description = "Resource definitions for Eidolon",
+      fileMatch = { "*.eidolon.yaml", "*.eidolon.yml", "**/eidolon_resources/**/*.yaml", "**/eidolon_resources/**/*.yml" },
+      name = "Eidolon Resource",
+      url = "https://www.eidolonai.com/json_schema/v1/resources/overview.json"
+    }, {
+      description = "Configuration file for the Waku CLI",
+      fileMatch = { "**/waku.yml", "**/waku.yaml", "**/waku.json", "**/.waku.yml", "**/.waku.yaml", "**/.waku.json" },
+      name = "Waku Config",
+      url = "https://waku.ngjx.org/static/schema.json"
     } },
   version = 1
 }
