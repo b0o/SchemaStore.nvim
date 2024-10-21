@@ -5960,7 +5960,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/goblet/goblet/main/goblet.schema.json"
     }, {
       description = "Databricks Asset Bundles config",
-      fileMatch = { "**/.databricks.yml" },
+      fileMatch = { "databricks.yml", "databricks.yaml" },
       name = "Databricks Asset Bundles",
       url = "https://json.schemastore.org/databricks-asset-bundles.json"
     }, {
