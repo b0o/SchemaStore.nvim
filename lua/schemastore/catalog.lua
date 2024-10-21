@@ -494,7 +494,7 @@ M.json = {
     ["October CMS columns"] = 488,
     ["October CMS fields"] = 489,
     Opctl = 750,
-    ["Open Data Contract Standard (ODCS))"] = 500,
+    ["Open Data Contract Standard (ODCS)"] = 500,
     ["OpenRewrite Resource"] = 499,
     ["OpenUtau character yaml"] = 493,
     ["OpenUtau ustx"] = 494,
@@ -3666,10 +3666,10 @@ M.json = {
       description = "A Open API documentation files",
       fileMatch = { "openapi.json", "openapi.yml", "openapi.yaml" },
       name = "openapi.json",
-      url = "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json",
+      url = "https://spec.openapis.org/oas/3.1/schema/2022-10-07",
       versions = {
-        ["3.0"] = "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.0/schema.json",
-        ["3.1"] = "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json"
+        ["3.0"] = "https://spec.openapis.org/oas/3.0/schema/2021-09-28",
+        ["3.1"] = "https://spec.openapis.org/oas/3.1/schema/2022-10-07"
       }
     }, {
       description = "A OpenRPC documents. Documentation: https://open-rpc.org for more information",
@@ -3713,10 +3713,11 @@ M.json = {
     }, {
       description = "Open Data Contract Standard contract file",
       fileMatch = { "*.odcs.yaml", "*.odcs.yml" },
-      name = "Open Data Contract Standard (ODCS))",
+      name = "Open Data Contract Standard (ODCS)",
       url = "https://raw.githubusercontent.com/bitol-io/open-data-contract-standard/main/schema/odcs-json-schema-latest.json",
       versions = {
-        ["v2.2.2"] = "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v2.2.2.json"
+        ["v2.2.2"] = "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v2.2.2.json",
+        ["v3.0.0"] = "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v3.0.0.json"
       }
     }, {
       description = "Outblocks project configuration files",
