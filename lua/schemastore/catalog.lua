@@ -688,6 +688,7 @@ M.json = {
     ["buf.yaml"] = 54,
     ["bundleconfig.json"] = 100,
     ["bunfig.toml"] = 101,
+    ["ccmod.json"] = 951,
     changelogging = 921,
     ["chisel-slices.json"] = 203,
     ["chrome-extension-locales-messages.json"] = 184,
@@ -6295,6 +6296,11 @@ M.json = {
       fileMatch = { "**/waku.yml", "**/waku.yaml", "**/waku.json", "**/.waku.yml", "**/.waku.yaml", "**/.waku.json" },
       name = "Waku Config",
       url = "https://waku.ngjx.org/static/schema.json"
+    }, {
+      description = "Mod manifset file for the CCLoader mod loader for the game CrossCode",
+      fileMatch = { "ccmod.json" },
+      name = "ccmod.json",
+      url = "https://raw.githubusercontent.com/CCDirectLink/CCModDB/refs/heads/master/ccmod-json-schema.json"
     } },
   version = 1
 }
