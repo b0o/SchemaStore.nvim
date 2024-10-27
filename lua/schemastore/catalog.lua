@@ -817,6 +817,7 @@ M.json = {
     ["mise-settings"] = 740,
     ["mkdocs.yml"] = 456,
     ["monospace.yml"] = 458,
+    ["moon.yml"] = 948,
     ["mprocs Configuration file"] = 921,
     ["mta.yaml"] = 741,
     ["mtad.yaml"] = 742,
@@ -6278,6 +6279,11 @@ M.json = {
       fileMatch = { "ccmod.json" },
       name = "ccmod.json",
       url = "https://raw.githubusercontent.com/CCDirectLink/CCModDB/refs/heads/master/ccmod-json-schema.json"
+    }, {
+      description = "Moonrepo project configuration file",
+      fileMatch = { "moon.yml" },
+      name = "moon.yml",
+      url = "https://raw.githubusercontent.com/moonrepo/moon/master/website/static/schemas/project.json"
     } },
   version = 1
 }
