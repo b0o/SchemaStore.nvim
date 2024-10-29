@@ -5562,12 +5562,12 @@ M.json = {
       url = "https://raw.githubusercontent.com/shopware/platform/trunk/config-schema.json"
     }, {
       description = "Shopware CLI Extension Store Configuration",
-      fileMatch = { ".shopware-extension.yml" },
+      fileMatch = { ".shopware-extension.yml", ".shopware-extension.yaml" },
       name = "Shopware CLI Extension Store Configuration",
       url = "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/extension/shopware-extension-schema.json"
     }, {
       description = "Shopware CLI Project Store Configuration",
-      fileMatch = { ".shopware-project.yml" },
+      fileMatch = { ".shopware-project.yml", ".shopware-project.yaml" },
       name = "Shopware CLI Project Store Configuration",
       url = "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/shop/shopware-project-schema.json"
     }, {
