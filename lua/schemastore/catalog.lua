@@ -4879,12 +4879,20 @@ M.json = {
       description = "Simulation and test environment for Vector CANoe4SW Server Edition",
       fileMatch = { "venvironment.yaml", "*.venvironment.yaml", "venvironment.yml", "*.venvironment.yml", "venvironment.json", "*.venvironment.json" },
       name = "venvironment.yaml",
-      url = "https://json.schemastore.org/venvironment-schema.json"
+      url = "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
+      versions = {
+        ["2.2.0"] = "https://json.schemastore.org/venvironment-schema-v2.2.0.json",
+        ["3.2.0"] = "https://json.schemastore.org/venvironment-schema-v3.2.0.json"
+      }
     }, {
       description = "Test environment for Vector Test Unit Runner",
       fileMatch = { "venvironment-basic.yaml", "*.venvironment-basic.yaml", "venvironment-basic.yml", "*.venvironment-basic.yml", "venvironment-basic.json", "*.venvironment-basic.json" },
       name = "venvironment-basic.yaml",
-      url = "https://json.schemastore.org/venvironment-basic-schema.json"
+      url = "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
+      versions = {
+        ["2.2.0"] = "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
+        ["3.2.0"] = "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
+      }
     }, {
       description = "Configuration for Version Bumper, a Composer plugin to bump project versions during release preparations",
       fileMatch = { "version-bumper.json", "version-bumper.yaml", "version-bumper.yml" },
