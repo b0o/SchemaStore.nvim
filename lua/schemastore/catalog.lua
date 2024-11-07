@@ -4891,7 +4891,14 @@ M.json = {
       name = "venvironment.yaml",
       url = "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
       versions = {
+        ["1.0.0"] = "https://json.schemastore.org/venvironment-schema-v1.0.0.json",
+        ["1.1.0"] = "https://json.schemastore.org/venvironment-schema-v1.1.0.json",
+        ["1.1.1"] = "https://json.schemastore.org/venvironment-schema-v1.1.1.json",
+        ["2.0.0"] = "https://json.schemastore.org/venvironment-schema-v2.0.0.json",
+        ["2.1.0"] = "https://json.schemastore.org/venvironment-schema-v2.1.0.json",
         ["2.2.0"] = "https://json.schemastore.org/venvironment-schema-v2.2.0.json",
+        ["3.0.0"] = "https://json.schemastore.org/venvironment-schema-v3.0.0.json",
+        ["3.1.0"] = "https://json.schemastore.org/venvironment-schema-v3.1.0.json",
         ["3.2.0"] = "https://json.schemastore.org/venvironment-schema-v3.2.0.json"
       }
     }, {
@@ -4900,7 +4907,11 @@ M.json = {
       name = "venvironment-basic.yaml",
       url = "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
       versions = {
-        ["2.2.0"] = "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
+        ["1.0.0"] = "https://json.schemastore.org/venvironment-basic-schema-v1.0.0.json",
+        ["1.1.0"] = "https://json.schemastore.org/venvironment-basic-schema-v1.1.0.json",
+        ["2.0.0"] = "https://json.schemastore.org/venvironment-basic-schema-v2.0.0.json",
+        ["2.1.0"] = "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
+        ["3.0.0"] = "https://json.schemastore.org/venvironment-basic-schema-v3.0.0.json",
         ["3.2.0"] = "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
       }
     }, {
