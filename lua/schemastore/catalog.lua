@@ -639,6 +639,7 @@ M.json = {
     ["Windows Package Manager Installer Manifest"] = 769,
     ["Windows Package Manager Locale Manifest"] = 770,
     ["Windows Package Manager Singleton Manifest"] = 768,
+    ["WireMock stub mapping"] = 952,
     ["Woodpecker pipeline config"] = 805,
     ["Wrangler CLI"] = 724,
     ["Xstate Machine"] = 823,
@@ -6326,6 +6327,11 @@ M.json = {
       fileMatch = { "moon.yml" },
       name = "moon.yml",
       url = "https://raw.githubusercontent.com/moonrepo/moon/master/website/static/schemas/project.json"
+    }, {
+      description = "WireMock stub mapping JSON. See https://wiremock.org/docs/stubbing/",
+      fileMatch = { "wiremock-stub-mapping.yml", "wiremock-stub-mapping.yaml" },
+      name = "WireMock stub mapping",
+      url = "https://json.schemastore.org/wiremock-stub-mapping.json"
     } },
   version = 1
 }
