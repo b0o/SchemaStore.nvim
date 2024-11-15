@@ -6164,7 +6164,7 @@ M.json = {
       description = "vCluster configuration",
       fileMatch = { "vCluster.yml", "vCluster.yaml", "vcluster.yaml", "vcluster.yml" },
       name = "vcluster",
-      url = "https://raw.githubusercontent.com/loft-sh/vcluster/main/chart/values.schema.json"
+      url = "https://raw.githubusercontent.com/loft-sh/vcluster-config/main/vcluster.schema.json"
     }, {
       description = ".well-known/(fursona/fursona.json) files",
       fileMatch = { "fursona", "fursona.json", "**/.well-known/fursona", "**/.well-known/fursona.json" },
