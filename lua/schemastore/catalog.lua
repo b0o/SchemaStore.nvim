@@ -3019,7 +3019,7 @@ M.json = {
       description = "ioBroker JSON-based admin user interfaces - config, custom and tabs",
       fileMatch = { "jsonConfig.json", "jsonCustom.json", "jsonTab.json" },
       name = "ioBroker JSON UI",
-      url = "https://raw.githubusercontent.com/ioBroker/adapter-react-v5/main/schemas/jsonConfig.json"
+      url = "https://raw.githubusercontent.com/ioBroker/ioBroker.admin/master/packages/jsonConfig/schemas/jsonConfig.json"
     }, {
       description = "ioBroker adapters io-package file",
       fileMatch = { "io-package.json" },
