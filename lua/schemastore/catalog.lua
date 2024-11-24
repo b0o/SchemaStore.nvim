@@ -152,6 +152,7 @@ M.json = {
     ["Better Code Hub"] = 786,
     ["Better Scripts"] = 106,
     Bigconfig = 81,
+    ["Bitmovin Encoding Template"] = 956,
     BizTalkServerApplicationSchema = 756,
     Bleep = 107,
     ["Block Protocol Metadata"] = 104,
@@ -6359,6 +6360,11 @@ M.json = {
       fileMatch = { "wiremock-stub-mapping.yml", "wiremock-stub-mapping.yaml" },
       name = "WireMock stub mapping",
       url = "https://json.schemastore.org/wiremock-stub-mapping.json"
+    }, {
+      description = "An encoding workflow from a single configuration template",
+      fileMatch = { "*.bitmovin.json", "*.bitmovin.yml", "*.bitmovin.yaml" },
+      name = "Bitmovin Encoding Template",
+      url = "https://raw.githubusercontent.com/bitmovin/bitmovin-api-sdk-examples/main/bitmovin-encoding-template.json"
     } },
   version = 1
 }
