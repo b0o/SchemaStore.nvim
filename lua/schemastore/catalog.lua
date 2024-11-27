@@ -4763,7 +4763,7 @@ M.json = {
       description = "Define personal data in code using Transcend",
       fileMatch = { "transcend.yml", "transcend.yaml" },
       name = "transcend.yml",
-      url = "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-v4.json"
+      url = "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-latest.json"
     }, {
       description = "trime configuration file",
       fileMatch = { "trime.yaml", "trime.yml", "*.trime.yaml", "*.trime.yml" },
