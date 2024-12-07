@@ -862,6 +862,7 @@ M.json = {
     ["pixi.toml"] = 528,
     ["plagiarize-me.yaml"] = 532,
     ["plagiarize.yaml"] = 531,
+    ["pnpm Workspace (pnpm-workspace.yaml)"] = 959,
     ["podbard.yaml"] = 534,
     ["portman.json"] = 535,
     ["prefect.toml"] = 543,
@@ -6379,6 +6380,11 @@ M.json = {
       fileMatch = { "*.bitmovin.json", "*.bitmovin.yml", "*.bitmovin.yaml" },
       name = "Bitmovin Encoding Template",
       url = "https://raw.githubusercontent.com/bitmovin/bitmovin-api-sdk-examples/main/bitmovin-encoding-template.json"
+    }, {
+      description = "Workspace file for pnpm",
+      fileMatch = { "pnpm-workspace.yaml" },
+      name = "pnpm Workspace (pnpm-workspace.yaml)",
+      url = "https://json.schemastore.org/pnpm-workspace.json"
     } },
   version = 1
 }
