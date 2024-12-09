@@ -187,6 +187,8 @@ M.json = {
     ["Cargo Make"] = 116,
     ["Cargo Manifest"] = 115,
     ["Catalog Info Backstage"] = 117,
+    ["Chamaleon environment"] = 964,
+    ["Chamaleon template"] = 963,
     Changesets = 204,
     Cheatsheets = 829,
     ["Chrome Extension"] = 185,
@@ -6404,6 +6406,16 @@ M.json = {
       fileMatch = { "pnpm-workspace.yaml" },
       name = "pnpm Workspace (pnpm-workspace.yaml)",
       url = "https://json.schemastore.org/pnpm-workspace.json"
+    }, {
+      description = "Chamaleon template",
+      fileMatch = { "**/environments/cha-template.json" },
+      name = "Chamaleon template",
+      url = "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/template-schema.json"
+    }, {
+      description = "Chamaleon environment",
+      fileMatch = { "**/environments/*-cha.json" },
+      name = "Chamaleon environment",
+      url = "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/environment-schema.json"
     } },
   version = 1
 }
