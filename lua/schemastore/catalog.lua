@@ -3703,7 +3703,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/inetis-ch/october-schemas/master/fields.json"
     }, {
       description = "The Okteto Manifest",
-      fileMatch = { "okteto.json" },
+      fileMatch = { "okteto.yml", "okteto.yaml", "okteto.json" },
       name = "Okteto",
       url = "https://raw.githubusercontent.com/okteto/okteto/refs/heads/master/schema.json"
     }, {
