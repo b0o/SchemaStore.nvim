@@ -1322,7 +1322,7 @@ M.json = {
       description = "Configuration file for the Biome formatter",
       fileMatch = { "biome.json", "biome.jsonc" },
       name = "Biome Formatter Config",
-      url = "https://raw.githubusercontent.com/biomejs/biome/refs/heads/main/packages/%40biomejs/biome/configuration_schema.json"
+      url = "https://biomejs.dev/schemas/latest/schema.json"
     }, {
       description = "Configuration file for bottom",
       fileMatch = { "bottom.toml" },
