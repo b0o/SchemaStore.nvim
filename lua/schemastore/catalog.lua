@@ -187,8 +187,8 @@ M.json = {
     ["Cargo Make"] = 116,
     ["Cargo Manifest"] = 115,
     ["Catalog Info Backstage"] = 117,
-    ["Chamaleon environment"] = 964,
-    ["Chamaleon template"] = 963,
+    ["Chamaleon environment"] = 965,
+    ["Chamaleon template"] = 964,
     Changesets = 204,
     Cheatsheets = 829,
     ["Chrome Extension"] = 185,
@@ -321,8 +321,8 @@ M.json = {
     ["GitHub Action"] = 308,
     ["GitHub Discussion"] = 309,
     ["GitHub Funding"] = 310,
-    ["GitHub Issue Template configuration"] = 312,
-    ["GitHub Issue Template forms"] = 311,
+    ["GitHub Issue Template configuration"] = 311,
+    ["GitHub Issue Template forms"] = 312,
     ["GitHub Workflow"] = 313,
     ["GitHub Workflow Template Properties"] = 314,
     ["GitHub automatically generated release notes configuration"] = 315,
@@ -758,6 +758,7 @@ M.json = {
     ["drone.json"] = 253,
     ["dss-2.0.0.json"] = 255,
     ["dstack configuration"] = 256,
+    ["dtool dataset metadata"] = 962,
     ["dvc.yaml"] = 257,
     ["ecosystem.json"] = 262,
     eksctl = 263,
@@ -867,7 +868,7 @@ M.json = {
     ["pixi.toml"] = 530,
     ["plagiarize-me.yaml"] = 534,
     ["plagiarize.yaml"] = 533,
-    ["pnpm Workspace (pnpm-workspace.yaml)"] = 962,
+    ["pnpm Workspace (pnpm-workspace.yaml)"] = 963,
     ["podbard.yaml"] = 536,
     ["portman.json"] = 537,
     ["prefect.toml"] = 545,
@@ -2720,19 +2721,19 @@ M.json = {
       url = "https://json.schemastore.org/github-discussion.json"
     }, {
       description = "YAML GitHub Funding",
-      fileMatch = { "**/.github/FUNDING.yml", "**/.github/funding.yml", "**/.github/funding.yaml" },
+      fileMatch = { "**/.github/FUNDING.yml", "**/.github/FUNDING.yaml", "**/.github/funding.yml", "**/.github/funding.yaml" },
       name = "GitHub Funding",
       url = "https://json.schemastore.org/github-funding.json"
-    }, {
-      description = "YAML GitHub issue forms",
-      fileMatch = { "**/.github/ISSUE_TEMPLATE/**.yml", "**/.github/ISSUE_TEMPLATE/**.yaml" },
-      name = "GitHub Issue Template forms",
-      url = "https://json.schemastore.org/github-issue-forms.json"
     }, {
       description = "YAML configuring GitHub Issue Templates",
       fileMatch = { "**/.github/ISSUE_TEMPLATE/config.yml", "**/.github/ISSUE_TEMPLATE/config.yaml" },
       name = "GitHub Issue Template configuration",
       url = "https://json.schemastore.org/github-issue-config.json"
+    }, {
+      description = "YAML GitHub issue forms",
+      fileMatch = { "**/.github/ISSUE_TEMPLATE/**.yml", "**/.github/ISSUE_TEMPLATE/**.yaml" },
+      name = "GitHub Issue Template forms",
+      url = "https://json.schemastore.org/github-issue-forms.json"
     }, {
       description = "YAML GitHub Workflow",
       fileMatch = { "**/.github/workflows/*.yml", "**/.github/workflows/*.yaml", "**/.gitea/workflows/*.yml", "**/.gitea/workflows/*.yaml", "**/.forgejo/workflows/*.yml", "**/.forgejo/workflows/*.yaml" },
@@ -6411,6 +6412,14 @@ M.json = {
       fileMatch = { "*.bitmovin.json", "*.bitmovin.yml", "*.bitmovin.yaml" },
       name = "Bitmovin Encoding Template",
       url = "https://raw.githubusercontent.com/bitmovin/bitmovin-api-sdk-examples/main/bitmovin-encoding-template.json"
+    }, {
+      description = "Metadata attached to a dtool dataset",
+      fileMatch = { "dtool-dataset.yml", "dtool-dataset.yaml", "dtool-dataset.json" },
+      name = "dtool dataset metadata",
+      url = "https://json.schemastore.org/dtool-dataset-metadata-1.0.json",
+      versions = {
+        ["v1.0"] = "https://json.schemastore.org/dtool-dataset-metadata-1.0.json"
+      }
     }, {
       description = "Workspace file for pnpm",
       fileMatch = { "pnpm-workspace.yaml" },
