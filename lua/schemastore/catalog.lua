@@ -1702,7 +1702,7 @@ M.json = {
       description = "Chromia Model Config File",
       fileMatch = { "chromia.yml", "chromia.yaml" },
       name = "Chromia Model",
-      url = "https://gitlab.com/chromaway/core-tools/chromia-cli/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json"
+      url = "https://gitlab.com/chromaway/core-tools/chromia-cli-tools/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json"
     }, {
       description = "cibuildwheel, a Python redistributable wheel builder",
       fileMatch = { "cibuildwheel.toml", ".cibuildwheel.toml" },
