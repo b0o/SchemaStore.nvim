@@ -728,6 +728,7 @@ M.json = {
     ["contribute.json"] = 211,
     ["cosmos.config.json"] = 184,
     ["crowdin.yml"] = 212,
+    ["ctfd-setup configuration file"] = 966,
     ["custom-elements.json"] = 888,
     ["cypress.json"] = 216,
     ["datalogic-scan2deploy-android"] = 226,
@@ -6435,6 +6436,11 @@ M.json = {
       fileMatch = { "**/environments/*-cha.json" },
       name = "Chamaleon environment",
       url = "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/environment-schema.json"
+    }, {
+      description = "CTFer.io ctfd-setup utility configuration file",
+      fileMatch = { ".ctfd.yaml" },
+      name = "ctfd-setup configuration file",
+      url = "https://json.schemastore.org/ctfd.json"
     } },
   version = 1
 }
