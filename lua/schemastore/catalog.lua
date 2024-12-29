@@ -2295,7 +2295,7 @@ M.json = {
       url = "https://json.schemastore.org/dependabot-2.0.json"
     }, {
       description = "A Deployer yaml recipes",
-      fileMatch = { "deploy.yaml", "deploy.yml" },
+      fileMatch = {},
       name = "Deployer Recipe",
       url = "https://raw.githubusercontent.com/deployphp/deployer/master/src/schema.json"
     }, {
