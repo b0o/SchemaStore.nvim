@@ -785,6 +785,7 @@ M.json = {
     fulibWorkflows = 823,
     ["function.json"] = 303,
     ["gRPC API Gateway & OpenAPI Config"] = 3,
+    ["gematik health care patient list"] = 979,
     ["gitlab-ci"] = 320,
     ["global.json"] = 335,
     ["go-feature-flag Flag Configuration"] = 338,
@@ -6523,6 +6524,11 @@ M.json = {
       fileMatch = { "*dcbc.yml", "*dcbc.yaml" },
       name = "DonateCaseBetterCasino menu",
       url = "https://raw.githubusercontent.com/Jodexx/DCBetterCasinoMenuSchema/refs/heads/main/schema.json"
+    }, {
+      description = "A list of health care patients in german telemedicine",
+      fileMatch = { "**/testdata/patient/patients.yml", "**/testdata/patient/patients.yaml" },
+      name = "gematik health care patient list",
+      url = "https://json.schemastore.org/gematik-test-patients.json"
     } },
   version = 1
 }
