@@ -785,7 +785,10 @@ M.json = {
     fulibWorkflows = 823,
     ["function.json"] = 303,
     ["gRPC API Gateway & OpenAPI Config"] = 3,
+    ["gematik health care insurance list"] = 982,
     ["gematik health care patient list"] = 979,
+    ["gematik health care provider institution list"] = 981,
+    ["gematik health care provider list"] = 980,
     ["gitlab-ci"] = 320,
     ["global.json"] = 335,
     ["go-feature-flag Flag Configuration"] = 338,
@@ -6529,6 +6532,21 @@ M.json = {
       fileMatch = { "**/testdata/patient/patients.yml", "**/testdata/patient/patients.yaml" },
       name = "gematik health care patient list",
       url = "https://json.schemastore.org/gematik-test-patients.json"
+    }, {
+      description = "A list of health care providers in german telemedicine",
+      fileMatch = { "**/testdata/hcp/hcp.yml", "**/testdata/hcp/hcp.yaml" },
+      name = "gematik health care provider list",
+      url = "https://json.schemastore.org/gematik-test-hcps.json"
+    }, {
+      description = "A list of health care provider institutions in german telemedicine",
+      fileMatch = { "**/testdata/institution/hcpi.yml", "**/testdata/institution/hcpi.yaml" },
+      name = "gematik health care provider institution list",
+      url = "https://json.schemastore.org/gematik-test-hcpis.json"
+    }, {
+      description = "A list of health care insurances in german telemedicine",
+      fileMatch = { "**/testdata/insurance/insurance.yml", "**/testdata/insurance/insurance.yaml" },
+      name = "gematik health care insurance list",
+      url = "https://json.schemastore.org/gematik-test-hcpis.json"
     } },
   version = 1
 }
