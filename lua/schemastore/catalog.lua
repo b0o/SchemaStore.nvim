@@ -633,6 +633,7 @@ M.json = {
     ["Traefik v3 File Provider"] = 697,
     ["Travis CI (.travis.yml)"] = 693,
     ["TrueScript for *.tscript files"] = 700,
+    ["Tugboat QA config.yml"] = 991,
     TunnelHub = 915,
     Turborepo = 692,
     Tycho = 960,
@@ -6593,6 +6594,11 @@ M.json = {
       fileMatch = { "**/tiger.yml", "**/tiger.yaml" },
       name = "gematik tiger test environment configuration",
       url = "https://json.schemastore.org/gematik-tiger.json"
+    }, {
+      description = "Configuration file for Tugboat QA",
+      fileMatch = { "**/.tugboat/config.yml" },
+      name = "Tugboat QA config.yml",
+      url = "https://raw.githubusercontent.com/TugboatQA/docs/refs/heads/main/static/config-schema.json"
     } },
   version = 1
 }
