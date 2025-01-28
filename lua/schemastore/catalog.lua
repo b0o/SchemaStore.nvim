@@ -5072,7 +5072,7 @@ M.json = {
       description = "Vela Pipeline Configuration File",
       fileMatch = { ".vela.yml", ".vela.yaml" },
       name = "Vela Pipeline Configuration",
-      url = "https://github.com/go-vela/types/releases/latest/download/schema.json"
+      url = "https://github.com/go-vela/server/releases/latest/download/schema.json"
     }, {
       description = "Simulation and test environment for Vector CANoe4SW Server Edition",
       fileMatch = { "venvironment.yaml", "*.venvironment.yaml", "venvironment.yml", "*.venvironment.yml", "venvironment.json", "*.venvironment.json" },
