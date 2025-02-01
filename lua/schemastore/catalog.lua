@@ -166,6 +166,7 @@ M.json = {
     ["Bukkit plugin.yml"] = 99,
     ["BungeeCord plugin.yml"] = 105,
     ["Butane Config"] = 851,
+    C4InterFlow = 994,
     ["CGS Card Game Specification (cgs.json)"] = 931,
     ["CICS TS region tagging"] = 860,
     ["CICS TS resource import"] = 861,
@@ -659,6 +660,7 @@ M.json = {
     Vercel = 182,
     ["Version Bumper config"] = 731,
     Visivo = 915,
+    Wake = 995,
     ["Waku Config"] = 975,
     ["Web App Manifest"] = 747,
     ["Web types"] = 750,
@@ -6611,6 +6613,16 @@ M.json = {
       fileMatch = { "**/.tugboat/config.yml" },
       name = "Tugboat QA config.yml",
       url = "https://raw.githubusercontent.com/TugboatQA/docs/refs/heads/main/static/config-schema.json"
+    }, {
+      description = "C4InterFlow Architecture as Code file",
+      fileMatch = { "**/*.c4interflow.yaml", "**/*.c4interflow.json" },
+      name = "C4InterFlow",
+      url = "https://raw.githubusercontent.com/SlavaVedernikov/C4InterFlow/refs/heads/master/C4InterFlow/schema.json"
+    }, {
+      description = "Wake - development, testing, and static analysis framework for Solidity",
+      fileMatch = { "**/*wake.toml", "**/*.wake.toml" },
+      name = "Wake",
+      url = "https://raw.githubusercontent.com/Ackee-Blockchain/wake/refs/heads/main/docs/wake-schema.json"
     } },
   version = 1
 }
