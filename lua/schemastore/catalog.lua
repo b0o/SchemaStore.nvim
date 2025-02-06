@@ -635,6 +635,7 @@ M.json = {
     ["Traefik v3"] = 699,
     ["Traefik v3 File Provider"] = 700,
     ["Travis CI (.travis.yml)"] = 696,
+    Trident = 997,
     ["TrueScript for *.tscript files"] = 703,
     ["Tugboat QA config.yml"] = 994,
     TunnelHub = 918,
@@ -6629,6 +6630,11 @@ M.json = {
       fileMatch = { "**/*wake.toml", "**/*.wake.toml" },
       name = "Wake",
       url = "https://raw.githubusercontent.com/Ackee-Blockchain/wake/refs/heads/main/docs/wake-schema.json"
+    }, {
+      description = "Trident - Rust-based fuzzing framework for Solana programs to help ship secure code",
+      fileMatch = { "**/*Trident.toml", "**/*.Trident.toml" },
+      name = "Trident",
+      url = "https://raw.githubusercontent.com/Ackee-Blockchain/trident/refs/heads/master/trident-spec.json"
     } },
   version = 1
 }
