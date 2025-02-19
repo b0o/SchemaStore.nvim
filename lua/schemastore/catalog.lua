@@ -566,6 +566,7 @@ M.json = {
     RenderCV = 609,
     Renovate = 608,
     ["Replit config"] = 603,
+    Restate = 1006,
     RoadRunner = 611,
     ["Rudder techniques"] = 932,
     Ruff = 605,
@@ -1115,13 +1116,14 @@ M.json = {
       description = "Settings for project analysis by the Application Inspector",
       fileMatch = { ".aiproj.json" },
       name = ".aiproj.json",
-      url = "https://json.schemastore.org/aiproj-1.4.json",
+      url = "https://json.schemastore.org/aiproj-1.5.json",
       versions = {
         ["1.0"] = "https://json.schemastore.org/aiproj-1.0.json",
         ["1.1"] = "https://json.schemastore.org/aiproj-1.1.json",
         ["1.2"] = "https://json.schemastore.org/aiproj-1.2.json",
         ["1.3"] = "https://json.schemastore.org/aiproj-1.3.json",
-        ["1.4"] = "https://json.schemastore.org/aiproj-1.4.json"
+        ["1.4"] = "https://json.schemastore.org/aiproj-1.4.json",
+        ["1.5"] = "https://json.schemastore.org/aiproj-1.5.json"
       }
     }, {
       description = "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
@@ -6123,7 +6125,7 @@ M.json = {
       description = "Pantsbuild configuration file",
       fileMatch = { "pants*.toml" },
       name = "Pantsbuild",
-      url = "https://json.schemastore.org/pantsbuild-2.21.0.json",
+      url = "https://json.schemastore.org/pantsbuild-2.24.0.json",
       versions = {
         ["2.14.0"] = "https://json.schemastore.org/pantsbuild-2.14.0.json",
         ["2.15.0"] = "https://json.schemastore.org/pantsbuild-2.15.0.json",
@@ -6132,7 +6134,8 @@ M.json = {
         ["2.18.0"] = "https://json.schemastore.org/pantsbuild-2.18.0.json",
         ["2.19.0"] = "https://json.schemastore.org/pantsbuild-2.19.0.json",
         ["2.20.0"] = "https://json.schemastore.org/pantsbuild-2.20.0.json",
-        ["2.21.0"] = "https://json.schemastore.org/pantsbuild-2.21.0.json"
+        ["2.21.0"] = "https://json.schemastore.org/pantsbuild-2.21.0.json",
+        ["2.24.0"] = "https://json.schemastore.org/pantsbuild-2.24.0.json"
       }
     }, {
       description = "The configuration file used by the All Contributors CLI and GitHub bot",
@@ -6687,6 +6690,11 @@ M.json = {
       fileMatch = { "**/*Trident.toml", "**/*.Trident.toml" },
       name = "Trident",
       url = "https://raw.githubusercontent.com/Ackee-Blockchain/trident/refs/heads/master/trident-spec.json"
+    }, {
+      description = "Restate Server configuration file",
+      fileMatch = { "**/restate.toml", "**/restate-server.toml" },
+      name = "Restate",
+      url = "https://docs.restate.dev/schemas/restate-server-configuration-schema.json"
     } },
   version = 1
 }
