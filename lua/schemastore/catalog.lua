@@ -631,6 +631,7 @@ M.json = {
     ["Taskfile config"] = 824,
     Taurus = 688,
     Tauticord = 689,
+    Telefonistka = 1008,
     ["TestEnvironment.json"] = 699,
     ["TextMate Grammar"] = 698,
     ["Tier.run pricing.json"] = 692,
@@ -2718,7 +2719,7 @@ M.json = {
       description = "configuring Karakum, a converter of TypeScript declaration files to Kotlin declarations",
       fileMatch = { "karakum.config.json" },
       name = "Karakum configuration file",
-      url = "https://raw.githubusercontent.com/karakum-team/karakum/master/schema/karakum-schema.json"
+      url = "https://raw.githubusercontent.com/karakum-team/karakum/master/karakum-schema/karakum-schema.json"
     }, {
       description = "Knative Functions func.yaml files",
       fileMatch = { "func.yaml" },
@@ -6700,6 +6701,11 @@ M.json = {
       fileMatch = { "**/restate.toml", "**/restate-server.toml" },
       name = "Restate",
       url = "https://docs.restate.dev/schemas/restate-server-configuration-schema.json"
+    }, {
+      description = "Telefonistka - Safe and Controlled GitOps Promotion Across Environments/Failure-Domains",
+      fileMatch = { "**/telefonistka.yaml" },
+      name = "Telefonistka",
+      url = "https://raw.githubusercontent.com/commercetools/telefonistka/refs/heads/main/schema/telefonistka.json"
     } },
   version = 1
 }
