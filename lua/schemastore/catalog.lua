@@ -651,6 +651,7 @@ M.json = {
     Turborepo = 702,
     Tycho = 975,
     Tye = 857,
+    ["Tyk Gateway - Open Source v5.7+"] = 1014,
     ["UET BuildConfig.json"] = 900,
     ["UI5 Manifest"] = 728,
     ["UNCORS configuration"] = 732,
@@ -6737,6 +6738,11 @@ M.json = {
       fileMatch = { ".version.json" },
       name = "version",
       url = "https://raw.githubusercontent.com/ljonesfl/bump/refs/heads/master/version-schema.json"
+    }, {
+      description = "Tyk Gateway Open Source Configuration File",
+      fileMatch = { "tyk.conf" },
+      name = "Tyk Gateway - Open Source v5.7+",
+      url = "https://raw.githubusercontent.com/TykTechnologies/tyk-schemas/refs/heads/main/JSON/draft-07/schema_tyk.oss.conf"
     } },
   version = 1
 }
