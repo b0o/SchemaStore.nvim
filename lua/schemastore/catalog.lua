@@ -1023,6 +1023,7 @@ M.json = {
     ["vega.json"] = 736,
     ["venvironment-basic.yaml"] = 740,
     ["venvironment.yaml"] = 739,
+    version = 1013,
     ["version.json"] = 742,
     ["vhwdebugger-binding.yaml"] = 744,
     ["vim-addon-info"] = 745,
@@ -6731,6 +6732,11 @@ M.json = {
       fileMatch = { "**/telefonistka.yaml" },
       name = "Telefonistka",
       url = "https://raw.githubusercontent.com/commercetools/telefonistka/refs/heads/main/schema/telefonistka.json"
+    }, {
+      description = "Project version information",
+      fileMatch = { ".version.json" },
+      name = "version",
+      url = "https://raw.githubusercontent.com/ljonesfl/bump/refs/heads/master/version-schema.json"
     } },
   version = 1
 }
