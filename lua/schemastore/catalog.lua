@@ -5143,7 +5143,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/evg4b/uncors/main/schema.json"
     }, {
       description = "Universal Schedule Format (USF) configuration file",
-      fileMatch = { "usf.yml", "usf.yaml" },
+      fileMatch = { "*.usf", "*.usf.yml", "*.usf.yaml", "*.usf.json", ".usf.yml", ".usf.yaml", ".usf.json", "usf.yml", "usf.yaml", "usf.json" },
       name = "Universal Schedule Format",
       url = "https://raw.githubusercontent.com/USF-org/USF/refs/heads/main/usf.schema.json"
     }, {
