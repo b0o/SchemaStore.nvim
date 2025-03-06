@@ -493,6 +493,7 @@ M.json = {
     ["Monika Configuration"] = 889,
     ["Monoweave Configuration"] = 480,
     ["Motif config"] = 785,
+    MultiQC = 1019,
     ["NOX Framework (Service)"] = 497,
     ["Netin Diagnostic System Template"] = 849,
     ["Netlify config"] = 488,
@@ -549,7 +550,7 @@ M.json = {
     ["PyGTA Config"] = 584,
     PyProject = 589,
     Pyright = 590,
-    ["Python script metadata"] = 1018,
+    ["Python script metadata"] = 1021,
     Qgoda = 591,
     Qodana = 859,
     ["Qt Creator workspace file"] = 965,
@@ -655,7 +656,7 @@ M.json = {
     Turborepo = 705,
     Tycho = 978,
     Tye = 860,
-    ["Tyk Gateway - Open Source v5.7+"] = 1017,
+    ["Tyk Gateway - Open Source v5.7+"] = 1020,
     ["UET BuildConfig.json"] = 903,
     ["UI5 Manifest"] = 731,
     ["UNCORS configuration"] = 735,
@@ -677,6 +678,8 @@ M.json = {
     ["Vela Pipeline Configuration"] = 741,
     Vercel = 186,
     ["Version Bumper config"] = 744,
+    ["Viash Component Config"] = 1017,
+    ["Viash Package Config"] = 1018,
     Visivo = 931,
     Wake = 1012,
     ["Waku Config"] = 992,
@@ -1036,6 +1039,7 @@ M.json = {
     ["vs-nesting.json"] = 751,
     ["vsls.json"] = 749,
     ["vss-extension.json"] = 755,
+    vtcfg = 1022,
     ["vtesttree.yaml"] = 756,
     ["vtestunit.yaml"] = 757,
     ["warp-keysets.json"] = 924,
@@ -6759,6 +6763,47 @@ M.json = {
       name = "version",
       url = "https://raw.githubusercontent.com/ljonesfl/bump/refs/heads/master/version-schema.json"
     }, {
+      description = "Viash component config file",
+      fileMatch = { "*.vsh.{yml,yaml}" },
+      name = "Viash Component Config",
+      url = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/latest/config.schema.json",
+      versions = {
+        ["0.7.5"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.7.5/config.schema.json",
+        ["0.8.0"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.0/config.schema.json",
+        ["0.8.1"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.1/config.schema.json",
+        ["0.8.2"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.2/config.schema.json",
+        ["0.8.3"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.3/config.schema.json",
+        ["0.8.4"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.4/config.schema.json",
+        ["0.8.5"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.5/config.schema.json",
+        ["0.8.6"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.6/config.schema.json",
+        ["0.9.0"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.0/config.schema.json",
+        ["0.9.1"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.1/config.schema.json",
+        ["0.9.2"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.2/config.schema.json"
+      }
+    }, {
+      description = "Viash package config file",
+      fileMatch = { "_viash.{yml,yaml}" },
+      name = "Viash Package Config",
+      url = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/latest/package.schema.json",
+      versions = {
+        ["0.7.5"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.7.5/package.schema.json",
+        ["0.8.0"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.0/package.schema.json",
+        ["0.8.1"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.1/package.schema.json",
+        ["0.8.2"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.2/package.schema.json",
+        ["0.8.3"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.3/package.schema.json",
+        ["0.8.4"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.4/package.schema.json",
+        ["0.8.5"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.5/package.schema.json",
+        ["0.8.6"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.8.6/package.schema.json",
+        ["0.9.0"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.0/package.schema.json",
+        ["0.9.1"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.1/package.schema.json",
+        ["0.9.2"] = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/0.9.2/package.schema.json"
+      }
+    }, {
+      description = "MultiQC configuration file",
+      fileMatch = { "multiqc_config.yaml", "multiqc_config.yml", ".multiqc_config.yaml", ".multiqc_config.yml" },
+      name = "MultiQC",
+      url = "https://raw.githubusercontent.com/MultiQC/MultiQC/refs/heads/main/multiqc/utils/config_schema.json"
+    }, {
       description = "Tyk Gateway Open Source Configuration File",
       fileMatch = { "tyk.conf" },
       name = "Tyk Gateway - Open Source v5.7+",
@@ -6768,6 +6813,14 @@ M.json = {
       fileMatch = {},
       name = "Python script metadata",
       url = "https://json.schemastore.org/pep-723.json"
+    }, {
+      description = "Vector VT System Configuration",
+      fileMatch = { "*.vtcfg" },
+      name = "vtcfg",
+      url = "https://json.schemastore.org/vtcfg-v19.0.0.json",
+      versions = {
+        ["19.0.0"] = "https://json.schemastore.org/vtcfg-v19.0.0.json"
+      }
     } },
   version = 1
 }
