@@ -5581,7 +5581,7 @@ M.json = {
       url = "https://json.schemastore.org/winutil-presets.json"
     }, {
       description = "commitlint configuration files",
-      fileMatch = { ".commitlintrc", ".commitlintrc.json" },
+      fileMatch = { ".commitlintrc", ".commitlintrc.{json,yaml,yml}" },
       name = "commitlint (.commitlintrc)",
       url = "https://json.schemastore.org/commitlintrc.json"
     }, {
