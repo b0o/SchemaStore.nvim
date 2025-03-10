@@ -956,6 +956,7 @@ M.json = {
     rockcraft = 615,
     runny = 616,
     rustfmt = 617,
+    sake = 1023,
     samt = 619,
     samtrc = 620,
     ["sarif-1.0.0.json"] = 622,
@@ -6822,6 +6823,11 @@ M.json = {
       versions = {
         ["19.0.0"] = "https://json.schemastore.org/vtcfg-v19.0.0.json"
       }
+    }, {
+      description = "Configuration for Sake, Swift-based utility for managing project commands",
+      fileMatch = { ".sake.yml" },
+      name = "sake",
+      url = "https://json.schemastore.org/sake.json"
     } },
   version = 1
 }
