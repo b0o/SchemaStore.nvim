@@ -2766,7 +2766,7 @@ M.json = {
       }
     }, {
       description = "Configuration for KSail",
-      fileMatch = { "ksail-cluster.yaml", "ksail-cluster.yml", "ksail-config.yaml", "ksail-config.yml", "ksail.yaml", "ksail.yml", "*.ksail.yaml", "*.ksail.yml" },
+      fileMatch = { "ksail-*.yaml", "ksail-*.yml", "ksail_*.yaml", "ksail_*.yml", "ksail.*.yaml", "ksail.*.yml", "*-ksail.yaml", "*-ksail.yml", "*_ksail.yaml", "*_ksail.yml", "*.ksail.yaml", "*.ksail.yml", "ksail.yaml", "ksail.yml" },
       name = "KSail",
       url = "https://raw.githubusercontent.com/devantler/ksail/refs/heads/main/schemas/ksail-cluster-schema.json"
     }, {
