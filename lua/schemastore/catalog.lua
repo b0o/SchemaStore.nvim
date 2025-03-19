@@ -226,6 +226,7 @@ M.json = {
     Conjure = 128,
     ["Container Structure Test"] = 810,
     Containerlab = 837,
+    ["Contextive Glossary"] = 1029,
     ["Crowdsec collection config"] = 221,
     ["Crowdsec parser config"] = 222,
     ["Crowdsec scenario config"] = 223,
@@ -6857,6 +6858,11 @@ M.json = {
       fileMatch = { "okh.{json,toml,yml,yaml}", "*.okh.{json,toml,yml,yaml}" },
       name = "Open Know-How",
       url = "https://json.schemastore.org/okh.json"
+    }, {
+      description = "A Contextive Domain Language Glossary",
+      fileMatch = { "**/.contextive/definitions.yml", "*.glossary.yml" },
+      name = "Contextive Glossary",
+      url = "https://json.schemastore.org/contextive-glossary.json"
     } },
   version = 1
 }
