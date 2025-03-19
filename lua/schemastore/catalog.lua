@@ -522,6 +522,7 @@ M.json = {
     Okteto = 511,
     Opctl = 792,
     ["Open Data Contract Standard (ODCS)"] = 522,
+    ["Open Know-How"] = 1028,
     ["OpenRewrite Resource"] = 521,
     ["OpenUtau character yaml"] = 515,
     ["OpenUtau ustx"] = 516,
@@ -6851,6 +6852,11 @@ M.json = {
       fileMatch = { ".sake.yml" },
       name = "sake",
       url = "https://json.schemastore.org/sake.json"
+    }, {
+      description = "Open Source Hardware project metadata",
+      fileMatch = { "okh.{json,toml,yml,yaml}", "*.okh.{json,toml,yml,yaml}" },
+      name = "Open Know-How",
+      url = "https://json.schemastore.org/okh.json"
     } },
   version = 1
 }
