@@ -2202,7 +2202,7 @@ M.json = {
       description = "AWS CloudFormation provides a common language for you to describe and provision all the infrastructure resources in your cloud environment",
       fileMatch = { "*.cf.json", "*.cf.yml", "*.cf.yaml", "cloudformation.json", "cloudformation.yml", "cloudformation.yaml" },
       name = "AWS CloudFormation",
-      url = "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json"
+      url = "https://d1uauaxba7bl26.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json"
     }, {
       description = "The AWS Serverless Application Model (AWS SAM, previously known as Project Flourish) extends AWS CloudFormation to provide a simplified way of defining the Amazon API Gateway APIs, AWS Lambda functions, and Amazon DynamoDB tables needed by your serverless application",
       fileMatch = { "template.yaml", "serverless.template", "*.sam.json", "*.sam.yml", "*.sam.yaml", "sam.json", "sam.yml", "sam.yaml" },
