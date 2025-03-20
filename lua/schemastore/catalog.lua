@@ -6855,7 +6855,7 @@ M.json = {
       url = "https://json.schemastore.org/sake.json"
     }, {
       description = "Open Source Hardware project metadata",
-      fileMatch = { "okh.{json,toml,yml,yaml}", "*.okh.{json,toml,yml,yaml}" },
+      fileMatch = { "okh.{json,toml,yml,yaml}" },
       name = "Open Know-How",
       url = "https://json.schemastore.org/okh.json"
     }, {
