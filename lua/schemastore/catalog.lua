@@ -3471,7 +3471,7 @@ M.json = {
       url = "https://json.schemastore.org/launchsettings.json"
     }, {
       description = "Fast and powerful Git hooks manager",
-      fileMatch = { "{.lefthook,lefthook,lefthook-local,.lefthook-local}.{yml,yaml,toml,json}" },
+      fileMatch = { ".lefthook.json", ".lefthook.toml", ".lefthook.yaml", ".lefthook.yml", ".lefthook-local.json", ".lefthook-local.toml", ".lefthook-local.yaml", ".lefthook-local.yml", "lefthook.json", "lefthook.toml", "lefthook.yaml", "lefthook.yml", "lefthook-local.json", "lefthook-local.toml", "lefthook-local.yaml", "lefthook-local.yml" },
       name = "Lefthook",
       url = "https://raw.githubusercontent.com/evilmartians/lefthook/master/schema.json"
     }, {
@@ -5490,7 +5490,7 @@ M.json = {
       url = "https://json.schemastore.org/lintstagedrc.schema.json"
     }, {
       description = "mirrord",
-      fileMatch = { "*.mirrord.{toml,json,yaml,yml}" },
+      fileMatch = { "*.mirrord.json", "*.mirrord.toml", "*.mirrord.yaml", "*.mirrord.yml" },
       name = "mirrord config",
       url = "https://raw.githubusercontent.com/metalbear-co/mirrord/main/mirrord-schema.json"
     }, {
@@ -6840,7 +6840,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/ljonesfl/bump/refs/heads/master/version-schema.json"
     }, {
       description = "Viash component config file",
-      fileMatch = { "*.vsh.{yml,yaml}" },
+      fileMatch = { "*.vsh.yaml", "*.vsh.yml" },
       name = "Viash Component Config",
       url = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/latest/config.schema.json",
       versions = {
@@ -6858,7 +6858,7 @@ M.json = {
       }
     }, {
       description = "Viash package config file",
-      fileMatch = { "_viash.{yml,yaml}" },
+      fileMatch = { "_viash.yaml", "_viash.yml" },
       name = "Viash Package Config",
       url = "https://raw.githubusercontent.com/viash-io/viash-schemas/refs/heads/main/json_schemas/latest/package.schema.json",
       versions = {
