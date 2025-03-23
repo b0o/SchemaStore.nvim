@@ -1926,27 +1926,27 @@ M.json = {
       url = "https://raw.githubusercontent.com/datayoga-io/datayoga/main/schemas/job.schema.json"
     }, {
       description = "dbt's dependencies.yml file for external packages and cross-project refs",
-      fileMatch = { "**/*dbt*/dependencies.{yaml,yml}" },
+      fileMatch = { "**/*dbt*/dependencies.yaml", "**/*dbt*/dependencies.yml" },
       name = "dbt Dependencies",
       url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dependencies-latest.json"
     }, {
       description = "dbt's project configuration file",
-      fileMatch = { "dbt_project.{yaml,yml}" },
+      fileMatch = { "dbt_project.yaml", "dbt_project.yml" },
       name = "dbt Project",
       url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_project-latest.json"
     }, {
       description = "dbt's packages.yml file for external packages",
-      fileMatch = { "**/*dbt*/packages.{yaml,yml}" },
+      fileMatch = { "**/*dbt*/packages.yaml", "**/*dbt*/packages.yml" },
       name = "dbt Packages",
       url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/packages-latest.json"
     }, {
       description = "dbt's selectors.yml file for configuring YAML selectors",
-      fileMatch = { "**/*dbt*/selectors.{yaml,yml}" },
+      fileMatch = { "**/*dbt*/selectors.yaml", "**/*dbt*/selectors.yml" },
       name = "dbt Selectors",
       url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/selectors-latest.json"
     }, {
       description = "dbt YAML files configurations",
-      fileMatch = { "**/*dbt*/{macros,models,seeds,snapshots}/**/*.{yaml,yml}" },
+      fileMatch = { "**/*dbt*/macros/**/*.yaml", "**/*dbt*/macros/**/*.yml", "**/*dbt*/models/**/*.yaml", "**/*dbt*/models/**/*.yml", "**/*dbt*/seeds/**/*.yaml", "**/*dbt*/seeds/**/*.yml", "**/*dbt*/snapshots/**/*.yaml", "**/*dbt*/snapshots/**/*.yml" },
       name = "dbt YAML files",
       url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_yml_files-latest.json"
     }, {
@@ -5654,7 +5654,7 @@ M.json = {
       url = "https://json.schemastore.org/winget-pkgs-installer-1.0.0.json"
     }, {
       description = "Windows Package Manager Locale Manifest file, used for detailing locale specific metadata",
-      fileMatch = { "**/manifests/?/*/*/*/*.*.locale.{en-US,fr-FR,it-IT,ja-JP,ko-KR,pt-BR,ru-RU,zh-CN,zh-TW}.yaml" },
+      fileMatch = { "**/manifests/?/*/*/*/*.*.locale.en-US.yaml", "**/manifests/?/*/*/*/*.*.locale.fr-FR.yaml", "**/manifests/?/*/*/*/*.*.locale.it-IT.yaml", "**/manifests/?/*/*/*/*.*.locale.ja-JP.yaml", "**/manifests/?/*/*/*/*.*.locale.ko-KR.yaml", "**/manifests/?/*/*/*/*.*.locale.pt-BR.yaml", "**/manifests/?/*/*/*/*.*.locale.ru-RU.yaml", "**/manifests/?/*/*/*/*.*.locale.zh-CN.yaml", "**/manifests/?/*/*/*/*.*.locale.zh-TW.yaml" },
       name = "Windows Package Manager Locale Manifest",
       url = "https://json.schemastore.org/winget-pkgs-locale-1.0.0.json"
     }, {
@@ -6911,7 +6911,7 @@ M.json = {
       url = "https://json.schemastore.org/sake.json"
     }, {
       description = "Open Source Hardware project metadata",
-      fileMatch = { "?(*.)okh.{json,toml,yml,yaml}" },
+      fileMatch = { "okh.json", "okh.toml", "okh.yaml", "okh.yml", "*.okh.json", "*.okh.toml", "*.okh.yaml", "*.okh.yml" },
       name = "Open Know-How",
       url = "https://json.schemastore.org/okh.json"
     }, {
