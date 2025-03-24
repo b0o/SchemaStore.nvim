@@ -1174,7 +1174,7 @@ M.json = {
       description = "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
       fileMatch = { "abc-supply-plan-*.json" },
       name = "ABCSupplyPlan",
-      url = "https://json.schemastore.org/abc-supply-plan-7.0.0.json",
+      url = "https://json.schemastore.org/abc-supply-plan-8.0.0.json",
       versions = {
         ["1.0.0"] = "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
         ["2.0.0"] = "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
@@ -1182,7 +1182,8 @@ M.json = {
         ["4.0.0"] = "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
         ["5.0.0"] = "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
         ["6.0.0"] = "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
-        ["7.0.0"] = "https://json.schemastore.org/abc-supply-plan-7.0.0.json"
+        ["7.0.0"] = "https://json.schemastore.org/abc-supply-plan-7.0.0.json",
+        ["8.0.0"] = "https://json.schemastore.org/abc-supply-plan-8.0.0.json"
       }
     }, {
       description = "AIConfig that is used to store generative AI prompts, models and model parameters",
@@ -3003,7 +3004,11 @@ M.json = {
       description = "golangci-lint configuration file",
       fileMatch = { ".golangci.yml", ".golangci.yaml", ".golangci.toml", ".golangci.json" },
       name = "Golangci-lint Configuration",
-      url = "https://golangci-lint.run/jsonschema/golangci.jsonschema.json"
+      url = "https://golangci-lint.run/jsonschema/golangci.jsonschema.json",
+      versions = {
+        ["1"] = "https://golangci-lint.run/jsonschema/golangci.v1.jsonschema.json",
+        ["2"] = "https://golangci-lint.run/jsonschema/golangci.v2.jsonschema.json"
+      }
     }, {
       description = "golangci-lint custom plugins configuration file",
       fileMatch = { ".custom-gcl.yml", ".custom-gcl.yaml" },
