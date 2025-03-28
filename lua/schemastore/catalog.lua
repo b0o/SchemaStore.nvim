@@ -4351,12 +4351,12 @@ M.json = {
       url = "https://json.schemastore.org/prometheus.json"
     }, {
       description = "Prometheus rules file",
-      fileMatch = { "*.rules.yml", "*.rules.yaml", "*rules.yml", "*rules.yaml", "rules.yml", "rules.yaml" },
+      fileMatch = { "*.prometheus.rules.yml", "*.prometheus.rules.yaml", "*prometheus-rules.yml", "*prometheus-rules.yaml", "*prometheus_rules.yml", "*prometheus_rules.yaml", "prometheus.rules.yml", "prometheus.rules.yaml" },
       name = "prometheus.rules.json",
       url = "https://json.schemastore.org/prometheus.rules.json"
     }, {
       description = "Prometheus rules test file",
-      fileMatch = { "*.tests.yml", "*.tests.yaml", "*.test.yml", "*.test.yaml" },
+      fileMatch = { "*.prometheus.tests.yml", "*.prometheus.tests.yaml", "*.prometheus.test.yml", "*.prometheus.test.yaml" },
       name = "prometheus.rules.test.json",
       url = "https://json.schemastore.org/prometheus.rules.test.json"
     }, {
