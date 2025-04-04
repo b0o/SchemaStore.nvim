@@ -555,6 +555,7 @@ M.json = {
     Pulumi = 595,
     ["PyGTA Config"] = 591,
     PyProject = 596,
+    Pylock = 1041,
     Pyright = 597,
     ["Python script metadata"] = 1035,
     Qgoda = 599,
@@ -6936,6 +6937,11 @@ M.json = {
       fileMatch = { "assetlinks.json" },
       name = "Google Digital Assetlinks",
       url = "https://json.schemastore.org/assetlinks.json"
+    }, {
+      description = "PEP 751 lock file",
+      fileMatch = { "pylock.toml", "pylock.*.toml" },
+      name = "Pylock",
+      url = "https://json.schemastore.org/pylock.json"
     } },
   version = 1
 }
