@@ -1486,7 +1486,7 @@ M.json = {
       }
     }, {
       description = "Transform your workflow with Codify, the ultimate configuration as code tool designed to manage local user environments",
-      fileMatch = { "codify.json", "codify.yaml", "*.codify.json", "*.codify.yaml" },
+      fileMatch = { "codify.json", "codify.yaml", "codify.json5", "codify.jsonc", "*.codify.json", "*.codify.yaml", "*.codify.json5", "*.codify.jsonc" },
       name = "CodifyCLI",
       url = "https://raw.githubusercontent.com/codifyCLI/codify-schemas/main/src/schemastore/codify-schema.json"
     }, {
