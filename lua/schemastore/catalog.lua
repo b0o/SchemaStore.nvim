@@ -633,6 +633,7 @@ M.json = {
     ["Stryker Mutator"] = 698,
     ["StyleCop Analyzers Configuration"] = 699,
     ["Stylelint (.stylelintrc)"] = 700,
+    ["Stylua Config"] = 1046,
     ["Sublime Syntax"] = 916,
     ["Subsquid squid manifest"] = 961,
     ["Swagger API 2.0"] = 702,
@@ -6966,6 +6967,11 @@ M.json = {
       fileMatch = { "pylock.toml", "pylock.*.toml" },
       name = "Pylock",
       url = "https://json.schemastore.org/pylock.json"
+    }, {
+      description = "Stylua configuration",
+      fileMatch = { ".stylua.toml", "stylua.toml" },
+      name = "Stylua Config",
+      url = "https://json.schemastore.org/stylua.json"
     } },
   version = 1
 }
