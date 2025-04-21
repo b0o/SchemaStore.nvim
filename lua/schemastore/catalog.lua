@@ -646,6 +646,7 @@ M.json = {
     ["Tach Domain"] = 705,
     Talhelper = 707,
     ["Talisman configuration"] = 708,
+    Taplo = 1047,
     ["Taskfile config"] = 848,
     Taurus = 709,
     Tauticord = 710,
@@ -1201,7 +1202,7 @@ M.json = {
       description = "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
       fileMatch = { "abc-supply-plan-*.json" },
       name = "ABCSupplyPlan",
-      url = "https://json.schemastore.org/abc-supply-plan-8.0.0.json",
+      url = "https://json.schemastore.org/abc-supply-plan-9.0.0.json",
       versions = {
         ["1.0.0"] = "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
         ["2.0.0"] = "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
@@ -1210,7 +1211,8 @@ M.json = {
         ["5.0.0"] = "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
         ["6.0.0"] = "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
         ["7.0.0"] = "https://json.schemastore.org/abc-supply-plan-7.0.0.json",
-        ["8.0.0"] = "https://json.schemastore.org/abc-supply-plan-8.0.0.json"
+        ["8.0.0"] = "https://json.schemastore.org/abc-supply-plan-8.0.0.json",
+        ["9.0.0"] = "https://json.schemastore.org/abc-supply-plan-9.0.0.json"
       }
     }, {
       description = "AIConfig that is used to store generative AI prompts, models and model parameters",
@@ -6973,6 +6975,11 @@ M.json = {
       fileMatch = { ".stylua.toml", "stylua.toml" },
       name = "Stylua Config",
       url = "https://json.schemastore.org/stylua.json"
+    }, {
+      description = "Taplo configuration file",
+      fileMatch = { ".taplo.toml", "taplo.toml" },
+      name = "Taplo",
+      url = "https://json.schemastore.org/taplo.json"
     } },
   version = 1
 }
