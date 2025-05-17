@@ -1041,6 +1041,7 @@ M.json = {
     ["theme.json"] = 727,
     ["tizen_workspace.json"] = 728,
     tldr = 729,
+    ["tm_devices configuration file"] = 1065,
     tmuxinator = 808,
     ["transcend.yml"] = 739,
     ["tree-sitter grammar.json"] = 363,
@@ -7084,6 +7085,11 @@ M.json = {
       fileMatch = { ".aider.conf.yml" },
       name = "Aider",
       url = "https://json.schemastore.org/aider-0.82.json"
+    }, {
+      description = "Definition of the configuration file of the tm_devices Python package. Documentation: https://tm-devices.readthedocs.io/stable/configuration/",
+      fileMatch = { "tm_devices.yml", "tm_devices.yaml", "tm_devices.toml" },
+      name = "tm_devices configuration file",
+      url = "https://raw.githubusercontent.com/tektronix/tm_devices/main/src/tm_devices/tm_devices_config_schema.json"
     } },
   version = 1
 }
