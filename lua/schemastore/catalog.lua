@@ -170,6 +170,9 @@ M.json = {
     ["BungeeCord plugin.yml"] = 116,
     ["Butane Config"] = 900,
     C4InterFlow = 1046,
+    ["CDK Environment Manager, concrete environment configuration"] = 1069,
+    ["CDK Environment Manager, concrete environments definition"] = 1068,
+    ["CDK Environment Manager, environment definition"] = 1067,
     ["CGS Card Game Specification (cgs.json)"] = 982,
     ["CICS TS region tagging"] = 909,
     ["CICS TS resource import"] = 910,
@@ -1041,7 +1044,7 @@ M.json = {
     ["theme.json"] = 727,
     ["tizen_workspace.json"] = 728,
     tldr = 729,
-    ["tm_devices configuration file"] = 1067,
+    ["tm_devices configuration file"] = 1070,
     tmuxinator = 810,
     ["transcend.yml"] = 739,
     ["tree-sitter grammar.json"] = 363,
@@ -7106,6 +7109,21 @@ M.json = {
       fileMatch = { ".aider.conf.yml" },
       name = "Aider",
       url = "https://json.schemastore.org/aider-0.82.json"
+    }, {
+      description = "ti&m CDK Environment Manager environment definition file",
+      fileMatch = { "**/environment-definition.json", "**/environment-definition.yaml", "**/environment-definition.yml" },
+      name = "CDK Environment Manager, environment definition",
+      url = "https://json.schemastore.org/ti8m-cdk-environment-definition.json"
+    }, {
+      description = "ti&m CDK Environment Manager concrete environments definition file",
+      fileMatch = { "**/concrete-environments.json", "**/concrete-environments.yaml", "**/concrete-environments.yml" },
+      name = "CDK Environment Manager, concrete environments definition",
+      url = "https://json.schemastore.org/ti8m-cdk-concrete-environments.json"
+    }, {
+      description = "ti&m CDK Environment Manager concrete environment configuration file",
+      fileMatch = { "**/environment_config/*.json", "**/environment_config/*.yaml", "**/environment_config/*.yml" },
+      name = "CDK Environment Manager, concrete environment configuration",
+      url = "https://json.schemastore.org/ti8m-cdk-concrete-environment-config.json"
     }, {
       description = "Definition of the configuration file of the tm_devices Python package. Documentation: https://tm-devices.readthedocs.io/stable/configuration/",
       fileMatch = { "tm_devices.yml", "tm_devices.yaml", "tm_devices.toml" },
