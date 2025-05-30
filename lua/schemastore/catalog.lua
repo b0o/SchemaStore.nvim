@@ -6639,7 +6639,7 @@ M.json = {
       description = "GitLab Agent for Kubernetes configuration file",
       fileMatch = { "**/.gitlab/agents/*/config.yaml" },
       name = "GitLab Agent for Kubernetes configuration",
-      url = "https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/raw/master/pkg/agentcfg/agentcfg_schemas/ConfigurationFile.json"
+      url = "https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/raw/master/pkg/agentcfg/agentcfg_schemas/gitlab.agent.agentcfg.ConfigurationFile.jsonschema.bundle.json"
     }, {
       description = "IVMS101 format from interVASP by CODE Protocol",
       fileMatch = {},
