@@ -538,6 +538,7 @@ M.json = {
     ["Open Data Contract Standard (ODCS)"] = 539,
     ["Open Know-How"] = 1063,
     ["OpenRewrite Resource"] = 538,
+    OpenStatus = 1074,
     ["OpenUtau character yaml"] = 532,
     ["OpenUtau ustx"] = 533,
     ["OpenWeather Current Weather API"] = 864,
@@ -7146,6 +7147,11 @@ M.json = {
       fileMatch = { "tm_devices.yml", "tm_devices.yaml", "tm_devices.toml" },
       name = "tm_devices configuration file",
       url = "https://raw.githubusercontent.com/tektronix/tm_devices/main/src/tm_devices/tm_devices_config_schema.json"
+    }, {
+      description = "OpenStatus configuration file",
+      fileMatch = { "openstatus.json", "openstatus.yml", "openstatus.yaml", "openstatus.toml" },
+      name = "OpenStatus",
+      url = "https://github.com/openstatusHQ/json-schema/releases/download/v1.0.0/schema.json"
     } },
   version = 1
 }
