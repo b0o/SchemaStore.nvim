@@ -561,6 +561,7 @@ M.json = {
     ["Plex Prerolls"] = 571,
     ["PocketMine plugin.yml"] = 568,
     ["Postman collection"] = 575,
+    ["Power Pages Configuration"] = 1076,
     ["Preset list for a WinUtil"] = 1025,
     ["ProActions AI-Kit Configuration"] = 584,
     ["ProActions AI-Kit Configuration for Menus"] = 586,
@@ -1112,7 +1113,7 @@ M.json = {
   },
   schemas = { {
       description = "Upsun configuration file",
-      fileMatch = { "**/.upsun/config.yml", "**/.upsun/config.yaml" },
+      fileMatch = { "**/.upsun/*.yml", "**/.upsun/*.yaml" },
       name = "Upsun config",
       url = "https://raw.githubusercontent.com/platformsh/platformify/refs/heads/main/validator/schema/upsun.json"
     }, {
@@ -7159,6 +7160,11 @@ M.json = {
       fileMatch = { "openstatus.json", "openstatus.yml", "openstatus.yaml", "openstatus.toml" },
       name = "OpenStatus",
       url = "https://github.com/openstatusHQ/json-schema/releases/download/v1.0.0/schema.json"
+    }, {
+      description = "Power Pages configuration file for Bring Your Own Code (BYOC) sites",
+      fileMatch = { "powerpages.config.json" },
+      name = "Power Pages Configuration",
+      url = "https://json.schemastore.org/powerpages.config.json"
     } },
   version = 1
 }
