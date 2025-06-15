@@ -2729,51 +2729,63 @@ M.json = {
       url = "https://raw.githubusercontent.com/andig/evcc/master/schema.json"
     }, {
       description = "EveryVoice Text-to-Speech Toolkit Aligner Configuration",
-      fileMatch = { "everyvoice-aligner.yaml" },
+      fileMatch = { "everyvoice-aligner.yaml", "everyvoice-aligner.json" },
       name = "EveryVoice TTS Toolkit Aligner Configuration",
-      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-aligner-0.1.json",
+      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-aligner-0.3.json",
       versions = {
-        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-aligner-0.1.json"
+        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-aligner-0.1.json",
+        ["0.2"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-aligner-0.2.json",
+        ["0.3"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-aligner-0.3.json"
       }
     }, {
       description = "EveryVoice Text-to-Speech Toolkit Data Configuration",
-      fileMatch = { "everyvoice-shared-data.yaml" },
+      fileMatch = { "everyvoice-shared-data.yaml", "everyvoice-shared-data.json" },
       name = "EveryVoice TTS Toolkit Data Configuration",
-      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.1.json",
+      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.3.json",
       versions = {
-        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.1.json"
+        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.1.json",
+        ["0.2"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.2.json",
+        ["0.3"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-data-0.3.json"
       }
     }, {
       description = "EveryVoice Text-to-Speech Toolkit Text Configuration",
-      fileMatch = { "everyvoice-shared-text.yaml" },
+      fileMatch = { "everyvoice-shared-text.yaml", "everyvoice-shared-text.json" },
       name = "EveryVoice TTS Toolkit Text Configuration",
-      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-text-0.1.json",
+      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-text-0.3.json",
       versions = {
-        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-text-0.1.json"
+        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-text-0.1.json",
+        ["0.2"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-text-0.2.json",
+        ["0.3"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-shared-text-0.3.json"
       }
     }, {
       description = "EveryVoice Text-to-Speech Toolkit Vocoder Configuration",
-      fileMatch = { "everyvoice-spec-to-wav.yaml" },
+      fileMatch = { "everyvoice-spec-to-wav.yaml", "everyvoice-spec-to-wav.json" },
       name = "EveryVoice TTS Toolkit Vocoder Configuration",
-      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-spec-to-wav-0.1.json",
+      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-spec-to-wav-0.3.json",
       versions = {
-        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-spec-to-wav-0.1.json"
+        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-spec-to-wav-0.1.json",
+        ["0.2"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-spec-to-wav-0.2.json",
+        ["0.3"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-spec-to-wav-0.3.json"
       }
     }, {
       description = "EveryVoice Text-to-Speech Toolkit",
-      fileMatch = { "everyvoice-text-to-spec.yaml" },
+      fileMatch = { "everyvoice-text-to-spec.yaml", "everyvoice-text-to-spec.json" },
       name = "EveryVoice TTS Toolkit Feature Prediction Configuration",
-      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-spec-0.1.json",
+      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-spec-0.3.json",
       versions = {
-        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-spec-0.1.json"
+        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-spec-0.1.json",
+        ["0.2"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-spec-0.2.json",
+        ["0.3"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-spec-0.3.json"
       }
     }, {
       description = "EveryVoice Text-to-Speech Toolkit E2E Configuration",
-      fileMatch = { "everyvoice-text-to-wav.yaml" },
+      fileMatch = { "everyvoice-text-to-wav.yaml", "everyvoice-text-to-wav.json" },
       name = "EveryVoice TTS Toolkit E2E Configuration",
-      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-wav-0.1.json",
+      url = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-wav-0.3.json",
       versions = {
-        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-wav-0.1.json"
+        ["0.1"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-wav-0.1.json",
+        ["0.2"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-wav-0.2.json",
+        ["0.3"] = "https://raw.githubusercontent.com/EveryVoiceTTS/everyvoice/main/everyvoice/.schema/everyvoice-text-to-wav-0.3.json"
       }
     }, {
       description = "Expo SDK app manifest",
