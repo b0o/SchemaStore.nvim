@@ -429,6 +429,7 @@ M.json = {
     Jest = 406,
     Jocker = 412,
     ["Jovo Language Models"] = 413,
+    ["Jujutsu (jj) VCS config"] = 1085,
     ["KIMMDY config file"] = 436,
     ["KODE/CI build.yaml"] = 936,
     ["KSP-AVC"] = 809,
@@ -1214,7 +1215,7 @@ M.json = {
       description = "Settings for project analysis by the Application Inspector",
       fileMatch = { ".aiproj.json" },
       name = ".aiproj.json",
-      url = "https://www.schemastore.org/aiproj-1.6.json",
+      url = "https://www.schemastore.org/aiproj-1.7.json",
       versions = {
         ["1.0"] = "https://www.schemastore.org/aiproj-1.0.json",
         ["1.1"] = "https://www.schemastore.org/aiproj-1.1.json",
@@ -1222,7 +1223,8 @@ M.json = {
         ["1.3"] = "https://www.schemastore.org/aiproj-1.3.json",
         ["1.4"] = "https://www.schemastore.org/aiproj-1.4.json",
         ["1.5"] = "https://www.schemastore.org/aiproj-1.5.json",
-        ["1.6"] = "https://www.schemastore.org/aiproj-1.6.json"
+        ["1.6"] = "https://www.schemastore.org/aiproj-1.6.json",
+        ["1.7"] = "https://www.schemastore.org/aiproj-1.7.json"
       }
     }, {
       description = "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
@@ -6985,10 +6987,10 @@ M.json = {
       name = "moon.yml",
       url = "https://raw.githubusercontent.com/moonrepo/moon/master/website/static/schemas/project.json"
     }, {
-      description = "WireMock stub mapping JSON. See https://wiremock.org/docs/stubbing/",
-      fileMatch = { "wiremock-stub-mapping.yml", "wiremock-stub-mapping.yaml" },
+      description = "WireMock single or multiple stub mapping JSON. See https://wiremock.org/docs/stubbing/",
+      fileMatch = { "wiremock-stub-mapping.yml", "wiremock-stub-mapping.yaml", "stubs.json", "stub-mappings.json", "stubs.yaml", "stub-mappings.yaml" },
       name = "WireMock stub mapping",
-      url = "https://www.schemastore.org/wiremock-stub-mapping.json"
+      url = "https://raw.githubusercontent.com/wiremock/wiremock/refs/heads/master/schemas/wiremock-stub-mapping-or-mappings.json"
     }, {
       description = "An encoding workflow from a single configuration template",
       fileMatch = { "*.bitmovin.json", "*.bitmovin.yml", "*.bitmovin.yaml" },
@@ -7236,6 +7238,11 @@ M.json = {
       fileMatch = { "*.hecate.yml", "*.hecate.yaml", "*.hecate", "*.hecate.json" },
       name = "Hecate Input Schema",
       url = "https://raw.githubusercontent.com/ShaitanLyss/these/main/hecate/hecate-json-schema.json"
+    }, {
+      description = "Jujutsu (jj) configuration file",
+      fileMatch = { "**/.jj/repo/config.toml", "**/jj/config.toml" },
+      name = "Jujutsu (jj) VCS config",
+      url = "https://jj-vcs.github.io/jj/latest/config-schema.json"
     } },
   version = 1
 }
