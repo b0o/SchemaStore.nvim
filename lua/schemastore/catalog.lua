@@ -97,6 +97,7 @@ M.json = {
     ["AWS CDK cdk.json"] = 217,
     ["AWS CloudFormation"] = 218,
     ["AWS CloudFormation Serverless Application Model (SAM)"] = 219,
+    ["AWS Copilot Manifest"] = 1086,
     ["AWS SAM CLI Samconfig"] = 220,
     ["Adobe UXP Manifest"] = 988,
     ["Aerleon Network & Service Definitions"] = 13,
@@ -7243,6 +7244,11 @@ M.json = {
       fileMatch = { "**/.jj/repo/config.toml", "**/jj/config.toml" },
       name = "Jujutsu (jj) VCS config",
       url = "https://jj-vcs.github.io/jj/latest/config-schema.json"
+    }, {
+      description = "Manifest YAML files for AWS Copilot services, environments, and pipelines. Documentation: https://aws.github.io/copilot-cli/docs/manifest/overview/",
+      fileMatch = { "**/copilot/**/manifest.yml" },
+      name = "AWS Copilot Manifest",
+      url = "https://sootyowl.github.io/aws-copilot-schemas/copilot-schema.json"
     } },
   version = 1
 }
