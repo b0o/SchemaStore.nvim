@@ -4741,7 +4741,7 @@ M.json = {
       }
     }, {
       description = "Renovate configuration file. Documentation: https://docs.renovatebot.com/configuration-options",
-      fileMatch = { "renovate.json", "renovate.json5", "**/.github/renovate.json", "**/.github/renovate.json5", "**/.gitlab/renovate.json", "**/.gitlab/renovate.json5", ".renovaterc", ".renovaterc.json" },
+      fileMatch = { "renovate.json", "renovate.json5", "**/.github/renovate.json", "**/.github/renovate.json5", "**/.gitlab/renovate.json", "**/.gitlab/renovate.json5", ".renovaterc", ".renovaterc.json", ".renovaterc.json5" },
       name = "Renovate",
       url = "https://docs.renovatebot.com/renovate-schema.json"
     }, {
