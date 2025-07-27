@@ -2571,7 +2571,7 @@ M.json = {
       name = "dependabot.json",
       url = "https://www.schemastore.org/dependabot.json"
     }, {
-      description = "GitHub Action's dependabot.yml files",
+      description = "GitHub Actions' dependabot.yml files",
       fileMatch = { "**/.github/dependabot.yml", "**/.github/dependabot.yaml" },
       name = "dependabot-v2.json",
       url = "https://www.schemastore.org/dependabot-2.0.json"
@@ -2629,32 +2629,32 @@ M.json = {
       name = "Dolittle Bounded Context Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Applications.Configuration/bounded-context.json"
     }, {
-      description = "A a Dolittle bounded context's event horizon configurations",
+      description = "A Dolittle bounded context's event horizon configurations",
       fileMatch = { "**/.dolittle/event-horizons.json" },
       name = "Dolittle Event Horizons Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Events/event-horizons.json"
     }, {
-      description = "A a Dolittle bounded context's resource configurations",
+      description = "A Dolittle bounded context's resource configurations",
       fileMatch = { "**/.dolittle/resources.json" },
       name = "Dolittle Resources Configuration",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/v5.1.0/Schemas/ResourceTypes.Configuration/resources.json"
     }, {
-      description = "A a Dolittle bounded context's event horizon's interaction server configuration",
+      description = "A Dolittle bounded context's event horizon's interaction server configuration",
       fileMatch = { "**/.dolittle/server.json" },
       name = "Dolittle Server Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Server/server.json"
     }, {
-      description = "A a Dolittle bounded context's tenant configuration",
+      description = "A Dolittle bounded context's tenant configuration",
       fileMatch = { "**/.dolittle/tenants.json" },
       name = "Dolittle Tenants Configuration",
       url = "https://raw.githubusercontent.com/dolittle/Runtime/master/Schemas/Tenancy/tenants.json"
     }, {
-      description = "A a Dolittle bounded context's tenant mapping configurations",
+      description = "A Dolittle bounded context's tenant mapping configurations",
       fileMatch = { "**/.dolittle/tenant-map.json" },
       name = "Dolittle Tenant Map Configuration",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.Fundamentals/master/Schemas/Tenancy.Configuration/tenant-map.json"
     }, {
-      description = "A a Dolittle bounded context's topology",
+      description = "A Dolittle bounded context's topology",
       fileMatch = { "**/.dolittle/topology.json" },
       name = "Dolittle Topology",
       url = "https://raw.githubusercontent.com/dolittle/DotNET.SDK/master/Schemas/Applications.Configuration/topology.json"
@@ -4093,7 +4093,7 @@ M.json = {
       name = "omnisharp.json",
       url = "https://www.schemastore.org/omnisharp.json"
     }, {
-      description = "A Open API documentation files",
+      description = "An OpenAPI documentation file",
       fileMatch = { "openapi.json", "openapi.yml", "openapi.yaml" },
       name = "openapi.json",
       url = "https://spec.openapis.org/oas/3.1/schema/2022-10-07",
@@ -4102,7 +4102,7 @@ M.json = {
         ["3.1"] = "https://spec.openapis.org/oas/3.1/schema/2022-10-07"
       }
     }, {
-      description = "A OpenRPC documents. Documentation: https://open-rpc.org for more information",
+      description = "An OpenRPC document. Documentation: https://open-rpc.org for more information",
       fileMatch = { "openrpc.json", "openrpc.yml", "openrpc.yaml", "open-rpc.json", "open-rpc.yml", "open-rpc.yaml" },
       name = "openrpc.json",
       url = "https://meta.open-rpc.org/"
@@ -5885,7 +5885,7 @@ M.json = {
       name = "mtad.yaml",
       url = "https://www.schemastore.org/mtad.json"
     }, {
-      description = "A a Motif config file",
+      description = "A Motif config file",
       fileMatch = { "motif.json" },
       name = "Motif config",
       url = "https://motif.land/api/motif.schema.json"
@@ -6209,7 +6209,7 @@ M.json = {
       name = "Liquibase Flow File",
       url = "https://www.liquibase.org/json/schema/liquibase-flow-file-latest.json"
     }, {
-      description = "YAML the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or a interconnected graph of tasks. Documentation: https://cloud-pipelines.github.io/links/component_authoring_documentation",
+      description = "YAML the Kubeflow Pipelines' component.yaml files which describe a pipeline components. Component consists of input/output definitions and the description of the implementation which can either be a containerized command line program or an interconnected graph of tasks. Documentation: https://cloud-pipelines.github.io/links/component_authoring_documentation",
       fileMatch = { "component.yaml", "kfp_component.yaml", "kfp_component.json" },
       name = "Pipeline component",
       url = "https://raw.githubusercontent.com/Cloud-Pipelines/component_spec_schema/stable/component_spec.json_schema.json"
