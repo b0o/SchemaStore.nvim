@@ -703,6 +703,7 @@ M.json = {
     Taurus = 753,
     Tauticord = 754,
     Telefonistka = 1088,
+    ["Terrateam config"] = 1113,
     ["TestEnvironment.json"] = 765,
     ["TextMate Grammar"] = 764,
     Threagile = 760,
@@ -7415,6 +7416,11 @@ M.json = {
       fileMatch = { "**/copilot/**/manifest.yml" },
       name = "AWS Copilot Manifest",
       url = "https://sootyowl.github.io/aws-copilot-schemas/copilot-schema.json"
+    }, {
+      description = "Terrateam configuration file",
+      fileMatch = { "**/.terrateam/config.yaml", "**/.terrateam/config.yml" },
+      name = "Terrateam config",
+      url = "https://raw.githubusercontent.com/terrateamio/terrateam/refs/heads/main/api_schemas/terrat/config-schema.json"
     } },
   version = 1
 }
