@@ -3054,7 +3054,7 @@ M.json = {
       url = "https://www.schemastore.org/github-issue-config.json"
     }, {
       description = "YAML GitHub issue forms",
-      fileMatch = { "**/.github/ISSUE_TEMPLATE/**.yml", "**/.github/ISSUE_TEMPLATE/**.yaml" },
+      fileMatch = { "**/.github/ISSUE_TEMPLATE/!(config).yml", "**/.github/ISSUE_TEMPLATE/!(config).yaml" },
       name = "GitHub Issue Template forms",
       url = "https://www.schemastore.org/github-issue-forms.json"
     }, {
