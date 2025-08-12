@@ -6080,7 +6080,7 @@ M.json = {
       description = "The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications",
       fileMatch = { "**/docker-compose.yml", "**/docker-compose.yaml", "**/docker-compose.*.yml", "**/docker-compose.*.yaml", "**/compose.yml", "**/compose.yaml", "**/compose.*.yml", "**/compose.*.yaml" },
       name = "docker-compose.yml",
-      url = "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"
+      url = "https://raw.githubusercontent.com/compose-spec/compose-go/master/schema/compose-spec.json"
     }, {
       description = "Devinit configuration file",
       fileMatch = { "devinit.json", ".devinit.json" },
