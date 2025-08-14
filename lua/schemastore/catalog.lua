@@ -5795,7 +5795,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/wp-cli/wp-cli/refs/heads/main/schemas/wp-cli-config.json"
     }, {
       description = "Wrangler is a command-line tool for building with Cloudflare developer products",
-      fileMatch = { "wrangler.json", "wrangler.toml" },
+      fileMatch = { "wrangler.json", "wrangler.jsonc", "wrangler.toml" },
       name = "Wrangler CLI",
       url = "https://www.unpkg.com/wrangler/config-schema.json"
     }, {
