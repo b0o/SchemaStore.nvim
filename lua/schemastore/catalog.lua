@@ -452,6 +452,7 @@ M.json = {
     KrakenD = 442,
     ["Kubri Configuration"] = 449,
     LOOBin = 464,
+    ["Lake configuration file"] = 1114,
     ["Landing Zone Accelerator on AWS - Accounts Config"] = 222,
     ["Landing Zone Accelerator on AWS - Customizations Config"] = 223,
     ["Landing Zone Accelerator on AWS - Global Config"] = 224,
@@ -7421,6 +7422,11 @@ M.json = {
       fileMatch = { "**/.terrateam/config.yaml", "**/.terrateam/config.yml" },
       name = "Terrateam config",
       url = "https://raw.githubusercontent.com/terrateamio/terrateam/refs/heads/main/api_schemas/terrat/config-schema.json"
+    }, {
+      description = "`lakefile.toml`, the .toml configuration file for Lake, the package manager of the Lean programming language and theorem prover",
+      fileMatch = { "lakefile.toml" },
+      name = "Lake configuration file",
+      url = "https://raw.githubusercontent.com/leanprover/lean4/refs/heads/master/src/lake/schemas/lakefile-toml-schema.json"
     } },
   version = 1
 }
