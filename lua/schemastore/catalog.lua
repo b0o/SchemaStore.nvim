@@ -6207,7 +6207,7 @@ M.json = {
       url = "https://taskfile.dev/schema.json"
     }, {
       description = "Taskfile configuration files",
-      fileMatch = { ".taskrc.yaml", ".taskrc.yml" },
+      fileMatch = { ".taskrc.yaml", ".taskrc.yml", "taskrc.yaml", "taskrc.yml" },
       name = ".taskrc.yaml",
       url = "https://taskfile.dev/schema-taskrc.json"
     }, {
