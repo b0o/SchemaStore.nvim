@@ -620,6 +620,7 @@ M.json = {
     ["Replit config"] = 648,
     Restate = 1093,
     RoadRunner = 657,
+    ["Robust Station Image"] = 1122,
     ["Roo Coder Custom Modes"] = 659,
     Rubocop = 650,
     ["Rudder techniques"] = 1016,
@@ -1278,11 +1279,12 @@ M.json = {
       description = "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
       fileMatch = { "abc-supply-plan-*.json" },
       name = "ABCSupplyPlan",
-      url = "https://www.schemastore.org/abc-supply-plan-10.1.0.json",
+      url = "https://www.schemastore.org/abc-supply-plan-11.0.0.json",
       versions = {
         ["1.0.0"] = "https://www.schemastore.org/abc-supply-plan-1.0.0.json",
         ["10.0.0"] = "https://www.schemastore.org/abc-supply-plan-10.0.0.json",
         ["10.1.0"] = "https://www.schemastore.org/abc-supply-plan-10.1.0.json",
+        ["11.0.0"] = "https://www.schemastore.org/abc-supply-plan-11.0.0.json",
         ["2.0.0"] = "https://www.schemastore.org/abc-supply-plan-2.0.0.json",
         ["3.0.0"] = "https://www.schemastore.org/abc-supply-plan-3.0.0.json",
         ["4.0.0"] = "https://www.schemastore.org/abc-supply-plan-4.0.0.json",
@@ -7477,6 +7479,11 @@ M.json = {
       fileMatch = { "**/zarf.yaml", "**/zarf.yml" },
       name = "Zarf Package Configuration",
       url = "https://www.schemastore.org/zarf.json"
+    }, {
+      description = "Space Station 14 RSI validation",
+      fileMatch = { "**/*.rsi/meta.json" },
+      name = "Robust Station Image",
+      url = "https://raw.githubusercontent.com/space-wizards/RobustToolbox/refs/heads/master/Schemas/rsi.json"
     } },
   version = 1
 }
