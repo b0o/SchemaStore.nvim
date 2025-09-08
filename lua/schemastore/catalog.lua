@@ -307,6 +307,7 @@ M.json = {
     ["Dynamic Bash Aliases (.aliases)"] = 993,
     ["EAS config"] = 309,
     ["ES6 Import Sorter (.es6importsorterrc.json)"] = 982,
+    ["EUDR IOP Standard Exchange Format (EUDR-X)"] = 1123,
     ["EasyVCR .NET"] = 310,
     ["Eidolon Resource"] = 1068,
     ["Elgato Stream Deck"] = 295,
@@ -7484,6 +7485,15 @@ M.json = {
       fileMatch = { "**/*.rsi/meta.json" },
       name = "Robust Station Image",
       url = "https://raw.githubusercontent.com/space-wizards/RobustToolbox/refs/heads/master/Schemas/rsi.json"
+    }, {
+      description = "structured exchange of data related to the EU Deforestation Regulation (EUDR)",
+      fileMatch = { "*eudr-x.json" },
+      name = "EUDR IOP Standard Exchange Format (EUDR-X)",
+      url = "https://raw.githubusercontent.com/initiative-online-print/eudr-iop-standard-exchange-format/refs/heads/main/json/schema.json",
+      versions = {
+        ["1.0.0"] = "https://raw.githubusercontent.com/initiative-online-print/eudr-iop-standard-exchange-format/refs/tags/v1.0.0/json/schema.json",
+        ["2.0.0"] = "https://raw.githubusercontent.com/initiative-online-print/eudr-iop-standard-exchange-format/refs/tags/v2.0.0/json/schema.json"
+      }
     } },
   version = 1
 }
