@@ -144,6 +144,7 @@ M.json = {
     ["Azure IoT Edge deployment template"] = 57,
     ["Azure IoT EdgeAgent deployment"] = 54,
     ["Azure IoT EdgeHub deployment"] = 55,
+    ["Azure IoT Operations connector metadata"] = 1125,
     ["Azure Landing Zones Library archetype definition"] = 61,
     ["Azure Landing Zones Library archetype override"] = 62,
     ["Azure Landing Zones Library architecture definition"] = 60,
@@ -7499,6 +7500,13 @@ M.json = {
       versions = {
         ["1.0.0"] = "https://raw.githubusercontent.com/initiative-online-print/eudr-iop-standard-exchange-format/refs/tags/v1.0.0/json/schema.json",
         ["2.0.0"] = "https://raw.githubusercontent.com/initiative-online-print/eudr-iop-standard-exchange-format/refs/tags/v2.0.0/json/schema.json"
+      }
+    }, {
+      description = "For writing connector metadata documents to be used in Azure IoT Operations scenarios",
+      name = "Azure IoT Operations connector metadata",
+      url = "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
+      versions = {
+        ["5.0-preview"] = "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json"
       }
     } },
   version = 1
