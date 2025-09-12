@@ -326,6 +326,7 @@ M.json = {
     ["EveryVoice TTS Toolkit Feature Prediction Configuration"] = 306,
     ["EveryVoice TTS Toolkit Text Configuration"] = 304,
     ["EveryVoice TTS Toolkit Vocoder Configuration"] = 305,
+    ["Evolving Resolutive Process notation"] = 1127,
     ["Expo SDK"] = 308,
     ["F-Droid Data metadata"] = 314,
     ["FasterCI Configuration"] = 80,
@@ -2243,7 +2244,7 @@ M.json = {
       description = "A Helm Unittest Test Suite file",
       fileMatch = { "**/charts/*/tests/*.yaml" },
       name = "Helm Unittest Test Suite",
-      url = "https://raw.githubusercontent.com/helm-unittest/helm-unittest/v0.5.1/schema/helm-testsuite.json"
+      url = "https://raw.githubusercontent.com/helm-unittest/helm-unittest/refs/heads/main/schema/helm-testsuite.json"
     }, {
       description = "CircleCI config files",
       fileMatch = { "**/.circleci/config.yml" },
@@ -3109,7 +3110,7 @@ M.json = {
       description = "GitLab CI Configuration file",
       fileMatch = { "**/.gitlab-ci.yml", "**/.gitlab-ci.yaml", "**/*.gitlab-ci.yml", "**/*.gitlab-ci.yaml" },
       name = "gitlab-ci",
-      url = "https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
+      url = "https://gitlab.com/gitlab-org/gitlab-foss/-/raw/master/app/assets/javascripts/editor/schema/ci.json"
     }, {
       description = "Configuration for Gitpod Automations",
       fileMatch = { "**/.gitpod/automations.json", "**/.gitpod/automations.yaml", "**/.gitpod/automations.yml", "**/.gitpod/automation.yaml" },
@@ -7513,6 +7514,14 @@ M.json = {
       url = "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
       versions = {
         ["5.0-preview"] = "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json"
+      }
+    }, {
+      description = "For describing contradiction-based processes with storing changes and authors",
+      fileMatch = { "*.erpn.yml", "*.erpn.yaml", "*.erpn.toml", "*.erpn.json" },
+      name = "Evolving Resolutive Process notation",
+      url = "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json",
+      versions = {
+        ["1.0"] = "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json"
       }
     } },
   version = 1
