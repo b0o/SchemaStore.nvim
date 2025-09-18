@@ -2308,7 +2308,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json"
     }, {
       description = "codecov.yml files",
-      fileMatch = { ".codecov.yml", "codecov.yml" },
+      fileMatch = { "**/.github/.codecov.yml", "**/.github/codecov.yml", "**/dev/.codecov.yml", "**/dev/codecov.yml", ".codecov.yml", "codecov.yml" },
       name = "Codecov configuration files",
       url = "https://www.schemastore.org/codecov.json"
     }, {
