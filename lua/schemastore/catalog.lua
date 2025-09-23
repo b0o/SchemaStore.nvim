@@ -271,6 +271,7 @@ M.json = {
     ["Deno Config (deno.json)"] = 261,
     ["Dependency cruiser"] = 168,
     ["DeployStack Configuration"] = 169,
+    ["Deployah Configuration"] = 1131,
     ["Deployer Recipe"] = 264,
     ["Deta Spacefile"] = 170,
     ["Detekt Config (detekt.yml)"] = 265,
@@ -7543,6 +7544,14 @@ M.json = {
       url = "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json",
       versions = {
         ["1.0"] = "https://www.schemastore.org/evolving-resolutive-process-notation-1.0.json"
+      }
+    }, {
+      description = "CLI tool that makes Kubernetes deployments effortless—no Helm or K8s expertise required",
+      fileMatch = { "deployah.yaml", "deployah.yml", ".deployah.yaml", ".deployah.yml" },
+      name = "Deployah Configuration",
+      url = "https://deployah.dev/schemas/v1-alpha.1/manifest.json",
+      versions = {
+        ["v1-alpha.1"] = "https://deployah.dev/schemas/v1-alpha.1/manifest.json"
       }
     } },
   version = 1
