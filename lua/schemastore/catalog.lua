@@ -4640,7 +4640,7 @@ M.json = {
       description = "OWASP project",
       fileMatch = { "project.owasp.yaml" },
       name = "project.owasp.yaml",
-      url = "https://raw.githubusercontent.com/OWASP/Nest/main/schema/project.json"
+      url = "https://raw.githubusercontent.com/OWASP/nest-schema/main/project.json"
     }, {
       description = "Prometheus configuration file",
       fileMatch = { "prometheus.yml", "prometheus.yaml" },
