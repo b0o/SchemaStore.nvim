@@ -1608,9 +1608,9 @@ M.json = {
       description = "CV format specification",
       fileMatch = { "cv.json", "cv.yaml", "cv.yml", "cv.toml", "*.cv.json", "*.cv.yaml", "*.cv.yml", "*.cv.toml" },
       name = "CodeCV",
-      url = "https://raw.githubusercontent.com/hexagonkt/codecv/master/cv.schema.json",
+      url = "https://raw.githubusercontent.com/codecv-co/codecv/master/cv.schema.json",
       versions = {
-        ["0.9.9"] = "https://raw.githubusercontent.com/hexagonkt/codecv/0.9.9/cv.schema.json"
+        ["0.9.24"] = "https://raw.githubusercontent.com/codecv-co/codecv/0.9.24/cv.schema.json"
       }
     }, {
       description = "Transform your workflow with Codify, the ultimate configuration as code tool designed to manage local user environments",
