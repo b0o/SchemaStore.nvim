@@ -144,6 +144,7 @@ M.json = {
     ["Azure IoT Edge deployment template"] = 59,
     ["Azure IoT EdgeAgent deployment"] = 56,
     ["Azure IoT EdgeHub deployment"] = 57,
+    ["Azure IoT Operations Wasm Graph Config"] = 1137,
     ["Azure IoT Operations connector metadata"] = 1134,
     ["Azure Landing Zones Library archetype definition"] = 63,
     ["Azure Landing Zones Library archetype override"] = 64,
@@ -7584,6 +7585,13 @@ M.json = {
       url = "https://deployah.dev/schemas/v1-alpha.1/manifest.json",
       versions = {
         ["v1-alpha.1"] = "https://deployah.dev/schemas/v1-alpha.1/manifest.json"
+      }
+    }, {
+      description = "",
+      name = "Azure IoT Operations Wasm Graph Config",
+      url = "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json",
+      versions = {
+        ["1.0.0"] = "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json"
       }
     } },
   version = 1
