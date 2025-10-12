@@ -6586,7 +6586,11 @@ M.json = {
       description = "yaml clang-format config",
       fileMatch = { ".clang-format" },
       name = "clang-format (.clang-format)",
-      url = "https://www.schemastore.org/clang-format.json"
+      url = "https://www.schemastore.org/clang-format-21.x.json",
+      versions = {
+        ["18.x"] = "https://www.schemastore.org/clang-format-18.x.json",
+        ["21.x"] = "https://www.schemastore.org/clang-format-21.x.json"
+      }
     }, {
       description = "Flow catalog files. Documentation: https://github.com/estuary/flow",
       fileMatch = { "flow.yaml", "*.flow.yaml", "flow.json", "*.flow.json" },
