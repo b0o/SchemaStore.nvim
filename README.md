@@ -1,4 +1,4 @@
-# SchemaStore.nvim 
+# SchemaStore.nvim
 
 [![License: Apache 2.0](https://img.shields.io/github/license/b0o/schemastore.nvim?style=flat&color=green)](https://www.apache.org/licenses/LICENSE-2.0) [![Test Status](https://img.shields.io/github/actions/workflow/status/b0o/schemastore.nvim/test.yaml?branch=main&label=tests)](https://github.com/b0o/schemastore.nvim/actions/workflows/test.yaml) [![Build Status](https://img.shields.io/github/actions/workflow/status/b0o/schemastore.nvim/generate.yaml?branch=main)](https://github.com/b0o/schemastore.nvim/actions/workflows/generate.yaml) [![Used By LazyVim](https://img.shields.io/badge/used_by-LazyVim-blue)](https://github.com/LazyVim/LazyVim/) [![Used By LunarVim](https://img.shields.io/badge/used_by-LunarVim-blue)](https://github.com/lunarvim/lunarvim)
 
@@ -108,6 +108,8 @@ require('lspconfig').jsonls.setup {
             name = 'package.json',
             url = 'https://example.com/package.json',
           },
+          -- Or you can override just the url
+          ['package.json'] = 'https://example.com/package.json',
         },
       },
       validate = { enable = true },
