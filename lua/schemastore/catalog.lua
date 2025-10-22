@@ -631,6 +631,7 @@ M.json = {
     ["Revel Digital Gadget Definition File"] = 1129,
     RoadRunner = 666,
     ["Robust Station Image"] = 1135,
+    Rockcraft = 667,
     ["Roo Coder Custom Modes"] = 668,
     Rubocop = 659,
     ["Rudder techniques"] = 1028,
@@ -663,6 +664,7 @@ M.json = {
     ["Sigrid scope configuration file"] = 707,
     ["SkyPilot Task JSON"] = 1029,
     ["Slack app manifest"] = 711,
+    Snapcraft = 713,
     Solidarity = 716,
     ["Solution filters"] = 717,
     ["Source Maps v3"] = 718,
@@ -1064,7 +1066,6 @@ M.json = {
     ["renv.lock"] = 665,
     ["rivet.json"] = 1026,
     ["rivet.yaml (legacy)"] = 1025,
-    rockcraft = 667,
     rumdl = 670,
     runny = 669,
     rustfmt = 671,
@@ -1099,7 +1100,6 @@ M.json = {
     ["size-limit configuration"] = 710,
     ["skaffold.yaml"] = 927,
     ["skyuxconfig.json"] = 712,
-    snapcraft = 713,
     ["snowflake-config"] = 714,
     ["snowflake-connections"] = 715,
     ["spicepod.yaml"] = 1062,
@@ -1987,7 +1987,7 @@ M.json = {
       name = "Changie",
       url = "https://changie.dev/schema.json"
     }, {
-      description = "Charmcraft project. Documentation: https://canonical-charmcraft.readthedocs-hosted.com",
+      description = "Charmcraft project. Documentation: https://documentation.ubuntu.com/charmcraft/stable/",
       fileMatch = { "charmcraft.yaml" },
       name = "Charmcraft",
       url = "https://raw.githubusercontent.com/canonical/charmcraft/main/schema/charmcraft.json"
@@ -4932,9 +4932,9 @@ M.json = {
         ["3.0"] = "https://cdn.jsdelivr.net/gh/roadrunner-server/roadrunner@latest/schemas/config/3.0.schema.json"
       }
     }, {
-      description = "rockcraft project. Documentation: https://canonical-rockcraft.readthedocs-hosted.com",
-      fileMatch = { "rockcraft.yaml", "rockcraft.yml" },
-      name = "rockcraft",
+      description = "Rockcraft project. Documentation: https://documentation.ubuntu.com/rockcraft/stable/",
+      fileMatch = { "rockcraft.yaml" },
+      name = "Rockcraft",
       url = "https://raw.githubusercontent.com/canonical/rockcraft/main/schema/rockcraft.json"
     }, {
       description = "Roo Coder custom mode configuration files",
@@ -5189,10 +5189,10 @@ M.json = {
       name = "skyuxconfig.json",
       url = "https://raw.githubusercontent.com/blackbaud/skyux-config/4.x.x/skyuxconfig-schema.json"
     }, {
-      description = "snapcraft project. Documentation: https://snapcraft.io",
+      description = "Snapcraft project. Documentation: https://documentation.ubuntu.com/snapcraft/stable/",
       fileMatch = { ".snapcraft.yaml", "snapcraft.yaml" },
-      name = "snapcraft",
-      url = "https://raw.githubusercontent.com/snapcore/snapcraft/master/schema/snapcraft.json"
+      name = "Snapcraft",
+      url = "https://raw.githubusercontent.com/canonical/snapcraft/main/schema/snapcraft.json"
     }, {
       description = "Configuration file for Snowflake",
       fileMatch = { "**/.snowflake/config.toml", "**/snowflake/config.toml" },
