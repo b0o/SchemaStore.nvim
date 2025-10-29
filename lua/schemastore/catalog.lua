@@ -105,6 +105,8 @@ M.json = {
     ["Aerleon Policy"] = 14,
     Aider = 1122,
     Air = 16,
+    ["Airbyte Connector Metadata Specification (metadata.yaml)"] = 1143,
+    ["Airbyte Declarative Connectors Specification (manifest.yaml)"] = 1142,
     ["Airlock Microgateway"] = 21,
     ["Alacritty Configuration"] = 941,
     ["All Contributors configuration file"] = 994,
@@ -3472,7 +3474,7 @@ M.json = {
       description = "ioBroker JSON-based admin user interfaces - config, custom and tabs",
       fileMatch = { "jsonConfig.json", "jsonCustom.json", "jsonTab.json" },
       name = "ioBroker JSON UI",
-      url = "https://raw.githubusercontent.com/ioBroker/ioBroker.admin/master/packages/jsonConfig/schemas/jsonConfig.json"
+      url = "https://raw.githubusercontent.com/ioBroker/json-config/main/schemas/jsonConfig.json"
     }, {
       description = "ioBroker adapters io-package file",
       fileMatch = { "io-package.json" },
@@ -5159,7 +5161,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/qualisys/qualisys-schemas/master/paf-module.schema.json"
     }, {
       description = "Configuration file for sfdx-hardis Salesforce DX plugin",
-      fileMatch = { ".sfdx-hardis.yml", ".sfdx-hardis.yaml", "**/branches/.sfdx-hardis.*.yml", "**/branches/.sfdx-hardis.*.yaml" },
+      fileMatch = { ".sfdx-hardis.yml", ".sfdx-hardis.yaml", ".sfdx-hardis.*.yml", ".sfdx-hardis.*.yaml" },
       name = "sfdx-hardis configuration",
       url = "https://raw.githubusercontent.com/hardisgroupcom/sfdx-hardis/main/config/sfdx-hardis.jsonschema.json"
     }, {
@@ -7627,6 +7629,16 @@ M.json = {
       versions = {
         ["1.0.0"] = "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json"
       }
+    }, {
+      description = "Airbyte Specification for custom connectors",
+      fileMatch = { "source-*-manifest.yaml", "destination-*-manifest.yaml", "**/source-*/manifest.yaml", "**/destination-*/manifest.yaml" },
+      name = "Airbyte Declarative Connectors Specification (manifest.yaml)",
+      url = "https://raw.githubusercontent.com/airbytehq/airbyte-python-cdk/49c5a482de7bdfbaa3a68373a940b90c0690a56f/airbyte_cdk/sources/declarative/generated/declarative_component_schema.json"
+    }, {
+      description = "Airbyte Specification for custom connectors",
+      fileMatch = { "**/source-*/metadata.yaml", "**/destination-*/metadata.yaml" },
+      name = "Airbyte Connector Metadata Specification (metadata.yaml)",
+      url = "https://raw.githubusercontent.com/airbytehq/airbyte/refs/heads/master/airbyte-ci/connectors/metadata_service/lib/metadata_service/models/generated/ConnectorMetadataDefinitionV0.json"
     } },
   version = 1
 }
