@@ -3324,7 +3324,7 @@ M.json = {
     }, {
       description = "A bibliography management format for the modern age",
       name = "Hayagriva",
-      url = "https://www.schemastore.org/hayagriva.json"
+      url = "https://jassielof.github.io/json-schemas/docs/hayagriva.schema.json"
     }, {
       description = "Project Haystack data",
       fileMatch = { "*.hayson.json", "*.hayson.yaml", "*.hayson.yml" },
@@ -5675,7 +5675,7 @@ M.json = {
       description = "Typst package manifest file (typst.toml)",
       fileMatch = { "typst.toml" },
       name = "Typst Manifest",
-      url = "https://www.schemastore.org/typst.json"
+      url = "https://jassielof.github.io/json-schemas/docs/typst.schema.json"
     }, {
       description = "typos configuration file",
       fileMatch = { "typos.toml", "_typos.toml", ".typos.toml" },
