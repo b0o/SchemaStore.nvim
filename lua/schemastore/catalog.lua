@@ -1471,11 +1471,12 @@ M.json = {
       description = "Yaml for Aurora Agile Meta-Framework",
       fileMatch = { "*.aurora.yaml", "*.aurora.yml" },
       name = "Aurora Agile Meta-Framework",
-      url = "https://www.schemastore.org/aurora-1.2.json",
+      url = "https://www.schemastore.org/aurora-1.3.json",
       versions = {
         ["1.0"] = "https://www.schemastore.org/aurora-1.0.json",
         ["1.1"] = "https://www.schemastore.org/aurora-1.1.json",
-        ["1.2"] = "https://www.schemastore.org/aurora-1.2.json"
+        ["1.2"] = "https://www.schemastore.org/aurora-1.2.json",
+        ["1.3"] = "https://www.schemastore.org/aurora-1.3.json"
       }
     }, {
       description = "Avro Avsc file",
@@ -3029,7 +3030,7 @@ M.json = {
       }
     }, {
       description = "Knip configuration files",
-      fileMatch = { "knip.json", ".knip.json", "knip.jsonc", ".knip.jsonc", "knip.config.ts", "knip.config.mjs" },
+      fileMatch = { "knip.json", ".knip.json", "knip.jsonc", ".knip.jsonc" },
       name = "Knip",
       url = "https://unpkg.com/knip@5/schema.json"
     }, {
@@ -6601,7 +6602,7 @@ M.json = {
       description = "Fedora CoreOS Butane config file",
       fileMatch = { "*.bu" },
       name = "Butane Config",
-      url = "https://raw.githubusercontent.com/Relativ-IT/Butane-Schemas/Release/Butane-Schema.json"
+      url = "https://relativ-it.github.io/Butane-Schemas/Butane-Schema.json"
     }, {
       description = "Updatecli Compose file, more information on https://www.updatecli.io/docs/core/compose/",
       fileMatch = { "update-compose.yaml", "updatecli-compose.yaml" },
