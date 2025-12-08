@@ -1675,7 +1675,7 @@ M.json = {
       description = "Configuration for IaC managed resources in Cloud.gov Workshop",
       fileMatch = { "cg-workshop.yml", "**/cg-workshop/*.yml" },
       name = "Cloud.gov Workshop Configuration",
-      url = "https://workshop.cloud.gov/workshop/workshop-schemas/-/raw/main/cg-workhshop.schema.json"
+      url = "https://workshop.cloud.gov/workshop/workshop-schemas/-/raw/main/cg-workshop.schema.json"
     }, {
       description = "cmdx configuration file",
       fileMatch = { ".cmdx.yaml", ".cmdx.yml", "cmdx.yaml", "cmdx.yml" },
