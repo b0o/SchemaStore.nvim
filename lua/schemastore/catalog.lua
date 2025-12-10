@@ -4370,13 +4370,7 @@ M.json = {
       description = "An OpenAPI documentation file",
       fileMatch = { "openapi.json", "openapi.yml", "openapi.yaml" },
       name = "openapi.json",
-      url = "https://spec.openapis.org/oas/3.1/schema/2025-09-15",
-      versions = {
-        ["2.0"] = "https://spec.openapis.org/oas/2.0/schema/2017-08-27",
-        ["3.0"] = "https://spec.openapis.org/oas/3.0/schema/2024-10-18",
-        ["3.1"] = "https://spec.openapis.org/oas/3.1/schema/2025-09-15",
-        ["3.2"] = "https://spec.openapis.org/oas/3.2/schema/2025-09-17"
-      }
+      url = "https://www.schemastore.org/openapi-3.X.json"
     }, {
       description = "An OpenRPC document. Documentation: https://open-rpc.org for more information",
       fileMatch = { "openrpc.json", "openrpc.yml", "openrpc.yaml", "open-rpc.json", "open-rpc.yml", "open-rpc.yaml" },
@@ -5624,7 +5618,7 @@ M.json = {
       description = "Swagger API 2.0",
       fileMatch = { "swagger.json" },
       name = "Swagger API 2.0",
-      url = "https://www.schemastore.org/swagger-2.0.json"
+      url = "https://spec.openapis.org/oas/2.0/schema/2017-08-27"
     }, {
       description = "Synadia Connect component definition",
       fileMatch = { "**/.connect/scanners/*.yml", "**/.connect/sources/*.yml", "**/.connect/sinks/*.yml" },
