@@ -1316,7 +1316,7 @@ M.json = {
       description = "Settings for project analysis by the Application Inspector",
       fileMatch = { ".aiproj.json" },
       name = ".aiproj.json",
-      url = "https://www.schemastore.org/aiproj-1.8.json",
+      url = "https://www.schemastore.org/aiproj-1.9.json",
       versions = {
         ["1.0"] = "https://www.schemastore.org/aiproj-1.0.json",
         ["1.1"] = "https://www.schemastore.org/aiproj-1.1.json",
@@ -1326,7 +1326,8 @@ M.json = {
         ["1.5"] = "https://www.schemastore.org/aiproj-1.5.json",
         ["1.6"] = "https://www.schemastore.org/aiproj-1.6.json",
         ["1.7"] = "https://www.schemastore.org/aiproj-1.7.json",
-        ["1.8"] = "https://www.schemastore.org/aiproj-1.8.json"
+        ["1.8"] = "https://www.schemastore.org/aiproj-1.8.json",
+        ["1.9"] = "https://www.schemastore.org/aiproj-1.9.json"
       }
     }, {
       description = "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
