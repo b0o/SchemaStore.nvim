@@ -6724,12 +6724,12 @@ M.json = {
       description = "Shopware CLI Extension Store Configuration",
       fileMatch = { ".shopware-extension.yml", ".shopware-extension.yaml" },
       name = "Shopware CLI Extension Store Configuration",
-      url = "https://raw.githubusercontent.com/shopware/shopware-cli/main/extension/shopware-extension-schema.json"
+      url = "https://raw.githubusercontent.com/shopware/shopware-cli/main/shopware-extension-schema.json"
     }, {
       description = "Shopware CLI Project Store Configuration",
       fileMatch = { ".shopware-project.yml", ".shopware-project.yaml" },
       name = "Shopware CLI Project Store Configuration",
-      url = "https://raw.githubusercontent.com/shopware/shopware-cli/main/shop/shopware-project-schema.json"
+      url = "https://raw.githubusercontent.com/shopware/shopware-cli/main/shopware-project-schema.json"
     }, {
       description = "A standard qodana.yaml (or qodana.yml) format for Qodana configuration. Documentation: https://jetbrains.com/qodana",
       fileMatch = { "qodana.yaml", "qodana.yml" },
