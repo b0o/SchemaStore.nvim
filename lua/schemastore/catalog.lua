@@ -3165,7 +3165,7 @@ M.json = {
       description = "Configuration for KSail",
       fileMatch = { "ksail-*.yaml", "ksail-*.yml", "ksail_*.yaml", "ksail_*.yml", "ksail.*.yaml", "ksail.*.yml", "*-ksail.yaml", "*-ksail.yml", "*_ksail.yaml", "*_ksail.yml", "*.ksail.yaml", "*.ksail.yml", "ksail.yaml", "ksail.yml" },
       name = "KSail",
-      url = "https://raw.githubusercontent.com/devantler/ksail/refs/heads/main/schemas/ksail-cluster-schema.json"
+      url = "https://raw.githubusercontent.com/devantler-tech/ksail/refs/heads/main/schemas/ksail-config.schema.json"
     }, {
       description = "Azure Functions function.json files",
       fileMatch = { "function.json" },
