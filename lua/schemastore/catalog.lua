@@ -212,6 +212,7 @@ M.json = {
     ["Chamaleon environment"] = 1122,
     ["Chamaleon properties"] = 1123,
     ["Chamaleon template"] = 1121,
+    Changepacks = 1183,
     Changesets = 253,
     Changie = 155,
     Charmcraft = 156,
@@ -7888,6 +7889,11 @@ M.json = {
         v1alpha1 = "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1alpha1_PipelineRun.json",
         v1beta1 = "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1beta1_PipelineRun.json"
       }
+    }, {
+      description = "Changepacks are a way to package changes to a project",
+      fileMatch = { "**/.changepacks/config.json" },
+      name = "Changepacks",
+      url = "https://www.schemastore.org/changepacks.json"
     } },
   version = 1
 }
