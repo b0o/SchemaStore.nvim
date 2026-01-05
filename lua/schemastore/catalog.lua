@@ -212,7 +212,7 @@ M.json = {
     ["Chamaleon environment"] = 1123,
     ["Chamaleon properties"] = 1124,
     ["Chamaleon template"] = 1122,
-    Changepacks = 1184,
+    Changepacks = 1185,
     Changesets = 253,
     Changie = 155,
     Charmcraft = 156,
@@ -299,7 +299,7 @@ M.json = {
     ["Devbox Config"] = 191,
     ["Devbox Plugin"] = 192,
     Devfile = 309,
-    Devup = 1185,
+    Devup = 1186,
     DipDup = 1098,
     ["Discord Webhook"] = 286,
     ["DocFx Config (docfx.json)"] = 290,
@@ -1217,6 +1217,7 @@ M.json = {
     ["xs-app.json"] = 902,
     ["xunit.runner.json"] = 887,
     yamllint = 930,
+    zizmor = 1184,
     zuul = 913,
     ["Žinoma"] = 923
   },
@@ -7897,6 +7898,11 @@ M.json = {
         v1alpha1 = "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1alpha1_PipelineRun.json",
         v1beta1 = "https://raw.githubusercontent.com/redhat-developer/vscode-tekton/refs/heads/main/scheme/tekton.dev/v1beta1_PipelineRun.json"
       }
+    }, {
+      description = "Configuration file for zizmor, a static analysis tool for GitHub Actions",
+      fileMatch = { "**/zizmor.yml", "**/zizmor.yaml", "**/.github/zizmor.yml", "**/.github/zizmor.yaml" },
+      name = "zizmor",
+      url = "https://raw.githubusercontent.com/woodruffw/zizmor/main/support/zizmor.schema.json"
     }, {
       description = "Changepacks are a way to package changes to a project",
       fileMatch = { "**/.changepacks/config.json" },
