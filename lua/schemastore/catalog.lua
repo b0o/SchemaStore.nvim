@@ -809,6 +809,9 @@ M.json = {
     ["Vela Pipeline Configuration"] = 858,
     Vercel = 231,
     ["Version Bumper config"] = 861,
+    Vespertide = 1191,
+    ["Vespertide Migration"] = 1192,
+    ["Vespertide Model"] = 1193,
     ["Viash Component Config"] = 1146,
     ["Viash Package Config"] = 1147,
     Visivo = 1053,
@@ -7937,6 +7940,21 @@ M.json = {
       fileMatch = { "devup.json" },
       name = "Devup",
       url = "https://www.schemastore.org/devup.json"
+    }, {
+      description = "Vespertide configuration",
+      fileMatch = { "**/vespertide.json" },
+      name = "Vespertide",
+      url = "https://www.schemastore.org/vespertide.json"
+    }, {
+      description = "Vespertide migration file",
+      fileMatch = { "**/migrations/**/*.vespertide.json", "**/migrations/**/*.vespertide.yaml", "**/migrations/**/*.vespertide.yml" },
+      name = "Vespertide Migration",
+      url = "https://www.schemastore.org/vespertide-migration.json"
+    }, {
+      description = "Vespertide model file",
+      fileMatch = { "**/models/**/*.vespertide.json", "**/models/**/*.vespertide.yaml", "**/models/**/*.vespertide.yml" },
+      name = "Vespertide Model",
+      url = "https://www.schemastore.org/vespertide-model.json"
     } },
   version = 1
 }
