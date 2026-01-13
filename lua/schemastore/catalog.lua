@@ -1199,6 +1199,7 @@ M.json = {
     ["ui5-workspace.yaml"] = 854,
     ["ui5.yaml"] = 853,
     unist = 986,
+    unqueryvet = 1200,
     ["up.json"] = 851,
     uv = 858,
     v8r = 879,
@@ -7994,6 +7995,11 @@ M.json = {
       versions = {
         ["5.1"] = "https://www.schemastore.org/openhab-5.1.json"
       }
+    }, {
+      description = "Configuration for unqueryvet - a Go linter for SQL queries",
+      fileMatch = { ".unqueryvet.yaml", ".unqueryvet.yml" },
+      name = "unqueryvet",
+      url = "https://raw.githubusercontent.com/MirrexOne/unqueryvet/main/schema.json"
     } },
   version = 1
 }
