@@ -1254,7 +1254,7 @@ M.json = {
       description = "Upsun configuration file",
       fileMatch = { "**/.upsun/*.yml", "**/.upsun/*.yaml" },
       name = "Upsun config",
-      url = "https://raw.githubusercontent.com/platformsh/platformify/refs/heads/main/validator/schema/upsun.json"
+      url = "https://meta.upsun.com/schema/upsun"
     }, {
       description = "Platform.sh application configuration file",
       fileMatch = { ".platform.app.yml", ".platform.app.yaml", "**/.platform.app.yml" },
