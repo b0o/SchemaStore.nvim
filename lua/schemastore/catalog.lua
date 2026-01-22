@@ -1084,6 +1084,7 @@ M.json = {
     ["pattern.json"] = 619,
     ["petstore-v1.0"] = 1022,
     pgap_yaml_input_reader = 618,
+    pgxgen = 1203,
     ["pixi.toml"] = 620,
     ["plagiarize-me.yaml"] = 624,
     ["plagiarize.yaml"] = 623,
@@ -8021,6 +8022,11 @@ M.json = {
       fileMatch = { "bento.json", "bento.yml", "bento.yaml" },
       name = "Bento",
       url = "https://raw.githubusercontent.com/warpstreamlabs/bento/refs/heads/main/resources/schemastore/bento.json"
+    }, {
+      description = "pgxgen configuration file",
+      fileMatch = { "pgxgen.yml", "pgxgen.yaml" },
+      name = "pgxgen",
+      url = "https://raw.githubusercontent.com/tkcrm/pgxgen/refs/heads/master/schemas/pgxgen-schema.json"
     } },
   version = 1
 }
