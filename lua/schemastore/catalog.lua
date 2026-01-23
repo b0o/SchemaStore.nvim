@@ -5241,7 +5241,7 @@ M.json = {
       description = "Configuration file for rumdl, a fast Markdown linter and formatter",
       fileMatch = { ".rumdl.toml", "rumdl.toml" },
       name = "rumdl",
-      url = "https://raw.githubusercontent.com/rvben/rumdl/main/rumdl.schema.json"
+      url = "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/rumdl.json"
     }, {
       description = "rustfmt, a tool to format Rust code",
       fileMatch = { "rustfmt.toml" },
