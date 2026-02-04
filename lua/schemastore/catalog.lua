@@ -1094,6 +1094,7 @@ M.json = {
     ["petstore-v1.0"] = 1028,
     pgap_yaml_input_reader = 623,
     pgxgen = 1210,
+    pitcms = 1213,
     ["pixi.toml"] = 625,
     ["plagiarize-me.yaml"] = 629,
     ["plagiarize.yaml"] = 628,
@@ -8088,6 +8089,11 @@ M.json = {
       description = "define HOW Espanso acts",
       name = "Espanso config.yml",
       url = "https://raw.githubusercontent.com/espanso/espanso/refs/heads/dev/schemas/config.schema.json"
+    }, {
+      description = "Configuration file for pitcms - a Git-based headless CMS",
+      fileMatch = { "pitcms.json", "pitcms.jsonc" },
+      name = "pitcms",
+      url = "https://pitcms.net/schema/pitcms.schema.json"
     } },
   version = 1
 }
