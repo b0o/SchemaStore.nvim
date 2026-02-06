@@ -181,6 +181,7 @@ M.json = {
     BizTalkServerApplicationSchema = 925,
     Bleep = 154,
     ["Block Protocol Metadata"] = 151,
+    ["Bluebricks blueprint config"] = 1216,
     ["Boyka Framework"] = 134,
     Briefcase = 931,
     ["Build Info"] = 142,
@@ -8106,6 +8107,11 @@ M.json = {
       fileMatch = { "pitcms.json", "pitcms.jsonc" },
       name = "pitcms",
       url = "https://pitcms.net/schema/pitcms.schema.json"
+    }, {
+      description = "Bluebricks config for blueprints",
+      fileMatch = { "bricks.json", "bricks.yaml" },
+      name = "Bluebricks blueprint config",
+      url = "https://api.bluebricks.co/docs/schemas/latest/bricks.schema.json"
     } },
   version = 1
 }
