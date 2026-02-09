@@ -94,6 +94,9 @@ require('lspconfig').jsonls.setup {
 Note that the `select` and `ignore` options are mutually exclusive and
 attempting to use them together will throw an error.
 
+When using `select` with `extra`, schemas from `extra` are not automatically 
+included—you must explicitly list them in the `select` array.
+
 To replace certain schemas from the catalog with your own:
 
 ```lua
