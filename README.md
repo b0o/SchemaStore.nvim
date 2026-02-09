@@ -146,6 +146,34 @@ require('lspconfig').jsonls.setup {
 }
 ```
 
+**Note:** When using `select` together with `extra`, schemas from `extra` are not
+automatically included in the result. You must explicitly list them in the `select`
+array if you want them to be included:
+
+```lua
+require('lspconfig').jsonls.setup {
+  settings = {
+    json = {
+      schemas = require('schemastore').json.schemas {
+        select = {
+          'package.json',
+          'foo.json', -- extra schema must be listed here
+        },
+        extra = {
+          {
+            description = 'My custom JSON schema',
+            fileMatch = 'foo.json',
+            name = 'foo.json',
+            url = 'https://example.com/schema/foo.json',
+          },
+        },
+      },
+      validate = { enable = true },
+    },
+  },
+}
+```
+
 To use a local schema file, specify the path using the `file://` scheme or plain file paths:
 
 ```lua
