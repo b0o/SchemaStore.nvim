@@ -94,6 +94,9 @@ require('lspconfig').jsonls.setup {
 Note that the `select` and `ignore` options are mutually exclusive and
 attempting to use them together will throw an error.
 
+When using `select` with `extra`, schemas from `extra` are not automatically 
+included—you must explicitly list them in the `select` array.
+
 To replace certain schemas from the catalog with your own:
 
 ```lua
@@ -137,34 +140,6 @@ require('lspconfig').jsonls.setup {
             fileMatch = { 'bar.json', '.baar.json' },
             name = 'bar.json',
             url = 'https://example.com/schema/bar.json',
-          },
-        },
-      },
-      validate = { enable = true },
-    },
-  },
-}
-```
-
-**Note:** When using `select` together with `extra`, schemas from `extra` are not
-automatically included in the result. You must explicitly list them in the `select`
-array if you want them to be included:
-
-```lua
-require('lspconfig').jsonls.setup {
-  settings = {
-    json = {
-      schemas = require('schemastore').json.schemas {
-        select = {
-          'package.json',
-          'foo.json', -- extra schema must be listed here
-        },
-        extra = {
-          {
-            description = 'My custom JSON schema',
-            fileMatch = 'foo.json',
-            name = 'foo.json',
-            url = 'https://example.com/schema/foo.json',
           },
         },
       },
