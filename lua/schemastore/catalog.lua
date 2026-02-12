@@ -522,6 +522,7 @@ M.json = {
     ["MS2Rescore Configuration"] = 549,
     ["Madness (madness.yml)"] = 1045,
     ["Mado configuration"] = 512,
+    ["Mail Servers Configuration"] = 1217,
     ["MapEHR Mapping"] = 513,
     Markdownlint = 976,
     ["Mason Registry"] = 979,
@@ -8112,6 +8113,11 @@ M.json = {
       fileMatch = { "bricks.json", "bricks.yaml" },
       name = "Bluebricks blueprint config",
       url = "https://api.bluebricks.co/docs/schemas/latest/bricks.schema.json"
+    }, {
+      description = "Configuration for mail servers across different domains",
+      fileMatch = { "mail-servers-config.json", "mail-servers-config.jsonc", "mail-servers-config.json5", "*.mail-servers-config.json", "*.mail-servers-config.jsonc", "*.mail-servers-config.json5", "**/mail-servers-config.json", "**/mail-servers-config.jsonc", "**/mail-servers-config.json5" },
+      name = "Mail Servers Configuration",
+      url = "https://www.schemastore.org/mail-servers-config.json"
     } },
   version = 1
 }
