@@ -1090,6 +1090,8 @@ M.json = {
     ["openrpc.json"] = 590,
     ["ops.yaml"] = 594,
     ["overlay.json"] = 589,
+    oxfmt = 1220,
+    oxlint = 1221,
     ["package.json"] = 619,
     ["package.manifest"] = 621,
     ["package.yaml"] = 620,
@@ -8131,6 +8133,16 @@ M.json = {
       fileMatch = { "mail-servers-config.json", "mail-servers-config.jsonc", "mail-servers-config.json5", "*.mail-servers-config.json", "*.mail-servers-config.jsonc", "*.mail-servers-config.json5", "**/mail-servers-config.json", "**/mail-servers-config.jsonc", "**/mail-servers-config.json5" },
       name = "Mail Servers Configuration",
       url = "https://www.schemastore.org/mail-servers-config.json"
+    }, {
+      description = "Configuration file for Oxfmt, a high-performance formatter for the JavaScript ecosystem",
+      fileMatch = { ".oxfmtrc.json" },
+      name = "oxfmt",
+      url = "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxfmt/configuration_schema.json"
+    }, {
+      description = "Configuration file for Oxlint, a high-performance linter for JavaScript and TypeScript built on the Oxc compiler stack",
+      fileMatch = { ".oxlintrc.json" },
+      name = "oxlint",
+      url = "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxlint/configuration_schema.json"
     } },
   version = 1
 }
