@@ -8018,9 +8018,10 @@ M.json = {
     }, {
       description = "",
       name = "Azure IoT Operations Wasm Graph Config",
-      url = "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json",
+      url = "https://www.schemastore.org/aio-wasm-graph-config-1.1.0.json",
       versions = {
-        ["1.0.0"] = "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json"
+        ["1.0.0"] = "https://www.schemastore.org/aio-wasm-graph-config-1.0.0.json",
+        ["1.1.0"] = "https://www.schemastore.org/aio-wasm-graph-config-1.1.0.json"
       }
     }, {
       description = "Airbyte Specification for custom connectors",
