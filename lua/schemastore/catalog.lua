@@ -1197,6 +1197,7 @@ M.json = {
     taskcat = 931,
     ["template.json"] = 828,
     ["templatsources.json"] = 829,
+    ["text2confl config"] = 1228,
     ["theme.json"] = 832,
     ["tizen_workspace.json"] = 834,
     tldr = 835,
@@ -8182,6 +8183,11 @@ M.json = {
       fileMatch = { ".oxlintrc.json" },
       name = "oxlint",
       url = "https://raw.githubusercontent.com/oxc-project/oxc/refs/heads/main/npm/oxlint/configuration_schema.json"
+    }, {
+      description = "Configuration file for Text2Confl - tool to publish Markdown and Asciidoctor files to Confluence",
+      fileMatch = { "**/.text2confl.yaml", "**/.text2confl.yml", "**/text2confl.yaml", "**/text2confl.yml" },
+      name = "text2confl config",
+      url = "https://raw.githubusercontent.com/zeldigas/text2confl/refs/heads/master/docs/config.schema.json"
     } },
   version = 1
 }
