@@ -1404,13 +1404,14 @@ M.json = {
       description = "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
       fileMatch = { "abc-inventory-module-data-*.json" },
       name = "ABCInventoryModuleData",
-      url = "https://www.schemastore.org/abc-inventory-module-data-5.1.0.json",
+      url = "https://www.schemastore.org/abc-inventory-module-data-5.2.0.json",
       versions = {
         ["1.0.0"] = "https://www.schemastore.org/abc-inventory-module-data-1.0.0.json",
         ["2.0.0"] = "https://www.schemastore.org/abc-inventory-module-data-2.0.0.json",
         ["3.0.0"] = "https://www.schemastore.org/abc-inventory-module-data-3.0.0.json",
         ["4.0.0"] = "https://www.schemastore.org/abc-inventory-module-data-4.0.0.json",
-        ["5.1.0"] = "https://www.schemastore.org/abc-inventory-module-data-5.1.0.json"
+        ["5.1.0"] = "https://www.schemastore.org/abc-inventory-module-data-5.1.0.json",
+        ["5.2.0"] = "https://www.schemastore.org/abc-inventory-module-data-5.2.0.json"
       }
     }, {
       description = "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
