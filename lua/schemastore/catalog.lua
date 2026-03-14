@@ -3367,7 +3367,7 @@ M.json = {
       description = "Configuration file for GitVersion",
       fileMatch = { "GitVersion.yml", "GitVersion.yaml", ".gitversion.yml", ".gitversion.yaml" },
       name = "GitVersion",
-      url = "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
+      url = "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
       versions = {
         ["5.12"] = "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
         ["6.0"] = "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
@@ -3375,7 +3375,8 @@ M.json = {
         ["6.2"] = "https://gitversion.net/schemas/6.2/GitVersion.configuration.json",
         ["6.3"] = "https://gitversion.net/schemas/6.3/GitVersion.configuration.json",
         ["6.4"] = "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
-        ["6.5"] = "https://gitversion.net/schemas/6.5/GitVersion.configuration.json"
+        ["6.5"] = "https://gitversion.net/schemas/6.5/GitVersion.configuration.json",
+        ["6.6"] = "https://gitversion.net/schemas/6.6/GitVersion.configuration.json"
       }
     }, {
       description = "YAML configuring Gitea Issue Templates",
@@ -6954,7 +6955,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/shopware/shopware-cli/main/shopware-extension-schema.json"
     }, {
       description = "Shopware CLI Project Store Configuration",
-      fileMatch = { ".shopware-project.yml", ".shopware-project.yaml" },
+      fileMatch = { ".shopware-project.yml", ".shopware-project.yaml", ".shopware-project.local.yml", ".shopware-project.local.yaml" },
       name = "Shopware CLI Project Store Configuration",
       url = "https://raw.githubusercontent.com/shopware/shopware-cli/main/shopware-project-schema.json"
     }, {
