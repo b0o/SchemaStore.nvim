@@ -110,6 +110,7 @@ M.json = {
     ["Adobe UXP Manifest"] = 1096,
     ["Aerleon Network & Service Definitions"] = 20,
     ["Aerleon Policy"] = 21,
+    ["AgentCore CLI"] = 1241,
     Aider = 1191,
     Air = 23,
     ["Airbyte Connector Metadata Specification (metadata.yaml)"] = 1212,
@@ -8271,6 +8272,14 @@ M.json = {
       fileMatch = { "*.nexusrpc.yaml", "*.nexusrpc.yml" },
       name = "nexus-rpc-gen",
       url = "https://raw.githubusercontent.com/nexus-rpc/nexus-rpc-gen/main/schemas/nexus-rpc-gen.json"
+    }, {
+      description = "Configuration file for Amazon Bedrock AgentCore CLI projects",
+      fileMatch = { "**/agentcore/agentcore.json" },
+      name = "AgentCore CLI",
+      url = "https://schema.agentcore.aws.dev/v1/agentcore.json",
+      versions = {
+        ["1.0"] = "https://schema.agentcore.aws.dev/v1/agentcore.json"
+      }
     } },
   version = 1
 }
