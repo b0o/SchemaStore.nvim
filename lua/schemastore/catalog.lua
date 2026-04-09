@@ -675,6 +675,7 @@ M.json = {
     ["Qt Creator workspace file"] = 1125,
     ["Quali Torque Blueprint Spec 2"] = 1040,
     ["QueryFirst config file"] = 1059,
+    ["Qwen Code Settings"] = 1249,
     ["RKE Cluster Configuration JSON"] = 993,
     ["RKE Cluster Configuration YAML"] = 992,
     RadioHound = 696,
@@ -8328,6 +8329,11 @@ M.json = {
       description = "ERC-1155 Multi Token Standard",
       name = "Ethereum ERC1155",
       url = "https://www.schemastore.org/ethereum-erc1155.json"
+    }, {
+      description = "Configuration file for Qwen Code",
+      fileMatch = { "**/.qwen/settings.json" },
+      name = "Qwen Code Settings",
+      url = "https://www.schemastore.org/qwen-code-settings.json"
     } },
   version = 1
 }
