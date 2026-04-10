@@ -679,6 +679,8 @@ M.json = {
     ["RKE Cluster Configuration JSON"] = 994,
     ["RKE Cluster Configuration YAML"] = 993,
     RadioHound = 697,
+    ["Raid Profile"] = 1251,
+    ["Raid Repo Configuration"] = 1252,
     Railpack = 709,
     Railway = 708,
     ["Rancher Fleet"] = 699,
@@ -8340,6 +8342,16 @@ M.json = {
       fileMatch = { "**/.qwen/settings.json" },
       name = "Qwen Code Settings",
       url = "https://www.schemastore.org/qwen-code-settings.json"
+    }, {
+      description = "Definition for one or more Raid Profiles",
+      fileMatch = { "*.raid.yaml", "*.raid.yml", "*.raid.json" },
+      name = "Raid Profile",
+      url = "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-profile.schema.json"
+    }, {
+      description = "Definition for a single repository",
+      fileMatch = { "raid.yaml", "raid.yml", "raid.json" },
+      name = "Raid Repo Configuration",
+      url = "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-repo.schema.json"
     } },
   version = 1
 }
