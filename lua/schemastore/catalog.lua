@@ -3432,7 +3432,7 @@ M.json = {
       description = "Configuration file for GitVersion",
       fileMatch = { "GitVersion.yml", "GitVersion.yaml", ".gitversion.yml", ".gitversion.yaml" },
       name = "GitVersion",
-      url = "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
+      url = "https://gitversion.net/schemas/6.7/GitVersion.configuration.json",
       versions = {
         ["5.12"] = "https://gitversion.net/schemas/5.12/GitVersion.configuration.json",
         ["6.0"] = "https://gitversion.net/schemas/6.0/GitVersion.configuration.json",
@@ -3441,7 +3441,8 @@ M.json = {
         ["6.3"] = "https://gitversion.net/schemas/6.3/GitVersion.configuration.json",
         ["6.4"] = "https://gitversion.net/schemas/6.4/GitVersion.configuration.json",
         ["6.5"] = "https://gitversion.net/schemas/6.5/GitVersion.configuration.json",
-        ["6.6"] = "https://gitversion.net/schemas/6.6/GitVersion.configuration.json"
+        ["6.6"] = "https://gitversion.net/schemas/6.6/GitVersion.configuration.json",
+        ["6.7"] = "https://gitversion.net/schemas/6.7/GitVersion.configuration.json"
       }
     }, {
       description = "YAML configuring Gitea Issue Templates",
