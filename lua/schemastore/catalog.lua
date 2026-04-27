@@ -3296,10 +3296,10 @@ M.json = {
       name = "EAS config",
       url = "https://raw.githubusercontent.com/expo/eas-cli/main/packages/eas-json/schema/eas.schema.json"
     }, {
-      description = "The config for creating a React Native Desktop app with best-effort Expo support, used by the create-expoot CLI",
+      description = "The config for creating a React Native Desktop app with best-effort Expo support, used by the expoot CLI",
       fileMatch = { "expoot-app.json" },
       name = "Expoot app config",
-      url = "https://raw.githubusercontent.com/shirakaba/expoot/main/packages/create-expoot/schemas/app-config.json"
+      url = "https://raw.githubusercontent.com/shirakaba/expoot/main/packages/expoot/schemas/expoot-app.schema.json"
     }, {
       description = "EasyVCR .NET recording file",
       fileMatch = { "*.easyvcr", "**/cassettes/*.json" },
