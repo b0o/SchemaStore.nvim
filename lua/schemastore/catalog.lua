@@ -624,6 +624,8 @@ M.json = {
     ["Open Data Contract Standard (ODCS)"] = 624,
     ["Open Data Product Standard (ODPS)"] = 625,
     ["Open Know-How"] = 1202,
+    OpenDecree = 1264,
+    ["OpenDecree Configuration"] = 1265,
     ["OpenRewrite Resource"] = 622,
     OpenSRM = 626,
     OpenStatus = 1213,
@@ -6264,7 +6266,7 @@ M.json = {
       url = "https://www.schemastore.org/typingsrc.json"
     }, {
       description = "Settings file for Ubuntu Autoinstall",
-      fileMatch = { "user-data" },
+      fileMatch = { "user-data", "autoinstall.yaml" },
       name = "Ubuntu Server Autoinstall",
       url = "https://www.schemastore.org/ubuntu-server-autoinstall.json"
     }, {
@@ -8419,6 +8421,22 @@ M.json = {
       fileMatch = { "raid.yaml", "raid.yml", "raid.json" },
       name = "Raid Repo Configuration",
       url = "https://raw.githubusercontent.com/8bitAlex/raid/main/schemas/raid-repo.schema.json"
+    }, {
+      description = "OpenDecree definition file (https://opendecree.dev) — describes typed configuration fields, constraints, and metadata that the OpenDecree configuration management service serves to applications",
+      fileMatch = { "decree.schema.yaml", "decree.schema.yml", "*.decree.schema.yaml", "*.decree.schema.yml" },
+      name = "OpenDecree",
+      url = "https://schemas.opendecree.dev/schema/v0.1.0/decree-schema.json",
+      versions = {
+        ["v0.1.0"] = "https://schemas.opendecree.dev/schema/v0.1.0/decree-schema.json"
+      }
+    }, {
+      description = "OpenDecree configuration values file (https://opendecree.dev) — concrete values for fields declared in a paired main decree yaml",
+      fileMatch = { "decree.config.yaml", "decree.config.yml", "*.decree.config.yaml", "*.decree.config.yml" },
+      name = "OpenDecree Configuration",
+      url = "https://schemas.opendecree.dev/schema/v0.1.0/decree-config.json",
+      versions = {
+        ["v0.1.0"] = "https://schemas.opendecree.dev/schema/v0.1.0/decree-config.json"
+      }
     } },
   version = 1
 }
