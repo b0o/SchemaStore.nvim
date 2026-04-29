@@ -32,7 +32,7 @@
 local M = {}
 
 M.json = {
-  ["$schema"] = "https://json.schemastore.org/schema-catalog.json",
+  ["$schema"] = "https://www.schemastore.org/schema-catalog.json",
   index = {
     ["*.jsonld"] = 489,
     ["*.resjson"] = 736,
