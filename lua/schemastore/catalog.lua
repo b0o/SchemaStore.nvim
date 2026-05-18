@@ -1201,6 +1201,7 @@ M.json = {
     ["rivet.yaml (legacy)"] = 1118,
     rumdl = 759,
     runny = 758,
+    runspec = 1280,
     rustfmt = 760,
     ryl = 761,
     sake = 1211,
@@ -8534,6 +8535,11 @@ M.json = {
         ["0.1"] = "https://memnex.org/schema/v0.1/meeting-output.schema.json",
         ["0.2"] = "https://memnex.org/schema/v0.2/meeting-output.schema.json"
       }
+    }, {
+      description = "Interface specification for anything runnable — scripts, apps, and MCP tools",
+      fileMatch = { "runspec.toml" },
+      name = "runspec",
+      url = "https://raw.githubusercontent.com/JasonFinestone/runspec/main/schema/runspec.schema.json"
     } },
   version = 1
 }
