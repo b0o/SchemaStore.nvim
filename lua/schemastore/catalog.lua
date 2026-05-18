@@ -3883,7 +3883,9 @@ M.json = {
         ["1.8"] = "https://ifstate.net/schema/1.8/ifstate.conf.schema.json",
         ["1.9"] = "https://ifstate.net/schema/1.9/ifstate.conf.schema.json",
         ["2.0"] = "https://ifstate.net/schema/2.0/ifstate.conf.schema.json",
-        ["2.1"] = "https://ifstate.net/schema/2.1/ifstate.conf.schema.json"
+        ["2.1"] = "https://ifstate.net/schema/2.1/ifstate.conf.schema.json",
+        ["2.2"] = "https://ifstate.net/schema/2.2/ifstate.conf.schema.json",
+        ["2.3"] = "https://ifstate.net/schema/2.3/ifstate.conf.schema.json"
       }
     }, {
       description = "imageoptimizer.json files",
