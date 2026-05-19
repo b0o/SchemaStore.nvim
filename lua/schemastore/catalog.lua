@@ -987,6 +987,7 @@ M.json = {
     ["ctfd-setup configuration file"] = 1188,
     ["custom-elements.json"] = 1102,
     ["cypress.json"] = 295,
+    ["dacier.yml"] = 1281,
     ["datalogic-scan2deploy-android"] = 305,
     ["datalogic-scan2deploy-ce"] = 306,
     ["dbt Dependencies"] = 206,
@@ -8542,6 +8543,11 @@ M.json = {
       fileMatch = { "runspec.toml" },
       name = "runspec",
       url = "https://raw.githubusercontent.com/JasonFinestone/runspec/main/schema/runspec.schema.json"
+    }, {
+      description = "Dacier configuration file",
+      fileMatch = { "dacier.yml", "dacier.yaml" },
+      name = "dacier.yml",
+      url = "https://raw.githubusercontent.com/daciertech/SchedulerStartup/refs/heads/main/.schemas/dacier-schema-vscode.json"
     } },
   version = 1
 }
