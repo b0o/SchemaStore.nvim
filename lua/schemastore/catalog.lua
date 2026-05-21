@@ -7423,7 +7423,7 @@ M.json = {
       url = "https://relativ-it.github.io/Butane-Schemas/Butane-Schema.json"
     }, {
       description = "Updatecli Compose file, more information on https://www.updatecli.io/docs/core/compose/",
-      fileMatch = { "update-compose.yaml", "updatecli-compose.yaml" },
+      fileMatch = { "**/updatecli-compose.d/**/*.yaml", "**/updatecli-compose.d/**/*.yml", "**/updatecli-compose.d/**/*.json", "update-compose.yaml", "updatecli-compose.yaml" },
       name = "Updatecli Compose",
       url = "https://www.updatecli.io/schema/latest/compose/config.json"
     }, {
@@ -8764,22 +8764,22 @@ M.json = {
       url = "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.model.schema.json"
     }, {
       description = "Source selection definition for QTCP tasks",
-      fileMatch = { "**/qtcp_tasks/*/sourceselection.yaml" },
+      fileMatch = { "**/qtcp_tasks/*/sourceSelection.yaml" },
       name = "Qlik Talend Cloud Pipeline - Source Selection",
       url = "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.sourceselection.schema.json"
     }, {
       description = "Transformation rules definition for QTCP tasks",
-      fileMatch = { "**/qtcp_tasks/*/transformationrules.yaml" },
+      fileMatch = { "**/qtcp_tasks/*/transformationRules.yaml" },
       name = "Qlik Talend Cloud Pipeline - Transformation Rules",
       url = "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.transformation.rules.schema.json"
     }, {
       description = "Transformation data flow definition for QTCP tasks",
-      fileMatch = { "**/qtcp_tasks/*/transformationdataflow/*.yaml" },
+      fileMatch = { "**/qtcp_tasks/*/transformationDataflow/*.yaml" },
       name = "Qlik Talend Cloud Pipeline - Transformation Data Flow",
       url = "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/task.transformationdataflow.schema.json"
     }, {
       description = "Default configurations for creating new QTCP tasks (via the UI)",
-      fileMatch = { "**/qtcp_tasks/newtaskdefaults.yaml" },
+      fileMatch = { "**/qtcp_tasks/newTaskDefaults.yaml" },
       name = "Qlik Talend Cloud Pipeline - New Task Defaults",
       url = "https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/newtaskdefaults.schema.json"
     } },
