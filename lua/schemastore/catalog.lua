@@ -217,6 +217,7 @@ M.json = {
     ["CVE Record Format"] = 201,
     CWL = 1156,
     ["Cache Warmup config"] = 168,
+    ["Caido Proxy Configuration"] = 1314,
     ["Calqulus pipeline"] = 169,
     ["Camel YAML DSL"] = 170,
     ["Cannon TOML"] = 171,
@@ -8812,6 +8813,11 @@ M.json = {
       fileMatch = { "quikrun.toml" },
       name = "QuikRun Configuration",
       url = "https://www.schemastore.org/quikrun.json"
+    }, {
+      description = "Caido Proxy configuration file",
+      fileMatch = { "caido.yml", "caido.yaml" },
+      name = "Caido Proxy Configuration",
+      url = "https://raw.githubusercontent.com/caido/schemas/main/.schemastore/proxy/config.schema.json"
     } },
   version = 1
 }
