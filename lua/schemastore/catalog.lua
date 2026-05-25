@@ -927,6 +927,7 @@ M.json = {
     ["Zola Configuration"] = 1264,
     ["aerleon.yml"] = 21,
     ["amplify.yml"] = 14,
+    ["amxx-builder manifest"] = 1315,
     ["angular.json"] = 38,
     apko = 1137,
     ["app-definition.yaml"] = 42,
@@ -8818,6 +8819,11 @@ M.json = {
       fileMatch = { "caido.yml", "caido.yaml" },
       name = "Caido Proxy Configuration",
       url = "https://raw.githubusercontent.com/caido/schemas/main/.schemastore/proxy/config.schema.json"
+    }, {
+      description = "amxx-builder (amxb) project manifest",
+      fileMatch = { "amxbuild.yml", "amxbuild.yaml", "amxbuild.*.yml", "amxbuild.*.yaml" },
+      name = "amxx-builder manifest",
+      url = "https://raw.githubusercontent.com/AmxxModularEcosystem/amxx-builder/master/schema/amxbuild.schema.json"
     } },
   version = 1
 }
