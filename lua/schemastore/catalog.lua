@@ -8773,7 +8773,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/JasonFinestone/runspec/main/schema/runspec.schema.json"
     }, {
       description = "Dacier configuration file",
-      fileMatch = { "dacier.yml", "dacier.yaml" },
+      fileMatch = { "*.dacier.yml", "*.dacier.yaml" },
       name = "dacier.yml",
       url = "https://raw.githubusercontent.com/daciertech/SchedulerStartup/refs/heads/main/.schemas/dacier-schema-vscode.json"
     }, {
