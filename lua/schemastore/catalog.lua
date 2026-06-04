@@ -3272,181 +3272,199 @@ M.json = {
       description = "YAML descriptor for Enonic XP Universal and Harmonized APIs",
       fileMatch = { "**/src/main/resources/apis/*/*.yaml", "**/src/main/resources/apis/*/*.yml" },
       name = "Enonic XP API descriptor",
-      url = "https://www.schemastore.org/enonic-xp-api-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-api-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-api-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-api-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-api-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-api-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-api-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Admin Extensions",
       fileMatch = { "**/src/main/resources/admin/extensions/*/*.yaml", "**/src/main/resources/admin/extensions/*/*.yml" },
       name = "Enonic XP Admin Extension descriptor",
-      url = "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-admin-extension-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Admin Tools",
       fileMatch = { "**/src/main/resources/admin/tools/*/*.yaml", "**/src/main/resources/admin/tools/*/*.yml" },
       name = "Enonic XP Admin Tool descriptor",
-      url = "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-admin-tool-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Applications",
       fileMatch = { "**/src/main/resources/enonic.yaml", "**/src/main/resources/enonic.yml" },
       name = "Enonic XP Application descriptor",
-      url = "https://www.schemastore.org/enonic-xp-application-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-application-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-application-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-application-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-application-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-application-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-application-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP CMS configuration",
       fileMatch = { "**/src/main/resources/cms/cms.yaml", "**/src/main/resources/cms/cms.yml" },
       name = "Enonic XP CMS descriptor",
-      url = "https://www.schemastore.org/enonic-xp-cms-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-cms-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-cms-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-cms-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-cms-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-cms-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-cms-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Content Types",
       fileMatch = { "**/src/main/resources/cms/content-types/*/*.yaml", "**/src/main/resources/cms/content-types/*/*.yml" },
       name = "Enonic XP Content Type descriptor",
-      url = "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-content-type-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-content-type-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-content-type-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-content-type-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Form Fragments",
       fileMatch = { "**/src/main/resources/cms/form-fragments/*/*.yaml", "**/src/main/resources/cms/form-fragments/*/*.yml" },
       name = "Enonic XP Form Fragment descriptor",
-      url = "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-form-fragment-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP ID Providers",
       fileMatch = { "**/src/main/resources/idprovider/idprovider.yaml", "**/src/main/resources/idprovider/idprovider.yml" },
       name = "Enonic XP ID Provider descriptor",
-      url = "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-idprovider-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-idprovider-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-idprovider-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-idprovider-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Layouts",
       fileMatch = { "**/src/main/resources/cms/layouts/*/*.yaml", "**/src/main/resources/cms/layouts/*/*.yml" },
       name = "Enonic XP Layout descriptor",
-      url = "https://www.schemastore.org/enonic-xp-layout-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-layout-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-layout-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-layout-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-layout-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-layout-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-layout-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Macros",
       fileMatch = { "**/src/main/resources/cms/macros/*/*.yaml", "**/src/main/resources/cms/macros/*/*.yml" },
       name = "Enonic XP Macro descriptor",
-      url = "https://www.schemastore.org/enonic-xp-macro-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-macro-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-macro-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-macro-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-macro-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-macro-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-macro-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Mixins",
       fileMatch = { "**/src/main/resources/cms/mixins/*/*.yaml", "**/src/main/resources/cms/mixins/*/*.yml" },
       name = "Enonic XP Mixin descriptor",
-      url = "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-mixin-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-mixin-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-mixin-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-mixin-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Pages",
       fileMatch = { "**/src/main/resources/cms/pages/*/*.yaml", "**/src/main/resources/cms/pages/*/*.yml" },
       name = "Enonic XP Page descriptor",
-      url = "https://www.schemastore.org/enonic-xp-page-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-page-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-page-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-page-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-page-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-page-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-page-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Parts",
       fileMatch = { "**/src/main/resources/cms/parts/*/*.yaml", "**/src/main/resources/cms/parts/*/*.yml" },
       name = "Enonic XP Part descriptor",
-      url = "https://www.schemastore.org/enonic-xp-part-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-part-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-part-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-part-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-part-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-part-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-part-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Services",
       fileMatch = { "**/src/main/resources/services/*/*.yaml", "**/src/main/resources/services/*/*.yml" },
       name = "Enonic XP Service descriptor",
-      url = "https://www.schemastore.org/enonic-xp-service-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-service-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-service-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-service-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-service-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-service-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-service-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Sites",
       fileMatch = { "**/src/main/resources/cms/site.yaml", "**/src/main/resources/cms/site.yml" },
       name = "Enonic XP Site descriptor",
-      url = "https://www.schemastore.org/enonic-xp-site-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-site-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-site-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-site-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-site-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-site-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-site-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Styles",
       fileMatch = { "**/src/main/resources/cms/style/style.yaml", "**/src/main/resources/cms/style/style.yml" },
       name = "Enonic XP Style descriptor",
-      url = "https://www.schemastore.org/enonic-xp-style-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-style-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-style-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-style-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-style-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-style-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-style-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Tasks",
       fileMatch = { "**/src/main/resources/tasks/*/*.yaml", "**/src/main/resources/tasks/*/*.yml" },
       name = "Enonic XP Task descriptor",
-      url = "https://www.schemastore.org/enonic-xp-task-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-task-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-task-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-task-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-task-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-task-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-task-8.0.0.json"
       }
     }, {
       description = "YAML descriptor for Enonic XP Webapps",
       fileMatch = { "**/src/main/resources/webapp/webapp.yaml", "**/src/main/resources/webapp/webapp.yml" },
       name = "Enonic XP Webapp descriptor",
-      url = "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B5.json",
+      url = "https://www.schemastore.org/enonic-xp-webapp-8.0.0.json",
       versions = {
+        ["8.0.0"] = "https://www.schemastore.org/enonic-xp-webapp-8.0.0.json",
         ["8.0.0-B4"] = "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B4.json",
         ["8.0.0-B5"] = "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B5.json",
-        latest = "https://www.schemastore.org/enonic-xp-webapp-8.0.0-B5.json"
+        latest = "https://www.schemastore.org/enonic-xp-webapp-8.0.0.json"
       }
     }, {
       description = "Configuration files for the esm module/package in Node.js",
@@ -8522,6 +8540,7 @@ M.json = {
       url = "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json",
       versions = {
         ["10.0-preview"] = "https://www.schemastore.org/aio-connector-metadata-10.0-preview.json",
+        ["11.0-preview"] = "https://www.schemastore.org/aio-connector-metadata-11.0-preview.json",
         ["5.0-preview"] = "https://www.schemastore.org/aio-connector-metadata-5.0-preview.json",
         ["6.0-preview"] = "https://www.schemastore.org/aio-connector-metadata-6.0-preview.json",
         ["7.0-preview"] = "https://www.schemastore.org/aio-connector-metadata-7.0-preview.json",
