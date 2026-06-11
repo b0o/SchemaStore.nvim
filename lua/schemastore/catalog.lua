@@ -1509,10 +1509,11 @@ M.json = {
       description = "Settings for project analysis by the Application Inspector",
       fileMatch = { ".aiproj.json" },
       name = ".aiproj.json",
-      url = "https://www.schemastore.org/aiproj-1.9.json",
+      url = "https://www.schemastore.org/aiproj-1.10.json",
       versions = {
         ["1.0"] = "https://www.schemastore.org/aiproj-1.0.json",
         ["1.1"] = "https://www.schemastore.org/aiproj-1.1.json",
+        ["1.10"] = "https://www.schemastore.org/aiproj-1.10.json",
         ["1.2"] = "https://www.schemastore.org/aiproj-1.2.json",
         ["1.3"] = "https://www.schemastore.org/aiproj-1.3.json",
         ["1.4"] = "https://www.schemastore.org/aiproj-1.4.json",
@@ -6727,7 +6728,7 @@ M.json = {
       description = "Simulation and test environment for Vector CANoe Server Editions",
       fileMatch = { "venvironment.yaml", "*.venvironment.yaml", "venvironment.yml", "*.venvironment.yml", "venvironment.json", "*.venvironment.json" },
       name = "venvironment.yaml",
-      url = "https://www.schemastore.org/venvironment-schema-v4.2.0.json",
+      url = "https://www.schemastore.org/venvironment-schema-v5.0.0.json",
       versions = {
         ["1.0.0"] = "https://www.schemastore.org/venvironment-schema-v1.0.0.json",
         ["1.1.0"] = "https://www.schemastore.org/venvironment-schema-v1.1.0.json",
@@ -6740,15 +6741,17 @@ M.json = {
         ["3.2.0"] = "https://www.schemastore.org/venvironment-schema-v3.2.0.json",
         ["4.0.0"] = "https://www.schemastore.org/venvironment-schema-v4.0.0.json",
         ["4.1.0"] = "https://www.schemastore.org/venvironment-schema-v4.1.0.json",
-        ["4.2.0"] = "https://www.schemastore.org/venvironment-schema-v4.2.0.json"
+        ["4.2.0"] = "https://www.schemastore.org/venvironment-schema-v4.2.0.json",
+        ["5.0.0"] = "https://www.schemastore.org/venvironment-schema-v5.0.0.json"
       }
     }, {
       description = "venvplus settings of Vector CANoe Server Editions",
       fileMatch = { "venvplus.yaml", "*.venvplus.yaml", "venvplus.yml", "*.venvplus.yml", "venvplus.json", "*.venvplus.json" },
       name = "venvplus.yaml",
-      url = "https://www.schemastore.org/venvplus-schema-v1.0.0.json",
+      url = "https://www.schemastore.org/venvplus-schema-v1.1.0.json",
       versions = {
-        ["1.0.0"] = "https://www.schemastore.org/venvplus-schema-v1.0.0.json"
+        ["1.0.0"] = "https://www.schemastore.org/venvplus-schema-v1.0.0.json",
+        ["1.1.0"] = "https://www.schemastore.org/venvplus-schema-v1.1.0.json"
       }
     }, {
       description = "Configuration for Version Bumper, a Composer plugin to bump project versions during release preparations",
