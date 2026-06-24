@@ -799,6 +799,7 @@ M.json = {
     ["Sigrid scope configuration file"] = 836,
     ["SkyPilot Task JSON"] = 1164,
     ["Slack app manifest"] = 840,
+    ["Slang Server Configuration"] = 1339,
     Snapcraft = 842,
     ["Solarxy project config"] = 845,
     Solidarity = 846,
@@ -9010,6 +9011,11 @@ M.json = {
       versions = {
         ["1.27"] = "https://www.schemastore.org/podman-desktop-extension-1.27.json"
       }
+    }, {
+      description = "Configuration file for the slang-server SystemVerilog language server. Documentation: https://hudson-trading.github.io/slang-server",
+      fileMatch = { "**/.slang/server.json", "**/.slang/local/server.json" },
+      name = "Slang Server Configuration",
+      url = "https://raw.githubusercontent.com/hudson-trading/slang-server/refs/heads/main/clients/vscode/resources/config.schema.json"
     } },
   version = 1
 }
