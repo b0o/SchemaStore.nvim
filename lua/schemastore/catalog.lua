@@ -2689,27 +2689,27 @@ M.json = {
       description = "dbt's dependencies.yml file for external packages and cross-project refs",
       fileMatch = { "**/*dbt*/dependencies.yaml", "**/*dbt*/dependencies.yml" },
       name = "dbt Dependencies",
-      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dependencies-latest.json"
+      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest_fusion/dependencies-latest-fusion.json"
     }, {
       description = "dbt's project configuration file",
       fileMatch = { "dbt_project.yaml", "dbt_project.yml" },
       name = "dbt Project",
-      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_project-latest.json"
+      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest_fusion/dbt_project-latest-fusion.json"
     }, {
       description = "dbt's packages.yml file for external packages",
       fileMatch = { "**/*dbt*/packages.yaml", "**/*dbt*/packages.yml" },
       name = "dbt Packages",
-      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/packages-latest.json"
+      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest_fusion/packages-latest-fusion.json"
     }, {
       description = "dbt's selectors.yml file for configuring YAML selectors",
       fileMatch = { "**/*dbt*/selectors.yaml", "**/*dbt*/selectors.yml" },
       name = "dbt Selectors",
-      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/selectors-latest.json"
+      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest_fusion/selectors-latest-fusion.json"
     }, {
       description = "dbt YAML files configurations",
       fileMatch = { "**/*dbt*/macros/**/*.yaml", "**/*dbt*/macros/**/*.yml", "**/*dbt*/models/**/*.yaml", "**/*dbt*/models/**/*.yml", "**/*dbt*/seeds/**/*.yaml", "**/*dbt*/seeds/**/*.yml", "**/*dbt*/snapshots/**/*.yaml", "**/*dbt*/snapshots/**/*.yml" },
       name = "dbt YAML files",
-      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest/dbt_yml_files-latest.json"
+      url = "https://raw.githubusercontent.com/dbt-labs/dbt-jsonschema/main/schemas/latest_fusion/dbt_yml_files-latest-fusion.json"
     }, {
       description = "Debian packaging file for describing metadata about the upstream project",
       fileMatch = { "**/debian/upstream/metadata" },
@@ -4318,10 +4318,12 @@ M.json = {
       description = "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
       fileMatch = { "zapp.yaml", "zapp.yml", "zapp.json" },
       name = "IBM Zapp document",
-      url = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.8.0.json",
+      url = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.10.2.json",
       versions = {
         ["1.0.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json",
         ["1.1.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.1.0.json",
+        ["1.10.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.10.0.json",
+        ["1.10.2"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.10.2.json",
         ["1.2.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.0.json",
         ["1.2.1"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.1.json",
         ["1.3.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.3.0.json",
@@ -4329,7 +4331,8 @@ M.json = {
         ["1.5.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.5.0.json",
         ["1.6.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.6.0.json",
         ["1.7.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.7.0.json",
-        ["1.8.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.8.0.json"
+        ["1.8.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.8.0.json",
+        ["1.9.0"] = "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.9.0.json"
       }
     }, {
       description = "IBM Enterprise languages code formatter settings file for IBM zDevOps development tools such as Z Open Editor",
