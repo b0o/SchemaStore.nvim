@@ -8842,7 +8842,7 @@ M.json = {
       description = "A list of health care insurances in german telemedicine",
       fileMatch = { "**/testdata/insurance/insurance.yml", "**/testdata/insurance/insurance.yaml" },
       name = "gematik health care insurance list",
-      url = "https://www.schemastore.org/gematik-test-hcpis.json"
+      url = "https://www.schemastore.org/gematik-test-insurances.json"
     }, {
       description = "A configuration file for the test environment of the gematik Tiger test platform",
       fileMatch = { "**/tiger.yml", "**/tiger.yaml" },
