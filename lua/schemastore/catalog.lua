@@ -5496,7 +5496,7 @@ M.json = {
       url = "https://raw.githubusercontent.com/openrewrite/rewrite/main/rewrite-core/openrewrite.json"
     }, {
       description = "OpenTelemetry declarative configuration for SDKs and instrumentation",
-      fileMatch = { "opentelemetry*.yaml", "opentelemetry*.yml" },
+      fileMatch = { "opentelemetry*.yaml", "opentelemetry*.yml", "otel-sdk*.yaml", "otel-sdk*.yml" },
       name = "OpenTelemetry Declarative Configuration",
       url = "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.1.0/opentelemetry_configuration.json",
       versions = {
