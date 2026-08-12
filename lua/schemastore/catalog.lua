@@ -7214,7 +7214,7 @@ M.json = {
       description = "Simulation and test environment for Vector CANoe Server Editions",
       fileMatch = { "venvironment.yaml", "*.venvironment.yaml", "venvironment.yml", "*.venvironment.yml", "venvironment.json", "*.venvironment.json" },
       name = "venvironment.yaml",
-      url = "https://www.schemastore.org/venvironment-schema-v5.0.0.json",
+      url = "https://www.schemastore.org/venvironment-schema-v5.1.0.json",
       versions = {
         ["1.0.0"] = "https://www.schemastore.org/venvironment-schema-v1.0.0.json",
         ["1.1.0"] = "https://www.schemastore.org/venvironment-schema-v1.1.0.json",
@@ -7228,16 +7228,18 @@ M.json = {
         ["4.0.0"] = "https://www.schemastore.org/venvironment-schema-v4.0.0.json",
         ["4.1.0"] = "https://www.schemastore.org/venvironment-schema-v4.1.0.json",
         ["4.2.0"] = "https://www.schemastore.org/venvironment-schema-v4.2.0.json",
-        ["5.0.0"] = "https://www.schemastore.org/venvironment-schema-v5.0.0.json"
+        ["5.0.0"] = "https://www.schemastore.org/venvironment-schema-v5.0.0.json",
+        ["5.1.0"] = "https://www.schemastore.org/venvironment-schema-v5.1.0.json"
       }
     }, {
       description = "venvplus settings of Vector CANoe Server Editions",
       fileMatch = { "venvplus.yaml", "*.venvplus.yaml", "venvplus.yml", "*.venvplus.yml", "venvplus.json", "*.venvplus.json" },
       name = "venvplus.yaml",
-      url = "https://www.schemastore.org/venvplus-schema-v1.1.0.json",
+      url = "https://www.schemastore.org/venvplus-schema-v1.2.0.json",
       versions = {
         ["1.0.0"] = "https://www.schemastore.org/venvplus-schema-v1.0.0.json",
-        ["1.1.0"] = "https://www.schemastore.org/venvplus-schema-v1.1.0.json"
+        ["1.1.0"] = "https://www.schemastore.org/venvplus-schema-v1.1.0.json",
+        ["1.2.0"] = "https://www.schemastore.org/venvplus-schema-v1.2.0.json"
       }
     }, {
       description = "Configuration for Version Bumper, a Composer plugin to bump project versions during release preparations",
