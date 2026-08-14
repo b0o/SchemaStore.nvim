@@ -2070,6 +2070,7 @@ M.json = {
         ["0.12.0"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.12.0/bottom.json",
         ["0.13.0"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.13.0/bottom.json",
         ["0.14.0"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.0/bottom.json",
+        ["0.14.7"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.14.7/bottom.json",
         ["0.9"] = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/v0.9/bottom.json",
         nightly = "https://raw.githubusercontent.com/ClementTsang/bottom/main/schema/nightly/bottom.json"
       }
