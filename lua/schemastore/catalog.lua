@@ -7459,6 +7459,7 @@ M.json = {
         ["v5.32.0"] = "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.32.0.json",
         ["v5.33.0"] = "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.33.0.json",
         ["v5.4.0"] = "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.4.0.json",
+        ["v5.5.0"] = "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.5.0.json",
         ["v5.6.0"] = "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.6.0.json",
         ["v5.7.0"] = "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.7.0.json",
         ["v5.7.1"] = "https://raw.githubusercontent.com/vega/schema/refs/heads/master/vega/v5.7.1.json",
