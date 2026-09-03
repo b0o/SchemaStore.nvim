@@ -527,6 +527,7 @@ M.json = {
     ["Grunt copy task"] = 529,
     ["Grunt cssmin task"] = 531,
     HEMTT = 1106,
+    ["HULL - Helm Uniform Layer Library"] = 1459,
     Hadolint = 1120,
     Hammerkit = 1152,
     ["Hardware Sentry Configuration"] = 1208,
@@ -10135,6 +10136,15 @@ M.json = {
       fileMatch = { ".hias-hitf.json", ".hias-hitf.jsonc" },
       name = "hitf-cli-md",
       url = "https://www.schemastore.org/hias-hitf.json"
+    }, {
+      description = "Configuration options for HULL based Helm charts",
+      name = "HULL - Helm Uniform Layer Library",
+      url = "https://github.com/vidispine/hull/blob/main/hull/values.schema.json",
+      versions = {
+        ["1.34"] = "https://github.com/vidispine/hull/blob/release-1.34/hull/values.schema.json",
+        ["1.35"] = "https://github.com/vidispine/hull/blob/release-1.35/hull/values.schema.json",
+        ["1.36"] = "https://github.com/vidispine/hull/blob/release-1.36/hull/values.schema.json"
+      }
     } },
   version = 1
 }
