@@ -1456,6 +1456,7 @@ M.json = {
     unist = 1182,
     unqueryvet = 1398,
     ["up.json"] = 1039,
+    ["urai-ecma"] = 1460,
     uv = 1047,
     v8r = 1070,
     vcluster = 1285,
@@ -10067,31 +10068,36 @@ M.json = {
       description = "cfgd root configuration file (cfgd.yaml)",
       fileMatch = { "cfgd.yaml", "cfgd.yml" },
       name = "cfgd Config",
-      url = "https://www.schemastore.org/cfgd-config-0.5.0.json",
+      url = "https://www.schemastore.org/cfgd-config-0.10.0.json",
       versions = {
+        ["0.10.0"] = "https://www.schemastore.org/cfgd-config-0.10.0.json",
         ["0.5.0"] = "https://www.schemastore.org/cfgd-config-0.5.0.json"
       }
     }, {
       description = "cfgd Module definition document",
       fileMatch = { "**/modules/*/module.yaml" },
       name = "cfgd Module",
-      url = "https://www.schemastore.org/cfgd-module-0.5.0.json",
+      url = "https://www.schemastore.org/cfgd-module-0.10.0.json",
       versions = {
+        ["0.10.0"] = "https://www.schemastore.org/cfgd-module-0.10.0.json",
         ["0.5.0"] = "https://www.schemastore.org/cfgd-module-0.5.0.json"
       }
     }, {
       description = "cfgd Profile definition document",
+      fileMatch = { "**/profiles/*/profile.yaml", "**/profiles/*.yaml", "**/profiles/*.yml" },
       name = "cfgd Profile",
-      url = "https://www.schemastore.org/cfgd-profile-0.5.0.json",
+      url = "https://www.schemastore.org/cfgd-profile-0.10.0.json",
       versions = {
+        ["0.10.0"] = "https://www.schemastore.org/cfgd-profile-0.10.0.json",
         ["0.5.0"] = "https://www.schemastore.org/cfgd-profile-0.5.0.json"
       }
     }, {
       description = "cfgd multi-source configuration manifest (cfgd-source.yaml)",
       fileMatch = { "cfgd-source.yaml", "cfgd-source.yml" },
       name = "cfgd ConfigSource",
-      url = "https://www.schemastore.org/cfgd-configsource-0.5.0.json",
+      url = "https://www.schemastore.org/cfgd-configsource-0.10.0.json",
       versions = {
+        ["0.10.0"] = "https://www.schemastore.org/cfgd-configsource-0.10.0.json",
         ["0.5.0"] = "https://www.schemastore.org/cfgd-configsource-0.5.0.json"
       }
     }, {
@@ -10145,6 +10151,11 @@ M.json = {
         ["1.35"] = "https://github.com/vidispine/hull/blob/release-1.35/hull/values.schema.json",
         ["1.36"] = "https://github.com/vidispine/hull/blob/release-1.36/hull/values.schema.json"
       }
+    }, {
+      description = "Configuration file for urai-ecma: AST commentary, pruning, and LLM context packaging engine for ECMAScript codebases",
+      fileMatch = { "urai.config.jsonc", "urai.config.json" },
+      name = "urai-ecma",
+      url = "https://www.schemastore.org/urai-ecma.json"
     } },
   version = 1
 }
