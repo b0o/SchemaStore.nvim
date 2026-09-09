@@ -779,6 +779,7 @@ M.json = {
     ["Problem package generators"] = 811,
     ["Problem package submissions"] = 812,
     ["Problem package test group metadata"] = 813,
+    ["Production delivery manifest"] = 1462,
     Pterodactyl = 1208,
     ["Pull Request Labeler"] = 830,
     Pulumi = 838,
@@ -10162,6 +10163,11 @@ M.json = {
       fileMatch = { "urai.config.jsonc", "urai.config.json" },
       name = "urai-ecma",
       url = "https://www.schemastore.org/urai-ecma.json"
+    }, {
+      description = "Rights-labelled video-production delivery manifest",
+      fileMatch = { "production-delivery-manifest.json" },
+      name = "Production delivery manifest",
+      url = "https://raw.githubusercontent.com/SHARProduction/production-delivery-manifest-schema/v1.0.0/schema.json"
     } },
   version = 1
 }
