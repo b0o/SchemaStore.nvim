@@ -354,6 +354,7 @@ M.json = {
     ["Deck config"] = 255,
     ["Declarative Automation Bundles"] = 1251,
     ["DeepMatch deeplinks spec"] = 256,
+    ["Defakto CI"] = 1463,
     ["Dein Config"] = 257,
     ["Deno Config (deno.json)"] = 367,
     ["Dependency cruiser"] = 258,
@@ -10168,6 +10169,11 @@ M.json = {
       fileMatch = { "production-delivery-manifest.json" },
       name = "Production delivery manifest",
       url = "https://raw.githubusercontent.com/SHARProduction/production-delivery-manifest-schema/v1.0.0/schema.json"
+    }, {
+      description = "CI configuration files used at Defakto Security",
+      fileMatch = { "**/.defakto/ci.yaml" },
+      name = "Defakto CI",
+      url = "https://defakto-security.github.io/build-actions/ci.schema.json"
     } },
   version = 1
 }
