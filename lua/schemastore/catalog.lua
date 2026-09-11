@@ -5672,10 +5672,11 @@ M.json = {
       description = "OpenTelemetry declarative configuration for SDKs and instrumentation",
       fileMatch = { "opentelemetry*.yaml", "opentelemetry*.yml", "otel-sdk*.yaml", "otel-sdk*.yml" },
       name = "OpenTelemetry Declarative Configuration",
-      url = "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.1.0/opentelemetry_configuration.json",
+      url = "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.2.0/opentelemetry_configuration.json",
       versions = {
         ["1.0.0"] = "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.0.0/opentelemetry_configuration.json",
-        ["1.1.0"] = "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.1.0/opentelemetry_configuration.json"
+        ["1.1.0"] = "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.1.0/opentelemetry_configuration.json",
+        ["1.2.0"] = "https://raw.githubusercontent.com/open-telemetry/opentelemetry-configuration/refs/tags/v1.2.0/opentelemetry_configuration.json"
       }
     }, {
       description = "Open Data Contract Standard contract file, from the Bitol project at The Linux Foundation",
