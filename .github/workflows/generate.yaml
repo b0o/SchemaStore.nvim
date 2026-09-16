@@ -5,14 +5,16 @@ on:
   schedule:
     - cron: "0 * * * *"
 
+permissions:
+  actions: write
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.TOKEN }}
+        uses: actions/checkout@v7
 
       - name: Setup neovim
         uses: rhysd/action-setup-vim@v1
@@ -28,7 +30,8 @@ jobs:
         run: make test
 
       - name: Commit and Push Changes
-        uses: EndBug/add-and-commit@v9
+        id: commit
+        uses: EndBug/add-and-commit@v10
         with:
           committer_name: GitHub Actions
           committer_email: actions@github.com
@@ -36,3 +39,12 @@ jobs:
             Update SchemaStore catalog
 
             This commit was performed automatically by GitHub Actions.
+
+      # Pushes made with GITHUB_TOKEN do not trigger push workflows, so dispatch
+      # the test workflow explicitly to preserve CI on generated commits.
+      - name: Trigger tests for generated commit
+        if: steps.commit.outputs.committed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: gh workflow run test.yaml --ref "$GITHUB_REF_NAME"
