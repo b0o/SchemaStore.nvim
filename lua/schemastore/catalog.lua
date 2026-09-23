@@ -6461,7 +6461,7 @@ M.json = {
       description = "Declarative GitHub repository settings applied by the github-settings-as-code action; accepts Probot Settings app files as-is. Documentation: https://github.com/Vivswan/github-settings-as-code",
       fileMatch = { "**/.github/settings.yml" },
       name = "github-settings-as-code",
-      url = "https://raw.githubusercontent.com/Vivswan/github-settings-as-code/main/lib/settings.schema.json"
+      url = "https://github.com/Vivswan/github-settings-as-code/releases/latest/download/settings.schema.json"
     }, {
       description = "Configuration for the reposets CLI tool for syncing GitHub repository settings",
       fileMatch = { "reposets.config.toml", "reposets.config.json" },
