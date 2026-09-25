@@ -131,6 +131,16 @@ M.json = {
     ["Alacritty Configuration"] = 1186,
     ["AlgoVoi Compliance Receipt v1"] = 19,
     ["All Contributors configuration file"] = 1240,
+    ["Allstar Action"] = 1476,
+    ["Allstar Administrators"] = 1477,
+    ["Allstar Binary Artifacts"] = 1478,
+    ["Allstar Branch Protection"] = 1479,
+    ["Allstar CODEOWNERS"] = 1480,
+    ["Allstar Configuration"] = 1481,
+    ["Allstar Dangerous Workflow"] = 1482,
+    ["Allstar Outside Collaborators"] = 1483,
+    ["Allstar Scorecard"] = 1484,
+    ["Allstar Security"] = 1485,
     ["Amazon S3 bucket CORS"] = 21,
     Ameba = 1,
     Anodizer = 526,
@@ -10225,6 +10235,56 @@ M.json = {
       description = "Manifest for an AAES evidence pack directory: stated population, explicit coverage exclusions, and file inventory for examiner review of AI agent action evidence",
       name = "AAES evidence pack manifest (aaes.evidence-pack/1)",
       url = "https://aaes.ai/spec/v1/evidence-pack-manifest.schema.json"
+    }, {
+      description = "Allstar action policy configuration",
+      fileMatch = {},
+      name = "Allstar Action",
+      url = "https://www.schemastore.org/allstar-action.json"
+    }, {
+      description = "Allstar repository administrator policy configuration",
+      fileMatch = {},
+      name = "Allstar Administrators",
+      url = "https://www.schemastore.org/allstar-admin.json"
+    }, {
+      description = "Allstar binary artifacts policy configuration",
+      fileMatch = { "binary_artifacts.yaml" },
+      name = "Allstar Binary Artifacts",
+      url = "https://www.schemastore.org/allstar-binary.json"
+    }, {
+      description = "Allstar branch protection policy configuration",
+      fileMatch = { "branch_protection.yaml" },
+      name = "Allstar Branch Protection",
+      url = "https://www.schemastore.org/allstar-branch.json"
+    }, {
+      description = "Allstar CODEOWNERS policy configuration",
+      fileMatch = {},
+      name = "Allstar CODEOWNERS",
+      url = "https://www.schemastore.org/allstar-codeowners.json"
+    }, {
+      description = "Allstar organization-level configuration file",
+      fileMatch = { "allstar.yaml" },
+      name = "Allstar Configuration",
+      url = "https://www.schemastore.org/allstar-config.json"
+    }, {
+      description = "Allstar dangerous workflow policy configuration",
+      fileMatch = { "dangerous_workflow.yaml" },
+      name = "Allstar Dangerous Workflow",
+      url = "https://www.schemastore.org/allstar-workflow.json"
+    }, {
+      description = "Allstar outside collaborators policy configuration",
+      fileMatch = {},
+      name = "Allstar Outside Collaborators",
+      url = "https://www.schemastore.org/allstar-outside.json"
+    }, {
+      description = "Allstar Scorecard policy configuration",
+      fileMatch = {},
+      name = "Allstar Scorecard",
+      url = "https://www.schemastore.org/allstar-scorecard.json"
+    }, {
+      description = "Allstar security policy configuration",
+      fileMatch = {},
+      name = "Allstar Security",
+      url = "https://www.schemastore.org/allstar-security.json"
     } },
   version = 1
 }
