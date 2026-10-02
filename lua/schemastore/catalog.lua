@@ -1408,8 +1408,8 @@ M.json = {
     ["release-plz.toml"] = 881,
     ["renv.lock"] = 896,
     ["replacement-transformer.yaml"] = 636,
-    ["reposets Configuration"] = 885,
-    ["reposets Credentials"] = 886,
+    ["reposets.config.toml"] = 885,
+    ["reposets.credentials.toml"] = 886,
     ["revola.json"] = 8,
     ["rivet.json"] = 1284,
     ["rivet.yaml (legacy)"] = 1283,
@@ -6555,13 +6555,19 @@ M.json = {
     }, {
       description = "Configuration for the reposets CLI tool for syncing GitHub repository settings",
       fileMatch = { "reposets.config.toml", "reposets.config.json" },
-      name = "reposets Configuration",
-      url = "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.config.schema.json"
+      name = "reposets.config.toml",
+      url = "https://raw.githubusercontent.com/spencerbeggs/reposets/main/schemas/3.0/config.json",
+      versions = {
+        ["3.0"] = "https://raw.githubusercontent.com/spencerbeggs/reposets/main/schemas/3.0/config.json"
+      }
     }, {
       description = "Authentication profiles for the reposets CLI tool",
       fileMatch = { "reposets.credentials.toml", "reposets.credentials.json" },
-      name = "reposets Credentials",
-      url = "https://raw.githubusercontent.com/spencerbeggs/reposets/main/package/schemas/reposets.credentials.schema.json"
+      name = "reposets.credentials.toml",
+      url = "https://raw.githubusercontent.com/spencerbeggs/reposets/main/schemas/3.0/credentials.json",
+      versions = {
+        ["3.0"] = "https://raw.githubusercontent.com/spencerbeggs/reposets/main/schemas/3.0/credentials.json"
+      }
     }, {
       description = "Windows App localization file",
       fileMatch = { "*.resjson" },
