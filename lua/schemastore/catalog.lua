@@ -8234,7 +8234,7 @@ M.json = {
       description = "lychee link checker configuration file",
       fileMatch = { "lychee.toml", ".lychee.toml" },
       name = "lychee",
-      url = "https://www.schemastore.org/lychee.json"
+      url = "https://github.com/lycheeverse/lychee/releases/latest/download/schema.json"
     }, {
       description = "lint-staged config",
       fileMatch = { ".lintstagedrc", ".lintstagedrc.json", ".lintstagedrc.yaml", ".lintstagedrc.yml" },
