@@ -559,6 +559,15 @@ M.json = {
     HEMTT = 1144,
     ["HULL - Helm Uniform Layer Library"] = 1506,
     Hadolint = 1158,
+    ["Haijun Box Plugin"] = 1527,
+    ["Haijun Changesets"] = 1531,
+    ["Haijun Code Marketplace"] = 1524,
+    ["Haijun Code Plugin Manifest"] = 1525,
+    ["Haijun Code Settings"] = 1523,
+    ["Haijun Release Please"] = 1532,
+    ["Haijun Tracks Discovery"] = 1526,
+    ["Haijun Turborepo"] = 1530,
+    ["Haijun Voice Extension"] = 1528,
     Hammerkit = 1190,
     ["Hardware Sentry Configuration"] = 1246,
     ["Hashgraph Online Skill Manifest"] = 11,
@@ -988,6 +997,7 @@ M.json = {
     ["Tier.run pricing.json"] = 1035,
     Tikibase = 1036,
     Tombi = 1041,
+    Tracks = 1529,
     ["Traefik v2"] = 1047,
     ["Traefik v2 File Provider"] = 1048,
     ["Traefik v3"] = 1049,
@@ -10553,6 +10563,56 @@ M.json = {
       versions = {
         ["1.0"] = "https://raw.githubusercontent.com/PRIDA-TAKON/debim/main/debim.schema.json"
       }
+    }, {
+      description = "Configuration settings for Haijun Code, an AI coding assistant CLI",
+      fileMatch = {},
+      name = "Haijun Code Settings",
+      url = "https://www.schemastore.org/haijun-code-settings.json"
+    }, {
+      description = "Marketplace plugin manifest for Haijun Code",
+      fileMatch = {},
+      name = "Haijun Code Marketplace",
+      url = "https://www.schemastore.org/haijun-code-marketplace.json"
+    }, {
+      description = "Plugin manifest (.haijun-plugin/plugin.json) for a Haijun Code plugin",
+      fileMatch = { "**/.haijun-plugin/plugin.json" },
+      name = "Haijun Code Plugin Manifest",
+      url = "https://www.schemastore.org/haijun-code-plugin-manifest.json"
+    }, {
+      description = "Discovery index for Haijun Tracks, listing published tracks with metadata, distribution URLs, and integrity digests",
+      fileMatch = {},
+      name = "Haijun Tracks Discovery",
+      url = "https://www.schemastore.org/haijun-tracks-discovery.json"
+    }, {
+      description = "Haijun Box plugin manifest for extending the Haijun Box CLI",
+      fileMatch = {},
+      name = "Haijun Box Plugin",
+      url = "https://www.schemastore.org/haijun-box.json"
+    }, {
+      description = "Haijun Voice extension manifest for cross-platform AI voice communication",
+      fileMatch = {},
+      name = "Haijun Voice Extension",
+      url = "https://www.schemastore.org/haijun-voice.json"
+    }, {
+      description = "Tracks knowledge-base format for AI agents (Markdown-based knowledge modules)",
+      fileMatch = {},
+      name = "Tracks",
+      url = "https://www.schemastore.org/tracks.json"
+    }, {
+      description = "Turborepo configuration for Haijun projects (turbo.json)",
+      fileMatch = {},
+      name = "Haijun Turborepo",
+      url = "https://www.schemastore.org/haijun-turborepo.json"
+    }, {
+      description = "Changesets configuration for Haijun projects (.changeset/config.json)",
+      fileMatch = {},
+      name = "Haijun Changesets",
+      url = "https://www.schemastore.org/haijun-changesets.json"
+    }, {
+      description = "Release Please configuration for Haijun projects (release-please-config.json)",
+      fileMatch = {},
+      name = "Haijun Release Please",
+      url = "https://www.schemastore.org/haijun-release-please.json"
     } },
   version = 1
 }
