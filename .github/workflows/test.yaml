@@ -22,6 +22,8 @@ jobs:
         uses: rhysd/action-setup-vim@v1
         with:
           neovim: true
+        env:
+          TMPDIR: ${{ runner.temp }}
 
       - name: Run tests
         shell: bash
