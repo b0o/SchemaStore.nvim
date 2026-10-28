@@ -6,6 +6,55 @@ Describe('the schemastore.init module', function()
   local m = require 'schemastore'
   local c = require 'schemastore.catalog'
 
+  Describe('schema result isolation', function()
+    for _, format in ipairs { 'json', 'yaml' } do
+      Describe('the "' .. format .. '.schemas" function', function()
+        It('should return independent deep copies without options', function()
+          local schemas = m[format].schemas()
+          local other = m[format].schemas()
+          local index = c.json.index['.eslintrc']
+          local original = c.json.schemas[index]
+          local file_match = format == 'json' and schemas[index].fileMatch or schemas[original.url]
+          local other_file_match = format == 'json' and other[index].fileMatch or other[original.url]
+
+          Expect(schemas).To.Not.Equal(other)
+          Expect(file_match).To.Not.Equal(original.fileMatch)
+          Expect(file_match).To.Not.Equal(other_file_match)
+          if format == 'json' then
+            Expect(schemas).To.Not.Equal(c.json.schemas)
+            Expect(schemas[index]).To.Not.Equal(original)
+            Expect(schemas[index]).To.Not.Equal(other[index])
+          end
+          Expect(schemas).To.DeepEqual(other)
+        end)
+
+        for _, option in ipairs { 'replace', 'extra' } do
+          It('should copy schemas supplied through "' .. option .. '"', function()
+            local custom = {
+              description = 'Custom package.json schema',
+              fileMatch = { 'custom.json' },
+              name = 'package.json',
+              url = 'https://example.com/package.json',
+            }
+            local opts = {
+              select = { custom.name },
+              [option] = option == 'replace' and { [custom.name] = custom } or { custom },
+            }
+            local schemas = m[format].schemas(opts)
+            local expected = vim.deepcopy(schemas)
+            local file_match = format == 'json' and schemas[1].fileMatch or schemas[custom.url]
+
+            Expect(file_match).To.Not.Equal(custom.fileMatch)
+            file_match[1] = 'changed.json'
+
+            Expect(custom.fileMatch).To.DeepEqual { 'custom.json' }
+            Expect(m[format].schemas(opts)).To.DeepEqual(expected)
+          end)
+        end
+      end)
+    end
+  end)
+
   Describe('the "load" function', function()
     It('should return the full catalog', function()
       local catalog = m.load()

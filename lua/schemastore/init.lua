@@ -37,12 +37,12 @@ end
 ---@field replace? table<string, SchemaEntry|string>? A dictionary-like table of (strings:table) elements representing schemas to replace with a custom schema. The string key is the name of the schema to replace, the table value is the schema definition. If a schema with the given name isn't found, the custom schema will not be returned.
 ---@field extra? SchemaEntry[] Additional schemas to include.
 
----json.schemas returns the list of json schemas
+---json.schemas returns a copy of the list of json schemas
 ---@param opts? SchemaOpts
 function M.json.schemas(opts)
   local catalog = M.json.load()
   if not opts then
-    return catalog.schemas
+    return vim.deepcopy(catalog.schemas)
   end
 
   ---@type SchemaOpts
@@ -81,7 +81,7 @@ function M.json.schemas(opts)
             orig_schema.name
           )
         )
-        schemas[index] = schema
+        schemas[index] = vim.deepcopy(schema)
       end
     end
   end
@@ -114,7 +114,7 @@ function M.json.schemas(opts)
   return schemas
 end
 
--- yaml.schemas returns the list of yaml schemas { url = fileMatch,...}
+-- yaml.schemas returns a copy of the yaml schemas { url = fileMatch,...}
 ---@param opts? SchemaOpts
 function M.yaml.schemas(opts)
   local origin = M.json.schemas(opts)
