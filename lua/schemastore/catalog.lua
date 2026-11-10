@@ -2196,7 +2196,7 @@ M.json = {
       url = "https://atmos.tools/schemas/atmos/atmos-manifest/1.0/atmos-manifest.json"
     }, {
       description = "Yaml for Aurora Agile Meta-Framework",
-      fileMatch = { "*.aurora.yaml", "*.aurora.yml" },
+      fileMatch = { "*.aurora.yaml", "*.aurora.yml", "**/cliter/*/*.module.yaml" },
       name = "Aurora Agile Meta-Framework",
       url = "https://www.schemastore.org/aurora-2.0.json",
       versions = {
