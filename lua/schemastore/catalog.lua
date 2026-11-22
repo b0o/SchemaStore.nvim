@@ -840,6 +840,9 @@ M.json = {
     ["Podman Desktop Extension"] = 1559,
     ["Postman collection"] = 874,
     ["Power Pages Configuration"] = 1482,
+    ["Presencis AI-BOM"] = 1609,
+    ["Presencis CBOM"] = 1610,
+    ["Presencis VSBOM"] = 1611,
     ['Preset list for a "ChrisTitusTech/winutil"'] = 1422,
     ["ProActions AI-Kit Configuration"] = 886,
     ["ProActions AI-Kit Configuration for Menus"] = 888,
@@ -1552,6 +1555,7 @@ M.json = {
     ["skill-map project settings"] = 1010,
     ["skill-map provider kind"] = 1011,
     ["skyuxconfig.json"] = 1013,
+    sluice = 1612,
     ["snowflake-config"] = 1015,
     ["snowflake-connections"] = 1016,
     ["sourceledger sources.toml"] = 1022,
@@ -11098,6 +11102,26 @@ M.json = {
       description = "Chart.yaml of a chart deployed with werf, with the werf export-values extension, to select manually instead of Helm Chart.yaml",
       name = "werf Chart.yaml",
       url = "https://werf.io/docs/v3/schemas/chart.json"
+    }, {
+      description = "Presencis AI Bill of Materials (presencis-ai-bom-v1)",
+      fileMatch = { "*.ai-bom.json", "ai-bom.json" },
+      name = "Presencis AI-BOM",
+      url = "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/ai-bom.schema.json"
+    }, {
+      description = "Presencis Cryptographic Bill of Materials (presencis-cbom-v1)",
+      fileMatch = { "*.cbom.json", "cbom.json" },
+      name = "Presencis CBOM",
+      url = "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/cbom.schema.json"
+    }, {
+      description = "Presencis Verified Software Bill of Materials (presencis-vsbom-v1)",
+      fileMatch = { "*.vsbom.json", "vsbom.json" },
+      name = "Presencis VSBOM",
+      url = "https://raw.githubusercontent.com/Presencis-com/bom-schemas/main/schemas/vsbom.schema.json"
+    }, {
+      description = "sluice release configuration for a multi-repo Maven umbrella",
+      fileMatch = { "sluice.yml", "sluice.yaml" },
+      name = "sluice",
+      url = "https://raw.githubusercontent.com/BotMakerDev/sluice/main/sluice.schema.json"
     } },
   version = 1
 }
