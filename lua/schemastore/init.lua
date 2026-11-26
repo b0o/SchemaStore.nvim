@@ -32,7 +32,7 @@ end
 ---@field url string
 
 ---@class SchemaOpts
----@field select? string[] A list-like table of strings representing the names of schemas to select. If this option is not present, all schemas are returned. If it is present, only the selected schemas are returned. `select` and `ignore` are mutually exclusive.
+---@field select? string[] Names of schemas to return first, in order. Remaining `extra` schemas follow. `select` and `ignore` are mutually exclusive.
 ---@field ignore? string[] A list-like table of strings representing the names of schemas to ignore. `select` and `ignore` are mutually exclusive.
 ---@field replace? table<string, SchemaEntry|string>? A dictionary-like table of (strings:table) elements representing schemas to replace with a custom schema. The string key is the name of the schema to replace, the table value is the schema definition. If a schema with the given name isn't found, the custom schema will not be returned.
 ---@field extra? SchemaEntry[] Additional schemas to include.
@@ -53,10 +53,11 @@ function M.json.schemas(opts)
     extra = {},
   }, opts)
 
-  if type(opts.extra) == 'table' and not vim.tbl_isempty(opts.extra) then
+  local extra = type(opts.extra) == 'table' and opts.extra or {}
+  if not vim.tbl_isempty(extra) then
     -- Extend the catalog with extra schema entries
     catalog = vim.deepcopy(catalog)
-    for _, extra_schema in ipairs(opts.extra) do
+    for _, extra_schema in ipairs(extra) do
       local _, idx = get_index(catalog.index, catalog.schemas, extra_schema.name)
       idx = idx or #catalog.schemas + 1
       catalog.schemas[idx] = extra_schema
@@ -92,12 +93,23 @@ function M.json.schemas(opts)
   assert(not (has_select and has_ignore), "schemastore.json.schemas(): the 'select' and 'ignore' settings are mutually exclusive")
 
   if has_select then
-    schemas = vim.tbl_map(function(name)
+    local included = {}
+    local selected = vim.tbl_map(function(name)
       local schema = get_index(catalog.index, schemas, name)
       assert(schema ~= nil, "schemastore.json.schemas(): select: schema not found: " .. name)
+      included[name] = true
       return schema
     end, opts.select)
 
+    for _, extra_schema in ipairs(extra) do
+      local name = extra_schema.name
+      if not included[name] then
+        local schema = get_index(catalog.index, schemas, name)
+        table.insert(selected, schema)
+        included[name] = true
+      end
+    end
+    schemas = selected
   elseif has_ignore then
     local ignore = {}
     for _, name in ipairs(opts.ignore) do

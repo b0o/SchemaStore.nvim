@@ -89,6 +89,10 @@ Or, you can ignore a list of schemas with the `ignore` option:
 Note that the `select` and `ignore` options are mutually exclusive and
 attempting to use them together will throw an error.
 
+When combining `select` with `extra`, extra schemas are included automatically.
+The JSON list keeps the order of `select`, then appends the remaining schemas
+in `extra` order.
+
 You can replace a schema with your own:
 
 >

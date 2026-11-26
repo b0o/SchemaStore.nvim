@@ -92,7 +92,8 @@ require('schemastore').json.schemas {
 
 `select` and `ignore` are mutually exclusive; using both throws an error.
 
-When combining `select` with `extra`, explicitly include the extra schema names in `select`.
+When combining `select` with `extra`, extra schemas are included automatically.
+The JSON list keeps the order of `select`, then appends the remaining schemas in `extra` order.
 
 ### Replace schemas
 

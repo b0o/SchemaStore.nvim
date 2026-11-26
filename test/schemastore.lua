@@ -55,6 +55,75 @@ Describe('the schemastore.init module', function()
     end
   end)
 
+  Describe('combining "select" and "extra"', function()
+    local first = {
+      description = 'First extra schema',
+      fileMatch = { 'first.json' },
+      name = 'first-extra',
+      url = 'https://example.com/first.json',
+    }
+    local second = {
+      description = 'Second extra schema',
+      fileMatch = { 'second.json' },
+      name = 'second-extra',
+      url = 'https://example.com/second.json',
+    }
+
+    It('should append extra schemas in order, using the last definition for each name', function()
+      local superseded = vim.deepcopy(first)
+      superseded.url = 'https://example.com/superseded.json'
+      local select = { 'package.json', '.eslintrc' }
+      local opts = { select = select, extra = { superseded, second, first } }
+
+      local schemas = m.json.schemas(opts)
+      Expect(schemas).To.DeepEqual {
+        m.json.get 'package.json',
+        m.json.get '.eslintrc',
+        first,
+        second,
+      }
+      Expect(select).To.DeepEqual { 'package.json', '.eslintrc' }
+
+      Expect(schemas[3]).To.Not.Equal(first)
+      Expect(schemas[3] and schemas[3].fileMatch).To.Not.Equal(first.fileMatch)
+    end)
+
+    It('should keep explicitly selected extras in place and honor replacements for appended extras', function()
+      local builtin_override = vim.deepcopy(second)
+      builtin_override.name = 'package.json'
+      local replacement = vim.deepcopy(builtin_override)
+      replacement.url = 'https://example.com/package-replaced.json'
+      local schemas = m.json.schemas {
+        select = { first.name, '.eslintrc' },
+        extra = { first, builtin_override },
+        replace = { [replacement.name] = replacement },
+      }
+      Expect(schemas).To.DeepEqual {
+        first,
+        m.json.get '.eslintrc',
+        replacement,
+      }
+    end)
+
+    It('should include YAML extra schemas without listing their names in select', function()
+      local helm = {
+        description = 'Flux HelmRelease',
+        fileMatch = { 'hr.yaml', '*-release.yaml' },
+        name = 'Flux HelmRelease',
+        url = 'https://example.com/helmrelease.json',
+      }
+      local gitlab = m.json.get 'gitlab-ci'
+      local schemas = m.yaml.schemas {
+        select = { gitlab.name },
+        extra = { helm },
+      }
+      Expect(schemas).To.DeepEqual {
+        [gitlab.url] = gitlab.fileMatch,
+        [helm.url] = helm.fileMatch,
+      }
+    end)
+  end)
+
   Describe('the "load" function', function()
     It('should return the full catalog', function()
       local catalog = m.load()
