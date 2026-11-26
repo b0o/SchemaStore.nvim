@@ -1343,6 +1343,7 @@ M.json = {
     ["ioBroker Configuration"] = 623,
     ["ioBroker JSON UI"] = 624,
     ["ioBroker Package manifest"] = 625,
+    ["itero.config.json"] = 1622,
     ["ixpect.conf.yaml"] = 626,
     ["ize.toml"] = 1335,
     jactionlint = 627,
@@ -11191,6 +11192,11 @@ M.json = {
       description = "A video for the ultrafast GPU video engine: format, node graph and output node",
       name = "ultrafast document",
       url = "https://ultrafast.mov/schema/v1.json"
+    }, {
+      description = "itero workspace config: what the workspace is, how it runs, and an entry per workflow, action and connector",
+      fileMatch = { "itero.config.json" },
+      name = "itero.config.json",
+      url = "https://docs.itero.sh/schema/itero.config.json"
     } },
   version = 1
 }
