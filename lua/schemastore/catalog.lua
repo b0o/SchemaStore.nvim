@@ -7119,7 +7119,8 @@ M.json = {
         ["40"] = "https://www.schemastore.org/renovate-40.json",
         ["41"] = "https://www.schemastore.org/renovate-41.json",
         ["42"] = "https://www.schemastore.org/renovate-42.json",
-        ["43"] = "https://www.schemastore.org/renovate-43.json"
+        ["43"] = "https://www.schemastore.org/renovate-43.json",
+        ["44"] = "https://www.schemastore.org/renovate-44.json"
       }
     }, {
       description = "Renovate global self-hosting configuration file options. Documentation: https://docs.renovatebot.com/self-hosted-configuration/",
@@ -7129,7 +7130,8 @@ M.json = {
       versions = {
         ["41"] = "https://www.schemastore.org/renovate-global-schema-41.json",
         ["42"] = "https://www.schemastore.org/renovate-global-schema-42.json",
-        ["43"] = "https://www.schemastore.org/renovate-global-schema-43.json"
+        ["43"] = "https://www.schemastore.org/renovate-global-schema-43.json",
+        ["44"] = "https://www.schemastore.org/renovate-global-schema-44.json"
       }
     }, {
       description = "Renovate configuration file (with Inherit Config options). Documentation: https://docs.renovatebot.com/configuration-options",
@@ -7138,7 +7140,8 @@ M.json = {
       url = "https://docs.renovatebot.com/renovate-inherited-schema.json",
       versions = {
         ["42"] = "https://www.schemastore.org/renovate-inherited-schema-42.json",
-        ["43"] = "https://www.schemastore.org/renovate-inherited-schema-43.json"
+        ["43"] = "https://www.schemastore.org/renovate-inherited-schema-43.json",
+        ["44"] = "https://www.schemastore.org/renovate-inherited-schema-44.json"
       }
     }, {
       description = "RenderCV input file",
