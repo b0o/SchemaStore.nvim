@@ -7449,7 +7449,7 @@ M.json = {
     }, {
       description = "A manifest file containing the settings for a Slack app",
       name = "Slack app manifest",
-      url = "https://www.schemastore.org/slack-app-manifest.json"
+      url = "https://raw.githubusercontent.com/slackapi/manifest-schema/main/manifest.schema.json"
     }, {
       description = "SKY UX CLI configuration file",
       fileMatch = { "skyuxconfig.json", "skyuxconfig.*.json" },
